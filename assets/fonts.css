@@ -1,0 +1,9 @@
+@font-face{font-family:"Sassoon Primary";src:url("./fonts/SassoonPrimary-a8fafde304.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Sassoon Primary";src:url("./fonts/SassoonPrimary-Bold-694426cbbe.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Maandishi";src:url("./fonts/Maandishi-684cfc5066.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Atkinson Hyperlegible";src:url("./fonts/AtkinsonHyperlegible-400-latin.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Atkinson Hyperlegible";src:url("./fonts/AtkinsonHyperlegible-700-latin.woff2") format("woff2");font-weight:700;font-display:swap}
+body,button,input,textarea,select{font-family:"Atkinson Hyperlegible",Arial,sans-serif}
+#content,#content *{font-family:"Sassoon Primary",sans-serif}
+#content .handwriting-model{font-family:"Maandishi","Sassoon Primary",sans-serif;font-synthesis:none}
+#nav-container,#nav-container *,#interface-container,#interface-container *{font-family:"Atkinson Hyperlegible",Arial,sans-serif}
