@@ -1,1 +1,174 @@
-{}
+{
+  "akisi": {
+    "word": "akisi",
+    "definition": "kurudi kwa mwanga baada ya kugonga uso unaong’aa au laini",
+    "variations": [
+      "kuakisi",
+      "mwanga uliakisiwa"
+    ],
+    "emoji": "🪞✨"
+  },
+  "alama": {
+    "word": "alama",
+    "definition": "Ishara inayotoa ujumbe au maelekezo muhimu.",
+    "variations": [
+      "alama muhimu"
+    ],
+    "emoji": "🚸🔖"
+  },
+  "chuma": {
+    "word": "chuma",
+    "definition": "Kitu kigumu kinachoweza kupitisha sauti vizuri.",
+    "variations": [
+      "chuma",
+      "vipande vya chuma"
+    ],
+    "emoji": "🔩🪙"
+  },
+  "hewa": {
+    "word": "hewa",
+    "definition": "Mchanganyiko wa gesi unaotuzunguka na ambao unaweza kupitisha sauti.",
+    "variations": [
+      "hewa"
+    ],
+    "emoji": "🌬️"
+  },
+  "hifadhi": {
+    "word": "hifadhi",
+    "definition": "Kuweka kazi yako kwenye kompyuta ili isipotee na uweze kuifungua tena baadaye.",
+    "variations": [
+      "hifadhi",
+      "kuhifadhi",
+      "Save"
+    ],
+    "emoji": "💾📁"
+  },
+  "Hisi": {
+    "word": "Hisi",
+    "definition": "Sehemu ya bloku zinazotumika kutambua kinachotokea, kama kitufe kimebonyezwa.",
+    "variations": [
+      "Hisi"
+    ],
+    "emoji": "👂🔍"
+  },
+  "kibodi": {
+    "word": "kibodi",
+    "definition": "Kifaa cha kompyuta chenye vitufe kinachotumika kuandika au kuendesha programu.",
+    "variations": [
+      "kibodi",
+      "kibodi ya kompyuta"
+    ],
+    "emoji": "⌨️💻"
+  },
+  "maji": {
+    "word": "maji",
+    "definition": "Kimiminika kinachoweza kupitisha mwanga na sauti.",
+    "variations": [
+      "maji"
+    ],
+    "emoji": "💧🌊"
+  },
+  "marudio": {
+    "word": "marudio",
+    "definition": "Ni kurudia kufanya jambo lilelile mara nyingi katika programu.",
+    "variations": [
+      "kurudia",
+      "rudia"
+    ],
+    "emoji": "🔁🔂"
+  },
+  "Matukio": {
+    "word": "Matukio",
+    "definition": "Sehemu ya bloku zinazotumika kuanzisha kitendo, kwa mfano wakati kitufe kinapobonyezwa.",
+    "variations": [
+      "Tukio",
+      "Matukio"
+    ],
+    "emoji": "⚡🎬"
+  },
+  "mfuatano": {
+    "word": "mfuatano",
+    "definition": "mpangilio wa vitu unaofuata hatua au utaratibu maalumu",
+    "variations": [
+      "mfuatano wa maumbo"
+    ],
+    "emoji": "➡️🔢"
+  },
+  "mkaa": {
+    "word": "mkaa",
+    "definition": "Kuni zilizochomwa na kubaki kama kitu cheusi kinachotumika kuwasha moto.",
+    "variations": [],
+    "emoji": "🪵⚫🔥"
+  },
+  "muziki": {
+    "word": "muziki",
+    "definition": "Sauti zilizopangwa kwa namna ya kupendeza kusikiliza.",
+    "variations": [
+      "muziki"
+    ],
+    "emoji": "🎵🎶"
+  },
+  "rangi": {
+    "word": "rangi",
+    "definition": "Mwonekano wa kitu kama nyekundu, njano au bluu unaotumika kufanya mchoro upendeze.",
+    "variations": [
+      "rangi",
+      "kupaka rangi"
+    ],
+    "emoji": "🎨🖌️"
+  },
+  "Sauti": {
+    "word": "Sauti",
+    "definition": "Sehemu ya bloku zinazotumika kucheza au kutoa sauti ndani ya programu.",
+    "variations": [
+      "Sauti"
+    ],
+    "emoji": "🔊🎵"
+  },
+  "taswira": {
+    "word": "taswira",
+    "definition": "Picha ya kitu au mtu inayoonekana kwenye kioo.",
+    "variations": [
+      "taswira",
+      "taswira yako",
+      "taswira ya kitu"
+    ],
+    "emoji": "🪞👀"
+  },
+  "umbo": {
+    "word": "umbo",
+    "definition": "sura au jinsi kitu kinavyoonekana kwa nje.",
+    "variations": [
+      "umbo",
+      "maumbo"
+    ],
+    "emoji": "🔺⚪"
+  },
+  "unganisha": {
+    "word": "unganisha",
+    "definition": "Kuweka vitu pamoja ili vifanye kazi kama sehemu moja.",
+    "variations": [
+      "unganisha",
+      "kuunganisha",
+      "imeunganishwa"
+    ],
+    "emoji": "🔗🧩"
+  },
+  "vipengele": {
+    "word": "vipengele",
+    "definition": "sehemu mbalimbali zinazounda kitu kimoja",
+    "variations": [
+      "kipengele",
+      "vipengele vya programu"
+    ],
+    "emoji": "🧩📋"
+  },
+  "wadudu": {
+    "word": "wadudu",
+    "definition": "viumbe wadogo kama nzi na mbu, ambao wengine hubeba magonjwa",
+    "variations": [
+      "mdudu"
+    ],
+    "emoji": "🪰🦟"
+  }
+}

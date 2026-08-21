@@ -1,6 +1,6 @@
 {
   "title": "Kuandika: Kitabu cha Mwanafunzi, Mwaka wa Kwanza",
-  "bundleVersion": "1",
+  "bundleVersion": "sayansi-parity-20260821",
   "languages": {
     "available": [
       "sw-TZ"
@@ -10,11 +10,11 @@
   "features": {
     "signLanguage": false,
     "easyRead": true,
-    "glossary": false,
+    "glossary": true,
     "eli5": false,
     "readAloud": true,
     "autoplay": false,
-    "showTutorial": false,
+    "showTutorial": true,
     "showNavigationControls": true,
     "describeImages": true,
     "notepad": false,

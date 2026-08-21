@@ -58068,5 +58068,1535 @@
         ]
       }
     ]
+  },
+  "gl001": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "akisi",
+            "start": 0.1948,
+            "end": 0.7474,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl001_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "kurudi",
+            "start": 0.1684,
+            "end": 0.4842,
+            "display_index": 0
+          },
+          {
+            "text": "kwa",
+            "start": 0.5895,
+            "end": 0.721,
+            "display_index": 1
+          },
+          {
+            "text": "mwanga",
+            "start": 0.7474,
+            "end": 1.1026,
+            "display_index": 2
+          },
+          {
+            "text": "baada",
+            "start": 1.129,
+            "end": 1.4579,
+            "display_index": 3
+          },
+          {
+            "text": "ya",
+            "start": 1.4842,
+            "end": 1.5763,
+            "display_index": 4
+          },
+          {
+            "text": "kugonga",
+            "start": 1.6026,
+            "end": 2.1026,
+            "display_index": 5
+          },
+          {
+            "text": "uso",
+            "start": 2.129,
+            "end": 2.3921,
+            "display_index": 6
+          },
+          {
+            "text": "unaong’aa",
+            "start": 2.4316,
+            "end": 2.9316,
+            "display_index": 7
+          },
+          {
+            "text": "auu",
+            "start": 2.971,
+            "end": 3.2737,
+            "display_index": 8
+          },
+          {
+            "text": "laini",
+            "start": 3.3,
+            "end": 3.7079,
+            "display_index": 9
+          }
+        ]
+      }
+    ]
+  },
+  "gl002": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "alama",
+            "start": 0.1948,
+            "end": 0.6553,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl002_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Ishara",
+            "start": 0.1948,
+            "end": 0.5369,
+            "display_index": 0
+          },
+          {
+            "text": "inayotoa",
+            "start": 0.6552,
+            "end": 1.1947,
+            "display_index": 1
+          },
+          {
+            "text": "ujumbe",
+            "start": 1.221,
+            "end": 1.7342,
+            "display_index": 2
+          },
+          {
+            "text": "auu",
+            "start": 1.7737,
+            "end": 2.0895,
+            "display_index": 3
+          },
+          {
+            "text": "maelekezo",
+            "start": 2.129,
+            "end": 2.8132,
+            "display_index": 4
+          },
+          {
+            "text": "muhimu",
+            "start": 2.8395,
+            "end": 3.3658,
+            "display_index": 5
+          }
+        ]
+      }
+    ]
+  },
+  "gl003": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "chuma",
+            "start": 0.1816,
+            "end": 0.5895,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl003_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kitu",
+            "start": 0.1684,
+            "end": 0.3526,
+            "display_index": 0
+          },
+          {
+            "text": "kigumu",
+            "start": 0.4579,
+            "end": 0.9447,
+            "display_index": 1
+          },
+          {
+            "text": "kinachoweza",
+            "start": 0.9842,
+            "end": 1.7342,
+            "display_index": 2
+          },
+          {
+            "text": "kupitisha",
+            "start": 1.7605,
+            "end": 2.3263,
+            "display_index": 3
+          },
+          {
+            "text": "sauti",
+            "start": 2.3526,
+            "end": 2.7737,
+            "display_index": 4
+          },
+          {
+            "text": "vizuri",
+            "start": 2.8,
+            "end": 3.379,
+            "display_index": 5
+          }
+        ]
+      }
+    ]
+  },
+  "gl004": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "hewa",
+            "start": 0.1678,
+            "end": 0.6151,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl004_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Mchanganyiko",
+            "start": 0.1948,
+            "end": 0.8,
+            "display_index": 0
+          },
+          {
+            "text": "wa",
+            "start": 0.9184,
+            "end": 0.9974,
+            "display_index": 1
+          },
+          {
+            "text": "gesi",
+            "start": 1.0237,
+            "end": 1.4052,
+            "display_index": 2
+          },
+          {
+            "text": "unaotuzunguka",
+            "start": 1.4447,
+            "end": 2.3658,
+            "display_index": 3
+          },
+          {
+            "text": "na",
+            "start": 2.3921,
+            "end": 2.4974,
+            "display_index": 4
+          },
+          {
+            "text": "ambao",
+            "start": 2.5237,
+            "end": 2.8658,
+            "display_index": 5
+          },
+          {
+            "text": "unaweza",
+            "start": 2.8921,
+            "end": 3.3921,
+            "display_index": 6
+          },
+          {
+            "text": "kupitisha",
+            "start": 3.4184,
+            "end": 3.971,
+            "display_index": 7
+          },
+          {
+            "text": "sauti",
+            "start": 3.9974,
+            "end": 4.5632,
+            "display_index": 8
+          }
+        ]
+      }
+    ]
+  },
+  "gl005": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "hifadhi",
+            "start": 0.1684,
+            "end": 0.6816,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl005_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kuweka",
+            "start": 0.1684,
+            "end": 0.4579,
+            "display_index": 0
+          },
+          {
+            "text": "kazi",
+            "start": 0.5632,
+            "end": 0.8658,
+            "display_index": 1
+          },
+          {
+            "text": "yako",
+            "start": 0.8921,
+            "end": 1.1685,
+            "display_index": 2
+          },
+          {
+            "text": "kwenye",
+            "start": 1.1947,
+            "end": 1.4579,
+            "display_index": 3
+          },
+          {
+            "text": "kompyuta",
+            "start": 1.4974,
+            "end": 2.129,
+            "display_index": 4
+          },
+          {
+            "text": "ili",
+            "start": 2.1684,
+            "end": 2.4052,
+            "display_index": 5
+          },
+          {
+            "text": "isipotee",
+            "start": 2.4316,
+            "end": 3.0237,
+            "display_index": 6
+          },
+          {
+            "text": "na",
+            "start": 3.05,
+            "end": 3.129,
+            "display_index": 7
+          },
+          {
+            "text": "uweze",
+            "start": 3.1684,
+            "end": 3.5237,
+            "display_index": 8
+          },
+          {
+            "text": "kuifungua",
+            "start": 3.5632,
+            "end": 4.1816,
+            "display_index": 9
+          },
+          {
+            "text": "tena",
+            "start": 4.221,
+            "end": 4.4974,
+            "display_index": 10
+          },
+          {
+            "text": "baadaye",
+            "start": 4.5237,
+            "end": 5.1552,
+            "display_index": 11
+          }
+        ]
+      }
+    ]
+  },
+  "gl006": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Hisi",
+            "start": 0.1684,
+            "end": 0.6026,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl006_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Sehemu",
+            "start": 0.1684,
+            "end": 0.5763,
+            "display_index": 0
+          },
+          {
+            "text": "ya",
+            "start": 0.6684,
+            "end": 0.7605,
+            "display_index": 1
+          },
+          {
+            "text": "bloku",
+            "start": 0.7868,
+            "end": 1.1421,
+            "display_index": 2
+          },
+          {
+            "text": "zinazotumika",
+            "start": 1.1684,
+            "end": 2.0895,
+            "display_index": 3
+          },
+          {
+            "text": "kutambua",
+            "start": 2.1158,
+            "end": 2.6158,
+            "display_index": 4
+          },
+          {
+            "text": "kinachotokea",
+            "start": 2.6553,
+            "end": 3.5895,
+            "display_index": 5
+          },
+          {
+            "text": "kama",
+            "start": 3.721,
+            "end": 3.9974,
+            "display_index": 6
+          },
+          {
+            "text": "kitufe",
+            "start": 4.0368,
+            "end": 4.5105,
+            "display_index": 7
+          },
+          {
+            "text": "kimebonyezwa",
+            "start": 4.55,
+            "end": 5.4447,
+            "display_index": 8
+          }
+        ]
+      }
+    ]
+  },
+  "gl007": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "kibodi",
+            "start": 0.1684,
+            "end": 0.721,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl007_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kifaa",
+            "start": 0.1816,
+            "end": 0.4184,
+            "display_index": 0
+          },
+          {
+            "text": "cha",
+            "start": 0.5237,
+            "end": 0.6815,
+            "display_index": 1
+          },
+          {
+            "text": "kompyuta",
+            "start": 0.721,
+            "end": 1.3395,
+            "display_index": 2
+          },
+          {
+            "text": "chenye",
+            "start": 1.3658,
+            "end": 1.6552,
+            "display_index": 3
+          },
+          {
+            "text": "vitufe",
+            "start": 1.6947,
+            "end": 2.1816,
+            "display_index": 4
+          },
+          {
+            "text": "kinachotumika",
+            "start": 2.221,
+            "end": 3.0632,
+            "display_index": 5
+          },
+          {
+            "text": "kuandika",
+            "start": 3.1026,
+            "end": 3.629,
+            "display_index": 6
+          },
+          {
+            "text": "auu",
+            "start": 3.6684,
+            "end": 3.9579,
+            "display_index": 7
+          },
+          {
+            "text": "kuendesha",
+            "start": 3.9974,
+            "end": 4.5237,
+            "display_index": 8
+          },
+          {
+            "text": "programu",
+            "start": 4.5632,
+            "end": 5.2079,
+            "display_index": 9
+          }
+        ]
+      }
+    ]
+  },
+  "gl008": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "maji",
+            "start": 0.1816,
+            "end": 0.629,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl008_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kimiminika",
+            "start": 0.1684,
+            "end": 0.7605,
+            "display_index": 0
+          },
+          {
+            "text": "kinachoweza",
+            "start": 0.8658,
+            "end": 1.6158,
+            "display_index": 1
+          },
+          {
+            "text": "kupitisha",
+            "start": 1.6421,
+            "end": 2.2211,
+            "display_index": 2
+          },
+          {
+            "text": "mwanga",
+            "start": 2.2474,
+            "end": 2.5895,
+            "display_index": 3
+          },
+          {
+            "text": "na",
+            "start": 2.6158,
+            "end": 2.7079,
+            "display_index": 4
+          },
+          {
+            "text": "sauti",
+            "start": 2.7342,
+            "end": 3.3,
+            "display_index": 5
+          }
+        ]
+      }
+    ]
+  },
+  "gl009": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "marudio",
+            "start": 0.1948,
+            "end": 0.8526,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl009_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Ni",
+            "start": 0.1816,
+            "end": 0.2868,
+            "display_index": 0
+          },
+          {
+            "text": "kurudia",
+            "start": 0.2868,
+            "end": 0.8,
+            "display_index": 1
+          },
+          {
+            "text": "kufanya",
+            "start": 0.8263,
+            "end": 1.2474,
+            "display_index": 2
+          },
+          {
+            "text": "jambo",
+            "start": 1.2737,
+            "end": 1.6421,
+            "display_index": 3
+          },
+          {
+            "text": "lilelile",
+            "start": 1.6684,
+            "end": 2.1816,
+            "display_index": 4
+          },
+          {
+            "text": "mara",
+            "start": 2.221,
+            "end": 2.5237,
+            "display_index": 5
+          },
+          {
+            "text": "nyingi",
+            "start": 2.55,
+            "end": 2.8658,
+            "display_index": 6
+          },
+          {
+            "text": "katika",
+            "start": 2.9053,
+            "end": 3.3263,
+            "display_index": 7
+          },
+          {
+            "text": "programu",
+            "start": 3.3658,
+            "end": 4.0632,
+            "display_index": 8
+          }
+        ]
+      }
+    ]
+  },
+  "gl010": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Matukio",
+            "start": 0.1948,
+            "end": 0.8921,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl010_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Sehemu",
+            "start": 0.1684,
+            "end": 0.5763,
+            "display_index": 0
+          },
+          {
+            "text": "ya",
+            "start": 0.6684,
+            "end": 0.7605,
+            "display_index": 1
+          },
+          {
+            "text": "bloku",
+            "start": 0.7868,
+            "end": 1.1684,
+            "display_index": 2
+          },
+          {
+            "text": "zinazotumika",
+            "start": 1.1947,
+            "end": 2.1158,
+            "display_index": 3
+          },
+          {
+            "text": "kuanzisha",
+            "start": 2.1553,
+            "end": 2.7342,
+            "display_index": 4
+          },
+          {
+            "text": "kitendo",
+            "start": 2.7737,
+            "end": 3.2868,
+            "display_index": 5
+          },
+          {
+            "text": "kwa",
+            "start": 3.4184,
+            "end": 3.5368,
+            "display_index": 6
+          },
+          {
+            "text": "mfano",
+            "start": 3.5632,
+            "end": 3.9447,
+            "display_index": 7
+          },
+          {
+            "text": "wakati",
+            "start": 3.971,
+            "end": 4.4052,
+            "display_index": 8
+          },
+          {
+            "text": "kitufe",
+            "start": 4.4447,
+            "end": 4.9184,
+            "display_index": 9
+          },
+          {
+            "text": "kinapobonyezwa",
+            "start": 4.9579,
+            "end": 6.0368,
+            "display_index": 10
+          }
+        ]
+      }
+    ]
+  },
+  "gl011": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "mfuatano",
+            "start": 0.1948,
+            "end": 0.9579,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl011_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "mpangilio",
+            "start": 0.1948,
+            "end": 0.6816,
+            "display_index": 0
+          },
+          {
+            "text": "wa",
+            "start": 0.8,
+            "end": 0.879,
+            "display_index": 1
+          },
+          {
+            "text": "vitu",
+            "start": 0.9052,
+            "end": 1.2342,
+            "display_index": 2
+          },
+          {
+            "text": "unaofuata",
+            "start": 1.2737,
+            "end": 1.9447,
+            "display_index": 3
+          },
+          {
+            "text": "hatua",
+            "start": 1.971,
+            "end": 2.4316,
+            "display_index": 4
+          },
+          {
+            "text": "auu",
+            "start": 2.4579,
+            "end": 2.7605,
+            "display_index": 5
+          },
+          {
+            "text": "utaratibu",
+            "start": 2.8,
+            "end": 3.4579,
+            "display_index": 6
+          },
+          {
+            "text": "maalumu",
+            "start": 3.4842,
+            "end": 4.0895,
+            "display_index": 7
+          }
+        ]
+      }
+    ]
+  },
+  "gl012": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "mkaa",
+            "start": 0.1816,
+            "end": 0.6684,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl012_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kuni",
+            "start": 0.1684,
+            "end": 0.3,
+            "display_index": 0
+          },
+          {
+            "text": "zilizochomwa",
+            "start": 0.3921,
+            "end": 1.2211,
+            "display_index": 1
+          },
+          {
+            "text": "na",
+            "start": 1.2474,
+            "end": 1.3526,
+            "display_index": 2
+          },
+          {
+            "text": "kubaki",
+            "start": 1.379,
+            "end": 1.8658,
+            "display_index": 3
+          },
+          {
+            "text": "kama",
+            "start": 1.9053,
+            "end": 2.1816,
+            "display_index": 4
+          },
+          {
+            "text": "kitu",
+            "start": 2.221,
+            "end": 2.4974,
+            "display_index": 5
+          },
+          {
+            "text": "cheusi",
+            "start": 2.5368,
+            "end": 2.9579,
+            "display_index": 6
+          },
+          {
+            "text": "kinachotumika",
+            "start": 2.9974,
+            "end": 3.8526,
+            "display_index": 7
+          },
+          {
+            "text": "kuwasha",
+            "start": 3.8921,
+            "end": 4.3395,
+            "display_index": 8
+          },
+          {
+            "text": "moto",
+            "start": 4.3658,
+            "end": 4.8,
+            "display_index": 9
+          }
+        ]
+      }
+    ]
+  },
+  "gl013": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "muziki",
+            "start": 0.1948,
+            "end": 0.7869,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl013_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Sauti",
+            "start": 0.1684,
+            "end": 0.5368,
+            "display_index": 0
+          },
+          {
+            "text": "zilizopangwa",
+            "start": 0.629,
+            "end": 1.4447,
+            "display_index": 1
+          },
+          {
+            "text": "kwa",
+            "start": 1.471,
+            "end": 1.6158,
+            "display_index": 2
+          },
+          {
+            "text": "namna",
+            "start": 1.6421,
+            "end": 1.9579,
+            "display_index": 3
+          },
+          {
+            "text": "ya",
+            "start": 1.9842,
+            "end": 2.0763,
+            "display_index": 4
+          },
+          {
+            "text": "kupendeza",
+            "start": 2.1026,
+            "end": 2.6816,
+            "display_index": 5
+          },
+          {
+            "text": "kusikiliza",
+            "start": 2.7079,
+            "end": 3.5105,
+            "display_index": 6
+          }
+        ]
+      }
+    ]
+  },
+  "gl014": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "rangi",
+            "start": 0.1816,
+            "end": 0.5763,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl014_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Mwonekano",
+            "start": 0.1816,
+            "end": 0.6552,
+            "display_index": 0
+          },
+          {
+            "text": "wa",
+            "start": 0.7605,
+            "end": 0.8395,
+            "display_index": 1
+          },
+          {
+            "text": "kitu",
+            "start": 0.8658,
+            "end": 1.1684,
+            "display_index": 2
+          },
+          {
+            "text": "kama",
+            "start": 1.2079,
+            "end": 1.471,
+            "display_index": 3
+          },
+          {
+            "text": "nyekundu",
+            "start": 1.4974,
+            "end": 2.05,
+            "display_index": 4
+          },
+          {
+            "text": "njano",
+            "start": 2.2079,
+            "end": 2.6289,
+            "display_index": 5
+          },
+          {
+            "text": "auu",
+            "start": 2.6684,
+            "end": 3.0368,
+            "display_index": 6
+          },
+          {
+            "text": "bluu",
+            "start": 3.0763,
+            "end": 3.4053,
+            "display_index": 7
+          },
+          {
+            "text": "unaotumika",
+            "start": 3.4316,
+            "end": 4.1552,
+            "display_index": 8
+          },
+          {
+            "text": "kufanya",
+            "start": 4.1947,
+            "end": 4.6158,
+            "display_index": 9
+          },
+          {
+            "text": "mchoro",
+            "start": 4.6552,
+            "end": 5.0368,
+            "display_index": 10
+          },
+          {
+            "text": "upendeze",
+            "start": 5.0763,
+            "end": 5.7737,
+            "display_index": 11
+          }
+        ]
+      }
+    ]
+  },
+  "gl015": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Sauti",
+            "start": 0.1684,
+            "end": 0.8263,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl015_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Sehemu",
+            "start": 0.1684,
+            "end": 0.5763,
+            "display_index": 0
+          },
+          {
+            "text": "ya",
+            "start": 0.6684,
+            "end": 0.7605,
+            "display_index": 1
+          },
+          {
+            "text": "bloku",
+            "start": 0.7868,
+            "end": 1.1421,
+            "display_index": 2
+          },
+          {
+            "text": "zinazotumika",
+            "start": 1.1684,
+            "end": 2.0895,
+            "display_index": 3
+          },
+          {
+            "text": "kucheza",
+            "start": 2.1158,
+            "end": 2.5763,
+            "display_index": 4
+          },
+          {
+            "text": "auu",
+            "start": 2.6158,
+            "end": 2.9184,
+            "display_index": 5
+          },
+          {
+            "text": "kutoa",
+            "start": 2.9447,
+            "end": 3.3,
+            "display_index": 6
+          },
+          {
+            "text": "sauti",
+            "start": 3.3263,
+            "end": 3.8,
+            "display_index": 7
+          },
+          {
+            "text": "ndani",
+            "start": 3.8263,
+            "end": 4.1158,
+            "display_index": 8
+          },
+          {
+            "text": "ya",
+            "start": 4.1421,
+            "end": 4.2211,
+            "display_index": 9
+          },
+          {
+            "text": "programu",
+            "start": 4.2474,
+            "end": 4.9316,
+            "display_index": 10
+          }
+        ]
+      }
+    ]
+  },
+  "gl016": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "taswira",
+            "start": 0.1816,
+            "end": 0.7868,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl016_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Picha",
+            "start": 0.1684,
+            "end": 0.3263,
+            "display_index": 0
+          },
+          {
+            "text": "ya",
+            "start": 0.4184,
+            "end": 0.5237,
+            "display_index": 1
+          },
+          {
+            "text": "kitu",
+            "start": 0.55,
+            "end": 0.879,
+            "display_index": 2
+          },
+          {
+            "text": "auu",
+            "start": 0.9184,
+            "end": 1.2342,
+            "display_index": 3
+          },
+          {
+            "text": "mtu",
+            "start": 1.2737,
+            "end": 1.5105,
+            "display_index": 4
+          },
+          {
+            "text": "inayoonekana",
+            "start": 1.55,
+            "end": 2.379,
+            "display_index": 5
+          },
+          {
+            "text": "kwenye",
+            "start": 2.4184,
+            "end": 2.7079,
+            "display_index": 6
+          },
+          {
+            "text": "kioo",
+            "start": 2.7474,
+            "end": 3.2342,
+            "display_index": 7
+          }
+        ]
+      }
+    ]
+  },
+  "gl017": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "umbo",
+            "start": 0.1948,
+            "end": 0.4974,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl017_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "sura",
+            "start": 0.1684,
+            "end": 0.5368,
+            "display_index": 0
+          },
+          {
+            "text": "auu",
+            "start": 0.6421,
+            "end": 1.0105,
+            "display_index": 1
+          },
+          {
+            "text": "jinsi",
+            "start": 1.05,
+            "end": 1.471,
+            "display_index": 2
+          },
+          {
+            "text": "kitu",
+            "start": 1.5105,
+            "end": 1.8,
+            "display_index": 3
+          },
+          {
+            "text": "kinavyoonekana",
+            "start": 1.8395,
+            "end": 2.8395,
+            "display_index": 4
+          },
+          {
+            "text": "kwa",
+            "start": 2.879,
+            "end": 3.05,
+            "display_index": 5
+          },
+          {
+            "text": "nje",
+            "start": 3.0895,
+            "end": 3.4447,
+            "display_index": 6
+          }
+        ]
+      }
+    ]
+  },
+  "gl018": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "unganisha",
+            "start": 0.1816,
+            "end": 0.7737,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl018_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kuweka",
+            "start": 0.1684,
+            "end": 0.4579,
+            "display_index": 0
+          },
+          {
+            "text": "vitu",
+            "start": 0.55,
+            "end": 0.8526,
+            "display_index": 1
+          },
+          {
+            "text": "pamoja",
+            "start": 0.879,
+            "end": 1.3263,
+            "display_index": 2
+          },
+          {
+            "text": "ili",
+            "start": 1.3526,
+            "end": 1.5895,
+            "display_index": 3
+          },
+          {
+            "text": "vifanye",
+            "start": 1.629,
+            "end": 2.05,
+            "display_index": 4
+          },
+          {
+            "text": "kazi",
+            "start": 2.0895,
+            "end": 2.4184,
+            "display_index": 5
+          },
+          {
+            "text": "kama",
+            "start": 2.4579,
+            "end": 2.721,
+            "display_index": 6
+          },
+          {
+            "text": "sehemu",
+            "start": 2.7474,
+            "end": 3.2079,
+            "display_index": 7
+          },
+          {
+            "text": "moja",
+            "start": 3.2342,
+            "end": 3.6684,
+            "display_index": 8
+          }
+        ]
+      }
+    ]
+  },
+  "gl019": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "vipengele",
+            "start": 0.1684,
+            "end": 0.971,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl019_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "sehemu",
+            "start": 0.1684,
+            "end": 0.5368,
+            "display_index": 0
+          },
+          {
+            "text": "mbalimbali",
+            "start": 0.629,
+            "end": 1.2079,
+            "display_index": 1
+          },
+          {
+            "text": "zinazounda",
+            "start": 1.2342,
+            "end": 1.9447,
+            "display_index": 1
+          },
+          {
+            "text": "kitu",
+            "start": 1.9842,
+            "end": 2.2737,
+            "display_index": 2
+          },
+          {
+            "text": "kimoja",
+            "start": 2.3132,
+            "end": 2.9053,
+            "display_index": 3
+          }
+        ]
+      }
+    ]
+  },
+  "gl020": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "wadudu",
+            "start": 0.1948,
+            "end": 0.629,
+            "display_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gl020_def": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "viumbe",
+            "start": 0.1684,
+            "end": 0.4842,
+            "display_index": 0
+          },
+          {
+            "text": "wadogo",
+            "start": 0.5763,
+            "end": 0.9974,
+            "display_index": 1
+          },
+          {
+            "text": "kama",
+            "start": 1.0368,
+            "end": 1.3263,
+            "display_index": 2
+          },
+          {
+            "text": "nzi",
+            "start": 1.3526,
+            "end": 1.5632,
+            "display_index": 3
+          },
+          {
+            "text": "na",
+            "start": 1.5895,
+            "end": 1.7079,
+            "display_index": 4
+          },
+          {
+            "text": "mbu",
+            "start": 1.7342,
+            "end": 1.9974,
+            "display_index": 5
+          },
+          {
+            "text": "ambao",
+            "start": 2.1158,
+            "end": 2.4842,
+            "display_index": 6
+          },
+          {
+            "text": "wengine",
+            "start": 2.5105,
+            "end": 2.9447,
+            "display_index": 7
+          },
+          {
+            "text": "hubeba",
+            "start": 2.971,
+            "end": 3.4184,
+            "display_index": 8
+          },
+          {
+            "text": "magonjwa",
+            "start": 3.4447,
+            "end": 4.1026,
+            "display_index": 9
+          }
+        ]
+      }
+    ]
   }
 }
