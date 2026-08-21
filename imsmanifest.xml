@@ -1605,6 +1605,7 @@
       <file href="content/image_descriptions.json"/>
       <file href="content/navigation/nav.html"/>
       <file href="content/pages.json"/>
+      <file href="content/source-page-map.json"/>
       <file href="content/tailwind_output.css"/>
       <file href="content/toc.json"/>
       <file href="cover.png"/>
