@@ -1,0 +1,343 @@
+:root {
+  --book-green: #079447;
+  --book-green-dark: #08763d;
+  --book-red: #d9232e;
+  --book-orange: #f28722;
+  --book-ink: #292425;
+}
+
+.semantic-page {
+  margin: 0 auto;
+  max-width: 72rem;
+}
+
+.semantic-title {
+  margin-bottom: 1.5rem;
+  color: var(--book-red);
+  font-size: clamp(2rem, 5vw, 3.15rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.unit-banner {
+  margin-bottom: 1.75rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, #2eb969, var(--book-green));
+  padding: 1.2rem 1.5rem;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 12px 28px rgb(8 118 61 / 18%);
+}
+
+.unit-banner h2 {
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.unit-banner p {
+  margin-top: .6rem;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 700;
+}
+
+.unit-subtitle-line,
+.lesson-title-line,
+.contents-title-line {
+  display: block;
+}
+
+.lesson-card,
+.content-card,
+.practice-card,
+.drawing-card,
+.picture-answer-card,
+.activity-card {
+  border: 2px solid #b7e3cb;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0 8px 22px rgb(25 70 47 / 8%);
+}
+
+.unit-introduction {
+  margin: 1rem 0 1.5rem;
+  padding: 1.1rem 1.35rem;
+}
+
+.lesson-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: .65rem;
+  margin: 2rem 0 1.25rem;
+  padding: 1.25rem 1.4rem;
+}
+
+.lesson-label {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  min-height: 2.7rem;
+  border-radius: .8rem;
+  background: linear-gradient(135deg, #f59e2f, var(--book-orange));
+  padding: .35rem 1.2rem;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.lesson-card h2 {
+  color: var(--book-red);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.practice-card,
+.drawing-card,
+.picture-answer-card,
+.activity-card {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.2rem 1.35rem;
+}
+
+.activity-label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.7rem;
+  margin: 1.5rem 0 .75rem;
+  border-radius: .8rem;
+  background: linear-gradient(135deg, #f59e2f, var(--book-orange));
+  padding: .35rem 1.2rem;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.question-prompt {
+  margin: 0 0 .85rem;
+  color: var(--book-ink);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.handwriting-canvas-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: .65rem;
+}
+
+.practice-model {
+  margin: .75rem auto 1rem;
+  max-width: 100%;
+}
+
+.drawing-clear {
+  margin-top: .75rem;
+}
+
+.page-footer {
+  margin-top: 1.5rem;
+}
+
+.contents-list {
+  display: grid;
+  gap: .45rem;
+  padding: 1.25rem 1.4rem;
+}
+
+.contents-heading {
+  margin-top: 1.2rem;
+  color: var(--book-red);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.contents-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  border-bottom: 1px dotted #89a797;
+  padding: .35rem .2rem;
+  color: #075f39;
+  font-size: 1.15rem;
+}
+
+.contents-link:hover,
+.contents-link:focus-visible {
+  background: #eefaf3;
+  text-decoration: underline;
+}
+
+.contents-page-number {
+  align-self: end;
+  color: var(--book-green-dark);
+  font-weight: 800;
+}
+
+@media (max-width: 640px) {
+  .contents-link { gap: .5rem; font-size: 1rem; }
+  .unit-banner { padding: 1rem; }
+}
+
+/* ORIGINAL BOOK VISUAL THEME */
+html.original-book-theme body {
+  background:
+    radial-gradient(circle at 8% 12%, rgb(72 190 229 / 22%) 0 1px, transparent 2px),
+    radial-gradient(circle at 92% 28%, rgb(72 190 229 / 18%) 0 1px, transparent 2px),
+    #eaf9ff;
+  background-size: 11px 11px, 13px 13px, auto;
+  color: #272425;
+  font-family: "Sassoon Primary", "Comic Sans MS", Arial, sans-serif;
+}
+
+#content.original-book-page {
+  max-width: 64rem;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #e8f9ff 0, #fff 7%, #fff 93%, #e8f9ff 100%);
+  padding-inline: clamp(1rem, 6vw, 5rem);
+}
+
+.original-book-section {
+  max-width: 54rem;
+}
+
+.unit-banner.original-book-banner {
+  margin: 0 0 .35rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.original-unit-header {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.unit-introduction.content-card {
+  margin: 0 0 .75rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+#content .source-line,
+#content .source-heading {
+  color: #272425;
+  font-size: clamp(1.25rem, 2.1vw, 1.75rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+.lesson-card {
+  display: block;
+  margin: .7rem 0 .8rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.lesson-heading-group {
+  display: block;
+}
+
+.lesson-label {
+  display: flex;
+  width: 100%;
+  min-height: 2.8rem;
+  margin: 0 0 .45rem;
+  border: 3px solid #00aeef;
+  border-radius: .2rem;
+  background: #fff;
+  padding: .18rem 1.25rem;
+  color: #272425;
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+  font-style: italic;
+  font-weight: 800;
+}
+
+.lesson-card h2,
+.lesson-heading {
+  margin: 0;
+  color: #08a34a;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.activity-label {
+  border: 2px solid #00aeef;
+  background: #fff;
+  color: #08a34a;
+  font-style: italic;
+}
+
+.practice-card,
+.drawing-card,
+.picture-answer-card,
+.activity-card {
+  margin: .8rem 0 1.4rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.question-prompt,
+.practice-card .inclusive-instruction,
+.drawing-card .inclusive-instruction {
+  color: #272425;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.practice-model img {
+  max-height: 20rem;
+  object-fit: contain;
+}
+
+.handwriting-canvas-wrap,
+.canvas-wrap {
+  border-color: #272425;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.clear-response,
+.drawing-clear {
+  background: #00aee8;
+}
+
+.page-submit-button,
+.submit-response {
+  background: #08a34a;
+}
+
+.printed-page-number,
+.page-footer {
+  min-width: 3rem;
+  border: 2px solid #b8efff;
+  background: linear-gradient(#66dbff, #00a9e6 55%, #008dcb);
+  color: #fff;
+  font-style: italic;
+  box-shadow: inset 0 2px 4px rgb(255 255 255 / 65%);
+}
+
+@media (max-width: 640px) {
+  #content.original-book-page { padding-inline: 1rem; }
+  .lesson-label { border-width: 2px; }
+}

@@ -13,60 +13,8 @@
     "href": "pg003_sec001.html"
   },
   {
-    "section_id": "pg003_sec002",
-    "href": "pg003_sec002.html"
-  },
-  {
-    "section_id": "pg003_sec003",
-    "href": "pg003_sec003.html"
-  },
-  {
-    "section_id": "pg003_sec004",
-    "href": "pg003_sec004.html"
-  },
-  {
-    "section_id": "pg003_sec005",
-    "href": "pg003_sec005.html"
-  },
-  {
-    "section_id": "pg003_sec006",
-    "href": "pg003_sec006.html"
-  },
-  {
-    "section_id": "pg003_sec007",
-    "href": "pg003_sec007.html"
-  },
-  {
     "section_id": "pg004_sec001",
     "href": "pg004_sec001.html"
-  },
-  {
-    "section_id": "pg004_sec002",
-    "href": "pg004_sec002.html"
-  },
-  {
-    "section_id": "pg004_sec003",
-    "href": "pg004_sec003.html"
-  },
-  {
-    "section_id": "pg004_sec004",
-    "href": "pg004_sec004.html"
-  },
-  {
-    "section_id": "pg004_sec005",
-    "href": "pg004_sec005.html"
-  },
-  {
-    "section_id": "pg004_sec006",
-    "href": "pg004_sec006.html"
-  },
-  {
-    "section_id": "pg004_sec007",
-    "href": "pg004_sec007.html"
-  },
-  {
-    "section_id": "pg004_sec008",
-    "href": "pg004_sec008.html"
   },
   {
     "section_id": "pg005_sec001",
@@ -81,11 +29,6 @@
     "href": "pg007_sec001.html"
   },
   {
-    "section_id": "pg007_sec002",
-    "href": "pg007_sec002.html",
-    "page_number": 1
-  },
-  {
     "section_id": "pg008_sec001",
     "href": "pg008_sec001.html"
   },
@@ -97,11 +40,6 @@
   {
     "section_id": "pg009_sec001",
     "href": "pg009_sec001.html"
-  },
-  {
-    "section_id": "pg009_sec002",
-    "href": "pg009_sec002.html",
-    "page_number": 3
   },
   {
     "section_id": "pg010_sec001",
@@ -134,11 +72,6 @@
   {
     "section_id": "pg014_sec001",
     "href": "pg014_sec001.html"
-  },
-  {
-    "section_id": "pg014_sec002",
-    "href": "pg014_sec002.html",
-    "page_number": 8
   },
   {
     "section_id": "pg015_sec001",
@@ -191,11 +124,6 @@
   {
     "section_id": "pg023_sec001",
     "href": "pg023_sec001.html"
-  },
-  {
-    "section_id": "pg023_sec002",
-    "href": "pg023_sec002.html",
-    "page_number": 17
   },
   {
     "section_id": "pg024_sec001",
@@ -255,11 +183,6 @@
   {
     "section_id": "pg035_sec001",
     "href": "pg035_sec001.html"
-  },
-  {
-    "section_id": "pg035_sec002",
-    "href": "pg035_sec002.html",
-    "page_number": 29
   },
   {
     "section_id": "pg036_sec001",
@@ -354,11 +277,6 @@
     "href": "pg052_sec001.html"
   },
   {
-    "section_id": "pg052_sec002",
-    "href": "pg052_sec002.html",
-    "page_number": 46
-  },
-  {
     "section_id": "pg053_sec001",
     "href": "pg053_sec001.html",
     "page_number": 47
@@ -381,11 +299,6 @@
   {
     "section_id": "pg057_sec001",
     "href": "pg057_sec001.html"
-  },
-  {
-    "section_id": "pg057_sec002",
-    "href": "pg057_sec002.html",
-    "page_number": 51
   },
   {
     "section_id": "pg058_sec001",
@@ -422,11 +335,6 @@
     "href": "pg064_sec001.html"
   },
   {
-    "section_id": "pg064_sec002",
-    "href": "pg064_sec002.html",
-    "page_number": 58
-  },
-  {
     "section_id": "pg065_sec001",
     "href": "pg065_sec001.html",
     "page_number": 59
@@ -459,11 +367,6 @@
   {
     "section_id": "pg071_sec001",
     "href": "pg071_sec001.html"
-  },
-  {
-    "section_id": "pg071_sec002",
-    "href": "pg071_sec002.html",
-    "page_number": 65
   },
   {
     "section_id": "pg072_sec001",
@@ -514,11 +417,6 @@
     "href": "pg080_sec001.html"
   },
   {
-    "section_id": "pg080_sec002",
-    "href": "pg080_sec002.html",
-    "page_number": 74
-  },
-  {
     "section_id": "pg081_sec001",
     "href": "pg081_sec001.html"
   },
@@ -543,11 +441,6 @@
   {
     "section_id": "pg083_sec001",
     "href": "pg083_sec001.html"
-  },
-  {
-    "section_id": "pg083_sec002",
-    "href": "pg083_sec002.html",
-    "page_number": 77
   },
   {
     "section_id": "pg084_sec001",
@@ -589,11 +482,6 @@
   {
     "section_id": "pg089_sec001",
     "href": "pg089_sec001.html"
-  },
-  {
-    "section_id": "pg089_sec002",
-    "href": "pg089_sec002.html",
-    "page_number": 83
   },
   {
     "section_id": "pg090_sec001",
@@ -646,11 +534,6 @@
     "href": "pg096_sec001.html"
   },
   {
-    "section_id": "pg096_sec002",
-    "href": "pg096_sec002.html",
-    "page_number": 90
-  },
-  {
     "section_id": "pg097_sec001",
     "href": "pg097_sec001.html"
   },
@@ -667,10 +550,6 @@
   {
     "section_id": "pg099_sec001",
     "href": "pg099_sec001.html"
-  },
-  {
-    "section_id": "pg099_sec002",
-    "href": "pg099_sec002.html"
   },
   {
     "section_id": "pg099_sec003",
