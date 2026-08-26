@@ -1,0 +1,3317 @@
+/* Validator-first sample: preserve the book page and remove repeated app chrome. */
+html.validator-simple-sample body {
+  align-items: flex-start;
+}
+
+html.validator-simple-sample #content.original-book-page {
+  max-width: 54rem;
+  min-height: calc(100vh - 4.5rem);
+  padding: clamp(1rem, 4vw, 2.5rem) clamp(1rem, 6vw, 4rem) 6rem;
+}
+
+html.validator-simple-sample .original-book-section {
+  max-width: 46rem;
+}
+
+html.validator-simple-sample .response-card {
+  margin: .55rem 0 1rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .response-card + .response-card {
+  border-top: 1px solid rgb(39 36 37 / 18%);
+  padding-top: .8rem;
+}
+
+html.validator-simple-sample #content > .original-book-section + .original-book-section {
+  margin-top: .85rem;
+}
+
+html.validator-simple-sample .response-card > [id$="_label"],
+html.validator-simple-sample .response-feedback,
+html.validator-simple-sample .page-submit-action {
+  display: none !important;
+}
+
+html.validator-simple-sample .printed-page-number {
+  display: none !important;
+}
+
+html.validator-simple-sample .book-merged-source-line {
+  display: none !important;
+}
+
+html.validator-simple-sample .vowel-sequence {
+  display: inline-flex;
+  gap: clamp(1.5rem, 5vw, 3.5rem);
+  margin-inline: .35rem;
+  font-weight: 800;
+}
+
+html.validator-simple-sample .vowel-focus {
+  font-weight: 800;
+}
+
+html.validator-simple-sample .lesson-heading .vowel-focus {
+  color: #272425;
+}
+
+html.validator-simple-sample .response-actions {
+  display: flex !important;
+  justify-content: flex-end;
+  margin-top: .3rem;
+}
+
+html.validator-simple-sample .response-actions > :not(.clear-response) {
+  display: none !important;
+}
+
+html.validator-simple-sample .clear-response {
+  display: flex !important;
+  align-self: flex-end;
+  margin-left: auto !important;
+  width: fit-content;
+  min-height: 1.9rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #70c9e6 !important;
+  border-radius: .45rem !important;
+  background: #effaff !important;
+  padding: .25rem .65rem !important;
+  color: #15556c !important;
+  font-size: .78rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+}
+
+html.validator-simple-sample .clear-response:focus-visible {
+  outline: 3px solid #0ea5e9;
+  outline-offset: 2px;
+}
+
+html.validator-simple-sample button[title="Tuma"][disabled] {
+  display: none !important;
+}
+
+html.validator-simple-sample .practice-model {
+  margin: .3rem auto .45rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .practice-model img {
+  width: 100%;
+  max-height: 12rem;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .canvas-wrap,
+html.validator-simple-sample .handwriting-canvas-wrap,
+html.validator-simple-sample .trace-canvas-wrap {
+  min-height: 8.5rem;
+  border: 1.5px solid #272425;
+  background-color: #fff;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2.65rem,
+    rgb(39 36 37 / 72%) 2.7rem,
+    transparent 2.76rem
+  );
+}
+
+html.validator-simple-sample .drawing-response .canvas-wrap,
+html.validator-simple-sample .drawing-response .handwriting-canvas-wrap {
+  min-height: 11rem;
+  background-image: none;
+}
+
+/* Page 14 pilot: the book model and the handwriting surface share one field. */
+html.validator-simple-sample .book-inline-field {
+  position: relative;
+  height: clamp(8.5rem, 20vw, 11rem);
+  min-height: 0;
+  overflow: hidden;
+  border: 0 !important;
+  border-top: 1.25px solid #272425 !important;
+  border-bottom: 1.25px solid #272425 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2.95rem,
+    rgb(39 36 37 / 62%) 3rem,
+    transparent 3.06rem
+  ) !important;
+}
+
+html.validator-simple-sample .book-inline-field canvas {
+  position: absolute !important;
+  z-index: 3;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-image-field {
+  height: auto !important;
+  min-height: 6.5rem !important;
+  aspect-ratio: var(--book-field-aspect, 640 / 110);
+  background: #fff !important;
+}
+
+html.validator-simple-sample .book-image-field .practice-model {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-image-field .practice-model img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .book-example-model {
+  width: 100%;
+  margin: .3rem 0 .65rem !important;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-example-model img {
+  display: block;
+  width: 100%;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .book-answer-field {
+  position: relative;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+html.validator-simple-sample .book-answer-short {
+  width: 100% !important;
+  max-width: 640px !important;
+  height: auto !important;
+  margin: .35rem auto 0;
+  aspect-ratio: var(--book-answer-aspect, 640 / 100);
+  background-image:
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
+  background-position:
+    0 var(--guide-1, 0%),
+    0 var(--guide-2, 33.333%),
+    0 var(--guide-3, 66.666%),
+    0 var(--guide-4, 100%) !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Align the child's notebook guides with the padded source-model image. */
+html.validator-simple-sample .book-handwriting-copy-field {
+  width: calc(100% - 1.6rem) !important;
+  margin-inline: .8rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg010_sec001"] .book-handwriting-copy-field {
+  width: calc(93.14% - 1.49rem) !important;
+  margin-right: auto !important;
+  margin-left: calc(.61% + .79rem) !important;
+}
+
+html.validator-simple-sample .book-answer-sentences {
+  height: clamp(15rem, 40vw, 20rem) !important;
+}
+
+html.validator-simple-sample .book-answer-long {
+  height: clamp(24rem, 65vw, 34rem) !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2.2rem,
+    rgb(39 36 37 / 62%) 2.25rem,
+    transparent 2.31rem
+  ) !important;
+}
+
+html.validator-simple-sample .book-answer-field canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-stacked-answer-field {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .book-sentence-sequence {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: .45rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-sentence-model-slice {
+  position: relative;
+  height: auto;
+  aspect-ratio: var(--sentence-slice-aspect, 640 / 81);
+  overflow: hidden;
+  border-top: 1.25px solid #272425;
+  border-bottom: 1.25px solid #272425;
+  background: #fff;
+}
+
+html.validator-simple-sample .book-sentence-model-slice img {
+  position: absolute;
+  top: calc(var(--sentence-index) * -97.826%);
+  left: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .book-sentence-model-slice:nth-child(3)::after {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  background: #fff;
+  content: "";
+}
+
+html.validator-simple-sample .book-sentence-answer-lines {
+  height: auto;
+  aspect-ratio: var(--sentence-slice-aspect, 640 / 81);
+  border: 0;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%));
+  background-position:
+    0 var(--guide-1, 0%),
+    0 var(--guide-2, 33.333%),
+    0 var(--guide-3, 66.666%),
+    0 var(--guide-4, 100%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .book-stacked-answer-field canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-copy-field .trace-letter-model {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  padding: .2rem 1rem;
+  color: #777;
+  font-family: "Maandishi", "Sassoon Primary", sans-serif !important;
+  font-size: clamp(3rem, 8vw, 5rem);
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-copy-field,
+html.validator-simple-sample .book-syllable-field {
+  height: clamp(6.25rem, 16vw, 8.25rem) !important;
+  min-height: 0 !important;
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(20% - 1px),
+      rgb(39 36 37 / 62%) calc(20% - 1px),
+      rgb(39 36 37 / 62%) 20%
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 2.2rem,
+      rgb(39 36 37 / 62%) 2.25rem,
+      transparent 2.31rem
+    ) !important;
+}
+
+/* Physical PDF page 10 uses continuous notebook guides, not boxed cells. */
+html.validator-simple-sample [data-section-id="pg010_sec001"] .book-copy-field {
+  height: clamp(5rem, 12vw, 6rem) !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
+  background-position: 0 0%, 0 33.333%, 0 66.666%, 0 100% !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+html.validator-simple-sample [data-section-id="pg011_sec001"] .book-copy-field,
+html.validator-simple-sample [data-section-id="pg012_sec001"] .book-copy-field {
+  height: clamp(5rem, 12vw, 6rem) !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
+    linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
+  background-position: 0 0%, 0 33.333%, 0 66.666%, 0 100% !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Physical PDF page 12 continues the same notebook construction used on page 11. */
+html.validator-simple-sample [data-response-id="pg012_sec002_response_01"] .book-handwriting-copy-field {
+  position: relative;
+  width: calc(100% - 1.6rem) !important;
+  margin-right: auto !important;
+  margin-left: .8rem !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)) !important;
+  background-position: 0 2.22%, 0 34.44%, 0 64.44%, 0 97.78% !important;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px !important;
+  background-repeat: no-repeat !important;
+}
+
+html.validator-simple-sample [data-response-id="pg012_sec002_response_01"] .book-handwriting-copy-field::before {
+  position: absolute;
+  z-index: 1;
+  top: 29%;
+  bottom: auto;
+  left: 1.2%;
+  display: flex;
+  height: 38%;
+  align-items: center;
+  color: rgb(39 36 37 / 28%);
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: clamp(2rem, 5vw, 2.2rem);
+  line-height: 1;
+  content: "u";
+  pointer-events: none;
+}
+
+html.validator-simple-sample [data-response-id="pg012_sec002_response_01"] .book-handwriting-copy-field canvas {
+  position: relative;
+  z-index: 2;
+}
+
+/* PDF page 13: continuation of u, three word models, then two compact exercises. */
+html.validator-simple-sample [data-response-id="pg013_sec001_response_01"] .book-copy-field {
+  height: clamp(5rem, 12vw, 6rem) !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)) !important;
+  background-position: 0 2%, 0 34%, 0 66%, 0 98% !important;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px !important;
+  background-repeat: no-repeat !important;
+}
+
+html.validator-simple-sample [data-response-id="pg013_sec001_response_01"] .trace-letter-model span:first-child {
+  color: transparent;
+  font-size: 0;
+}
+
+html.validator-simple-sample [data-response-id="pg013_sec001_response_01"] .trace-letter-model::before {
+  position: absolute;
+  top: 29%;
+  left: 1.2%;
+  display: flex;
+  height: 38%;
+  align-items: center;
+  color: rgb(39 36 37 / 28%);
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: clamp(2rem, 5vw, 2.2rem);
+  line-height: 1;
+  content: "u";
+}
+
+html.validator-simple-sample [data-id="pg013_s001_n0004"] {
+  line-height: 1.5;
+}
+
+html.validator-simple-sample .page13-vowel-words {
+  display: inline-block;
+  word-spacing: 1rem;
+  white-space: nowrap;
+}
+
+html.validator-simple-sample .page13-original-model {
+  display: none !important;
+}
+
+html.validator-simple-sample .page13-u-practice {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page13-u-sequence {
+  display: grid;
+  gap: .28rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page13-u-model {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page13-u-practice canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page13-word-practice {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page13-word-sequence {
+  display: grid;
+  gap: .65rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page13-word-block {
+  display: grid;
+  gap: .28rem;
+}
+
+html.validator-simple-sample .page13-word-model {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page13-word-answer {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 640 / 82;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page13-word-answer::before {
+  position: absolute;
+  top: 29%;
+  left: 1.2%;
+  display: flex;
+  height: 38%;
+  align-items: center;
+  color: rgb(39 36 37 / 28%);
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: clamp(1.75rem, 5vw, 2.15rem);
+  line-height: 1;
+  content: attr(data-word);
+}
+
+/* The PDF word-model crops have a small left/right inset; match answer guides to it. */
+html.validator-simple-sample .page13-word-sequence .page13-word-answer {
+  width: 95.31%;
+  margin-right: auto;
+  margin-left: 3.59%;
+}
+
+html.validator-simple-sample .page13-word-practice canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page13-flower-practice {
+  display: grid;
+  grid-template-columns: minmax(8rem, 42%) 1fr;
+  align-items: center;
+  gap: .75rem;
+  width: min(100%, 31rem);
+  margin: .25rem auto 0;
+  padding: .55rem .75rem;
+  border: 2px solid #16a05a;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+html.validator-simple-sample .page13-exercise-panel {
+  position: relative;
+  display: grid;
+  gap: .5rem;
+  margin-top: 2.25rem;
+  padding: 1.6rem .65rem .65rem;
+  border: 2px solid #00aeef;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page13-exercise-panel > .activity-label {
+  position: absolute;
+  top: -1.45rem;
+  left: 1.4rem;
+  width: min(11rem, 42%);
+  margin: 0 !important;
+  padding: .35rem 1rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 1.5rem !important;
+  background: #fff !important;
+  color: #00aeef !important;
+  text-align: center;
+}
+
+html.validator-simple-sample .page13-exercise-panel > .response-card {
+  margin: 0 !important;
+  padding: .35rem 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .page13-flower-practice figure,
+html.validator-simple-sample .page13-flower-practice img {
+  width: 100% !important;
+  max-height: 8rem !important;
+  margin: 0 !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page13-flower-answer {
+  height: 4.25rem !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 2px solid #272425 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page13-flower-answer canvas {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page13-missing-pattern {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem 2rem;
+  margin: .25rem 0;
+  font-size: clamp(1.45rem, 4vw, 2rem);
+}
+
+html.validator-simple-sample .page13-gap {
+  min-width: 5rem;
+  text-align: center;
+  white-space: pre;
+}
+
+html.validator-simple-sample .page13-missing-answer {
+  position: relative;
+  height: 4.25rem !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page13-missing-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page13-missing-box-row {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: .75rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page13-missing-box-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+  font-size: clamp(1.35rem, 4vw, 1.8rem);
+}
+
+html.validator-simple-sample .page13-mini-input {
+  display: inline-block;
+  width: clamp(3.25rem, 12vw, 5rem);
+  height: 2.75rem;
+  border: 2px solid #272425;
+  border-radius: .65rem;
+  background: #fff;
+}
+
+/* PDF page 14: every printed example is followed by a matching handwriting area. */
+html.validator-simple-sample .consonant-focus {
+  font-weight: 800;
+}
+
+html.validator-simple-sample .page14-copy-model {
+  margin-bottom: .3rem !important;
+}
+
+html.validator-simple-sample .page14-copy-model img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+html.validator-simple-sample .page14-answer-only,
+html.validator-simple-sample .page14-model-practice {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page14-model-sequence {
+  display: grid;
+  gap: .28rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page14-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page14-answer {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 666 / 92;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page14-inset-answer {
+  width: 91.3%;
+  margin-right: auto;
+  margin-left: 5.5%;
+}
+
+html.validator-simple-sample [data-response-id="pg014_sec002_response_01"] .response-actions {
+  width: fit-content !important;
+  margin-right: 0 !important;
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample .page14-answer::before {
+  position: absolute;
+  top: 5%;
+  left: 1.2%;
+  display: flex;
+  height: 62%;
+  align-items: center;
+  color: rgb(39 36 37 / 28%);
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: clamp(2.65rem, 7vw, 4rem);
+  line-height: 1;
+  content: attr(data-word);
+}
+
+html.validator-simple-sample [data-response-id="pg014_sec002_response_01"] .page14-answer::before {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: url("../images/pg014_b_cluster_shadow.png") left center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
+  content: "";
+}
+
+/* PDF page 15 follows page 13: one word-copy area and a framed picture exercise. */
+html.validator-simple-sample .page15-model-practice {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page15-model-sequence {
+  display: grid;
+  gap: .28rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page15-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page15-model-practice canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page15-exercise-panel {
+  position: relative;
+  margin-top: 2.35rem;
+  padding: 1.7rem .7rem .7rem;
+  border: 2px solid #00aeef;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page15-exercise-panel > .activity-label {
+  position: absolute;
+  top: -1.5rem;
+  left: 1.7rem;
+  width: min(18rem, 58%);
+  margin: 0 !important;
+  padding: .4rem 1rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 1.5rem !important;
+  background: #fff !important;
+  color: #00aeef !important;
+  text-align: center;
+}
+
+html.validator-simple-sample .page15-exercise-panel > .response-card {
+  margin: 0 !important;
+  padding: .3rem 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .page15-picture-practice {
+  position: relative;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page15-picture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(100%, 32rem);
+  margin: .25rem auto 0;
+  overflow: hidden;
+  border: 2px solid #16a05a;
+  border-radius: 1rem;
+  background: #fff;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .page15-picture-item {
+  display: flex;
+  min-width: 0;
+  padding: .45rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .45rem;
+}
+
+html.validator-simple-sample .page15-picture-babu {
+  border-right: 1px dotted #16a05a;
+}
+
+html.validator-simple-sample .page15-picture-bao {
+  grid-column: 1 / -1;
+  border-top: 1px dotted #16a05a;
+}
+
+html.validator-simple-sample .page15-picture-item figure {
+  display: flex;
+  width: 100% !important;
+  height: 18rem;
+  margin: 0 !important;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+html.validator-simple-sample .page15-picture-item img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page15-picture-bao figure {
+  height: 8rem;
+}
+
+html.validator-simple-sample .page15-picture-input {
+  display: block;
+  width: min(90%, 13rem);
+  height: 3.2rem;
+  border: 2px solid #272425;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page15-picture-bao .page15-picture-input {
+  width: min(55%, 14rem);
+}
+
+html.validator-simple-sample .page15-picture-practice canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+@media (max-width: 520px) {
+  html.validator-simple-sample .page15-picture-item figure {
+    height: 14rem;
+  }
+
+  html.validator-simple-sample .page15-picture-bao figure {
+    height: 6rem;
+  }
+}
+
+html.validator-simple-sample .page16-original-model {
+  display: none !important;
+}
+
+html.validator-simple-sample [data-response-id="pg016_sec001_response_01"] .response-actions {
+  width: fit-content !important;
+  margin-right: 0 !important;
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample .page16-copy-answer .page14-answer {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+/* Lowercase m and the m-words sit between the two inner notebook guides. */
+html.validator-simple-sample [data-section-id="pg016_sec001"] .page14-answer::before {
+  top: 29%;
+  height: 38%;
+  font-size: clamp(2rem, 5vw, 2.2rem);
+}
+
+/* Keep the original four-line field, but use the book's cursive m as its guide. */
+html.validator-simple-sample [data-section-id="pg016_sec001"] .page16-copy-answer .page14-answer::before {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/pg016_m_model.png") 0 0 / 100% 100% no-repeat;
+  clip-path: inset(0 86% 0 0);
+  color: transparent;
+  opacity: .3;
+  font-size: 0;
+  content: "";
+}
+
+html.validator-simple-sample [data-response-id="pg016_sec001_response_05"] > .question-prompt {
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample .page14-model-practice canvas,
+html.validator-simple-sample .page14-answer-only canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* Match each answer guide to the actual horizontal-rule span in its PDF crop. */
+html.validator-simple-sample [data-response-id="pg011_sec001_response_01"] .book-handwriting-copy-field {
+  width: calc(95.91% - 1.535rem) !important;
+  margin-right: auto !important;
+  margin-left: calc(.63% + .79rem) !important;
+}
+
+html.validator-simple-sample [data-response-id="pg011_sec002_response_01"] .book-handwriting-copy-field {
+  width: calc(93.16% - 1.491rem) !important;
+  margin-right: auto !important;
+  margin-left: calc(.622% + .79rem) !important;
+}
+
+html.validator-simple-sample .book-copy-field .trace-letter-model span {
+  text-align: center;
+}
+
+html.validator-simple-sample .book-copy-field .trace-letter-model span:not(:first-child) {
+  visibility: hidden;
+}
+
+html.validator-simple-sample [data-response-id="pg011_sec001_response_02"] .trace-letter-model span:first-child {
+  color: transparent;
+  font-size: 0;
+}
+
+html.validator-simple-sample [data-response-id="pg011_sec001_response_02"] .trace-letter-model::before {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 5%;
+  width: 10%;
+  background: url("../images/pg011_i_sample_glyph.png") center / auto 100% no-repeat;
+  content: "";
+  opacity: .58;
+}
+
+html.validator-simple-sample .book-syllable-field .book-field-model {
+  position: absolute !important;
+  z-index: 1;
+  inset: .7rem .75rem auto !important;
+  display: block !important;
+  width: auto !important;
+  margin: 0 !important;
+  color: rgb(39 36 37 / 48%) !important;
+  font-size: clamp(1.25rem, 3vw, 2rem) !important;
+  font-style: normal !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  word-spacing: clamp(1.4rem, 6vw, 4.5rem);
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-drawing-board .canvas-wrap {
+  min-height: clamp(15rem, 42vw, 22rem);
+  border: 3px solid #128056 !important;
+  border-radius: .45rem !important;
+  background: #fff !important;
+}
+
+/* Keep drawing models in the same row relationship as the portrait PDF. */
+html.validator-simple-sample .book-drawing-board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: .45rem .8rem;
+}
+
+html.validator-simple-sample .book-drawing-board > .question-prompt,
+html.validator-simple-sample .book-drawing-board > .activity-prompt,
+html.validator-simple-sample .book-drawing-board > .canvas-wrap,
+html.validator-simple-sample .book-drawing-board > .handwriting-canvas-wrap {
+  flex: 1 0 100%;
+}
+
+html.validator-simple-sample .book-drawing-board > .practice-model {
+  flex: 1 1 calc(33.333% - .8rem);
+  min-width: 8rem;
+}
+
+html.validator-simple-sample .book-drawing-board > .practice-model img {
+  height: clamp(7rem, 18vw, 11rem);
+}
+
+html.validator-simple-sample .book-drawing-board > .book-unbold {
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+html.validator-simple-sample .book-image-label-stage {
+  position: relative;
+  margin: .6rem auto 1rem;
+  max-width: 36rem;
+}
+
+html.validator-simple-sample .book-image-label-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .8rem;
+  border: 2px solid #128056;
+  border-radius: .65rem;
+  padding: .8rem;
+}
+
+html.validator-simple-sample .book-image-label-grid.book-image-label-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+html.validator-simple-sample .book-image-label-item {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+html.validator-simple-sample .book-image-label-wide {
+  grid-column: 1 / -1;
+}
+
+html.validator-simple-sample .book-image-label-item .practice-model {
+  display: flex;
+  flex: 1;
+  align-items: end;
+  justify-content: center;
+  min-height: 10rem;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample .book-image-label-item .practice-model img {
+  width: 100%;
+  height: clamp(11rem, 30vw, 19rem);
+  max-height: none;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .book-image-label-wide .practice-model img {
+  height: clamp(7rem, 18vw, 11rem);
+}
+
+html.validator-simple-sample .book-image-label-line {
+  height: 3.2rem;
+  margin: .35rem auto 0;
+  width: min(86%, 14rem);
+  border: 2px solid #272425;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .book-image-label-overlay {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  min-height: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-image-label-overlay canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-inline-fill-stage {
+  position: relative;
+  margin: .25rem 0 .7rem;
+  padding: .1rem .2rem;
+}
+
+html.validator-simple-sample .book-inline-fill-stage > .source-line {
+  position: relative;
+  z-index: 1;
+  margin: .2rem 0 !important;
+  min-height: 1.55rem;
+  font-size: 1.05rem;
+  line-height: 1.55rem;
+  pointer-events: none;
+}
+
+html.validator-simple-sample .book-inline-fill-overlay {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  min-height: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .book-inline-fill-overlay canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample canvas {
+  display: block;
+  width: 100% !important;
+  min-height: inherit;
+  touch-action: none;
+}
+
+html.validator-simple-sample .sample-page-tool {
+  display: none;
+  justify-content: flex-end;
+  margin-top: .8rem;
+}
+
+html.validator-simple-sample .sample-clear-page {
+  border: 1px solid #7dcfe9;
+  border-radius: .45rem;
+  background: #eefaff;
+  padding: .45rem .8rem;
+  color: #16566c;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  html.validator-simple-sample #content.original-book-page {
+    padding-inline: .8rem;
+  }
+
+  html.validator-simple-sample .canvas-wrap,
+  html.validator-simple-sample .handwriting-canvas-wrap,
+  html.validator-simple-sample .trace-canvas-wrap {
+    min-height: 7.5rem;
+  }
+
+  html.validator-simple-sample .book-drawing-board > .practice-model {
+    min-width: calc(50% - .8rem);
+  }
+
+  html.validator-simple-sample .book-image-label-grid.book-image-label-three {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Page 17 follows the PDF: three pictures in one row, then all five vowel items. */
+html.validator-simple-sample [data-section-id="pg017_sec001"],
+html.validator-simple-sample [data-section-id="pg017_sec002"] {
+  width: 100%;
+  max-width: 60rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] > .activity-label {
+  display: block;
+  width: fit-content;
+  min-width: 12rem;
+  margin: 1rem 0 -.25rem 2.4rem !important;
+  padding: .38rem 1.5rem;
+  border: 2px solid #14b9ee;
+  border-radius: 999px;
+  background: #fff;
+  color: #08a9df !important;
+  font-size: clamp(1.35rem, 4vw, 2rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] > .response-card {
+  margin: 0 0 1.4rem !important;
+  padding: 1.15rem .8rem .65rem;
+  border: 2px solid #06afe8;
+  border-radius: 1.4rem;
+  background: #fff;
+  box-shadow: none;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] .question-prompt[data-id^="pg017_s001"] {
+  margin: 0 0 .6rem !important;
+  color: #202020;
+  font-size: clamp(1.15rem, 3.3vw, 1.75rem) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-stage {
+  width: 100%;
+  max-width: none;
+  margin: .35rem 0;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-grid.book-image-label-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0;
+  padding: .45rem;
+  border: 2px solid #16a765;
+  border-radius: 1.25rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-item {
+  justify-content: space-between;
+  padding: .2rem .6rem .35rem;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-item:not(:last-child) {
+  border-right: 2px dotted rgb(22 167 101 / 65%);
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-item .practice-model img {
+  width: 100%;
+  height: clamp(7rem, 19vw, 11rem) !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-line {
+  width: 94%;
+  height: clamp(2.5rem, 7vw, 3.4rem);
+  margin: .25rem auto 0;
+  border: 2px solid #272727;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page17-vowel-card .book-inline-fill-stage {
+  min-height: 15rem;
+  margin: 0;
+  padding: .25rem .15rem .5rem;
+}
+
+html.validator-simple-sample .page17-vowel-card .book-inline-fill-stage > .source-line {
+  margin: .28rem 0 !important;
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: clamp(1.3rem, 4vw, 1.85rem) !important;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] .response-actions {
+  margin-top: .45rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] {
+  margin-top: .8rem;
+  padding-top: 0;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] .lesson-label {
+  margin: 0 !important;
+  padding: .35rem 1rem;
+  border: 3px solid #00aeea;
+  border-radius: .5rem;
+  color: #151515;
+  font-size: clamp(1.3rem, 4vw, 1.8rem) !important;
+  font-style: italic;
+  font-weight: 800;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] .lesson-heading {
+  margin: .35rem 0 !important;
+  color: #08a33d;
+  font-size: clamp(1.35rem, 4vw, 1.9rem) !important;
+  font-style: italic;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] [data-id="pg017_s002_n0003"] {
+  display: inline !important;
+  margin: .2rem 0 .5rem !important;
+  font-size: clamp(1.15rem, 3.4vw, 1.65rem) !important;
+  font-style: italic;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] .page17-intro-end {
+  display: inline !important;
+  margin: 0 0 0 .2rem !important;
+  font-size: clamp(1.15rem, 3.4vw, 1.65rem) !important;
+  font-style: italic;
+  font-weight: 800 !important;
+}
+
+/* Compact page-17 proportions from the printed page. */
+html.validator-simple-sample [data-section-id="pg017_sec001"] > .activity-label {
+  min-width: 8.5rem;
+  margin: .65rem 0 -.2rem 1.5rem !important;
+  padding: .22rem .85rem;
+  font-size: clamp(1.05rem, 3vw, 1.4rem) !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] > .response-card {
+  position: relative;
+  margin-bottom: 1.15rem !important;
+  padding: .75rem .55rem .45rem;
+  border-radius: .55rem;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] .question-prompt[data-id^="pg017_s001"] {
+  margin-bottom: .3rem !important;
+  font-size: clamp(1rem, 2.7vw, 1.35rem) !important;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-grid.book-image-label-three {
+  padding: .25rem;
+  border-radius: .55rem;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-item {
+  padding: .1rem .35rem .2rem;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-item .practice-model img {
+  height: clamp(5.25rem, 15vw, 8.25rem) !important;
+}
+
+html.validator-simple-sample .page17-picture-card .book-image-label-line {
+  height: clamp(1.85rem, 5vw, 2.45rem);
+  margin-top: .15rem;
+  border-width: 1.5px;
+  border-radius: .65rem;
+}
+
+html.validator-simple-sample .page17-vowel-card .book-inline-fill-stage {
+  min-height: 0;
+  padding: .05rem .1rem .2rem;
+}
+
+html.validator-simple-sample .page17-vowel-card .book-inline-fill-stage > .source-line {
+  margin: .08rem 0 !important;
+  font-size: clamp(1.05rem, 3vw, 1.4rem) !important;
+  line-height: 1.2;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] .response-actions {
+  position: absolute;
+  right: .35rem;
+  bottom: -1rem;
+  z-index: 4;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .28rem .55rem !important;
+  font-size: .75rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] {
+  margin-top: .35rem;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] .lesson-label {
+  padding: .22rem .7rem;
+  border-width: 2px;
+  font-size: clamp(1.05rem, 3vw, 1.4rem) !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] .lesson-heading {
+  margin: .2rem 0 !important;
+  font-size: clamp(1.1rem, 3.1vw, 1.45rem) !important;
+}
+
+html.validator-simple-sample [data-section-id="pg017_sec002"] [data-id="pg017_s002_n0003"],
+html.validator-simple-sample [data-section-id="pg017_sec002"] .page17-intro-end {
+  font-size: clamp(1rem, 2.7vw, 1.3rem) !important;
+}
+
+/* Page 18: preserve every PDF model and place its matching handwriting row below. */
+html.validator-simple-sample [data-section-id="pg018_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] > .response-card {
+  position: relative;
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem;
+  border: 0;
+  background: #fff;
+  box-shadow: none;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] > .response-card > .question-prompt:first-child {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page18-copy-model {
+  width: calc(100% - 1.6rem);
+  margin: 0 .8rem .2rem !important;
+}
+
+html.validator-simple-sample .page18-copy-model img,
+html.validator-simple-sample .page18-model-sequence > .page14-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page18-copy-answer .page18-answer,
+html.validator-simple-sample .page18-model-sequence .page18-answer {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+html.validator-simple-sample .page18-copy-answer .page18-answer {
+  aspect-ratio: 640 / 110;
+}
+
+html.validator-simple-sample .page18-model-sequence .page18-answer {
+  aspect-ratio: 667 / 94;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] .page18-answer::before {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  opacity: .28;
+  font-size: 0;
+  content: "";
+}
+
+html.validator-simple-sample .page18-guide-repeat::before {
+  right: auto;
+  width: 26%;
+  background: url("../images/pg018_repeat_guide.png?v=2") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page18-guide-d::before {
+  right: auto;
+  width: 16%;
+  background: url("../images/pg018_d_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page18-guide-syllables::before {
+  right: auto;
+  width: 20%;
+  background: url("../images/pg018_syllables_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page18-guide-words::before {
+  right: auto;
+  width: 23%;
+  background: url("../images/pg018_words_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample [data-response-id="pg018_sec001_response_05"] .book-trace-field {
+  width: calc(100% - 1.6rem);
+  margin: 0 .8rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg018_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample .page18-model-practice canvas,
+html.validator-simple-sample .page18-copy-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+/* Page 19 uses the PDF's desk-above / two-pictures-below composition. */
+html.validator-simple-sample [data-section-id="pg019_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] > .activity-label {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: fit-content;
+  min-width: 12rem;
+  margin: .6rem 0 -.3rem 2.4rem !important;
+  padding: .3rem 1.25rem;
+  border: 2px solid #0ab2ec;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.25rem, 3.8vw, 1.85rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.validator-simple-sample .page19-picture-card {
+  margin: 0 0 1rem !important;
+  padding: 1rem .75rem .55rem;
+  border: 2px solid #07afe8;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: none;
+}
+
+html.validator-simple-sample .page19-picture-card > .question-prompt:first-child {
+  margin: 0 0 .35rem !important;
+  color: #202020;
+  font-size: clamp(1.1rem, 3.1vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample .page19-picture-card .book-image-label-stage {
+  width: 100%;
+  max-width: none;
+  margin: .25rem 0 .35rem;
+}
+
+html.validator-simple-sample .page19-picture-card .book-image-label-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #13a25c;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page19-picture-card .page19-desk-item {
+  position: relative;
+  grid-column: 1 / -1;
+  min-height: clamp(13rem, 34vw, 20rem);
+  border-bottom: 2px dotted rgb(19 162 92 / 70%);
+}
+
+html.validator-simple-sample .page19-picture-card .page19-desk-item .practice-model img {
+  height: clamp(13rem, 34vw, 20rem) !important;
+  padding: .35rem 0 .8rem;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page19-picture-card .page19-desk-item .practice-model {
+  width: 72%;
+  margin: 0 0 0 5% !important;
+}
+
+html.validator-simple-sample .page19-picture-card .page19-desk-item .book-image-label-line {
+  position: absolute;
+  right: 5%;
+  bottom: 1.15rem;
+  width: 31%;
+}
+
+html.validator-simple-sample .page19-picture-card .page19-can-item {
+  border-right: 2px dotted rgb(19 162 92 / 70%);
+}
+
+html.validator-simple-sample .page19-picture-card .page19-can-item,
+html.validator-simple-sample .page19-picture-card .page19-sponge-item {
+  grid-column: auto !important;
+  padding: .35rem .65rem .55rem;
+}
+
+html.validator-simple-sample .page19-picture-card .page19-can-item .practice-model img,
+html.validator-simple-sample .page19-picture-card .page19-sponge-item .practice-model img {
+  height: clamp(9rem, 24vw, 14rem) !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page19-picture-card .book-image-label-line {
+  width: min(72%, 12rem);
+  height: clamp(2.3rem, 6vw, 3.2rem);
+  margin: .25rem auto 0;
+  border: 2px solid #292929;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page19-picture-card [data-id="pg019_sec001_response_01_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page19-picture-card .response-actions {
+  width: fit-content !important;
+  margin: .3rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample .page19-picture-card .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] .page19-lesson-label {
+  margin: .55rem 0 .3rem !important;
+  padding: .28rem .9rem;
+  border: 3px solid #00afe9;
+  border-radius: .5rem;
+  font-size: clamp(1.2rem, 3.5vw, 1.65rem) !important;
+  font-style: italic;
+  font-weight: 800;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] [data-id="pg019_s001_n0004"] {
+  margin: .25rem 0 !important;
+  color: #09a43d;
+  font-size: clamp(1.25rem, 3.7vw, 1.75rem) !important;
+  font-style: italic;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] [data-id="pg019_s001_n0005"] {
+  position: relative;
+  display: block !important;
+  min-height: 3.4rem;
+  margin: 0 !important;
+  color: transparent !important;
+  font-size: clamp(1.1rem, 3.2vw, 1.5rem) !important;
+  font-style: italic;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] [data-id="pg019_s001_n0005"]::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  content: "Katika somo hili utajifunza kuandika herufi ya konsonanti k.";
+  color: #202020;
+  font-size: clamp(1.1rem, 3.2vw, 1.5rem);
+  font-style: italic;
+  font-weight: 400;
+}
+
+html.validator-simple-sample [data-section-id="pg019_sec001"] [data-id="pg019_s001_n0006"] {
+  display: none !important;
+}
+
+/* Page 20 follows the PDF: each printed model is immediately followed by one matching writing line. */
+html.validator-simple-sample [data-section-id="pg020_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] > .question-prompt {
+  margin: .55rem 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.15rem, 3.2vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] > [data-id="pg020_s001_n0002"] {
+  position: relative;
+  display: block;
+  min-height: 2.15rem;
+  color: transparent !important;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] > [data-id="pg020_s001_n0002"]::after {
+  position: absolute;
+  inset: 0 auto auto 0;
+  content: "Fuatisha herufi ya konsonanti k.";
+  color: #202020;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] .response-card {
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] .response-label {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page20-copy-model,
+html.validator-simple-sample .page20-model-sequence {
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample .page20-copy-model img,
+html.validator-simple-sample .page20-model-sequence .page14-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page20-copy-answer,
+html.validator-simple-sample .page20-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page20-copy-answer .page20-answer,
+html.validator-simple-sample .page20-model-sequence .page20-answer {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+html.validator-simple-sample .page20-copy-answer .page20-answer {
+  aspect-ratio: 640 / 106;
+}
+
+html.validator-simple-sample .page20-model-sequence .page20-answer {
+  aspect-ratio: 667 / 98;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] .page20-answer::before {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  opacity: .28;
+  font-size: 0;
+  content: "";
+}
+
+html.validator-simple-sample .page20-guide-repeat::before {
+  right: auto;
+  width: 26%;
+  background: url("../images/pg020_repeat_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page20-guide-k::before {
+  right: auto;
+  width: 16%;
+  background: url("../images/pg020_k_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page20-guide-syllables::before {
+  right: auto;
+  width: 21%;
+  background: url("../images/pg020_syllables_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample .page20-guide-words::before {
+  right: auto;
+  width: 24%;
+  background: url("../images/pg020_words_guide.png") left center / contain no-repeat;
+  clip-path: none;
+}
+
+html.validator-simple-sample [data-response-id="pg020_sec001_response_05"] .book-trace-field {
+  width: calc(100% - 1.6rem);
+  margin: 0 .8rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg020_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample .page20-model-practice canvas,
+html.validator-simple-sample .page20-copy-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+/* Page 22: follow the approved PDF-led page 13/18/20 writing pattern. */
+html.validator-simple-sample [data-section-id="pg022_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] > h1 {
+  display: none !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] > .response-card {
+  position: relative;
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] > .response-card > .question-prompt:first-child,
+html.validator-simple-sample [data-section-id="pg022_sec001"] .page22-prompt {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page22-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page22-model-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.validator-simple-sample .page22-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page22-answer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 666 / 95;
+  margin: .1rem 0 0;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page22-answer::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  height: 100%;
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .28;
+  content: "";
+}
+
+html.validator-simple-sample .page22-guide-letter::before {
+  width: 18%;
+  background-image: url("../images/pg022_batch_letter_guide.png");
+}
+
+html.validator-simple-sample .page22-guide-syllables::before {
+  width: 23%;
+  background-image: url("../images/pg022_batch_syllables_guide.png");
+}
+
+html.validator-simple-sample .page22-guide-words::before {
+  width: 17%;
+  background-image: url("../images/pg022_batch_words_guide.png");
+  background-size: auto 100%;
+}
+
+html.validator-simple-sample .page22-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample [data-response-id="pg022_sec001_response_05"] .book-trace-field {
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] .page22-exercise-panel {
+  margin: 1.2rem 0 .6rem !important;
+  padding: 1.35rem .8rem .7rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample [data-section-id="pg022_sec001"] .page22-exercise-panel > .activity-label {
+  position: absolute;
+  z-index: 3;
+  top: -1.15rem;
+  left: 2.1rem;
+  min-width: 13rem;
+  margin: 0 !important;
+  padding: .25rem 1.1rem;
+  border: 2px solid #05afe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.2rem, 3.7vw, 1.7rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.validator-simple-sample .page22-missing-answer {
+  position: relative;
+  min-height: 13.5rem !important;
+  margin: .15rem 0 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page22-missing-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: .25rem;
+  padding: .15rem .25rem;
+}
+
+html.validator-simple-sample .page22-missing-row {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  min-height: 2.25rem;
+  font-size: clamp(1.15rem, 3vw, 1.45rem);
+}
+
+html.validator-simple-sample .page22-missing-word {
+  display: inline-flex;
+  align-items: flex-end;
+  width: fit-content;
+}
+
+html.validator-simple-sample .page22-mini-input {
+  display: inline-block;
+  width: 2.2rem;
+  height: 1.8rem;
+  margin: 0 .12rem;
+  border: 1.5px solid #333;
+  border-radius: .25rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page22-missing-answer > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+/* Page 23: the same approved PDF-led handwriting layout as page 22. */
+html.validator-simple-sample [data-section-id="pg023_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg023_sec001"] > .response-card {
+  position: relative;
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .page23-consonant-sequence {
+  display: inline-flex;
+  gap: clamp(.85rem, 3vw, 1.8rem);
+  margin: 0 .25rem;
+  font-weight: 600;
+}
+
+html.validator-simple-sample [data-section-id="pg023_sec001"] > .response-card > .question-prompt:first-child {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg023_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page23-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page23-model-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.validator-simple-sample .page23-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page23-answer {
+  position: relative;
+  width: 100%;
+  margin: .1rem 0 0;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page23-copy-answer {
+  aspect-ratio: 666 / 82;
+  background-position: 0 0, 0 32.9%, 0 67.1%, 0 calc(100% - 1px);
+}
+
+html.validator-simple-sample .page23-letter-answer {
+  aspect-ratio: 666 / 93;
+  background-position: 0 0, 0 38.7%, 0 65.6%, 0 calc(100% - 1px);
+}
+
+html.validator-simple-sample .page23-answer::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  height: 100%;
+  background-position: left center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  opacity: .28;
+  content: "";
+}
+
+html.validator-simple-sample .page23-guide-copy::before {
+  width: 17%;
+  background-image: url("../images/pg023_copy_guide_clean.png");
+}
+
+html.validator-simple-sample .page23-guide-letter::before {
+  width: 10%;
+  background-image: url("../images/pg023_batch_letter_guide.png");
+}
+
+html.validator-simple-sample .page23-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample [data-response-id="pg023_sec002_response_03"] .book-trace-field {
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg023_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg023_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+/* Page 24: approved page 22/23 line system plus the original two-picture exercise. */
+html.validator-simple-sample [data-section-id="pg024_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] > .response-card {
+  position: relative;
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] > .response-card > .question-prompt:first-child {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page24-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page24-model-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.validator-simple-sample .page24-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page24-answer {
+  position: relative;
+  width: 95.16%;
+  margin: .1rem 1.25% 0 3.59%;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page24-syllable-answer {
+  aspect-ratio: 640 / 94;
+}
+
+html.validator-simple-sample .page24-word-answer {
+  aspect-ratio: 640 / 94;
+}
+
+html.validator-simple-sample .page24-answer::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 15%;
+  height: 67%;
+  background-position: left top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  opacity: .28;
+  content: "";
+}
+
+html.validator-simple-sample .page24-guide-syllable::before {
+  width: 12%;
+  background-image: url("../images/pg024_syllable_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page24-guide-word::before {
+  width: 20%;
+  background-image: url("../images/pg024_word_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page24-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample .page24-writing-page > .activity-label {
+  position: relative;
+  z-index: 4;
+  width: fit-content;
+  min-width: 13rem;
+  margin: 1.15rem 0 -.9rem 2rem !important;
+  padding: .25rem 1.1rem;
+  border: 2px solid #05afe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.2rem, 3.7vw, 1.7rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.validator-simple-sample [data-section-id="pg024_sec001"] > .page24-scene-card {
+  margin: 0 0 1rem !important;
+  padding: 1.4rem .75rem .65rem !important;
+  border: 2px solid #07afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .page24-scene-card > .question-prompt {
+  margin: 0 0 .45rem !important;
+  font-size: clamp(1.1rem, 3.1vw, 1.5rem) !important;
+  font-style: italic;
+}
+
+html.validator-simple-sample .page24-scene-stage {
+  position: relative;
+}
+
+html.validator-simple-sample .page24-scene-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 2px solid #13a25c;
+  border-radius: .9rem;
+}
+
+html.validator-simple-sample .page24-scene-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  gap: .35rem .5rem;
+  min-height: clamp(17rem, 43vw, 26rem);
+  padding: .5rem;
+  border-right: 1.5px dotted rgb(19 162 92 / 62%);
+}
+
+html.validator-simple-sample .page24-scene-item:last-child {
+  border-right: 0;
+}
+
+html.validator-simple-sample .page24-scene-item figure {
+  grid-column: 1 / -1;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample .page24-scene-item figure img {
+  width: 100%;
+  height: clamp(13rem, 34vw, 21rem);
+  object-fit: contain;
+}
+
+html.validator-simple-sample .page24-scene-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+html.validator-simple-sample .page24-scene-line {
+  height: 2.8rem;
+  border: 2px solid #292929;
+  border-radius: .8rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .page24-scene-canvas-wrap {
+  position: absolute !important;
+  z-index: 3;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page24-scene-canvas-wrap canvas {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+@media (max-width: 640px) {
+  html.validator-simple-sample .page24-scene-grid {
+    grid-template-columns: 1fr;
+  }
+
+  html.validator-simple-sample .page24-scene-item {
+    border-right: 0;
+    border-bottom: 1.5px dotted rgb(19 162 92 / 62%);
+  }
+}
+
+/* Page 25: approved compact handwriting rows for consonant t. */
+html.validator-simple-sample [data-section-id="pg025_sec001"] {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample [data-section-id="pg025_sec001"] > .response-card {
+  position: relative;
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample [data-section-id="pg025_sec001"] > .response-card > .question-prompt:first-child {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg025_sec001"] [data-id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .page25-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .page25-model-sequence,
+html.validator-simple-sample .page25-model-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.validator-simple-sample .page25-answer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 666 / 94;
+  margin: .1rem 0 0;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .page25-answer::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 18%;
+  height: 67%;
+  background-image: var(--page25-guide);
+  background-position: left top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  opacity: .28;
+  content: "";
+}
+
+html.validator-simple-sample .page25-guide-copy::before {
+  width: 24%;
+  background-image: url("../images/pg025_copy_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page25-guide-letter::before {
+  width: 8%;
+  background-image: url("../images/pg025_letter_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page25-guide-syllable::before {
+  width: 12%;
+  background-image: url("../images/pg025_syllable_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page25-guide-word::before {
+  width: 16%;
+  background-image: url("../images/pg025_word_guide_clean.png?v=2");
+}
+
+html.validator-simple-sample .page25-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample [data-response-id="pg025_sec001_response_05"] .book-trace-field {
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample [data-section-id="pg025_sec001"] .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample [data-section-id="pg025_sec001"] .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+/* Pages 21-40: one consistent PDF-led writing-book system. */
+html.validator-simple-sample .batch-book-page {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.validator-simple-sample .batch-writing-page > h1 {
+  display: none !important;
+}
+
+html.validator-simple-sample .batch-writing-page .batch-lesson-title {
+  margin: .25rem 0 !important;
+  color: #099b3a !important;
+  font-size: clamp(1.25rem, 3.7vw, 1.75rem) !important;
+  font-style: italic;
+  font-weight: 800 !important;
+}
+
+html.validator-simple-sample .batch-writing-page > .lesson-heading,
+html.validator-simple-sample .batch-writing-page > section.lesson-heading,
+html.validator-simple-sample .batch-lesson-intro .lesson-heading {
+  margin: .45rem 0 .35rem !important;
+  padding: .28rem .9rem;
+  border: 3px solid #00afe9;
+  border-radius: .5rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .batch-writing-page .question-prompt,
+html.validator-simple-sample .batch-activity-card .question-prompt {
+  margin: .55rem 0 .28rem !important;
+  color: #202020;
+  font-size: clamp(1.1rem, 3.15vw, 1.5rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample .batch-practice-card {
+  margin: 0 0 .75rem !important;
+  padding: .15rem 0 .35rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .batch-practice-card > [id$="_label"],
+html.validator-simple-sample .batch-picture-card > [id$="_label"],
+html.validator-simple-sample .batch-scene-card > [id$="_label"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+html.validator-simple-sample .batch-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-model-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.validator-simple-sample .batch-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .batch-answer-lines {
+  position: relative;
+  width: calc(100% - 1.6rem);
+  min-height: 5.2rem;
+  margin: .12rem .8rem 0;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%)),
+    linear-gradient(rgb(39 36 37 / 43%), rgb(39 36 37 / 43%)),
+    linear-gradient(rgb(39 36 37 / 43%), rgb(39 36 37 / 43%)),
+    linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100%;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+}
+
+/* Page 29: heavy notebook boundaries with lighter, thinner writing guides. */
+html.validator-simple-sample .batch-page-29 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-29 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+html.validator-simple-sample .batch-page-29 .batch-guide-syllables {
+  transform: translateY(12%);
+}
+
+/* Page 31: match the narrow middle writing band used by the PDF models. */
+html.validator-simple-sample .batch-page-31 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 39%, 0 63%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-31 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+html.validator-simple-sample [data-response-id="pg031_sec001_response_02"] .batch-answer-lines {
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+}
+
+html.validator-simple-sample [data-response-id="pg031_sec001_response_02"] .batch-guide-syllables {
+  transform: translateY(8%);
+}
+
+/* Page 33: keep the model and pupil handwriting guides on one consistent grid. */
+html.validator-simple-sample .batch-page-33 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-33 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+/* Page 35: align the g models and keep a narrow handwriting band. */
+html.validator-simple-sample .batch-page-35 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-35 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+/* Page 37: use the same notebook proportions as page 33. */
+html.validator-simple-sample .batch-page-37 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-37 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+/* Page 39: use the same notebook proportions as page 33. */
+html.validator-simple-sample .batch-page-39 .batch-answer-lines {
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
+  background-position: 0 0, 0 42%, 0 58%, 0 100%;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
+  background-repeat: no-repeat;
+}
+
+html.validator-simple-sample .batch-page-39 .batch-model-image {
+  width: calc(100% - 1.6rem);
+  margin-right: .8rem;
+  margin-left: .8rem;
+}
+
+html.validator-simple-sample .batch-page-39 .batch-guide-syllables {
+  transform: none;
+}
+
+html.validator-simple-sample .batch-guide-shadow {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  width: 23%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left center;
+  opacity: .28;
+}
+
+html.validator-simple-sample .batch-guide-copy {
+  width: 28%;
+}
+
+html.validator-simple-sample .batch-guide-letter {
+  width: 18%;
+}
+
+html.validator-simple-sample .batch-guide-syllables {
+  width: 23%;
+}
+
+html.validator-simple-sample .batch-guide-words {
+  width: 28%;
+}
+
+html.validator-simple-sample .batch-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-trace-field {
+  width: calc(100% - 1.6rem) !important;
+  margin: 0 .8rem !important;
+}
+
+html.validator-simple-sample .batch-practice-card .response-actions,
+html.validator-simple-sample .batch-picture-card .response-actions,
+html.validator-simple-sample .batch-scene-card .response-actions,
+html.validator-simple-sample .batch-word-search-card .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.validator-simple-sample .batch-practice-card .clear-response,
+html.validator-simple-sample .batch-picture-card .clear-response,
+html.validator-simple-sample .batch-scene-card .clear-response,
+html.validator-simple-sample .batch-word-search-card .clear-response {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .6rem !important;
+  font-size: .78rem !important;
+}
+
+html.validator-simple-sample .batch-activity-card,
+html.validator-simple-sample .batch-word-search-card {
+  margin: .3rem 0 .9rem !important;
+  padding: 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .batch-activity-card .canvas-wrap,
+html.validator-simple-sample .batch-word-search-card .canvas-wrap {
+  min-height: 9rem;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2.2rem,
+    rgb(39 36 37 / 55%) 2.25rem,
+    transparent 2.31rem
+  ) !important;
+}
+
+html.validator-simple-sample .batch-picture-page > .activity-label,
+html.validator-simple-sample .batch-page-24 > .activity-label,
+html.validator-simple-sample .batch-page-34 > .activity-label,
+html.validator-simple-sample .batch-page-36 > .activity-label {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: fit-content;
+  min-width: 12rem;
+  margin: .55rem 0 -.3rem 2.1rem !important;
+  padding: .3rem 1.2rem;
+  border: 2px solid #0ab2ec;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.2rem, 3.7vw, 1.75rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.validator-simple-sample .batch-picture-card {
+  margin: 0 0 1rem !important;
+  padding: 1rem .8rem .55rem !important;
+  border: 2px solid #07afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+html.validator-simple-sample .batch-picture-card > .question-prompt:first-child {
+  margin: 0 0 .45rem !important;
+  color: #202020;
+  font-size: clamp(1.1rem, 3.1vw, 1.5rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.validator-simple-sample .batch-picture-card .book-image-label-stage {
+  width: 100%;
+  max-width: none;
+  margin: .2rem 0 .35rem;
+}
+
+html.validator-simple-sample .batch-picture-card .book-image-label-grid {
+  gap: 0;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #13a25c;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .batch-grid-two,
+html.validator-simple-sample .batch-grid-one-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+html.validator-simple-sample .batch-grid-two > .book-image-label-item {
+  grid-column: auto !important;
+  min-height: clamp(11rem, 28vw, 17rem);
+  padding: .4rem .6rem .65rem;
+  border-right: 1.5px dotted rgb(19 162 92 / 62%);
+  border-bottom: 1.5px dotted rgb(19 162 92 / 62%);
+}
+
+html.validator-simple-sample .batch-grid-two > .book-image-label-item:nth-child(2n) {
+  border-right: 0;
+}
+
+html.validator-simple-sample .batch-grid-one-two > .book-image-label-item:first-child {
+  grid-column: 1 / -1 !important;
+  min-height: clamp(14rem, 36vw, 21rem);
+  border-bottom: 1.5px dotted rgb(19 162 92 / 62%);
+}
+
+html.validator-simple-sample .batch-grid-one-two > .book-image-label-item:not(:first-child) {
+  grid-column: auto !important;
+  padding: .35rem .6rem .6rem;
+}
+
+html.validator-simple-sample .batch-grid-vertical,
+html.validator-simple-sample .batch-grid-single {
+  grid-template-columns: 1fr !important;
+}
+
+html.validator-simple-sample .batch-grid-vertical > .book-image-label-item {
+  grid-column: auto !important;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(9rem, 30%);
+  align-items: end;
+  gap: .6rem;
+  min-height: clamp(14rem, 36vw, 22rem);
+  padding: .6rem .8rem;
+  border-bottom: 1.5px dotted rgb(19 162 92 / 62%);
+}
+
+html.validator-simple-sample .batch-grid-single > .book-image-label-item {
+  grid-column: auto !important;
+  min-height: clamp(17rem, 44vw, 27rem);
+  padding: .7rem;
+}
+
+html.validator-simple-sample .batch-picture-card .practice-model {
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample .batch-picture-card .practice-model img {
+  width: 100%;
+  height: clamp(9rem, 24vw, 15rem) !important;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+html.validator-simple-sample .batch-grid-one-two > .book-image-label-item:first-child .practice-model img,
+html.validator-simple-sample .batch-grid-single .practice-model img {
+  height: clamp(14rem, 36vw, 22rem) !important;
+}
+
+html.validator-simple-sample .batch-grid-vertical .practice-model img {
+  height: clamp(12rem, 31vw, 19rem) !important;
+}
+
+html.validator-simple-sample .batch-picture-card .book-image-label-line {
+  width: min(82%, 14rem);
+  height: clamp(2.3rem, 6vw, 3.15rem);
+  margin: .2rem auto 0;
+  border: 2px solid #292929;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .batch-grid-vertical .book-image-label-line {
+  width: 100%;
+  margin: 0 0 1rem;
+}
+
+html.validator-simple-sample .batch-picture-card .book-image-label-overlay {
+  position: absolute !important;
+  z-index: 3;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-picture-card .book-image-label-overlay canvas {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-lesson-intro {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 1rem auto 0;
+  padding-top: .55rem;
+  border-top: 1px solid rgb(39 36 37 / 22%);
+}
+
+html.validator-simple-sample .batch-scene-card {
+  margin: 0 0 1rem !important;
+  padding: .85rem !important;
+  border: 2px solid #07afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.validator-simple-sample .batch-scene-card > .question-prompt {
+  margin: 0 0 .45rem !important;
+  font-size: clamp(1.1rem, 3.1vw, 1.5rem) !important;
+  font-style: italic;
+}
+
+html.validator-simple-sample .batch-scene-stage {
+  position: relative;
+}
+
+html.validator-simple-sample .batch-scene-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 2px solid #13a25c;
+  border-radius: .9rem;
+}
+
+html.validator-simple-sample .batch-scene-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  gap: .35rem .5rem;
+  min-height: clamp(17rem, 43vw, 26rem);
+  padding: .5rem;
+  border-right: 1.5px dotted rgb(19 162 92 / 62%);
+}
+
+html.validator-simple-sample .batch-scene-item:last-child {
+  border-right: 0;
+}
+
+html.validator-simple-sample .batch-scene-item figure {
+  grid-column: 1 / -1;
+  margin: 0 !important;
+}
+
+html.validator-simple-sample .batch-scene-item figure img {
+  width: 100%;
+  height: clamp(13rem, 34vw, 21rem);
+  object-fit: contain;
+}
+
+html.validator-simple-sample .batch-scene-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+html.validator-simple-sample .batch-scene-line {
+  height: 2.8rem;
+  border: 2px solid #292929;
+  border-radius: .8rem;
+  background: #fff;
+}
+
+html.validator-simple-sample .batch-scene-canvas-wrap {
+  position: absolute !important;
+  z-index: 3;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-scene-canvas-wrap canvas {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+
+html.validator-simple-sample .batch-letter-table {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  margin: .4rem auto .75rem;
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+}
+
+html.validator-simple-sample .batch-letter-table span {
+  display: grid;
+  min-height: 2.25rem;
+  place-items: center;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  font-family: "Maandishi", "Sassoon Primary", sans-serif;
+  font-size: 1.15rem;
+}
+
+/* Page 34: preserve the side-by-side picture and answer box from the PDF. */
+html.validator-simple-sample .batch-page-34 .batch-grid-single > .book-image-label-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(8.5rem, .9fr);
+  align-items: center;
+  gap: clamp(.65rem, 2.5vw, 1.5rem);
+  min-height: clamp(13rem, 34vw, 19rem);
+  padding: .65rem clamp(.7rem, 2.5vw, 1.25rem);
+}
+
+html.validator-simple-sample .batch-page-34 .batch-grid-single .practice-model img {
+  height: clamp(11rem, 29vw, 17rem) !important;
+}
+
+html.validator-simple-sample .batch-page-34 .batch-grid-single .book-image-label-line {
+  width: min(100%, 16rem);
+  height: clamp(2.4rem, 6vw, 3.2rem);
+  margin: 0 auto;
+}
+
+/* Keep the chart compact; the handwriting field remains directly below it. */
+html.validator-simple-sample .batch-page-34 .batch-word-search-stage {
+  position: relative;
+  width: min(100%, 38rem);
+  margin: .45rem auto .2rem;
+}
+
+html.validator-simple-sample .batch-page-34 .batch-word-search-stage .batch-letter-table {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+html.validator-simple-sample .batch-page-34 .batch-word-search-stage .batch-letter-table::after {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 40%;
+  height: 10%;
+  box-sizing: border-box;
+  border: 1.5px solid #292929;
+  border-radius: 999px;
+  content: "";
+  pointer-events: none;
+}
+
+@media (max-width: 620px) {
+  html.validator-simple-sample .batch-grid-vertical > .book-image-label-item {
+    grid-template-columns: 1fr;
+  }
+
+  html.validator-simple-sample .batch-scene-grid {
+    grid-template-columns: 1fr;
+  }
+
+  html.validator-simple-sample .batch-scene-item {
+    border-right: 0;
+    border-bottom: 1.5px dotted rgb(19 162 92 / 62%);
+  }
+}

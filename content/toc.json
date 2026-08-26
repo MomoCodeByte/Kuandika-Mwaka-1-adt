@@ -56,13 +56,6 @@
     "level": 1
   },
   {
-    "section_id": "pg008_sec002",
-    "href": "pg008_sec002.html",
-    "title": "Somo la pili",
-    "chapter_id": "pg008_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg009_sec001",
     "href": "pg009_sec001.html",
     "title": "Sura ya Pili - Somo la kwanza",
@@ -84,24 +77,10 @@
     "level": 1
   },
   {
-    "section_id": "pg011_sec002",
-    "href": "pg011_sec002.html",
-    "title": "Somo la nne",
-    "chapter_id": "pg011_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg012_sec001",
     "href": "pg012_sec001.html",
     "title": "o",
     "chapter_id": "pg012_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg012_sec002",
-    "href": "pg012_sec002.html",
-    "title": "Somo la tano",
-    "chapter_id": "pg012_s002_n0001",
     "level": 1
   },
   {
@@ -140,13 +119,6 @@
     "level": 1
   },
   {
-    "section_id": "pg017_sec002",
-    "href": "pg017_sec002.html",
-    "title": "Somo la tatu",
-    "chapter_id": "pg017_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg018_sec001",
     "href": "pg018_sec001.html",
     "title": "Chora mchoro huu kwenye daftari.",
@@ -167,6 +139,7 @@
     "chapter_id": "pg020_s001_n0001",
     "level": 1
   },
+
   {
     "section_id": "pg021_sec001",
     "href": "pg021_sec001.html",
@@ -175,16 +148,9 @@
     "level": 1
   },
   {
-    "section_id": "pg021_sec002",
-    "href": "pg021_sec002.html",
-    "title": "Somo la tano",
-    "chapter_id": "pg021_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg022_sec001",
     "href": "pg022_sec001.html",
-    "title": "Fuatisha herufi ya konsonanti .",
+    "title": "Fuatisha herufi ya konsonanti",
     "chapter_id": "pg022_s001_n0001",
     "level": 1
   },
@@ -322,13 +288,6 @@
     "level": 1
   },
   {
-    "section_id": "pg041_sec002",
-    "href": "pg041_sec002.html",
-    "title": "Somo la nne",
-    "chapter_id": "pg041_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg042_sec001",
     "href": "pg042_sec001.html",
     "title": "Andika maneno haya kwenye daftari.",
@@ -347,13 +306,6 @@
     "href": "pg044_sec001.html",
     "title": "Zoezi la sita",
     "chapter_id": "pg044_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg044_sec002",
-    "href": "pg044_sec002.html",
-    "title": "Somo la sita",
-    "chapter_id": "pg044_s002_n0001",
     "level": 1
   },
   {
@@ -401,7 +353,7 @@
   {
     "section_id": "pg051_sec001",
     "href": "pg051_sec001.html",
-    "title": "1. Taja majina ya wanyama unaowaona katika picha",
+    "title": "Taja majina ya wanyama",
     "chapter_id": "pg051_s001_n0001",
     "level": 1
   },
@@ -468,6 +420,7 @@
     "chapter_id": "pg060_s001_n0001",
     "level": 1
   },
+
   {
     "section_id": "pg061_sec001",
     "href": "pg061_sec001.html",
@@ -595,13 +548,6 @@
     "level": 1
   },
   {
-    "section_id": "pg078_sec002",
-    "href": "pg078_sec002.html",
-    "title": "Somo la nane",
-    "chapter_id": "pg078_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg079_sec001",
     "href": "pg079_sec001.html",
     "title": "Andika sentensi hizi kwenye daftari.",
@@ -623,31 +569,10 @@
     "level": 1
   },
   {
-    "section_id": "pg081_sec002",
-    "href": "pg081_sec002.html",
-    "title": "Somo la pili",
-    "chapter_id": "pg081_s002_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg081_sec003",
-    "href": "pg081_sec003.html",
-    "title": "Somo la tatu",
-    "chapter_id": "pg081_s003_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg082_sec001",
     "href": "pg082_sec001.html",
     "title": "Mfano wa konsonanti ngw ndw mbw njw chw nyw",
     "chapter_id": "pg082_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg082_sec002",
-    "href": "pg082_sec002.html",
-    "title": "Somo la nne",
-    "chapter_id": "pg082_s002_n0001",
     "level": 1
   },
   {
@@ -665,13 +590,6 @@
     "level": 1
   },
   {
-    "section_id": "pg084_sec002",
-    "href": "pg084_sec002.html",
-    "title": "Somo la pili",
-    "chapter_id": "pg084_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg085_sec001",
     "href": "pg085_sec001.html",
     "title": "Nakili michoro hii inayoungwa kulia na kushoto.",
@@ -686,13 +604,6 @@
     "level": 1
   },
   {
-    "section_id": "pg086_sec002",
-    "href": "pg086_sec002.html",
-    "title": "Somo la tatu",
-    "chapter_id": "pg086_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg087_sec001",
     "href": "pg087_sec001.html",
     "title": "Zoezi la nne",
@@ -702,15 +613,8 @@
   {
     "section_id": "pg088_sec001",
     "href": "pg088_sec001.html",
-    "title": "1. Baba na mama wanalima.",
+    "title": "Baba na mama wanalima.",
     "chapter_id": "pg088_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg088_sec002",
-    "href": "pg088_sec002.html",
-    "title": "Somo la nne",
-    "chapter_id": "pg088_s002_n0001",
     "level": 1
   },
   {
@@ -728,13 +632,6 @@
     "level": 1
   },
   {
-    "section_id": "pg090_sec002",
-    "href": "pg090_sec002.html",
-    "title": "Somo la pili",
-    "chapter_id": "pg090_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg091_sec001",
     "href": "pg091_sec001.html",
     "title": "Umuhimu wa Maji",
@@ -749,13 +646,6 @@
     "level": 1
   },
   {
-    "section_id": "pg092_sec002",
-    "href": "pg092_sec002.html",
-    "title": "Somo la nne",
-    "chapter_id": "pg092_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg093_sec001",
     "href": "pg093_sec001.html",
     "title": "Zoezi la tano",
@@ -763,24 +653,10 @@
     "level": 1
   },
   {
-    "section_id": "pg093_sec002",
-    "href": "pg093_sec002.html",
-    "title": "Somo la tano",
-    "chapter_id": "pg093_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg094_sec001",
     "href": "pg094_sec001.html",
-    "title": "2.",
-    "chapter_id": "pg094_im001",
-    "level": 1
-  },
-  {
-    "section_id": "pg094_sec002",
-    "href": "pg094_sec002.html",
-    "title": "Somo la sita",
-    "chapter_id": "pg094_s002_n0001",
+    "title": "Zoezi",
+    "chapter_id": "pg094_s001_n0001",
     "level": 1
   },
   {
@@ -805,13 +681,6 @@
     "level": 1
   },
   {
-    "section_id": "pg097_sec002",
-    "href": "pg097_sec002.html",
-    "title": "Somo la tatu",
-    "chapter_id": "pg097_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg098_sec001",
     "href": "pg098_sec001.html",
     "title": "Zoezi la tatu",
@@ -826,24 +695,10 @@
     "level": 1
   },
   {
-    "section_id": "pg099_sec003",
-    "href": "pg099_sec003.html",
-    "title": "Somo la pili",
-    "chapter_id": "pg099_s003_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg100_sec001",
     "href": "pg100_sec001.html",
-    "title": "Alama ya mkato hutumika katika kuorodhesha.",
+    "title": "Matumizi ya alama ya mkato",
     "chapter_id": "pg100_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg100_sec002",
-    "href": "pg100_sec002.html",
-    "title": "Somo la tatu",
-    "chapter_id": "pg100_s002_n0001",
     "level": 1
   },
   {
@@ -854,45 +709,24 @@
     "level": 1
   },
   {
-    "section_id": "pg101_sec002",
-    "href": "pg101_sec002.html",
-    "title": "Somo la tano",
-    "chapter_id": "pg101_s002_n0001",
-    "level": 1
-  },
-  {
     "section_id": "pg102_sec001",
     "href": "pg102_sec001.html",
-    "title": "Chunguza alama za uandishi katika sentensi kwenye",
+    "title": "Alama za uandishi",
     "chapter_id": "pg102_s001_n0001",
     "level": 1
   },
   {
     "section_id": "pg103_sec001",
     "href": "pg103_sec001.html",
-    "title": "Zoezi la Tano",
+    "title": "Zoezi la tano",
     "chapter_id": "pg103_s001_n0001",
     "level": 1
   },
   {
     "section_id": "pg104_sec001",
     "href": "pg104_sec001.html",
-    "title": "B. Andika sentensi tano kisha weka alama za uandishi.",
+    "title": "Andika sentensi tano",
     "chapter_id": "pg104_s001_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg104_sec002",
-    "href": "pg104_sec002.html",
-    "title": "Somo la sita",
-    "chapter_id": "pg104_s002_n0001",
-    "level": 1
-  },
-  {
-    "section_id": "pg104_sec003",
-    "href": "pg104_sec003.html",
-    "title": "Somo la saba",
-    "chapter_id": "pg104_s003_n0001",
     "level": 1
   },
   {

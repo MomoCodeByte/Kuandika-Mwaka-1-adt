@@ -18152,34 +18152,54 @@
       {
         "word_timestamps": [
           {
-            "word": "Mchoro",
+            "word": "Michoro",
             "start": 0.2024,
-            "end": 0.5625
+            "end": 0.5763
           },
           {
-            "word": "wa",
-            "start": 0.6871,
-            "end": 0.7841
+            "word": "miwili",
+            "start": 0.701,
+            "end": 1.1303
+          },
+          {
+            "word": "ya",
+            "start": 1.158,
+            "end": 1.2273
           },
           {
             "word": "ndege",
-            "start": 0.8118,
-            "end": 1.1719
+            "start": 1.255,
+            "end": 1.7121
+          },
+          {
+            "word": "ndege",
+            "start": 1.8782,
+            "end": 2.2384
           },
           {
             "word": "mwenye",
-            "start": 1.2134,
-            "end": 1.4904
+            "start": 2.2799,
+            "end": 2.5708
           },
           {
             "word": "mkia",
-            "start": 1.532,
-            "end": 1.9337
+            "start": 2.6123,
+            "end": 3.014
           },
           {
             "word": "uliosimama",
-            "start": 1.9614,
-            "end": 2.917
+            "start": 3.0417,
+            "end": 3.845
+          },
+          {
+            "word": "na",
+            "start": 3.8727,
+            "end": 3.9697
+          },
+          {
+            "word": "bata",
+            "start": 3.9974,
+            "end": 4.4683
           }
         ]
       }
@@ -18223,34 +18243,84 @@
       {
         "word_timestamps": [
           {
-            "word": "Mchoro",
+            "word": "Michoro",
             "start": 0.2024,
-            "end": 0.5625
+            "end": 0.5209
           },
           {
-            "word": "wa",
-            "start": 0.6871,
-            "end": 0.7841
+            "word": "mitatu",
+            "start": 0.6456,
+            "end": 1.075
           },
           {
-            "word": "mdudu",
-            "start": 0.8118,
-            "end": 1.2135
+            "word": "safi",
+            "start": 1.1165,
+            "end": 1.4905
           },
           {
-            "word": "mwenye",
-            "start": 1.255,
-            "end": 1.532
+            "word": "ya",
+            "start": 1.5181,
+            "end": 1.6012
+          },
+          {
+            "word": "wadudu",
+            "start": 1.629,
+            "end": 2.0722
+          },
+          {
+            "word": "kama",
+            "start": 2.1137,
+            "end": 2.4046
+          },
+          {
+            "word": "ilivyo",
+            "start": 2.4461,
+            "end": 2.8755
+          },
+          {
+            "word": "kwenye",
+            "start": 2.9032,
+            "end": 3.1802
+          },
+          {
+            "word": "PDF",
+            "start": 3.2218,
+            "end": 3.568
+          },
+          {
+            "word": "panzi",
+            "start": 3.7757,
+            "end": 4.1774
+          },
+          {
+            "word": "na",
+            "start": 4.2051,
+            "end": 4.3159
+          },
+          {
+            "word": "wadudu",
+            "start": 4.3436,
+            "end": 4.773
+          },
+          {
+            "word": "wawili",
+            "start": 4.8145,
+            "end": 5.2023
+          },
+          {
+            "word": "wenye",
+            "start": 5.2439,
+            "end": 5.4517
           },
           {
             "word": "miguu",
-            "start": 1.5597,
-            "end": 1.9198
+            "start": 5.4932,
+            "end": 5.8395
           },
           {
             "word": "sita",
-            "start": 1.9614,
-            "end": 2.4738
+            "start": 5.881,
+            "end": 6.3381
           }
         ]
       }
@@ -18338,39 +18408,6 @@
     ]
   },
   "pg007_s002_n0006": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Chora",
-            "start": 0.1885,
-            "end": 0.4517
-          },
-          {
-            "word": "wanyama",
-            "start": 0.5625,
-            "end": 1.0195
-          },
-          {
-            "word": "hawa",
-            "start": 1.0473,
-            "end": 1.352
-          },
-          {
-            "word": "kwenye",
-            "start": 1.3796,
-            "end": 1.6566
-          },
-          {
-            "word": "kibao",
-            "start": 1.6982,
-            "end": 2.3769
-          }
-        ]
-      }
-    ]
-  },
-  "pg007_im005_audio_description": {
     "timecodes": [
       {
         "word_timestamps": [
@@ -18517,44 +18554,49 @@
       {
         "word_timestamps": [
           {
-            "word": "Mstari",
+            "word": "Mistari",
             "start": 0.2024,
-            "end": 0.6179
+            "end": 0.5763
           },
           {
-            "word": "wa",
-            "start": 0.7425,
-            "end": 0.8117
+            "word": "yote",
+            "start": 0.701,
+            "end": 0.9918
           },
           {
-            "word": "mazoezi",
-            "start": 0.8395,
-            "end": 1.4212
+            "word": "sita",
+            "start": 1.0195,
+            "end": 1.3935
           },
           {
-            "word": "wa",
-            "start": 1.4489,
-            "end": 1.532
+            "word": "ya",
+            "start": 1.4212,
+            "end": 1.5043
           },
           {
-            "word": "kutengeneza",
-            "start": 1.5597,
-            "end": 2.3215
+            "word": "mikufu",
+            "start": 1.532,
+            "end": 2.0445
           },
           {
-            "word": "vitanzi",
-            "start": 2.363,
-            "end": 2.8755
+            "word": "kama",
+            "start": 2.086,
+            "end": 2.3769
           },
           {
-            "word": "vidogo",
-            "start": 2.9032,
-            "end": 3.3741
+            "word": "ilivyo",
+            "start": 2.4184,
+            "end": 2.8339
           },
           {
-            "word": "vinavyofuatana",
-            "start": 3.4157,
-            "end": 4.593
+            "word": "kwenye",
+            "start": 2.8616,
+            "end": 3.1386
+          },
+          {
+            "word": "PDF",
+            "start": 3.1802,
+            "end": 3.5126
           }
         ]
       }
@@ -19067,24 +19109,49 @@
       {
         "word_timestamps": [
           {
-            "word": "Mchoro",
-            "start": 0.2024,
-            "end": 0.5486
+            "word": "Picha",
+            "start": 0.1747,
+            "end": 0.327
           },
           {
-            "word": "wa",
-            "start": 0.6733,
-            "end": 0.784
+            "word": "safi",
+            "start": 0.424,
+            "end": 0.7841
+          },
+          {
+            "word": "zilizopangwa",
+            "start": 0.8118,
+            "end": 1.6567
+          },
+          {
+            "word": "kama",
+            "start": 1.6982,
+            "end": 2.0167
+          },
+          {
+            "word": "PDF",
+            "start": 2.0583,
+            "end": 2.3768
+          },
+          {
+            "word": "bata",
+            "start": 2.5154,
+            "end": 2.9447
           },
           {
             "word": "paka",
-            "start": 0.8118,
-            "end": 1.1303
+            "start": 3.0694,
+            "end": 3.3603
           },
           {
-            "word": "aliyeketi",
-            "start": 1.158,
-            "end": 1.9891
+            "word": "na",
+            "start": 3.388,
+            "end": 3.5265
+          },
+          {
+            "word": "ua",
+            "start": 3.5542,
+            "end": 3.9281
           }
         ]
       }
@@ -21395,218 +21462,27 @@
           {
             "word": "Kuandika",
             "start": 0.1747,
-            "end": 0.5625
+            "end": 0.5348
           },
           {
             "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
+            "start": 0.6317,
+            "end": 1.1026
           },
           {
             "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
+            "start": 1.1303,
+            "end": 1.1996
           },
           {
             "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg011_s002_n0003": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
+            "start": 1.2273,
+            "end": 1.7536
           },
           {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg012_s002_n0003": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg052_s002_n0002": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg053_s001_n0002": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg054_s001_n0002": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg055_s001_n0002": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
-          }
-        ]
-      }
-    ]
-  },
-  "pg056_s001_n0002": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Kuandika",
-            "start": 0.1747,
-            "end": 0.5625
-          },
-          {
-            "word": "herufi",
-            "start": 0.6594,
-            "end": 1.1165
-          },
-          {
-            "word": "ya",
-            "start": 1.1442,
-            "end": 1.2272
-          },
-          {
-            "word": "irabu",
-            "start": 1.255,
-            "end": 1.8506
+            "word": "i",
+            "start": 1.7952,
+            "end": 1.9337
           }
         ]
       }
@@ -21634,27 +21510,32 @@
           {
             "word": "utajifunza",
             "start": 1.255,
-            "end": 2.0583
+            "end": 2.0445
           },
           {
             "word": "kuandika",
-            "start": 2.086,
-            "end": 2.5985
+            "start": 2.0722,
+            "end": 2.5708
           },
           {
             "word": "herufi",
-            "start": 2.6262,
-            "end": 3.0971
+            "start": 2.5985,
+            "end": 3.0555
           },
           {
             "word": "ya",
-            "start": 3.1248,
-            "end": 3.2079
+            "start": 3.0833,
+            "end": 3.1525
           },
           {
             "word": "irabu",
-            "start": 3.2356,
-            "end": 3.8035
+            "start": 3.1802,
+            "end": 3.6788
+          },
+          {
+            "word": "i",
+            "start": 3.7204,
+            "end": 3.8589
           }
         ]
       }
@@ -22050,35 +21931,225 @@
       {
         "word_timestamps": [
           {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5486
+          },
+          {
+            "word": "herufi",
+            "start": 0.6456,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2134
+          },
+          {
+            "word": "irabu",
+            "start": 1.2411,
+            "end": 1.7536
+          },
+          {
             "word": "o",
-            "start": 0.1885,
-            "end": 0.327
+            "start": 1.7952,
+            "end": 1.9752
           }
         ]
       }
     ]
   },
-  "pg012_s001_n0001": {
+  "pg011_s002_n0003": {
     "timecodes": [
       {
         "word_timestamps": [
           {
-            "word": "o",
-            "start": 0.1885,
-            "end": 0.327
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
           }
         ]
       }
     ]
   },
-  "pg044_s001_n0003": {
+  "pg012_s002_n0003": {
     "timecodes": [
       {
         "word_timestamps": [
           {
-            "word": "o",
-            "start": 0.1885,
-            "end": 0.327
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
+          }
+        ]
+      }
+    ]
+  },
+  "pg052_s002_n0002": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
+          }
+        ]
+      }
+    ]
+  },
+  "pg053_s001_n0002": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
+          }
+        ]
+      }
+    ]
+  },
+  "pg054_s001_n0002": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
+          }
+        ]
+      }
+    ]
+  },
+  "pg055_s001_n0002": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
+          }
+        ]
+      }
+    ]
+  },
+  "pg056_s001_n0002": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Kuandika",
+            "start": 0.1747,
+            "end": 0.5625
+          },
+          {
+            "word": "herufi",
+            "start": 0.6594,
+            "end": 1.1165
+          },
+          {
+            "word": "ya",
+            "start": 1.1442,
+            "end": 1.2272
+          },
+          {
+            "word": "irabu",
+            "start": 1.255,
+            "end": 1.8506
           }
         ]
       }
@@ -22089,7 +22160,7 @@
       {
         "word_timestamps": [
           {
-            "word": "o",
+            "word": "o.",
             "start": 0.1885,
             "end": 0.327
           }
@@ -22119,27 +22190,32 @@
           {
             "word": "utajifunza",
             "start": 1.255,
-            "end": 2.0583
+            "end": 2.0445
           },
           {
             "word": "kuandika",
-            "start": 2.086,
-            "end": 2.5985
+            "start": 2.0722,
+            "end": 2.5708
           },
           {
             "word": "herufi",
-            "start": 2.6262,
-            "end": 3.0971
+            "start": 2.5985,
+            "end": 3.0694
           },
           {
             "word": "ya",
-            "start": 3.1248,
-            "end": 3.2079
+            "start": 3.0971,
+            "end": 3.1663
           },
           {
             "word": "irabu",
-            "start": 3.2356,
-            "end": 3.8035
+            "start": 3.194,
+            "end": 3.6788
+          },
+          {
+            "word": "o.",
+            "start": 3.7204,
+            "end": 3.8589
           }
         ]
       }
@@ -22183,6 +22259,32 @@
             "word": "o.",
             "start": 3.0001,
             "end": 3.1525
+          }
+        ]
+      }
+    ]
+  },
+  "pg012_s001_n0001": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "o",
+            "start": 0.1885,
+            "end": 0.327
+          }
+        ]
+      }
+    ]
+  },
+  "pg044_s001_n0003": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "o",
+            "start": 0.1885,
+            "end": 0.327
           }
         ]
       }
@@ -59607,6 +59709,59 @@
             "word": "magonjwa",
             "start": 3.6234,
             "end": 4.3159
+          }
+        ]
+      }
+    ]
+  },
+  "pg007_im005_audio_description": {
+    "timecodes": [
+      {
+        "word_timestamps": [
+          {
+            "word": "Michoro",
+            "start": 0.2024,
+            "end": 0.5209
+          },
+          {
+            "word": "safi",
+            "start": 0.6456,
+            "end": 1.0334
+          },
+          {
+            "word": "ya",
+            "start": 1.0611,
+            "end": 1.1442
+          },
+          {
+            "word": "wanyama",
+            "start": 1.1719,
+            "end": 1.5735
+          },
+          {
+            "word": "watatu",
+            "start": 1.6013,
+            "end": 2.0583
+          },
+          {
+            "word": "kama",
+            "start": 2.0999,
+            "end": 2.3908
+          },
+          {
+            "word": "ilivyo",
+            "start": 2.4184,
+            "end": 2.8339
+          },
+          {
+            "word": "kwenye",
+            "start": 2.8616,
+            "end": 3.1525
+          },
+          {
+            "word": "PDF",
+            "start": 3.194,
+            "end": 3.5403
           }
         ]
       }

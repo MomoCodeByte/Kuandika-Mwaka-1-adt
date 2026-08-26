@@ -575,7 +575,7 @@
 
 
 
-<meta content="111" name="page-section-id">
+<meta content="94" name="page-section-id">
 
 
 
@@ -671,7 +671,7 @@
 
 
 
-<link href="./content/tailwind_output.css?v=adt-writing-standard-v1.8.0-20260822" rel="stylesheet">
+<link href="./content/tailwind_output.css?v=adt-writing-on-model-v1.8.1-20260822" rel="stylesheet">
 
 
 
@@ -863,7 +863,7 @@
 
 
 
-<link href="./assets/fonts.css?v=adt-writing-standard-v1.8.0-20260822" rel="stylesheet">
+<link href="./assets/fonts.css?v=adt-writing-on-model-v1.8.1-20260822" rel="stylesheet">
 
 
 
@@ -959,7 +959,7 @@
 
 
 
-<link rel="stylesheet" href="./assets/semantic-reader.css?v=adt-writing-standard-v1.8.0-20260822">
+<link rel="stylesheet" href="./assets/semantic-reader.css?v=page94-offline-fields-v4">
 
 
 
@@ -2111,7 +2111,7 @@
 
 
 
-<p class="source-line source-heading" data-id="pg094_s001_n0004">1. .........................................................................</p>
+<p class="source-line source-heading page94-fill-line" data-id="pg094_s001_n0004">1. <input class="page94-answer" type="text" aria-label="Sentensi ya kwanza" autocomplete="off"></p>
 
 
 
@@ -2159,7 +2159,7 @@
 
 
 
-<p class="source-line source-heading" data-id="pg094_s001_n0005">2. .........................................................................</p>
+<p class="source-line source-heading page94-fill-line" data-id="pg094_s001_n0005">2. <input class="page94-answer" type="text" aria-label="Sentensi ya pili" autocomplete="off"></p>
 
 
 
@@ -2207,7 +2207,7 @@
 
 
 
-<p class="source-line source-heading activity-prompt" data-id="pg094_s001_n0006">3. .........................................................................</p>
+<p class="source-line source-heading activity-prompt page94-fill-line" data-id="pg094_s001_n0006">3. <input class="page94-answer" type="text" aria-label="Sentensi ya tatu" autocomplete="off"></p><div class="page94-answer-actions"><button type="button" onclick="document.querySelectorAll(\x27input.page94-answer\x27).forEach(function(input){input.value=\x27\x27;});">Futa</button></div>
 
 
 
@@ -2399,6 +2399,14 @@
 
 
 
+</section><section class="page94-stable-answer-panel" aria-label="Sehemu ya kuandika sentensi tatu">
+  <p>Andika sentensi tatu kutokana na picha ulizopanga.</p>
+  <form autocomplete="off">
+    <label>1. <input type="text" aria-label="Sentensi ya kwanza"></label>
+    <label>2. <input type="text" aria-label="Sentensi ya pili"></label>
+    <label>3. <input type="text" aria-label="Sentensi ya tatu"></label>
+    <div><button type="reset">Futa</button></div>
+  </form>
 </section>
 
 
@@ -2975,7 +2983,7 @@
 
 
 
-<script src="./assets/offline-preloader.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/offline-preloader.js?v=page94-offline-fields-v4"></script>
 
 
 
@@ -3167,7 +3175,7 @@
 
 
 
-<script src="./assets/base.bundle.local.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/base.bundle.local.js?v=navigation105-v1"></script>
 
 
 
@@ -3263,7 +3271,28 @@
 
 
 
-<script src="./assets/writing-activities.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/writing-activities.js?v=page94-offline-fields-v4"></script>
+<script>
+(function () {
+  function arrangePage94() {
+    var page = document.querySelector("#content section");
+    if (!page || page.querySelector(".page94-pdf-panel")) return;
+    var number2 = page.querySelector('[data-id="pg094_s001_n0001"]');
+    var image2 = page.querySelector('img[data-id="pg094_im001"]');
+    var number3 = page.querySelector('[data-id="pg094_s001_n0002"]');
+    var image3 = page.querySelector('img[data-id="pg094_im002"]');
+    var response = page.querySelector('[data-response-id="pg094_sec001_response_01"]');
+    var answerPanel = page.querySelector(".page94-stable-answer-panel");
+    if (!number2 || !image2 || !number3 || !image3 || !response || !answerPanel) return;
+    var panel = document.createElement("section");
+    panel.className = "page94-pdf-panel";
+    image2.closest("figure").before(panel);
+    panel.append(number2, image2.closest("figure"), number3, image3.closest("figure"), response, answerPanel);
+  }
+  arrangePage94();
+  window.setTimeout(arrangePage94, 300);
+}());
+</script>
 
 
 

@@ -341,3 +341,3371 @@ html.original-book-theme body {
   #content.original-book-page { padding-inline: 1rem; }
   .lesson-label { border-width: 2px; }
 }
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .original-unit-header {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-semantic-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-practice-card,
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-trace-card {
+  margin: 0 0 1.35rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-practice-card > .question-prompt,
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-trace-card > .question-prompt {
+  margin: 0 0 .45rem !important;
+  font-size: clamp(1.12rem, 3vw, 1.6rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-practice-wrap,
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-trace-wrap {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-model {
+  position: relative;
+  width: 100%;
+  margin: 0 0 .65rem;
+  overflow: hidden;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-model img,
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-trace-wrap > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-letter-model {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  height: clamp(5.5rem, 14vw, 7rem);
+  border-top: 3px solid #454545;
+  border-bottom: 3px solid #454545;
+  background-color: #fff;
+  background-image:
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#aaa, #aaa);
+  background-repeat: no-repeat;
+  background-position: left 38%, left 62%;
+  background-size: 100% 1px, 100% 1px;
+  color: #1f2d40;
+  font-family: Arial, sans-serif;
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  line-height: 1;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-notebook-answer {
+  position: relative;
+  width: 100%;
+  height: clamp(5.5rem, 14vw, 7rem);
+  overflow: hidden;
+  border-top: 3px solid #454545;
+  border-bottom: 3px solid #454545;
+  background-color: #fff;
+  background-image:
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#aaa, #aaa);
+  background-repeat: no-repeat;
+  background-position: left 38%, left 62%;
+  background-size: 100% 1px, 100% 1px;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-notebook-answer.page52-multi-answer {
+  height: 14rem;
+  border: 0;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  );
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-size: 100% 7rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-answer-guide {
+  position: absolute;
+  z-index: 1;
+  left: 2.2%;
+  color: #6e6e6e;
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(1.25rem, 4vw, 2.15rem);
+  line-height: 1;
+  opacity: .22;
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-answer-guide-1 {
+  top: 39%;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-multi-answer .page52-answer-guide-1 {
+  top: 2.7rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-multi-answer .page52-answer-guide-2 {
+  top: 9.7rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-notebook-answer canvas,
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-trace-wrap canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .response-actions {
+  margin-top: .4rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-sentence-fields .page52-sentence-answer {
+  margin-top: .35rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-sentence-actions {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: flex-end !important;
+  box-sizing: border-box !important;
+  margin: .35rem 0 .8rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-sentence-actions .drawing-clear {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: .4rem .7rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-panel {
+  position: relative;
+  margin: 2.6rem 0 1rem !important;
+  padding: 4.35rem .8rem .8rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-label {
+  position: absolute;
+  z-index: 3;
+  top: -1rem;
+  left: 1.5rem;
+  width: 11rem !important;
+  min-width: 11rem !important;
+  max-width: 11rem !important;
+  margin: 0 !important;
+  padding: .3rem 1rem;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-size: clamp(1.15rem, 3vw, 1.55rem) !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-panel [data-id="pg056_s001_n0009"] {
+  margin: 0 0 .5rem !important;
+  font-size: clamp(1.05rem, 2.8vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-panel [data-id="pg056_s001_n0010"] {
+  margin: 0 0 .8rem !important;
+  font-size: clamp(1rem, 2.6vw, 1.35rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.65 !important;
+  word-spacing: .35rem;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 35rem !important;
+  min-height: 35rem !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-position: left top !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page56-complete .page56-exercise-panel > .response-actions {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: flex-end !important;
+}
+
+/* Keep the exercise tab above its instruction.  The shared batch-card rule is
+   declared later in this stylesheet, so this deliberately more-specific rule
+   preserves the extra header space on page 56. */
+html.pages-41-60-standard .batch-v2-page.page56-complete .batch-v2-card.page56-exercise-panel {
+  padding: 4.35rem .8rem .8rem !important;
+}
+
+html.pages-41-60-standard .page62-complete .page62-exercise-panel {
+  position: relative;
+  margin: 4.5rem 0 1rem !important;
+  padding: 4.15rem .8rem .8rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page62-complete .page62-exercise-label {
+  position: absolute;
+  z-index: 3;
+  top: -1rem;
+  left: 1.5rem;
+  width: 13rem !important;
+  min-width: 13rem !important;
+  margin: 0 !important;
+  padding: .3rem 1rem;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-size: clamp(1.1rem, 3vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html.pages-41-60-standard .page62-complete .page62-names-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 21rem !important;
+  min-height: 21rem !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-position: left top !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .page62-complete .page62-names-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page.page62-complete .batch-v2-card.page62-exercise-panel {
+  padding: 4.15rem .8rem .8rem !important;
+}
+
+html.pages-41-60-standard .page62-complete .page62-intro-fill-group {
+  display: block;
+  margin: 1rem 0 3.5rem;
+}
+
+html.pages-41-60-standard .page62-complete .page62-intro-fill-line {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem;
+  margin: .35rem 0 !important;
+  font-size: clamp(1.05rem, 2.8vw, 1.45rem) !important;
+  font-style: italic;
+  line-height: 1.45 !important;
+}
+
+html.pages-41-60-standard .page62-complete .page62-inline-field {
+  position: relative;
+  display: inline-block;
+  flex: 0 0 9.5rem;
+  width: 9.5rem;
+  height: 3rem;
+  border-bottom: 2px dotted #333;
+  background: #fff;
+  vertical-align: middle;
+}
+
+html.pages-41-60-standard .page62-complete .page62-inline-field canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page62-complete .page62-inline-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: .65rem;
+}
+
+html.pages-41-60-standard .page62-complete .page62-inline-clear {
+  appearance: none;
+  margin: 0 !important;
+  padding: .55rem .9rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+html.pages-41-60-standard .page63-complete .page63-song-panel {
+  position: relative;
+  margin: 2.7rem 0 1.5rem !important;
+  padding: 4.1rem .9rem 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page63-complete .page63-song-label {
+  position: absolute;
+  z-index: 3;
+  top: -1rem;
+  left: 1.5rem;
+  width: 11.5rem !important;
+  min-width: 11.5rem !important;
+  margin: 0 !important;
+  padding: .3rem 1rem;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-size: clamp(1.1rem, 3vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html.pages-41-60-standard .page63-complete .page63-song-panel [data-id="pg063_s001_n0003"] {
+  color: #05a7dc !important;
+  font-size: clamp(1.15rem, 3vw, 1.55rem) !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+html.pages-41-60-standard .page63-complete .page63-question-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 14rem !important;
+  min-height: 14rem !important;
+  margin: .65rem 0 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-position: left top !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .page63-complete .page63-question-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page63-complete .page63-question-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+  margin: 0 0 1.25rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page.page63-complete .response-card.batch-v2-card.page63-song-panel {
+  margin: 2.7rem 0 1.5rem !important;
+  padding: 4.1rem .9rem 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page69-complete .page69-exercise-panel {
+  position: relative;
+  margin: 3rem 0 1rem !important;
+  padding: 4.2rem .8rem .8rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page69-complete .page69-exercise-label,
+html.pages-41-60-standard .page70-complete .page70-exercise-label {
+  position: absolute;
+  z-index: 3;
+  top: -1rem;
+  left: 1.5rem;
+  width: 13.5rem !important;
+  min-width: 13.5rem !important;
+  margin: 0 !important;
+  padding: .3rem 1rem;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-size: clamp(1.1rem, 3vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html.pages-41-60-standard .page69-complete .page69-exercise-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 42rem !important;
+  min-height: 42rem !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-position: left top !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .page69-complete .page69-exercise-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page.page69-complete .response-card.batch-v2-card.page69-exercise-panel {
+  margin: 3rem 0 1rem !important;
+  padding: 4.2rem .8rem .8rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page70-complete .page70-exercise-panel {
+  position: relative;
+  margin: 3rem 0 1rem;
+  padding: 4.4rem 1rem 1rem;
+  border: 2px solid #05afe8;
+  border-radius: 1.15rem;
+  background: #fffdf0;
+}
+
+html.pages-41-60-standard .page70-complete .page70-picture-grid {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: .75rem auto 1.15rem;
+  border: 2px solid #079b51;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .page70-complete .page70-fill-line {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem;
+  margin: .35rem 0 !important;
+  font-size: clamp(1rem, 2.7vw, 1.35rem) !important;
+  font-style: italic;
+  line-height: 1.45 !important;
+}
+
+html.pages-41-60-standard .page70-complete .page70-inline-field {
+  position: relative;
+  display: inline-block;
+  flex: 1 1 13rem;
+  min-width: 10rem;
+  height: 3rem;
+  border-bottom: 2px dotted #333;
+  background: transparent;
+}
+
+html.pages-41-60-standard .page70-complete .page70-inline-field canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page70-complete .page70-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: .8rem;
+}
+
+html.pages-41-60-standard .page70-complete .page70-clear {
+  appearance: none;
+  padding: .55rem .9rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+/* Pages 71-80: preserve every PDF continuation while keeping one handwriting
+   notebook system: heavy outer rules and two close, light inner rules. */
+html.pages-41-60-standard .page7180-complete .page7180-sentence-card,
+html.pages-41-60-standard .page7180-complete .page7180-standalone-card {
+  display: block !important;
+  width: 100% !important;
+  margin: 1.1rem 0 1.5rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page7180-complete .submit-response,
+html.pages-41-60-standard .page7180-complete .page-submit-action,
+html.pages-41-60-standard .page7180-complete .response-feedback,
+html.pages-41-60-standard .page7180-complete .printed-page-number,
+html.pages-41-60-standard .page7180-complete [data-id$="_label"] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-sentence-wrap {
+  display: flex !important;
+  flex-direction: column;
+  width: 100% !important;
+  gap: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-sentence-model {
+  display: block;
+  width: 100%;
+  margin: .2rem 0 .5rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-sentence-model img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+  background: #fff;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-notebook-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 7rem !important;
+  min-height: 7rem !important;
+  margin: .45rem 0 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image:
+    linear-gradient(to bottom,
+      #4b4b4b 0 3px,
+      transparent 3px 2.55rem,
+      #aaa 2.55rem calc(2.55rem + 1px),
+      transparent calc(2.55rem + 1px) 4.2rem,
+      #aaa 4.2rem calc(4.2rem + 1px),
+      transparent calc(4.2rem + 1px) calc(7rem - 3px),
+      #4b4b4b calc(7rem - 3px) 7rem) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-notebook-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-guide-text {
+  position: absolute;
+  z-index: 1;
+  left: 1.6rem;
+  top: 2rem;
+  color: rgba(25, 25, 25, .18);
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  line-height: 1;
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-field-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+  margin: .35rem 0 .85rem !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-field-actions .clear-response {
+  appearance: none;
+  padding: .55rem .9rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+html.pages-41-60-standard .page7180-complete .batch-v2-answer-lines .page7180-guide-text {
+  top: 2rem;
+}
+
+html.pages-41-60-standard .page7180-complete .page77-name-exercise-card,
+html.pages-41-60-standard .page7180-complete .page79-table-panel {
+  position: relative;
+  margin: 3rem 0 1.4rem !important;
+  padding: 4rem 1rem 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page.page7180-complete .response-card.batch-v2-card.page77-name-exercise-card,
+html.pages-41-60-standard .batch-v2-page.page7180-complete .response-card.batch-v2-card.page79-table-panel {
+  position: relative !important;
+  margin: 3rem 0 1.4rem !important;
+  padding: 5.5rem 1rem 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page73-complete [data-id="pg073_s001_n0009"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0004"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0005"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0006"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0007"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0008"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0009"],
+html.pages-41-60-standard .page79-complete [data-id="pg079_s001_n0010"] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-exercise-label {
+  position: absolute;
+  z-index: 3;
+  top: -1rem;
+  left: 1.5rem;
+  width: 15rem !important;
+  min-width: 15rem !important;
+  margin: 0 !important;
+  padding: .3rem 1rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-size: clamp(1.1rem, 3vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html.pages-41-60-standard .page7180-complete .page77-name-exercise-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 42rem !important;
+  min-height: 42rem !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page77-name-exercise-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page7180-complete .page79-table-model {
+  display: block;
+  width: min(72%, 38rem);
+  height: auto;
+  margin: .8rem auto 1.2rem;
+  border: 0;
+  background: #fff;
+}
+
+html.pages-41-60-standard .page7180-complete .page79-table-answers {
+  display: flex !important;
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+@media (max-width: 700px) {
+  html.pages-41-60-standard .page7180-complete .page7180-notebook-answer {
+    height: 6rem !important;
+    min-height: 6rem !important;
+    background-image:
+      linear-gradient(to bottom,
+        #4b4b4b 0 3px,
+        transparent 3px 2.15rem,
+        #aaa 2.15rem calc(2.15rem + 1px),
+        transparent calc(2.15rem + 1px) 3.65rem,
+        #aaa 3.65rem calc(3.65rem + 1px),
+        transparent calc(3.65rem + 1px) calc(6rem - 3px),
+        #4b4b4b calc(6rem - 3px) 6rem) !important;
+  }
+  html.pages-41-60-standard .page7180-complete .page7180-guide-text {
+    top: 1.65rem;
+    left: .8rem;
+    font-size: 2.15rem;
+  }
+  html.pages-41-60-standard .page7180-complete .page79-table-model {
+    width: 100%;
+  }
+  html.pages-41-60-standard .page7180-complete .page77-name-exercise-card,
+  html.pages-41-60-standard .page7180-complete .page79-table-panel {
+    padding: 3.7rem .65rem .8rem !important;
+  }
+}
+
+/* Page 71, letter G: keep the pupil's large/small notebook rules compact. */
+html.pages-41-60-standard .batch-v2-page-71
+  [data-response-id="pg071_sec002_response_01"] .batch-v2-ruled-lines,
+html.pages-41-60-standard .batch-v2-page-71
+  [data-response-id="pg071_sec002_response_01"] .batch-v2-answer-lines {
+  height: 5.25rem !important;
+  min-height: 5.25rem !important;
+  aspect-ratio: auto !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete [data-id="pg052_s001_n0003"],
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-vowel-intro {
+  margin: .35rem 0 0 !important;
+  font-size: clamp(1.05rem, 2.7vw, 1.45rem) !important;
+  font-style: italic;
+  font-weight: 400 !important;
+  line-height: 1.35 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-vowel-intro {
+  margin-top: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete .page52-vowel-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: .1rem 0 .7rem;
+  color: #171717;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-52.page52-complete [data-id="pg052_s002_n0002"] {
+  white-space: normal;
+}
+
+/* Unified page-33 handwriting standard for PDF pages 41-105. */
+html.pages-41-60-standard .batch-v2-page .batch-v2-card {
+  position: relative;
+  margin: 0 0 .8rem;
+  padding: .15rem 0 .4rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Final full-book pass: validator-simple-sample is loaded after this file on
+   many pages, so keep the approved page-33 layout authoritative. */
+html.pages-41-60-standard .batch-v2-page {
+  width: 100%;
+  max-width: 56rem !important;
+  margin-inline: auto !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .batch-v2-card {
+  margin: 0 0 .75rem !important;
+  padding: .15rem 0 .35rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .batch-v2-card > .question-prompt:first-child,
+html.pages-41-60-standard .batch-v2-page .batch-v2-card > .source-heading:first-child {
+  margin: .55rem 0 .28rem !important;
+  color: #202020 !important;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.35 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .batch-v2-model-image,
+html.pages-41-60-standard .batch-v2-page .batch-v2-trace-wrap,
+html.pages-41-60-standard .batch-v2-page .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page .batch-v2-ruled-lines {
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page .batch-v2-ruled-lines {
+  min-height: 0 !important;
+  aspect-ratio: 666 / 95;
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100% !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .batch-v2-answer-only > canvas {
+  min-height: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page .response-feedback,
+html.pages-41-60-standard .batch-v2-page .page-submit-feedback {
+  display: none !important;
+}
+
+/* Page 42 follows the approved page-13 notebook: heavy outer rules and two
+   evenly spaced, light inner handwriting guides. */
+html.pages-41-60-standard .batch-v2-page-42 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-42 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-42 .batch-v2-ruled-lines {
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+}
+
+/* Page 43: preserve all three PDF writing activities and use the same
+   large/small handwriting-rule rhythm as the approved neighbouring pages. */
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-ruled-lines {
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 [data-id="pg043_s001_n0003"] {
+  margin: .35rem 0 .45rem !important;
+  color: #08a34a !important;
+  font-size: clamp(1.35rem, 3vw, 1.9rem) !important;
+  font-style: italic !important;
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 [data-id="pg043_s001_n0004"] {
+  margin: 0 0 .65rem !important;
+  color: #272425 !important;
+  font-size: clamp(1.15rem, 2.4vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-answer-lines {
+  margin-top: .5rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-trace-wrap {
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-trace-wrap figure {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-43 .batch-v2-trace-wrap figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Page 44 mirrors the PDF picture-naming panel. The two rounded fields stay
+   handwriting canvases; no keyboard answer or extra notebook block is used. */
+html.pages-41-60-standard .batch-v2-page-44 [data-response-id="pg044_sec001_response_01"] {
+  position: relative;
+  margin: 1.8rem 0 1.25rem !important;
+  padding: 1.8rem .75rem .75rem !important;
+  border: 3px solid #00aeef !important;
+  border-radius: 1.35rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-exercise-label {
+  position: absolute;
+  z-index: 2;
+  top: -1.25rem;
+  left: 1.5rem;
+  width: 15rem;
+  min-height: 2.35rem;
+  margin: 0 !important;
+  justify-content: center;
+  border: 2px solid #00aeef !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #00a9e6 !important;
+  font-size: clamp(1.15rem, 3vw, 1.6rem) !important;
+  font-style: italic;
+  font-weight: 800;
+}
+
+html.pages-41-60-standard .batch-v2-page-44
+  [data-response-id="pg044_sec001_response_01"] > .question-prompt {
+  margin: 0 0 .6rem !important;
+  font-size: clamp(1.15rem, 3vw, 1.6rem) !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-picture-inputs {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-picture-panel {
+  overflow: hidden;
+  border: 2px solid #19a85b;
+  border-radius: 1.25rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-area,
+html.pages-41-60-standard .batch-v2-page-44 .page44-tent-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .7rem;
+  padding: 1rem 1.25rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-images {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 5vw, 3.5rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-images figure,
+html.pages-41-60-standard .batch-v2-page-44 .page44-tent-area figure {
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-images figure:first-child {
+  width: min(62%, 31rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-images figure:nth-child(2) {
+  width: min(24%, 10rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-tent-area figure {
+  width: min(88%, 38rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-currency-images img,
+html.pages-41-60-standard .batch-v2-page-44 .page44-tent-area img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-picture-divider {
+  border-top: 2px dotted #19a85b;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-handwriting-box {
+  position: relative;
+  width: min(42%, 19rem);
+  height: 3.7rem;
+  overflow: hidden;
+  border: 2px solid #272425;
+  border-radius: 1.2rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-handwriting-box canvas {
+  position: absolute !important;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 .page44-complete > .lesson-card,
+html.pages-41-60-standard .batch-v2-page-44 .lesson-card {
+  margin-top: 1.2rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-44 [data-id="pg044_s002_n0003"] {
+  margin: .35rem 0 0 !important;
+  font-size: clamp(1.15rem, 2.4vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+@media (max-width: 640px) {
+  html.pages-41-60-standard .batch-v2-page-44 .page44-exercise-label {
+    left: .8rem;
+    width: 11rem;
+  }
+  html.pages-41-60-standard .batch-v2-page-44 .page44-handwriting-box {
+    width: 58%;
+  }
+}
+
+/* Page 45: each PDF model is shown once and is followed by an identically
+   proportioned four-rule handwriting field (heavy outer, light inner rules). */
+html.pages-41-60-standard .batch-v2-page-45 .page45-practice-card,
+html.pages-41-60-standard .batch-v2-page-45 .page45-trace-card {
+  margin: 0 0 1.45rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 [hidden] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-practice-card > .question-prompt,
+html.pages-41-60-standard .batch-v2-page-45 .page45-trace-card > .question-prompt {
+  margin: 0 0 .45rem !important;
+  font-size: clamp(1.15rem, 3vw, 1.65rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-practice-wrap {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-model {
+  width: 100%;
+  margin: 0 0 .18rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-model img,
+html.pages-41-60-standard .batch-v2-page-45 .page45-trace-wrap > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-notebook-answer {
+  position: relative;
+  width: 100%;
+  height: clamp(5.1rem, 13vw, 7rem);
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(#454545, #454545),
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#454545, #454545);
+  background-repeat: no-repeat;
+  background-position: left top, left 38%, left 62%, left bottom;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-guide {
+  position: absolute;
+  z-index: 1;
+  top: 38%;
+  left: 2.2%;
+  height: 24%;
+  color: #777;
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(1.2rem, 4.2vw, 2.3rem);
+  line-height: 1;
+  opacity: .24;
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-notebook-answer canvas,
+html.pages-41-60-standard .batch-v2-page-45 .page45-exercise-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-trace-wrap {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-trace-wrap canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-exercise-panel {
+  position: relative;
+  margin: 2.4rem 0 1rem !important;
+  padding: 2rem .8rem .8rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-exercise-label {
+  position: absolute;
+  z-index: 3;
+  top: -1.25rem;
+  left: 1.5rem;
+  min-width: 12rem;
+  margin: 0 !important;
+  padding: .28rem 1rem;
+  justify-content: center;
+  border: 2px solid #05afe8 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #05a7dc !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .page45-exercise-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 14rem !important;
+  min-height: 14rem !important;
+  margin: .7rem 0 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background-color: #fff !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 3px,
+    transparent 3px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 3px),
+    #454545 calc(7rem - 3px) 7rem
+  ) !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-45 .response-actions {
+  margin-top: .35rem !important;
+}
+
+/* Page 46: make the upper outer notebook rule unmistakably heavy and full
+   width on both the printed model and the pupil's matching answer field. */
+html.pages-41-60-standard .page46-complete .page45-model,
+html.pages-41-60-standard .page48-complete .page45-model {
+  position: relative;
+}
+
+html.pages-41-60-standard .page46-complete .page45-model::before,
+html.pages-41-60-standard .page48-complete .page45-model::before {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: #454545;
+  content: "";
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .page46-complete .page45-notebook-answer,
+html.pages-41-60-standard .page48-complete .page45-notebook-answer {
+  border-top: 4px solid #454545 !important;
+  box-sizing: border-box;
+}
+
+/* Page 47: one PDF-faithful picture-naming exercise with three handwriting
+   boxes. Images stay grouped exactly as chairs, potatoes, and spoons. */
+html.pages-41-60-standard .batch-v2-page-47 [hidden] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-exercise-panel {
+  position: relative;
+  margin: 2.5rem 0 1rem !important;
+  padding: 2rem .8rem .8rem !important;
+  border: 3px solid #00aeef !important;
+  border-radius: 1.35rem !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-exercise-label {
+  position: absolute;
+  z-index: 4;
+  top: -1.35rem;
+  left: 1.5rem;
+  min-width: 14rem;
+  margin: 0 !important;
+  padding: .3rem 1.15rem;
+  justify-content: center;
+  border: 2px solid #00aeef !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #00a9e6 !important;
+  font-size: clamp(1.25rem, 4vw, 1.8rem) !important;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-exercise-panel > .question-prompt {
+  margin: .15rem 0 .75rem !important;
+  font-size: clamp(1.15rem, 3vw, 1.6rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-inputs {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-panel {
+  overflow: hidden;
+  border: 2px solid #16a05b;
+  border-radius: 1.2rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 29%);
+  align-items: center;
+  gap: 1rem;
+  min-height: 15.5rem;
+  padding: 1rem 1.2rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-row:not(:last-child) {
+  border-bottom: 3px dotted #16a05b;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-chair-images {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: .25rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-row figure,
+html.pages-41-60-standard .batch-v2-page-47 .page47-chair-images figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-chair-images figure {
+  width: 33.333%;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-chair-images .page47-clean-chair-group {
+  width: 100% !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-picture-row img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 14rem;
+  object-fit: contain;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-handwriting-box {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+  border: 2px solid #272425;
+  border-radius: 1.25rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .page47-handwriting-box canvas {
+  position: absolute !important;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-47 .response-actions {
+  margin-top: .45rem !important;
+}
+
+@media (max-width: 640px) {
+  html.pages-41-60-standard .batch-v2-page-47 .page47-exercise-label {
+    left: .8rem;
+    min-width: 11rem;
+  }
+  html.pages-41-60-standard .batch-v2-page-47 .page47-picture-row {
+    grid-template-columns: minmax(0, 1fr) minmax(7.5rem, 34%);
+    min-height: 12rem;
+    padding: .75rem;
+  }
+  html.pages-41-60-standard .batch-v2-page-47 .page47-handwriting-box {
+    height: 3.4rem;
+  }
+}
+
+html.pages-41-60-standard .page49-complete .page49-exercise-panel {
+  background: #fffdec !important;
+}
+
+html.pages-41-60-standard .page49-complete .page49-picture-panel {
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page49-complete .page49-picture-row {
+  min-height: 16.5rem;
+}
+
+html.pages-41-60-standard .page49-complete .page49-picture-row img {
+  max-height: 15rem;
+}
+
+/* Page 50: preserve the single PDF exercise panel while adding handwriting
+   and drawing surfaces directly beneath the three fruit questions. */
+html.pages-41-60-standard .batch-v2-page-50 [hidden] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-exercise-panel {
+  position: relative;
+  margin: 2.5rem 0 1rem !important;
+  padding: 2.2rem 1rem 1.1rem !important;
+  border: 3px solid #00aeef !important;
+  border-radius: 1.35rem !important;
+  background: #fffdec !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-exercise-label {
+  position: absolute;
+  z-index: 4;
+  top: -1.35rem;
+  left: 1.5rem;
+  min-width: 14rem;
+  margin: 0 !important;
+  padding: .3rem 1.15rem;
+  justify-content: center;
+  border: 2px solid #00aeef !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #00a9e6 !important;
+  font-size: clamp(1.25rem, 4vw, 1.8rem) !important;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-exercise-panel > [data-id="pg050_s001_n0002"] {
+  margin: 0 0 .65rem !important;
+  font-size: clamp(1.15rem, 3vw, 1.65rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-subheading {
+  margin: .6rem 0 .35rem !important;
+  color: #00aeef !important;
+  font-size: clamp(1.2rem, 3.2vw, 1.7rem) !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-main-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto .7rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-fruit-figure {
+  width: min(88%, 42rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-animal-figure {
+  width: min(96%, 48rem);
+  margin-bottom: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-main-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-question-card {
+  margin: .7rem 0 1rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-question-card > .question-prompt {
+  margin: 0 0 .45rem !important;
+  font-size: clamp(1.1rem, 2.8vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-writing-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 7rem !important;
+  min-height: 7rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  border-top: 4px solid #454545 !important;
+  box-sizing: border-box;
+  background-color: #fff !important;
+  background-image:
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#454545, #454545) !important;
+  background-repeat: no-repeat !important;
+  background-position: left 38%, left 62%, left bottom !important;
+  background-size: 100% 1px, 100% 1px, 100% 4px !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-drawing-board {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 17rem !important;
+  min-height: 17rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 2px solid #16a05b !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-writing-answer canvas,
+html.pages-41-60-standard .batch-v2-page-50 .page50-drawing-board canvas {
+  position: absolute !important;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-50 .page50-question-card .response-actions {
+  margin-top: .4rem !important;
+}
+
+/* Page 51: continuation of Exercise 10 plus the separate Exercise 11 panel. */
+html.pages-41-60-standard .batch-v2-page-51 [hidden] {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-main-panel,
+html.pages-41-60-standard .batch-v2-page-51 .page51-exercise11-panel {
+  position: relative;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  border: 3px solid #00aeef;
+  border-radius: 1.25rem;
+  background: #fffdec;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-exercise11-panel {
+  margin-top: 2.8rem;
+  padding-top: 2.2rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-exercise11-label {
+  position: absolute;
+  z-index: 4;
+  top: -1.35rem;
+  left: 1.5rem;
+  min-width: 18rem;
+  margin: 0 !important;
+  padding: .3rem 1.15rem;
+  justify-content: center;
+  border: 2px solid #00aeef !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #00a9e6 !important;
+  font-size: clamp(1.25rem, 4vw, 1.8rem) !important;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-subheading {
+  margin: 1rem 0 .55rem !important;
+  color: #00aeef !important;
+  font-size: clamp(1.25rem, 3.4vw, 1.75rem) !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-household-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(96%, 48rem);
+  margin: 0 auto .8rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-household-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-question-card {
+  margin: .65rem 0 1rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-question-card > .question-prompt,
+html.pages-41-60-standard .batch-v2-page-51 .page51-manual-question > [data-id="pg051_s001_n0001"] {
+  margin: 0 0 .45rem !important;
+  color: #272425 !important;
+  font-size: clamp(1.1rem, 2.8vw, 1.55rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-writing-answer {
+  position: relative;
+  display: block !important;
+  width: 100% !important;
+  height: 7rem !important;
+  min-height: 7rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  border-top: 4px solid #454545 !important;
+  box-sizing: border-box;
+  background-color: #fff !important;
+  background-image:
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#aaa, #aaa),
+    linear-gradient(#454545, #454545) !important;
+  background-repeat: no-repeat !important;
+  background-position: left 38%, left 62%, left bottom !important;
+  background-size: 100% 1px, 100% 1px, 100% 4px !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-writing-answer.page51-multi-answer,
+html.pages-41-60-standard .batch-v2-page-51 .page51-writing-answer.page51-two-line-answer {
+  height: 14rem !important;
+  min-height: 14rem !important;
+  border-top: 0 !important;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #454545 0 4px,
+    transparent 4px 2.65rem,
+    #aaa 2.65rem calc(2.65rem + 1px),
+    transparent calc(2.65rem + 1px) 4.35rem,
+    #aaa 4.35rem calc(4.35rem + 1px),
+    transparent calc(4.35rem + 1px) calc(7rem - 4px),
+    #454545 calc(7rem - 4px) 7rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-position: left top !important;
+  background-size: 100% 7rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-writing-answer canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-row-guide {
+  position: absolute;
+  z-index: 1;
+  left: 2%;
+  color: #777;
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(1.25rem, 4vw, 2.2rem);
+  line-height: 1;
+  opacity: .24;
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-m-guide {
+  top: 2.65rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-k-guide {
+  top: 9.65rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .response-actions {
+  margin-top: .4rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-manual-question .response-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-51 .page51-manual-question .drawing-clear {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: .45rem .75rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 640px) {
+  html.pages-41-60-standard .batch-v2-page-51 .page51-main-panel,
+  html.pages-41-60-standard .batch-v2-page-51 .page51-exercise11-panel {
+    padding-right: .65rem;
+    padding-left: .65rem;
+  }
+  html.pages-41-60-standard .batch-v2-page-51 .page51-exercise11-label {
+    left: .7rem;
+    min-width: 13rem;
+  }
+}
+
+/* Match the visible notebook-rule edges inside the 640px PDF model image:
+   left ink starts at 24px and right ink ends at 634px. */
+html.pages-41-60-standard .batch-v2-page-42
+  [data-response-id="pg042_sec001_response_01"] .batch-v2-answer-lines {
+  width: 95.3125% !important;
+  margin-right: .9375% !important;
+  margin-left: 3.75% !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-word-guide {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: auto;
+  height: 61%;
+  object-fit: contain;
+  object-position: left bottom;
+  opacity: .22;
+  pointer-events: none;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-exercise-panel {
+  position: relative;
+  margin: 1.75rem 0 .85rem !important;
+  padding: 2.5rem .8rem .7rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1.15rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-exercise-label {
+  position: absolute;
+  z-index: 4;
+  top: -1.35rem;
+  left: 2.2rem;
+  min-width: 12rem;
+  margin: 0 !important;
+  padding: .3rem 1.2rem;
+  border: 2px solid #05afe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.25rem, 4vw, 1.85rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-input-layer {
+  position: relative;
+  width: 100% !important;
+  min-height: 0 !important;
+  margin: .35rem 0 0 !important;
+  overflow: hidden;
+  border: 2px solid #08a34a !important;
+  border-radius: 1.1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-images {
+  display: block;
+  width: 100%;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 14rem;
+  padding: .8rem .75rem 1rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-item:not(:last-child) {
+  border-bottom: 3px dotted #08a34a;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-item > figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 8rem;
+  margin: 0 !important;
+  padding: .25rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-item img {
+  display: block;
+  width: auto;
+  max-width: 92%;
+  max-height: 10rem;
+  object-fit: contain;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-box {
+  position: relative;
+  display: block;
+  width: min(48%, 18rem);
+  height: 3.5rem;
+  margin-top: .5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 2px solid #555;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-42 .page42-picture-box > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-card > [id$="_label"],
+html.pages-41-60-standard .batch-v2-card .sample-model-caption,
+html.pages-41-60-standard .batch-v2-card .submit-response,
+html.pages-41-60-standard .batch-v2-page .page-submit-action {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.pages-41-60-standard .batch-v2-model-wrap {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-model-image {
+  display: block;
+  width: calc(100% - 1.6rem);
+  max-height: 18rem;
+  margin: 0 .8rem;
+  object-fit: contain;
+}
+
+html.pages-41-60-standard .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-ruled-lines {
+  position: relative;
+  width: calc(100% - 1.6rem);
+  min-height: 5.5rem;
+  margin: .15rem .8rem 0;
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)) !important;
+  background-position: 0 0, 0 42%, 0 58%, 0 100% !important;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px !important;
+  background-repeat: no-repeat !important;
+}
+
+html.pages-41-60-standard .batch-v2-model-wrap > canvas {
+  position: absolute !important;
+  z-index: 3;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-guide-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: left center;
+  opacity: .22;
+  clip-path: inset(0 72% 0 0);
+}
+
+html.pages-41-60-standard .batch-v2-text-model {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 6rem;
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+}
+
+html.pages-41-60-standard .batch-v2-guide-text {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  color: rgb(55 55 55 / 24%);
+  font-family: "Comic Sans MS", "Segoe Print", cursive;
+  font-size: clamp(2rem, 5.5vw, 3.7rem);
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+html.pages-41-60-standard .batch-v2-answer-only {
+  min-height: 7rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-answer-only > canvas {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 7rem !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-trace-wrap {
+  width: calc(100% - 1.6rem) !important;
+  margin: 0 .8rem !important;
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-card .response-actions {
+  position: static;
+  width: fit-content !important;
+  margin: .25rem 0 0 auto !important;
+  justify-content: flex-end !important;
+}
+
+html.pages-41-60-standard .batch-v2-card .clear-response,
+html.pages-41-60-standard .batch-v2-card .drawing-clear {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: .3rem .65rem !important;
+  border: 1px solid #00aee8 !important;
+  border-radius: .65rem !important;
+  background: #eefaff !important;
+  color: #075574 !important;
+  font-size: .8rem !important;
+  font-weight: 700 !important;
+}
+
+html.pages-41-60-standard .batch-v2-picture-card figure {
+  margin-inline: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page .printed-page-number,
+html.pages-41-60-standard .batch-v2-page .page-footer {
+  display: none !important;
+}
+
+html.pages-41-60-standard .page41-continuation {
+  margin-top: 1rem;
+  padding-top: .75rem;
+  border-top: 2px solid #00aee8;
+}
+
+html.pages-41-60-standard .full-book-page-continuation {
+  margin-top: .75rem;
+  padding-top: .45rem;
+  border-top: 0;
+}
+
+/* Page 41 follows the compact, PDF-led handwriting pattern approved on page 22. */
+html.pages-41-60-standard .batch-v2-page-41 {
+  width: 100%;
+  max-width: 56rem !important;
+  margin: 0 auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-card {
+  margin: 0 0 .8rem !important;
+  padding: .2rem 0 .35rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-card > .question-prompt:first-child,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-card > .source-heading:first-child {
+  margin: 0 0 .25rem !important;
+  color: #202020;
+  font-size: clamp(1.05rem, 3vw, 1.45rem) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-model-image,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-trace-wrap,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-ruled-lines {
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-ruled-lines {
+  min-height: 0 !important;
+  aspect-ratio: 666 / 95;
+  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100% !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-only > canvas {
+  min-height: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-continuation {
+  margin-top: .85rem;
+  padding-top: .45rem;
+  border-top: 0;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-exercise-panel {
+  position: relative;
+  margin: 1.2rem 0 .9rem !important;
+  padding: 1.45rem .8rem .7rem !important;
+  border: 2px solid #05afe8 !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-exercise-panel > .activity-label {
+  position: absolute;
+  z-index: 4;
+  top: -1.15rem;
+  left: 2.1rem;
+  min-width: 10rem;
+  margin: 0 !important;
+  padding: .25rem 1.1rem;
+  border: 2px solid #05afe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #05a7dc !important;
+  font-size: clamp(1.2rem, 3.7vw, 1.7rem) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-model-practice {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-model-sequence {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-model-image {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 666 / 68;
+  object-fit: fill;
+  border-top: 2px solid rgb(39 36 37 / 88%);
+  border-bottom: 2px solid rgb(39 36 37 / 88%);
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .response-feedback,
+html.pages-41-60-standard .batch-v2-page-41 .page-submit-feedback {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-answer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 666 / 68;
+  margin: .1rem 0 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top: 2px solid rgb(39 36 37 / 88%);
+  border-bottom: 2px solid rgb(39 36 37 / 88%);
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
+    linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%));
+  background-position: 0 42%, 0 58%;
+  background-size: 100% 1px, 100% 1px;
+  background-repeat: no-repeat;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-answer::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  height: 100%;
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .28;
+  content: "";
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-guide-letter::before {
+  width: 18%;
+  background-image: url("../images/pg041_batch_letter_guide.png?v=2");
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-guide-syllables::before {
+  width: 23%;
+  background-image: url("../images/pg041_batch_syllables_guide.png?v=2");
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-model-practice > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-trace-card .batch-v2-trace-wrap {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-trace-card .batch-v2-trace-wrap figure {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-trace-card .batch-v2-trace-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-page22-trace-card .batch-v2-trace-wrap > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-answer {
+  position: relative;
+  min-height: 10.6rem !important;
+  margin: .15rem 0 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: .35rem;
+  padding: .2rem .25rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-row {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  min-height: 1.65rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-number,
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-word {
+  color: #222;
+  font-size: clamp(1rem, 2.6vw, 1.25rem);
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-mini-input {
+  display: inline-block;
+  width: 2.25rem;
+  height: 1.8rem;
+  margin: 0 .15rem;
+  vertical-align: middle;
+  border: 1.5px solid #666;
+  border-radius: .3rem;
+  background: #fff;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-syllable-choices {
+  display: flex;
+  justify-content: space-evenly;
+  margin: .35rem 0 .45rem !important;
+  color: #222;
+  font-size: clamp(1.25rem, 4vw, 1.8rem) !important;
+  font-weight: 700 !important;
+  word-spacing: 1.1rem;
+}
+
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-answer > canvas {
+  position: absolute !important;
+  z-index: 2;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+/* Pages 71–80: every pupil answer area uses the same handwriting-book
+   rhythm—heavy outer rules and two close, light middle guides. */
+html.pages-41-60-standard .page7180-complete .page7180-notebook-answer,
+html.pages-41-60-standard .page7180-complete .batch-v2-answer-lines,
+html.pages-41-60-standard .page7180-complete .batch-v2-answer-only {
+  min-height: 6rem !important;
+  background-color: #fff !important;
+  background-image:
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 34%), rgb(39 36 37 / 34%)),
+    linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%)) !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  background-repeat: no-repeat !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-notebook-answer {
+  height: 6rem !important;
+}
+
+html.pages-41-60-standard .page7180-complete .page7180-guide-text,
+html.pages-41-60-standard .page7180-complete .batch-v2-answer-lines .page7180-guide-text {
+  top: 50% !important;
+  font-size: clamp(1.7rem, 5vw, 2.65rem) !important;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 700px) {
+  html.pages-41-60-standard .page7180-complete .page7180-notebook-answer,
+  html.pages-41-60-standard .page7180-complete .batch-v2-answer-lines,
+  html.pages-41-60-standard .page7180-complete .batch-v2-answer-only {
+    min-height: 5.25rem !important;
+    background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+    background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  }
+
+  html.pages-41-60-standard .page7180-complete .page7180-notebook-answer {
+    height: 5.25rem !important;
+  }
+}
+
+/* Page 73: compact, consistent handwriting-book rules for every answer. */
+html.pages-41-60-standard .batch-v2-page-73 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-73 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-73 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-73
+  [data-response-id="pg073_sec001_response_01"] .batch-v2-ruled-lines {
+  height: 5.25rem !important;
+  min-height: 5.25rem !important;
+  aspect-ratio: auto !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Page 74: compact, consistent handwriting-book rules for every answer. */
+html.pages-41-60-standard .batch-v2-page-74 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-74 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-74 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-74
+  [data-response-id="pg074_sec001_response_01"] .batch-v2-ruled-lines {
+  height: 5.25rem !important;
+  min-height: 5.25rem !important;
+  aspect-ratio: auto !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Page 75: compact, consistent handwriting-book rules for every answer. */
+html.pages-41-60-standard .batch-v2-page-75 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-75 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-75 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-75
+  [data-response-id="pg075_sec001_response_01"] .batch-v2-ruled-lines {
+  height: 5.25rem !important;
+  min-height: 5.25rem !important;
+  aspect-ratio: auto !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Pages 76–79: use the approved compact handwriting-book rules throughout. */
+html.pages-41-60-standard .batch-v2-page-76 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-76 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-76 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-76
+  [data-response-id="pg076_sec001_response_01"] .batch-v2-ruled-lines,
+html.pages-41-60-standard .batch-v2-page-77 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-77 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-77 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-77
+  [data-response-id="pg077_sec001_response_02"] .batch-v2-ruled-lines,
+html.pages-41-60-standard .batch-v2-page-78 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-78 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-78 .batch-v2-answer-only,
+html.pages-41-60-standard .batch-v2-page-78
+  [data-response-id="pg078_sec002_response_01"] .batch-v2-ruled-lines,
+html.pages-41-60-standard .batch-v2-page-79 .page7180-notebook-answer,
+html.pages-41-60-standard .batch-v2-page-79 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-79 .batch-v2-answer-only {
+  height: 5.25rem !important;
+  min-height: 5.25rem !important;
+  aspect-ratio: auto !important;
+  background-position: 0 0, 0 39%, 0 61%, 0 100% !important;
+  background-size: 100% 3px, 100% 1px, 100% 1px, 100% 3px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Page 77 asks for five names, so provide exactly five compact notebook rows. */
+html.pages-41-60-standard .batch-v2-page-77 .page77-name-exercise-answer {
+  height: 26.25rem !important;
+  min-height: 26.25rem !important;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-size: 100% 5.25rem !important;
+}
+
+/* Page 80: reproduce the bold emphasis used in the original PDF. */
+html.pages-41-60-standard .batch-v2-page-80 .page80-pdf-strong {
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-80 .page80-pdf-heading {
+  color: #08a34a !important;
+}
+
+/* Page 81: reproduce the bold emphasis and continued green headings in PDF. */
+html.pages-41-60-standard .page81-pdf-strong {
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .page81-pdf-green-heading {
+  color: #08a34a !important;
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .page81-handwriting-field {
+  width: 100%;
+  margin: .6rem 0 1.4rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page81-notebook-sheet {
+  position: relative;
+  width: 100%;
+  height: 26.25rem;
+  min-height: 26.25rem;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  );
+  background-repeat: repeat-y;
+  background-size: 100% 5.25rem;
+}
+
+html.pages-41-60-standard .page81-notebook-sheet canvas {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page81-field-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin: .35rem 0 0 !important;
+}
+
+html.pages-41-60-standard .page81-field-actions .clear-response {
+  padding: .55rem .9rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+
+/* Page 82: match the original PDF emphasis and add handwriting answer space. */
+html.pages-41-60-standard .page82-pdf-layout .page82-pdf-strong {
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0003"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0006"] {
+  display: inline-block !important;
+  width: auto !important;
+  margin: .35rem 0 .45rem !important;
+  padding: .2rem .65rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: .8rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page82-pdf-layout .activity-label {
+  display: inline-block !important;
+  min-width: 15rem !important;
+  margin: 1rem 0 .35rem 2.5rem !important;
+  padding: .28rem 1.25rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 2rem !important;
+  background: #fff !important;
+  color: #00a8e8 !important;
+  font-size: clamp(1.35rem, 3.3vw, 2rem) !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0008"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0012"] {
+  margin-top: -1.25rem !important;
+  padding: 1.45rem .55rem .55rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0001"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0004"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0005"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0006"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s001_n0008"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0003"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0007"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0008"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0009"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0010"],
+html.pages-41-60-standard .page82-pdf-layout [data-id="pg082_s002_n0012"] {
+  margin-top: .18rem !important;
+  margin-bottom: .18rem !important;
+  line-height: 1.42 !important;
+}
+
+html.pages-41-60-standard .page82-handwriting-field {
+  width: 100%;
+  margin: .45rem 0 1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .page82-notebook-sheet {
+  position: relative;
+  width: 100%;
+  height: 21rem;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  );
+  background-repeat: repeat-y;
+  background-size: 100% 5.25rem;
+}
+
+html.pages-41-60-standard .page82-notebook-sheet canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .page82-field-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-top: .35rem !important;
+}
+
+html.pages-41-60-standard .page82-field-actions .clear-response {
+  padding: .55rem .9rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+
+/* Pages 83–100: reviewed batch standard matching the original book. */
+html.pages-41-60-standard .batch83100-reviewed .activity-label {
+  display: inline-block !important;
+  min-width: 12rem !important;
+  margin: .85rem 0 .45rem 2rem !important;
+  padding: .25rem 1rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 2rem !important;
+  background: #fff !important;
+  color: #00a8e8 !important;
+  font-size: clamp(1.25rem, 3vw, 1.8rem) !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+}
+
+html.pages-41-60-standard .batch83100-reviewed .source-line {
+  margin-top: .16rem !important;
+  margin-bottom: .16rem !important;
+  line-height: 1.42 !important;
+}
+
+html.pages-41-60-standard .batch83100-reviewed .batch83100-notebook-card .batch-v2-answer-only,
+html.pages-41-60-standard .batch83100-reviewed .batch83100-notebook-card .batch-v2-answer-lines,
+html.pages-41-60-standard .batch83100-reviewed .batch83100-notebook-card .batch-v2-ruled-lines {
+  position: relative !important;
+  width: 100% !important;
+  height: calc(var(--batch-answer-rows, 1) * 5.25rem) !important;
+  min-height: calc(var(--batch-answer-rows, 1) * 5.25rem) !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  background-color: #fff !important;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-size: 100% 5.25rem !important;
+}
+
+html.pages-41-60-standard .batch83100-reviewed .batch83100-notebook-card canvas {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch83100-added-field {
+  width: 100%;
+  margin: .45rem 0 1rem !important;
+  background: #fff !important;
+}
+
+html.pages-41-60-standard .batch83100-notebook-sheet {
+  position: relative;
+  width: 100%;
+  height: calc(var(--batch-answer-rows, 5) * 5.25rem);
+  overflow: hidden;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  );
+  background-repeat: repeat-y;
+  background-size: 100% 5.25rem;
+}
+
+html.pages-41-60-standard .batch83100-notebook-sheet canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  touch-action: none;
+}
+
+html.pages-41-60-standard .batch83100-field-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-top: .35rem !important;
+}
+
+html.pages-41-60-standard .batch83100-reviewed .clear-response {
+  padding: .5rem .85rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .75rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+
+/* Page 83: restore the letter list and all four model rows from the PDF. */
+html.pages-41-60-standard .batch83100-reviewed .page83-letter-list {
+  white-space: pre-wrap !important;
+  word-spacing: 1.15rem !important;
+  font-family: "Sassoon Primary", "Comic Sans MS", "Segoe Print", cursive !important;
+  font-size: clamp(1.45rem, 3.5vw, 2.1rem) !important;
+}
+
+html.pages-41-60-standard .batch83100-reviewed .page83-example-label {
+  display: inline-block !important;
+  width: auto !important;
+  margin: .45rem 0 .4rem !important;
+  padding: .18rem .55rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: .65rem !important;
+  background: #fff !important;
+  font-weight: 800 !important;
+}
+
+html.pages-41-60-standard .page83-pdf-model-block {
+  width: 100%;
+  margin: .25rem 0 .8rem;
+}
+
+html.pages-41-60-standard .page83-pdf-model-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 5.25rem;
+  padding: 0 1rem;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #888 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #888 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+html.pages-41-60-standard .page83-pdf-model-row span {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 1.5rem;
+  color: #171717;
+  font-family: "Sassoon Primary", "Comic Sans MS", "Segoe Print", cursive !important;
+  font-size: clamp(2rem, 5vw, 3.15rem) !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  text-align: center;
+  transform: translateY(.15rem);
+}
+
+html.pages-41-60-standard .page84-pdf-model-block {
+  width: 100%;
+  margin: .25rem 0 .8rem;
+}
+
+html.pages-41-60-standard .page84-pdf-model-row span {
+  font-size: clamp(1.55rem, 4vw, 2.5rem) !important;
+}
+
+html.pages-41-60-standard .page85-pdf-model-block {
+  width: 100%;
+  margin: .25rem 0 .8rem;
+}
+
+html.pages-41-60-standard .page85-pdf-model-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Page 85 already shows the complete PDF example above each pupil field.
+   Keep the writing space clean so its heavy outer rules and light middle
+   guides run continuously from edge to edge. */
+html.pages-41-60-standard .batch-v2-page-85 .batch-v2-guide-image {
+  display: none !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-85 .batch-v2-answer-lines,
+html.pages-41-60-standard .batch-v2-page-85 .batch-v2-answer-only {
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  height: calc(var(--batch-answer-rows, 1) * 4rem) !important;
+  min-height: calc(var(--batch-answer-rows, 1) * 4rem) !important;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 1.55rem,
+    #aaa 1.55rem calc(1.55rem + 1px),
+    transparent calc(1.55rem + 1px) 2.45rem,
+    #aaa 2.45rem calc(2.45rem + 1px),
+    transparent calc(2.45rem + 1px) calc(4rem - 3px),
+    #454545 calc(4rem - 3px) 4rem
+  ) !important;
+  background-repeat: repeat-y !important;
+  background-size: 100% 4rem !important;
+}
+
+html.pages-41-60-standard .batch-v2-page-85 .batch-v2-model-image {
+  display: block !important;
+  width: 100% !important;
+  max-height: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+}
+
+/* Page 87: restore the continuation row and sentence example from PDF page 81. */
+html.pages-41-60-standard .batch-v2-page-87 .page87-notebook-model {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 5.25rem;
+  margin: .25rem 0 .85rem;
+  padding: 0 1rem;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #888 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #888 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-notebook-model span {
+  color: #171717;
+  font-family: "Maandishi", "Sassoon Primary", "Comic Sans MS", cursive !important;
+  font-size: clamp(1.5rem, 3.2vw, 2.1rem) !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-example-sentence {
+  justify-content: flex-start;
+  padding-left: 2.5%;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-continuation-model span {
+  font-size: clamp(1.2rem, 2.5vw, 1.65rem) !important;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-continuation-practice {
+  width: 100%;
+  margin: -.35rem 0 1rem;
+  background: #fff;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-continuation-sheet {
+  position: relative;
+  width: 100%;
+  height: 5.25rem;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom,
+    #454545 0 3px,
+    transparent 3px 2.05rem,
+    #aaa 2.05rem calc(2.05rem + 1px),
+    transparent calc(2.05rem + 1px) 3.2rem,
+    #aaa 3.2rem calc(3.2rem + 1px),
+    transparent calc(3.2rem + 1px) calc(5.25rem - 3px),
+    #454545 calc(5.25rem - 3px) 5.25rem);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-continuation-sheet canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  touch-action: none;
+}
+html.pages-41-60-standard .batch-v2-page-87 .page87-continuation-clear {
+  display: block;
+  margin: .35rem 0 0 auto !important;
+}
+/* Page 88: match PDF page 82 while retaining handwriting answer fields. */
+html.pages-41-60-standard .batch-v2-page-88 .page88-sentence-list-item {
+  margin: .15rem 0 !important;
+  font-family: "Maandishi", "Sassoon Primary", "Comic Sans MS", cursive !important;
+  font-size: clamp(1.2rem, 2.6vw, 1.65rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.35 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 .page88-lesson-label {
+  display: block !important;
+  width: 100% !important;
+  margin: .6rem 0 .35rem !important;
+  padding: .28rem .75rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: .35rem !important;
+  background: #fff !important;
+  color: #1c1c1c !important;
+  font-size: clamp(1.25rem, 2.8vw, 1.75rem) !important;
+  font-style: italic !important;
+  font-weight: 800 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 .page88-lesson-heading {
+  margin: .15rem 0 .25rem !important;
+  color: #00a651 !important;
+  font-size: clamp(1.25rem, 2.8vw, 1.75rem) !important;
+  font-style: italic !important;
+  font-weight: 800 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 .page88-letter-row {
+  margin: .15rem 0 !important;
+  word-spacing: clamp(1.15rem, 4vw, 2.35rem) !important;
+  white-space: nowrap !important;
+  font-family: "Maandishi", "Sassoon Primary", "Comic Sans MS", cursive !important;
+  font-size: clamp(1.35rem, 3vw, 1.8rem) !important;
+  line-height: 1.25 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 .page88-letter-s,
+html.pages-41-60-standard .batch-v2-page-88 .page88-letter-z {
+  font-weight: 800 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 .page88-exercise-label {
+  display: inline-block !important;
+  width: auto !important;
+  margin: .65rem 0 .25rem !important;
+  padding: .25rem 1.3rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 1.4rem !important;
+  background: #fff !important;
+  color: #00aeef !important;
+  font-style: italic !important;
+  font-weight: 800 !important;
+}
+html.pages-41-60-standard .batch-v2-page-88 [data-id="pg088_s002_n0009"] strong {
+  font-weight: 800 !important;
+}
+/* Page 89: PDF-faithful two-column sentence ordering table. */
+html.pages-41-60-standard .batch-v2-page-89 .page89-example-label {
+  display: inline-block !important;
+  width: auto !important;
+  margin: .45rem 0 .3rem !important;
+  padding: .2rem .55rem !important;
+  border: 2px solid #00aeef !important;
+  border-radius: .3rem !important;
+  background: #fff !important;
+  color: #1c1c1c !important;
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem) !important;
+  font-weight: 800 !important;
+}
+html.pages-41-60-standard .batch-v2-page-89 .page89-table-wrap {
+  width: 100%;
+  margin: 0 0 1rem;
+  overflow-x: auto;
+}
+html.pages-41-60-standard .batch-v2-page-89 .page89-sentence-table {
+  width: 100%;
+  min-width: 36rem;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #fff;
+  color: #202020;
+  font-family: "Maandishi", "Sassoon Primary", "Comic Sans MS", cursive !important;
+  font-size: clamp(1rem, 2.2vw, 1.4rem) !important;
+  line-height: 1.25;
+}
+html.pages-41-60-standard .batch-v2-page-89 .page89-sentence-table th,
+html.pages-41-60-standard .batch-v2-page-89 .page89-sentence-table td {
+  width: 50%;
+  padding: .3rem .48rem;
+  border: 1.5px solid #00aeef;
+  vertical-align: top;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+html.pages-41-60-standard .batch-v2-page-89 .page89-sentence-table th {
+  background: #f7fbfc;
+  font-weight: 400;
+  white-space: nowrap;
+}
+/* Page 92: each dotted blank is a handwriting field; no extra answer sheet below. */
+html.pages-41-60-standard .batch-v2-page-92 .page92-inline-fill-line {
+  margin: .25rem 0 !important;
+  white-space: nowrap;
+  pointer-events: auto !important;
+}
+html.pages-41-60-standard .batch-v2-page-92 .page92-inline-slot {
+  display: inline-block;
+  width: clamp(8rem, 28vw, 13rem) !important;
+  height: 2.15rem !important;
+  margin: 0 .2rem;
+  vertical-align: middle;
+  background: transparent;
+  border-bottom: 2px dotted #1c1c1c;
+  position: relative;
+  z-index: 20;
+  pointer-events: auto !important;
+}
+html.pages-41-60-standard .batch-v2-page-92 .page92-inline-answer {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  touch-action: none;
+  position: relative;
+  z-index: 21;
+  pointer-events: auto !important;
+  user-select: none;
+  -webkit-user-select: none;
+}html.pages-41-60-standard .batch-v2-page-92 .page92-inline-answer {
+  cursor: crosshair;
+}
+html.pages-41-60-standard .batch-v2-page-92 .page92-inline-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: .35rem 0 .65rem;
+}
+html.pages-41-60-standard .batch-v2-page-92 .page92-inline-clear {
+  padding: .42rem .8rem !important;
+  border: 1px solid #00aeef !important;
+  border-radius: .7rem !important;
+  background: #eefbff !important;
+  color: #065a76 !important;
+  font-weight: 700 !important;
+}
+/* Page 92: reliable text-entry blanks for Zoezi la nne. */
+html.pages-41-60-standard .batch-v2-page-92 input.page92-inline-answer {
+  display: inline-block !important;
+  box-sizing: border-box !important;
+  width: clamp(8rem, 28vw, 13rem) !important;
+  height: 2.15rem !important;
+  margin: 0 .2rem !important;
+  padding: .1rem .3rem !important;
+  vertical-align: middle !important;
+  color: #163f4d !important;
+  background: #fff !important;
+  border: 0 !important;
+  border-bottom: 2px dotted #1c1c1c !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  pointer-events: auto !important;
+  cursor: text !important;
+  font: inherit !important;
+}
+html.pages-41-60-standard .batch-v2-page-92 input.page92-inline-answer:focus {
+  border-bottom-color: #00aeef !important;
+  box-shadow: 0 2px 0 rgba(0, 174, 239, .2) !important;
+}
+/* Page 92 static fields: visible and usable even before page scripts finish loading. */
+input.page92-static-answer {
+  display: inline-block !important;
+  box-sizing: border-box !important;
+  width: clamp(8rem, 28vw, 13rem) !important;
+  height: 2.15rem !important;
+  margin: 0 .2rem !important;
+  padding: .1rem .3rem !important;
+  vertical-align: middle !important;
+  color: #163f4d !important;
+  background: #fff !important;
+  border: 0 !important;
+  border-bottom: 2px dotted #1c1c1c !important;
+  outline: none !important;
+  pointer-events: auto !important;
+  cursor: text !important;
+  font: inherit !important;
+}
+input.page92-static-answer:focus { border-bottom-color: #00aeef !important; }
+.page92-inline-actions { display: flex; justify-content: flex-end; margin: .35rem 0 .65rem; }
+button.page92-inline-clear { min-height: 42px; padding: .42rem .8rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 92: standalone answer form, intentionally independent from merged content. */
+.page92-alternative-panel { margin-top: 1.5rem; padding: 1.2rem; border: 2px solid #00aeef; border-radius: 1rem; background: #fff; color: #172033; }
+.page92-alternative-panel h2 { margin: 0 0 .55rem; color: #009c3b; font-size: clamp(1.45rem, 3vw, 2rem); font-style: italic; }
+.page92-alternative-panel p { margin: .25rem 0; font-size: clamp(1rem, 2.2vw, 1.35rem); font-style: italic; }
+.page92-alternative-panel .page92-word-bank { font-weight: 700; }
+.page92-answer-form { display: grid; gap: .55rem; margin-top: .8rem; }
+.page92-answer-form label { display: block; font-size: clamp(1rem, 2.25vw, 1.35rem); font-style: italic; line-height: 1.7; }
+.page92-answer-form input { box-sizing: border-box; width: clamp(8rem, 30vw, 14rem); min-height: 2.1rem; padding: .1rem .35rem; color: #153d4a; background: #fff; border: 0; border-bottom: 2px dotted #172033; border-radius: 0; outline: none; font: inherit; font-style: normal; }
+.page92-answer-form input:focus { border-bottom-color: #00aeef; box-shadow: 0 2px 0 rgba(0,174,239,.2); }
+.page92-answer-actions { display: flex; justify-content: flex-end; margin-top: .35rem; }
+.page92-answer-actions button { min-height: 42px; padding: .42rem .9rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+.page92-alternative-panel ~ .full-book-page-continuation { display: none !important; }
+/* Page 93: direct fill-in fields and one clear button. */
+.page93-fill-line { margin: .45rem 0 !important; }
+input.page93-answer { box-sizing: border-box; width: clamp(8rem, 30vw, 14rem); min-height: 2.15rem; margin: 0 .2rem; padding: .1rem .35rem; vertical-align: middle; color: #153d4a; background: #fff; border: 0; border-bottom: 2px dotted #172033; border-radius: 0; outline: none; font: inherit; cursor: text; }
+input.page93-answer:focus { border-bottom-color: #00aeef; box-shadow: 0 2px 0 rgba(0,174,239,.2); }
+.page93-answer-actions { display: flex; justify-content: flex-end; margin: .7rem 0; }
+.page93-answer-actions button { min-height: 42px; padding: .42rem .9rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 93: original PDF-style exercise card with native answer fields. */
+[data-page93-original-source="true"] { display: none !important; }
+.page93-original-exercise { position: relative; margin: 1rem auto 1.4rem; padding: 1.25rem .8rem .85rem; border: 2px solid #00aeef; border-radius: 0 1rem 1rem 1rem; background: #fff; color: #263241; }
+.page93-original-exercise h2 { position: absolute; top: -1.15rem; left: 1.75rem; margin: 0; padding: .25rem 1.4rem; border: 2px solid #00aeef; border-radius: 1.3rem; background: #fff; color: #00a7e8; font-size: clamp(1.25rem, 3vw, 1.7rem); font-weight: 700; font-style: italic; }
+.page93-original-exercise p { margin: .15rem 0 .3rem; font-size: clamp(1rem, 2.35vw, 1.35rem); font-style: italic; line-height: 1.3; }
+.page93-original-exercise .page93-original-word-bank { padding: .08rem .3rem; border: 1.5px solid #00aeef; font-weight: 600; }
+.page93-original-form { display: grid; gap: .18rem; margin-top: .2rem; }
+.page93-original-form label { display: block; font-size: clamp(1rem, 2.25vw, 1.35rem); font-style: italic; line-height: 1.5; }
+.page93-original-form input { box-sizing: border-box; width: clamp(8rem, 32vw, 15rem); min-height: 1.9rem; padding: .05rem .25rem; vertical-align: middle; color: #153d4a; background: #fff; border: 0; border-bottom: 2px dotted #172033; border-radius: 0; outline: none; font: inherit; font-style: normal; cursor: text; }
+.page93-original-form input:focus { border-bottom-color: #00aeef; box-shadow: 0 2px 0 rgba(0,174,239,.2); }
+.page93-original-actions { display: flex; justify-content: flex-end; margin-top: .35rem; }
+.page93-original-actions button { min-height: 40px; padding: .35rem .85rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 94: sequence of images follows the original PDF. */
+.page94-pdf-panel { margin: .7rem auto 1rem; padding: .25rem .4rem .25rem; border: 2px solid #00aeef; border-radius: 0 1rem 1rem 1rem; background: #fff; }
+.page94-pdf-panel > [data-id="pg094_s001_n0001"], .page94-pdf-panel > [data-id="pg094_s001_n0002"] { margin: 0 .05rem .15rem; color: #263241; font-size: clamp(1rem, 2.2vw, 1.3rem); font-weight: 400; line-height: 1; }
+.page94-pdf-panel > figure { width: min(82%, 28rem); margin: 0 auto .75rem; }
+.page94-pdf-panel > figure img { display: block; width: 100%; height: auto; }
+.page94-pdf-panel .response-card { display: block; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+.page94-pdf-panel .response-card .canvas-wrap, .page94-pdf-panel .response-card .handwriting-canvas-wrap, .page94-pdf-panel .response-card .clear-response, .page94-pdf-panel .response-card [data-id$="_label"], .page94-pdf-panel .response-card .response-actions, .page94-pdf-panel .response-card .response-feedback { display: none !important; }
+.page94-pdf-panel .response-card [data-id="pg094_s001_n0003"] { margin: .25rem 0 .1rem; font-size: clamp(1rem, 2.2vw, 1.25rem); font-style: italic; }
+.page94-pdf-panel .response-card [data-id="pg094_s001_n0004"], .page94-pdf-panel .response-card [data-id="pg094_s001_n0005"], .page94-pdf-panel .response-card [data-id="pg094_s001_n0006"] { margin: .08rem .65rem; font-size: clamp(.98rem, 2.1vw, 1.2rem); line-height: 1.25; }
+/* Page 94: sentence fields use the same direct-entry approach as Exercise Five. */
+.page94-pdf-panel .response-card .page94-fill-line { margin: .1rem .65rem; }
+input.page94-answer { box-sizing: border-box; width: min(74vw, 25rem); min-height: 2rem; padding: .08rem .3rem; vertical-align: middle; color: #153d4a; background: #fff; border: 0; border-bottom: 2px dotted #172033; border-radius: 0; outline: none; font: inherit; cursor: text; }
+input.page94-answer:focus { border-bottom-color: #00aeef; box-shadow: 0 2px 0 rgba(0,174,239,.2); }
+.page94-answer-actions { display: flex; justify-content: flex-end; margin: .35rem .65rem .1rem; }
+.page94-answer-actions button { min-height: 40px; padding: .35rem .85rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 94: stable native answer form, matching the reliable Page 93 approach. */
+.page94-pdf-panel .response-card { display: none !important; }
+.page94-stable-answer-panel { margin: .15rem .15rem 0; color: #263241; }
+.page94-stable-answer-panel p { margin: .2rem 0 .15rem; font-size: clamp(1rem, 2.2vw, 1.25rem); font-style: italic; }
+.page94-stable-answer-panel form { display: grid; gap: .2rem; }
+.page94-stable-answer-panel label { display: block; margin-left: .65rem; font-size: clamp(.98rem, 2.1vw, 1.2rem); }
+.page94-stable-answer-panel input { box-sizing: border-box; width: min(74vw, 25rem); min-height: 2rem; padding: .08rem .3rem; vertical-align: middle; color: #153d4a; background: #fff; border: 0; border-bottom: 2px dotted #172033; border-radius: 0; outline: none; font: inherit; cursor: text; }
+.page94-stable-answer-panel input:focus { border-bottom-color: #00aeef; box-shadow: 0 2px 0 rgba(0,174,239,.2); }
+.page94-stable-answer-panel form > div { display: flex; justify-content: flex-end; margin-top: .25rem; }
+.page94-stable-answer-panel button { min-height: 40px; padding: .35rem .85rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 95: original PDF sequence for the three bus-story pictures. */
+.page95-pdf-layout .response-card { position: relative; margin: 1rem auto; padding: 1.15rem .55rem .55rem; border: 2px solid #00aeef; border-radius: 0 1rem 1rem 1rem; background: #fff; box-shadow: none; }
+.page95-pdf-layout .response-card > .activity-label { position: absolute; top: -1.15rem; left: 1.4rem; margin: 0; padding: .22rem 1.25rem; border: 2px solid #00aeef; border-radius: 1.3rem; background: #fff; color: #00a7e8; font-size: clamp(1.2rem, 3vw, 1.6rem); font-weight: 700; font-style: italic; }
+.page95-pdf-layout .response-card [data-id="pg095_s001_n0002"], .page95-pdf-layout .response-card [data-id="pg095_s001_n0003"] { margin: .1rem 0; font-size: clamp(1rem, 2.2vw, 1.25rem); font-style: italic; line-height: 1.25; }
+.page95-pdf-layout .response-card > [data-id="pg095_s001_n0004"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0005"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0006"] { width: min(83%, 28rem); margin: .22rem auto -.05rem; font-size: 1rem; line-height: 1; }
+.page95-pdf-layout .response-card > figure { width: min(83%, 28rem); margin: 0 auto .25rem; }
+.page95-pdf-layout .response-card > figure img { display: block; width: 100%; height: auto; }
+.page95-pdf-layout .response-card .canvas-wrap, .page95-pdf-layout .response-card .handwriting-canvas-wrap, .page95-pdf-layout .response-card .clear-response, .page95-pdf-layout .response-card .response-actions, .page95-pdf-layout .response-card .response-feedback, .page95-pdf-layout .response-card [data-id$="_label"] { display: none !important; }
+/* Page 95 overlap prevention on narrow screens. */
+.page95-pdf-layout .response-card { padding-top: 1.65rem !important; overflow: visible; }
+.page95-pdf-layout .response-card > .activity-label { z-index: 3; white-space: nowrap; }
+.page95-pdf-layout .response-card [data-id="pg095_s001_n0002"] { margin-top: .05rem !important; clear: both; }
+.page95-pdf-layout .response-card > [data-id="pg095_s001_n0004"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0005"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0006"] { display: block; clear: both; width: auto; height: 1.35rem; margin: .28rem 0 0 .1rem; padding: .08rem .22rem; background: #fff; position: relative; z-index: 2; }
+.page95-pdf-layout .response-card > figure { clear: both; width: min(78%, 28rem); margin: 0 auto .6rem !important; position: relative; z-index: 1; }
+@media (max-width: 34rem) { .page95-pdf-layout .response-card > figure { width: 82%; } .page95-pdf-layout .response-card > .activity-label { left: .9rem; } }
+/* Page 95 single-panel override: prevent title and images from colliding. */
+.page95-pdf-layout .response-card { display: block !important; margin: 1.1rem auto !important; padding: .75rem .55rem .55rem !important; border: 2px solid #00aeef !important; border-radius: 0 1rem 1rem 1rem !important; background: #fff !important; box-shadow: none !important; overflow: visible !important; }
+.page95-pdf-layout .response-card > .activity-label { position: static !important; display: table !important; width: auto !important; margin: -1.85rem auto .55rem !important; padding: .22rem 1.25rem !important; border: 2px solid #00aeef !important; border-radius: 1.3rem !important; background: #fff !important; color: #00a7e8 !important; font-size: clamp(1.2rem, 3vw, 1.6rem) !important; line-height: 1.2 !important; white-space: nowrap !important; z-index: 3 !important; }
+.page95-pdf-layout .response-card [data-id="pg095_s001_n0002"], .page95-pdf-layout .response-card [data-id="pg095_s001_n0003"] { display: block !important; margin: .1rem 0 !important; clear: both !important; }
+.page95-pdf-layout .response-card > [data-id="pg095_s001_n0004"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0005"], .page95-pdf-layout .response-card > [data-id="pg095_s001_n0006"] { display: block !important; height: auto !important; width: min(83%, 28rem) !important; margin: .45rem auto 0 !important; padding: 0 !important; background: transparent !important; border: 0 !important; }
+.page95-pdf-layout .response-card > figure, .page95-pdf-layout .response-card > figure.source-figure { display: block !important; clear: both !important; width: min(83%, 28rem) !important; max-width: none !important; margin: .05rem auto .55rem !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+.page95-pdf-layout .response-card > figure img { display: block !important; width: 100% !important; height: auto !important; margin: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+/* Page 95 exact original proportions. */
+#content .page95-pdf-layout .response-card { width: min(88vw, 27rem) !important; margin: 1rem auto !important; padding: .65rem .28rem .45rem !important; border: 2px solid #00aeef !important; border-radius: 0 1rem 1rem 1rem !important; background: #fff !important; box-shadow: none !important; }
+#content .page95-pdf-layout .response-card > .activity-label { position: static !important; display: table !important; margin: -1.55rem 0 .4rem 1rem !important; padding: .2rem 1.2rem !important; border: 2px solid #00aeef !important; border-radius: 1.25rem !important; background: #fff !important; color: #00a7e8 !important; line-height: 1.1 !important; white-space: nowrap !important; }
+#content .page95-pdf-layout .response-card [data-id="pg095_s001_n0002"], #content .page95-pdf-layout .response-card [data-id="pg095_s001_n0003"] { margin: .05rem 0 !important; padding: 0 !important; font-size: clamp(.95rem, 2vw, 1.15rem) !important; line-height: 1.28 !important; }
+#content .page95-pdf-layout .response-card > [data-id="pg095_s001_n0004"], #content .page95-pdf-layout .response-card > [data-id="pg095_s001_n0005"], #content .page95-pdf-layout .response-card > [data-id="pg095_s001_n0006"] { float: left !important; clear: both !important; width: 1.35rem !important; height: 1.35rem !important; margin: .12rem 0 0 !important; padding: .08rem .18rem !important; border: 1px solid #777 !important; background: #fff !important; font-size: .9rem !important; line-height: 1 !important; position: relative !important; z-index: 2 !important; }
+#content .page95-pdf-layout .response-card > figure, #content .page95-pdf-layout .response-card > figure.source-figure, #content .page95-pdf-layout figure:has(img[data-id^="pg095_im"]) { display: block !important; clear: both !important; width: 76% !important; max-width: 19rem !important; margin: 0 0 .18rem 1.6rem !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+#content .page95-pdf-layout .response-card > figure img, #content .page95-pdf-layout figure:has(img[data-id^="pg095_im"]) img { display: block !important; width: 100% !important; height: auto !important; margin: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+/* Page 95 wider presentation. */
+#content .page95-pdf-layout .response-card { width: min(94vw, 34rem) !important; }
+#content .page95-pdf-layout .response-card > figure, #content .page95-pdf-layout .response-card > figure.source-figure, #content .page95-pdf-layout figure:has(img[data-id^="pg095_im"]) { width: 82% !important; max-width: 25rem !important; }
+/* Page 97: complete original text followed by notebook-style writing areas. */
+#content section:has(.page97-original-complete) > :not(.page97-original-complete):not(.sr-only) { display: none !important; }
+.page97-original-complete { max-width: 52rem; margin: 0 auto; color: #263241; }
+.page97-original-complete > p { margin: .45rem 0; font-size: clamp(1rem, 2.25vw, 1.3rem); font-style: italic; line-height: 1.4; }
+.page97-lesson-title, .page97-next-lesson { margin: .6rem 0; padding: .55rem .7rem; border: 2px solid #00aeef; border-radius: .2rem; }
+.page97-lesson-title p, .page97-next-lesson p { margin: 0 0 .2rem; font-size: clamp(1.15rem, 2.5vw, 1.55rem); font-weight: 700; font-style: italic; }
+.page97-lesson-title h2, .page97-next-lesson h2 { margin: 0; color: #009c3b; font-size: clamp(1.35rem, 3vw, 1.9rem); font-style: italic; }
+.page97-original-complete > h3, .page97-writing-form > h3 { display: table; margin: 1rem 0 .45rem; padding: .25rem 1.1rem; border: 2px solid #00aeef; border-radius: 1rem; color: #00a7e8; font-size: clamp(1.15rem, 2.6vw, 1.55rem); font-style: italic; }
+.page97-writing-form { margin-top: 1.2rem; padding: .1rem .45rem .65rem; border: 2px solid #00aeef; border-radius: .85rem; background: #fff; }
+.page97-writing-form label { display: block; margin: .7rem 0; color: #263241; font-size: clamp(1rem, 2.2vw, 1.25rem); font-weight: 700; }
+.page97-writing-form textarea { display: block; box-sizing: border-box; width: 100%; margin-top: .25rem; padding: .25rem .45rem; resize: vertical; color: #153d4a; border: 0; outline: none; font: inherit; line-height: 1.75rem; background-color: #fff; background-image: linear-gradient(to bottom, transparent calc(1.75rem - 1px), #9ca3af calc(1.75rem - 1px), #9ca3af 1.75rem); background-size: 100% 1.75rem; }
+.page97-writing-form textarea:focus { box-shadow: inset 0 0 0 2px rgba(0,174,239,.3); }
+.page97-writing-form > div { display: flex; justify-content: flex-end; }
+.page97-writing-form button { min-height: 42px; padding: .42rem .9rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 97 guaranteed visible standalone layout. */
+body.page97-has-fallback #content { display: none !important; }
+.page97-visible-fallback { width: min(100% - 2rem, 52rem); margin: 1.5rem auto; padding: 1rem; color: #263241; background: #fff; }
+.page97-visible-fallback > p { margin: .45rem 0; font-size: clamp(1rem, 2.25vw, 1.3rem); font-style: italic; line-height: 1.4; }
+.page97-visible-fallback > h3 { display: table; margin: 1rem 0 .45rem; padding: .25rem 1.1rem; border: 2px solid #00aeef; border-radius: 1rem; color: #00a7e8; font-size: clamp(1.15rem, 2.6vw, 1.55rem); font-style: italic; }
+/* Page 97: the complete Shangazi Maria model before the writing area. */
+.page97-shangazi-layout { max-width: 34rem; }
+.page97-chapter-title { display: table; margin: 0 auto .4rem; padding: .3rem 1.1rem; border: 2px solid #00aeef; border-radius: 1.2rem; color: #00a7e8; background: #fff; }
+.page97-chapter-title p { margin: 0; font-size: clamp(1.2rem, 3vw, 1.65rem); font-weight: 700; font-style: italic; }
+.page97-shangazi-layout > h2 { margin: .35rem 0; color: #00a7e8; font-size: clamp(1.2rem, 2.7vw, 1.55rem); font-style: italic; }
+.page97-shangazi-layout > h3 { margin: .45rem 0; color: #009c3b; font-size: clamp(1.15rem, 2.5vw, 1.45rem); font-style: italic; }
+.page97-shangazi-layout > h4 { margin: .65rem 0 .25rem; color: #009c3b; text-align: center; font-size: clamp(1.1rem, 2.4vw, 1.4rem); }
+.page97-shangazi-layout .page97-lesson-title { margin: .6rem 0; }
+.page97-story-model { padding: .45rem .05rem; color: #1f2937; font-family: "Maandishi", "Sassoon Primary", cursive; font-size: clamp(1.55rem, 4.6vw, 2.3rem); line-height: 1.38; background-image: linear-gradient(to bottom, transparent calc(2.1rem - 1px), #9ca3af calc(2.1rem - 1px), #9ca3af 2.1rem); background-size: 100% 2.1rem; }
+.page97-shangazi-layout .page97-writing-form { margin-top: 1rem; }
+/* Page 97 full large-and-small writing guides. */
+.page97-shangazi-layout .page97-writing-form textarea { min-height: 27rem; padding: .1rem .45rem; line-height: 4.45rem; background-color: #fff; background-image: linear-gradient(to bottom, #4b5563 0, #4b5563 3px, transparent 3px, transparent 1.42rem, #aeb4ba 1.42rem, #aeb4ba calc(1.42rem + 1px), transparent calc(1.42rem + 1px), transparent 2.88rem, #aeb4ba 2.88rem, #aeb4ba calc(2.88rem + 1px), transparent calc(2.88rem + 1px), transparent 4.28rem, #4b5563 4.28rem, #4b5563 4.45rem); background-size: 100% 4.45rem; }
+/* Page 98: joined Shangazi Maria model plus full notebook answer area. */
+body.page98-has-fallback #content { display: none !important; }
+.page98-shangazi-fallback { width: min(100% - 2rem, 35rem); margin: 1.2rem auto; padding: .65rem; color: #263241; background: #fff; }
+.page98-chapter-title { display: table; margin: 0 auto .35rem; padding: .3rem 1.1rem; border: 2px solid #00aeef; border-radius: 1.25rem; color: #00a7e8; font-size: clamp(1.2rem, 3vw, 1.65rem); font-weight: 700; font-style: italic; }
+.page98-shangazi-fallback h2 { margin: .3rem 0; color: #00a7e8; font-size: clamp(1.2rem, 2.7vw, 1.55rem); font-style: italic; }
+.page98-shangazi-fallback > p { margin: .35rem 0; font-size: clamp(1rem, 2.2vw, 1.25rem); font-style: italic; line-height: 1.35; }
+.page98-lesson-label { margin: .6rem 0; padding: .35rem .65rem; border: 2px solid #00aeef; color: #263241; font-size: clamp(1.1rem, 2.45vw, 1.4rem); font-weight: 700; }
+.page98-shangazi-fallback > h3 { margin: .35rem 0; color: #009c3b; font-size: clamp(1.15rem, 2.5vw, 1.45rem); font-style: italic; }
+.page98-shangazi-fallback > h4 { margin: .65rem 0 .2rem; color: #009c3b; text-align: center; font-size: clamp(1.1rem, 2.4vw, 1.4rem); }
+.page98-story-guide { padding: .1rem .05rem; color: #1f2937; font-family: "Maandishi", "Sassoon Primary", cursive; font-size: clamp(1.45rem, 4.4vw, 2.2rem); line-height: 2.1rem; background-color: #fff; background-image: linear-gradient(to bottom, #4b5563 0, #4b5563 2px, transparent 2px, transparent 1.02rem, #aeb4ba 1.02rem, #aeb4ba calc(1.02rem + 1px), transparent calc(1.02rem + 1px), transparent 2.02rem, #4b5563 2.02rem, #4b5563 2.1rem); background-size: 100% 2.1rem; }
+.page98-writing-form { margin-top: 1rem; padding: .4rem; border: 2px solid #00aeef; border-radius: .85rem; }
+.page98-writing-form h3 { margin: 0 0 .45rem; color: #009c3b; font-size: clamp(1.1rem, 2.45vw, 1.4rem); }
+.page98-writing-form textarea { box-sizing: border-box; width: 100%; min-height: 30rem; padding: .1rem .4rem; resize: vertical; color: #153d4a; border: 0; outline: none; font: inherit; line-height: 4.45rem; background-color: #fff; background-image: linear-gradient(to bottom, #4b5563 0, #4b5563 3px, transparent 3px, transparent 1.42rem, #aeb4ba 1.42rem, #aeb4ba calc(1.42rem + 1px), transparent calc(1.42rem + 1px), transparent 2.88rem, #aeb4ba 2.88rem, #aeb4ba calc(2.88rem + 1px), transparent calc(2.88rem + 1px), transparent 4.28rem, #4b5563 4.28rem, #4b5563 4.45rem); background-size: 100% 4.45rem; }
+.page98-writing-form > div { display: flex; justify-content: flex-end; margin-top: .35rem; }
+.page98-writing-form button { min-height: 42px; padding: .42rem .9rem; border: 1px solid #00aeef; border-radius: .7rem; background: #eefbff; color: #065a76; font-weight: 700; cursor: pointer; }
+/* Page 98 consistent font and full notebook guides. */
+.page98-shangazi-fallback, .page98-shangazi-fallback *, .page98-shangazi-fallback button, .page98-shangazi-fallback textarea { font-family: "Sassoon Primary", sans-serif !important; }
+.page98-shangazi-fallback .page98-story-guide { font-family: "Sassoon Primary", sans-serif !important; font-size: clamp(1.3rem, 3.8vw, 1.9rem); line-height: 2.1rem; }
+.page98-shangazi-fallback .page98-writing-form textarea { display: block; min-height: 32rem; padding: .12rem .5rem; color: #172033; font-size: 1.2rem; line-height: 4.45rem; cursor: text; background-color: #fff; background-image: linear-gradient(to bottom, #424242 0, #424242 4px, transparent 4px, transparent 1.42rem, #aeb4ba 1.42rem, #aeb4ba calc(1.42rem + 1px), transparent calc(1.42rem + 1px), transparent 2.88rem, #aeb4ba 2.88rem, #aeb4ba calc(2.88rem + 1px), transparent calc(2.88rem + 1px), transparent 4.22rem, #424242 4.22rem, #424242 4.45rem) !important; background-size: 100% 4.45rem !important; }
+/* Page 96: exact original Shangazi Maria reading model. */
+body.page96-has-fallback #content { display: none !important; }
+.page96-original-fallback { width: min(100% - 2rem, 34rem); margin: 1.2rem auto; padding: .65rem; color: #263241; background: #fff; font-family: "Sassoon Primary", sans-serif; }
+.page96-original-fallback * { font-family: "Sassoon Primary", sans-serif; }
+.page96-chapter-title { display: table; margin: 0 auto .35rem; padding: .3rem 1.1rem; border: 2px solid #00aeef; border-radius: 1.25rem; color: #00a7e8; font-size: clamp(1.2rem, 3vw, 1.65rem); font-weight: 700; font-style: italic; }
+.page96-original-fallback h2 { margin: .3rem 0; color: #00a7e8; font-size: clamp(1.15rem, 2.6vw, 1.5rem); font-style: italic; }
+.page96-original-fallback > p { margin: .35rem 0; font-size: clamp(1rem, 2.2vw, 1.2rem); font-style: italic; line-height: 1.35; }
+.page96-lesson-label { margin: .6rem 0 .25rem; padding: .3rem .65rem; border: 2px solid #00aeef; color: #263241; font-size: clamp(1.1rem, 2.4vw, 1.35rem); font-weight: 700; }
+.page96-original-fallback h3 { margin: .3rem 0; color: #009c3b; font-size: clamp(1.1rem, 2.4vw, 1.4rem); font-style: italic; }
+.page96-original-fallback h4 { margin: .55rem 0 .12rem; color: #009c3b; text-align: center; font-size: clamp(1.08rem, 2.4vw, 1.35rem); }
+.page96-model-lines, .page96-story-continuation { color: #1f2937; font-family: "Maandishi", "Sassoon Primary", cursive !important; font-size: clamp(1.45rem, 4.35vw, 2.1rem); line-height: 2.1rem; background-color: #fff; background-image: linear-gradient(to bottom, #4b5563 0, #4b5563 2px, transparent 2px, transparent 1.02rem, #aeb4ba 1.02rem, #aeb4ba calc(1.02rem + 1px), transparent calc(1.02rem + 1px), transparent 2.02rem, #4b5563 2.02rem, #4b5563 2.1rem); background-size: 100% 2.1rem; }
+.page96-model-lines div, .page96-story-continuation div { height: 2.1rem; padding: 0 .05rem; white-space: nowrap; font-family: "Maandishi", "Sassoon Primary", cursive !important; }
+.page96-story-continuation { margin-top: 2.3rem; }
+/* Page 96 original compact typography. */
+.page96-original-fallback { width: min(100% - 2rem, 31rem); padding: .5rem; }
+.page96-chapter-title { padding: .22rem .9rem; font-size: clamp(1.05rem, 2.65vw, 1.4rem); }
+.page96-original-fallback h2 { font-size: clamp(1rem, 2.3vw, 1.25rem); }
+.page96-original-fallback > p { font-size: clamp(.9rem, 2vw, 1.08rem); line-height: 1.28; }
+.page96-lesson-label { margin: .45rem 0 .2rem; padding: .22rem .55rem; font-size: clamp(.98rem, 2.2vw, 1.2rem); }
+.page96-original-fallback h3 { font-size: clamp(.98rem, 2.2vw, 1.22rem); }
+.page96-original-fallback h4 { margin: .4rem 0 .1rem; font-size: clamp(.98rem, 2.15vw, 1.18rem); }
+.page96-model-lines, .page96-story-continuation { font-size: clamp(1.15rem, 3.65vw, 1.7rem); line-height: 1.78rem; background-image: linear-gradient(to bottom, #4b5563 0, #4b5563 2px, transparent 2px, transparent .86rem, #aeb4ba .86rem, #aeb4ba calc(.86rem + 1px), transparent calc(.86rem + 1px), transparent 1.69rem, #4b5563 1.69rem, #4b5563 1.78rem); background-size: 100% 1.78rem; }
+.page96-model-lines div, .page96-story-continuation div { height: 1.78rem; }
+.page96-story-continuation { margin-top: 1.5rem; }
+/* Page 96 PDF page boundary. */
+.page96-printed-page { display: table; margin: .25rem auto 0; padding: .05rem .7rem; border-radius: 1rem; background: #00aeef; color: #fff; font-family: "Atkinson Hyperlegible", Arial, sans-serif !important; font-size: .9rem; font-weight: 700; }

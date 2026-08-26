@@ -575,7 +575,7 @@
 
 
 
-<meta content="113" name="page-section-id">
+<meta content="95" name="page-section-id">
 
 
 
@@ -671,7 +671,7 @@
 
 
 
-<link href="./content/tailwind_output.css?v=adt-writing-standard-v1.8.0-20260822" rel="stylesheet">
+<link href="./content/tailwind_output.css?v=adt-writing-on-model-v1.8.1-20260822" rel="stylesheet">
 
 
 
@@ -863,7 +863,7 @@
 
 
 
-<link href="./assets/fonts.css?v=adt-writing-standard-v1.8.0-20260822" rel="stylesheet">
+<link href="./assets/fonts.css?v=adt-writing-on-model-v1.8.1-20260822" rel="stylesheet">
 
 
 
@@ -959,7 +959,7 @@
 
 
 
-<link rel="stylesheet" href="./assets/semantic-reader.css?v=adt-writing-standard-v1.8.0-20260822">
+<link rel="stylesheet" href="./assets/semantic-reader.css?v=page95-wide-v5">
 
 
 
@@ -3023,7 +3023,7 @@
 
 
 
-<script src="./assets/offline-preloader.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/offline-preloader.js?v=page95-wide-v5"></script>
 
 
 
@@ -3215,7 +3215,7 @@
 
 
 
-<script src="./assets/base.bundle.local.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/base.bundle.local.js?v=navigation105-v1"></script>
 
 
 
@@ -3311,7 +3311,32 @@
 
 
 
-<script src="./assets/writing-activities.js?v=adt-writing-standard-v1.8.0-20260822"></script>
+<script src="./assets/writing-activities.js?v=page95-wide-v5"></script>
+<script>
+(function () {
+  function arrangePage95() {
+    var page = document.querySelector("#content section");
+    if (!page || page.classList.contains("page95-pdf-layout")) return;
+    var title = page.querySelector('[data-id="pg095_s001_n0001"]');
+    var card = page.querySelector('[data-response-id="pg095_sec001_response_01"]');
+    var image1 = page.querySelector('img[data-id="pg095_im001"]');
+    var image2 = page.querySelector('img[data-id="pg095_im002"]');
+    var image3 = page.querySelector('img[data-id="pg095_im003"]');
+    var label1 = page.querySelector('[data-id="pg095_s001_n0004"]');
+    var label2 = page.querySelector('[data-id="pg095_s001_n0005"]');
+    var label3 = page.querySelector('[data-id="pg095_s001_n0006"]');
+    if (!title || !card || !image1 || !image2 || !image3 || !label1 || !label2 || !label3) return;
+    page.classList.add("page95-pdf-layout");
+    card.prepend(title);
+    [[label1,image1],[label2,image2],[label3,image3]].forEach(function (pair) {
+      var figure = pair[1].closest("figure");
+      figure.before(pair[0]);
+    });
+  }
+  arrangePage95();
+  window.setTimeout(arrangePage95, 300);
+}());
+</script>
 
 
 
