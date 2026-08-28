@@ -1,5 +1,22 @@
 (function () {
   "use strict";
+
+  // Ensure every instructional image in the early writing lessons is wired to
+  // its existing Swahili audio-description catalogue entry.  Some legacy
+  // pages had the description/caption but omitted this linking attribute.
+  function ensureImageAudioDescriptionIds() {
+    document.querySelectorAll("img[data-adt-description]").forEach(function (image) {
+      if (image.dataset.adtAudioDescriptionId) return;
+      var id = image.dataset.id;
+      if (!id && /pg016_trace_m_source/.test(image.src)) id = "pg016_im004";
+      if (!id && /pg022_trace_n_source/.test(image.src)) id = "pg022_im002";
+      if (!id) return;
+      image.dataset.id = id;
+      image.dataset.adtAudioDescriptionId = id + "_audio_description";
+    });
+  }
+
+  ensureImageAudioDescriptionIds();
   const KEY = "kuandika-mwaka-1-responses:" + location.pathname;
   let state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (_) {}

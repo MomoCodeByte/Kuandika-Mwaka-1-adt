@@ -32,3 +32,12 @@ This report is intentionally a baseline: fixes are accepted only after the same 
 
 - Local preview server response: HTTP 200 for pg009_sec001.html.
 - Browser automation attachment was unavailable in this run, so viewport interaction is still an open test item; it will be rerun after fixes.
+
+## Batch A post-fix test
+
+- Added the shared audio-description bridge for legacy instructional images.
+- Added explicit page-5 link for the signature image.
+- Browser audit across pages 3–24: all 52 instructional images now expose an audio-description ID; all tested pages reported zero horizontal overflow.
+- Representative page 9: 2/2 instructional images linked and overflow 0.
+- Representative page 16: 4/4 instructional images linked, including the previously untagged m-tracing model; overflow 0.
+- Representative page 5: signature image linked to its existing audio entry; verified in DOM.
