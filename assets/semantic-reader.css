@@ -199,6 +199,21 @@ html.original-book-theme body {
   padding-inline: clamp(1rem, 6vw, 5rem);
 }
 
+/* Keep the reading pages clean and neutral: remove the decorative blue
+   gradient frame while retaining activity borders and accessible content. */
+html.original-book-theme body {
+  background: #fff !important;
+}
+#content.original-book-page {
+  background: #fff !important;
+}
+#content .kuandika-section {
+  background: #fff !important;
+}
+#content .kuandika-section::before {
+  display: none !important;
+}
+
 .original-book-section {
   max-width: 54rem;
 }
@@ -3709,3 +3724,25 @@ body.page96-has-fallback #content { display: none !important; }
 .page96-story-continuation { margin-top: 1.5rem; }
 /* Page 96 PDF page boundary. */
 .page96-printed-page { display: table; margin: .25rem auto 0; padding: .05rem .7rem; border-radius: 1rem; background: #00aeef; color: #fff; font-family: "Atkinson Hyperlegible", Arial, sans-serif !important; font-size: .9rem; font-weight: 700; }
+
+/* Shared responsive safeguards for every book page. */
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+#content, #content.original-book-page, .book-page, .kuandika-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+#content img, #content video, #content canvas, #content svg, #content iframe {
+  max-width: 100%;
+}
+#content .source-figure { width: 100%; max-width: 100%; }
+#content .source-figure img { width: auto; max-width: 100%; height: auto; }
+#content table { display: block; max-width: 100%; overflow-x: auto; }
+@media (max-width: 640px) {
+  #content, #content.original-book-page { padding-inline: 1rem !important; }
+  #content .response-card { margin-inline: 0; padding: .75rem !important; }
+  #content .source-line, #content .question-prompt { overflow-wrap: anywhere; }
+  #content .source-figure { margin-inline: 0; }
+  #content .source-figure img { width: 100%; }
+  #content button, #content input, #content textarea, #content select { max-width: 100%; }
+}

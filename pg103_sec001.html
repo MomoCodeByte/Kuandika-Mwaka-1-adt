@@ -1492,6 +1492,43 @@
 [data-response-id="pg103_sec001_response_01"] .handwriting-canvas-wrap,
 [data-response-id="pg103_sec001_response_01"] > .drawing-clear { display:none !important; }
 [data-response-id="pg103_sec001_response_01"] .page103-answer-form { margin-top:.7rem; }
+
+/* Zoezi la Sita: eneo la kujibia linafuata mistari ya daftari,
+   huku canvas na kitufe cha Futa vikibaki kufanya kazi. */
+[data-response-id="pg103_sec001_response_02"] .handwriting-canvas-wrap {
+  position:relative !important;
+  min-height:11rem !important;
+  height:11rem !important;
+  margin:.35rem 0 .8rem !important;
+  border:0 !important;
+  border-radius:0 !important;
+  overflow:hidden !important;
+  background-color:#fff !important;
+  background-image:linear-gradient(to bottom,
+    #4a4a4a 0, #4a4a4a 6px,
+    transparent 6px, transparent 33%,
+    #b8b8b8 33%, #b8b8b8 calc(33% + 1px),
+    transparent calc(33% + 1px), transparent 66%,
+    #b8b8b8 66%, #b8b8b8 calc(66% + 1px),
+    transparent calc(66% + 1px), transparent calc(100% - 6px),
+    #4a4a4a calc(100% - 6px), #4a4a4a 100%) !important;
+  background-size:100% 100% !important;
+  background-repeat:no-repeat !important;
+}
+[data-response-id="pg103_sec001_response_02"] .handwriting-canvas-wrap .drawing-canvas {
+  position:absolute !important;
+  inset:0 !important;
+  z-index:1 !important;
+  width:100% !important;
+  min-height:11rem !important;
+  height:11rem !important;
+  background:transparent !important;
+  border:0 !important;
+}
+[data-response-id="pg103_sec001_response_02"] > .drawing-clear {
+  display:block !important;
+  margin:.2rem 0 0 auto !important;
+}
 </style></head>
 
 

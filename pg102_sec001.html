@@ -1776,6 +1776,7 @@
 
 
 <div class="container kuandika-page mx-auto max-w-7xl bg-white px-14 py-10 opacity-0 max-lg:px-8 max-sm:px-5 original-book-page" id="content">
+<span data-id="pg102_original_layout_audio_description" style="display:block;width:1px;height:1px;overflow:hidden">Mchoro unaonyesha wanaume wawili na mwanamke wakizungumza. Mwanamume aliye kushoto anauliza kwa nini hawakuonana kwenye sherehe; mwanamume aliye kulia amebeba fimbo begani na anaeleza kuwa alizuiwa na majukumu. Chini, wanaendelea kuzungumza kuhusu mambo yaliyotokea. Soma mazungumzo na tambua alama za uandishi kwenye sentensi.</span>
 
 
 
@@ -2929,7 +2930,9 @@
 
 <style id="page102-original-pdf-v2">
 body.page102-original-pdf { margin:0; background:#fff !important; }
-body.page102-original-pdf #content { display:none !important; }
+/* Expose source nodes to the ADT default (green) controller without changing the visible original-page artwork. */
+body.page102-original-pdf #content { display:block !important; position:absolute !important; left:0; top:0; width:1px !important; height:1px !important; overflow:hidden !important; opacity:0 !important; pointer-events:none !important; }
+.page102-audio-player, .page102-audio-control { display:none !important; }
 .page102-original-sheet { position:relative; width:min(100%, 760px); margin:0 auto; background:#fff; }
 .page102-original-sheet::after { content:""; position:absolute; z-index:2; left:50%; bottom:0; transform:translateX(-50%); width:88px; height:40px; background:#fff; }
 .page102-original-sheet img { display:block; width:100%; height:auto; }
@@ -3510,7 +3513,7 @@ body.page102-original-pdf #content { display:none !important; }
 
 
 
-<script src="./assets/writing-activities.js?v=full-book-standard-v4"></script>
+<script src="./assets/writing-activities.js?v=page102-scene-audio-20260827"></script>
 
 
 

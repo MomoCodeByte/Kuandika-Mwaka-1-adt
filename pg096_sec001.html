@@ -4656,7 +4656,9 @@
 
 
 <style id="page96-pdf-model-v3">
-body.page96-pdf-model #content { display:none !important; }
+/* Keep source nodes available to the ADT default (green) controller while the faithful PDF-style sheet remains visible. */
+body.page96-pdf-model #content { display:block !important; position:absolute !important; left:0; top:0; width:1px !important; height:1px !important; overflow:hidden !important; opacity:0 !important; pointer-events:none !important; }
+.page96-audio-player, .page96-audio-control { display:none !important; }
 body.page96-pdf-model { margin:0; background:#fff !important; }
 .page96-pdf-sheet { box-sizing:border-box; width:min(100%,630px); margin:0 auto; padding:25px 46px 0; background:linear-gradient(90deg,#edfaff 0,#fff 12%,#fff 88%,#edfaff 100%); color:#202020; font-family:"Sassoon Primary","Comic Sans MS",cursive; }
 .p96-title { width:fit-content; max-width:100%; margin:0 auto 9px; padding:7px 19px; color:#08a8ed; font-weight:700; font-size:24px; letter-spacing:.3px; border:2px solid #acdff7; border-radius:18px; }
@@ -4674,13 +4676,13 @@ body.page96-pdf-model { margin:0; background:#fff !important; }
 @media(max-width:520px){.page96-pdf-sheet{padding:22px 48px 0}.p96-title{font-size:21px}.p96-subtitle{font-size:15px}.p96-copy,.p96-green{font-size:15px}.p96-guides{font-size:clamp(17px,5.4vw,25px)}.p96-break{margin-left:-48px;margin-right:-48px}}
 </style>
 <section class="page96-pdf-sheet" aria-label="Sura ya Kumi na Tatu">
-  <div class="p96-title">Sura ya Kumi na Tatu</div>
-  <div class="p96-subtitle">Kuandika mwandiko wa chapa wenye vikonyo</div>
-  <p class="p96-copy">Katika sura hii utajifunza kuandika. Utatumia<br>mwandiko wa chapa wenye vikonyo.</p>
-  <div class="p96-lesson">Somo la kwanza</div>
-  <div class="p96-green">Kunakili habari kwa mwandiko wa chapa wenye<br>vikonyo</div>
-  <p class="p96-copy">Andika habari hii kwa mwandiko unaosomeka. Tumia<br>mwandiko wa chapa wenye vikonyo.</p>
-  <div class="p96-model-title">Shangazi Maria</div>
+  <div class="p96-title" data-id="pg096_s001_n0001">Sura ya Kumi na Tatu</div>
+  <div class="p96-subtitle" data-id="pg096_s001_n0002">Kuandika mwandiko wa chapa wenye vikonyo</div>
+  <p class="p96-copy" data-id="pg096_s001_n0003">Katika sura hii utajifunza kuandika. Utatumia<br>mwandiko wa chapa wenye vikonyo.</p>
+  <div class="p96-lesson" data-id="pg096_s002_n0001">Somo la kwanza</div>
+  <div class="p96-green" data-id="pg096_s002_n0002">Kunakili habari kwa mwandiko wa chapa wenye<br>vikonyo</div>
+  <p class="p96-copy" data-id="pg096_s002_n0004">Andika habari hii kwa mwandiko unaosomeka. Tumia<br>mwandiko wa chapa wenye vikonyo.</p>
+  <div class="p96-model-title" data-id="pg096_s002_n0006">Shangazi Maria</div>
   <div class="p96-guides" aria-label="Mfano wa Shangazi Maria"><div class="p96-row">Shangazi yangu anaitwa Maria.</div><div class="p96-row">Anafundisha&nbsp;&nbsp;&nbsp;katika&nbsp;&nbsp;&nbsp;shule&nbsp;&nbsp;&nbsp;ya</div><div class="p96-row">Nyamakongo. Shangazi akitoka shuleni,</div><div class="p96-row">anapenda&nbsp;&nbsp;&nbsp;kulisha&nbsp;&nbsp;&nbsp;kuku&nbsp;&nbsp;&nbsp;wake</div><div class="p96-row">bandani. Shangazi ana kuku wengi</div><div class="p96-row">sana. Kabla ya kuwalisha, huanza</div></div>
   <div class="p96-continuation"><div class="p96-guides"><div class="p96-row">kuokota mayai. Shangazi anawapenda</div><div class="p96-row">sana&nbsp;&nbsp;&nbsp;kuku&nbsp;&nbsp;&nbsp;wake.</div></div></div>
 </section></main>
@@ -5547,7 +5549,7 @@ body.page96-pdf-model { margin:0; background:#fff !important; }
 
 
 
-<script src="./assets/writing-activities.js?v=page96-pdf-model-v3"></script>
+<script src="./assets/writing-activities.js?v=page96-audio-playlist-20260827"></script>
 
 
 

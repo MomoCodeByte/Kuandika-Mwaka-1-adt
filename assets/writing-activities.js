@@ -137,6 +137,155 @@
   document.documentElement.classList.add("pages-41-60-standard");
   page.classList.add("batch-v2-page", "batch-v2-page-" + pageNumber);
 
+  const modelDescriptionMap = {
+    pg060_im001: "Herufi kubwa K iko upande wa kushoto na mifano ya K yenye nukta iko upande wa kulia kwenye mistari ya mwandiko.",
+    pg060_im002: "Majina ya mfano yameandikwa kwa mwandiko wa kuunga kwenye mistari ya daftari.",
+    pg060_im003: "Sentensi za mfano zimeandikwa kwa mwandiko wa kuunga kwenye mistari ya daftari.",
+    pg061_im001: "Herufi kubwa N inaonekana pamoja na mifano ya N yenye nukta kwenye mistari ya mwandiko.",
+    pg061_im002: "Majina ya mfano yamepangwa kwenye mistari ya mwandiko wa kuunga ili yanakiliwe.",
+    pg061_im003: "Sentensi za mfano zimepangwa kwenye mistari ya daftari ili ziandikwe tena.",
+    pg064_im001: "Herufi kubwa L iko pamoja na mifano ya L yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg064_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg064_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg065_im001: "Herufi kubwa T iko pamoja na mifano ya T yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg065_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg065_im003: "Mistari ya daftari iliyo wazi imetengwa kwa mwanafunzi kuandika majibu ya zoezi.",
+    pg066_im001: "Herufi kubwa P iko pamoja na mifano ya P yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg066_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg066_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg067_im001: "Herufi kubwa S iko pamoja na mifano ya S yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg067_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg067_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg068_im002: "Herufi F, majina na sentensi za mfano zimepangwa kwenye mistari ya mwandiko wa kuunga.",
+    pg068_im003: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg068_im004: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg052_im001: "Herufi kubwa A iko pamoja na mifano ya A yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg053_im001: "Herufi kubwa E iko pamoja na mifano ya E yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg055_im001: "Herufi kubwa O iko pamoja na mifano ya O yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg056_im001: "Herufi kubwa U iko pamoja na mifano ya U yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg073_im001: "Herufi kubwa Z iko pamoja na mifano ya Z yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg073_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg075_im002: "Herufi kubwa H iko pamoja na mifano ya H yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg075_im003: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg075_im004: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg078_im001: "Majina ya mfano yanayoanza kwa CH yameandikwa kwenye mistari ya mwandiko.",
+    pg078_im003: "Konsonanti CH iko pamoja na mifano yake yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
+    pg069_im001: "Herufi kubwa J iko upande wa kushoto na mifano ya herufi J za kufuatisha kwenye mistari ya mwandiko.",
+    pg069_im002: "Mifano ya majina yanayoanza kwa herufi J imeandikwa kwenye mstari wa mwandiko.",
+    pg069_im003: "Mifano ya sentensi zenye herufi J imeandikwa kwenye mistari ya mwandiko.",
+    pg071_im001: "Herufi kubwa G iko upande wa kushoto na mifano ya herufi G za kufuatisha kwenye mistari ya mwandiko.",
+    pg071_im002: "Mifano ya majina yanayoanza kwa herufi G imeandikwa kwenye mstari wa mwandiko.",
+    pg072_im001: "Mifano ya sentensi zenye herufi Y imeandikwa kwenye mistari ya mwandiko.",
+    pg072_im002: "Herufi kubwa Y iko upande wa kushoto na mifano ya herufi Y za kufuatisha kwenye mistari ya mwandiko.",
+    pg072_im003: "Mifano ya majina yanayoanza kwa herufi Y imeandikwa kwenye mstari wa mwandiko.",
+    pg074_im001: "Herufi kubwa R iko upande wa kushoto na mifano ya herufi R za kufuatisha kwenye mistari ya mwandiko.",
+    pg074_im002: "Mifano ya majina yanayoanza kwa herufi R imeandikwa kwenye mstari wa mwandiko.",
+    pg074_im003: "Mifano ya sentensi zenye herufi R imeandikwa kwenye mistari ya mwandiko.",
+    pg076_im001: "Herufi kubwa W iko upande wa kushoto na mifano ya herufi W za kufuatisha kwenye mistari ya mwandiko.",
+    pg076_im002: "Mifano ya majina yanayoanza kwa herufi W imeandikwa kwenye mstari wa mwandiko.",
+    pg076_im003: "Mifano ya sentensi zenye herufi W imeandikwa kwenye mistari ya mwandiko.",
+    pg077_im001: "Herufi kubwa V iko upande wa kushoto na mifano ya herufi V za kufuatisha kwenye mistari ya mwandiko.",
+    pg085_im001: "Mchoro una mistari minne ya mwandiko wa kuunga: a, ch, d na m zikirudiwa na kuungana kutoka kushoto kwenda kulia.",
+    pg086_im001: "Mchoro una mistari mitatu ya mwandiko wa kuunga yenye silabi me, ne na na zinazorudiwa.",
+    pg086_im002: "Mchoro una maneno tembo, bege, ondoa, kondoo, papai na kitanda kwenye mistari ya mwandiko wa kuunga."
+  };
+  Object.keys(modelDescriptionMap).forEach(function (id) {
+    document.querySelectorAll('[data-id="' + id + '"]').forEach(function (node) {
+      const image = node.matches("img") ? node : node.querySelector("img");
+      if (image) { image.alt = modelDescriptionMap[id]; image.setAttribute("data-adt-description", modelDescriptionMap[id]); }
+      if (node.matches("figcaption")) node.textContent = modelDescriptionMap[id];
+    });
+  });
+  const applyModelDescriptions = function () {
+    Object.keys(modelDescriptionMap).forEach(function (id) {
+      document.querySelectorAll('[data-id="' + id + '"]').forEach(function (node) {
+        const image = node.matches("img") ? node : node.querySelector("img");
+        if (image) { image.alt = modelDescriptionMap[id]; image.setAttribute("data-adt-description", modelDescriptionMap[id]); }
+        if (node.matches("figcaption")) node.textContent = modelDescriptionMap[id];
+      });
+    });
+  };
+  requestAnimationFrame(applyModelDescriptions);
+  setTimeout(applyModelDescriptions, 500);
+  setTimeout(applyModelDescriptions, 1200);
+
+  if (pageNumber === 102) {
+    const describeScene = function () {
+      const scene = document.querySelector(".page102-original-sheet img");
+      if (!scene) return;
+      scene.alt = "Mchoro unaonyesha wanaume wawili na mwanamke wakizungumza. Mwanamume aliye kushoto anauliza kwa nini hawakuonana kwenye sherehe; mwanamume aliye kulia amebeba fimbo begani na anaeleza kuwa alizuiwa na majukumu. Chini, wanaendelea kuzungumza kuhusu mambo yaliyotokea. Soma mazungumzo na tambua alama za uandishi kwenye sentensi.";
+      scene.setAttribute("data-adt-description", scene.alt);
+      scene.setAttribute("data-adt-audio-description-id", "pg102_original_layout_audio_description");
+    };
+    describeScene();
+    requestAnimationFrame(describeScene);
+    setTimeout(describeScene, 500);
+    setTimeout(describeScene, 1200);
+    const sheet = document.querySelector(".page102-original-sheet");
+    if (sheet && !sheet.querySelector(".page102-audio-control")) {
+      const audio = document.createElement("audio");
+      audio.controls = true;
+      audio.preload = "metadata";
+      audio.className = "page102-audio-player";
+      audio.src = "./content/i18n/sw-TZ/audio/pg102_original_layout_audio_description.mp3?v=20260827-scene";
+      audio.style.cssText = "display:block;width:min(100%,520px);margin:8px auto";
+      const control = document.createElement("button");
+      control.type = "button";
+      control.className = "page102-audio-control";
+      control.textContent = "Sikiliza maelezo ya picha";
+      control.setAttribute("aria-label", "Sikiliza maelezo ya picha ya ukurasa 102 kwa sauti ya Rehema");
+      control.style.cssText = "display:block;margin:8px auto;padding:6px 12px;border:2px solid #08a8ed;border-radius:16px;background:#fff;color:#087aa8;font-weight:700;cursor:pointer";
+      control.addEventListener("click", function () {
+        if (audio.paused) { audio.play().then(function () { control.textContent = "Sitisha maelezo"; }).catch(function () {}); }
+        else { audio.pause(); control.textContent = "Endelea kusikiliza"; }
+      });
+      audio.addEventListener("ended", function () { control.textContent = "Sikiliza maelezo ya picha"; });
+      sheet.insertBefore(audio, sheet.firstChild);
+      sheet.insertBefore(control, audio.nextSibling);
+    }
+  }
+
+  // The original page 96 sheet sits outside #content, so the normal reader
+  // cannot discover its data-id values. Provide one compact, accessible
+  // Rehema playlist for the complete sheet instead of adding many controls.
+  if (pageNumber === 96) {
+    const sheet = document.querySelector(".page96-pdf-sheet");
+    if (sheet && !sheet.querySelector(".page96-audio-control")) {
+      const ids = [
+        "pg096_s001_n0001", "pg096_s001_n0002", "pg096_s001_n0003",
+        "pg096_s001_n0004", "pg096_s002_n0001", "pg096_s002_n0002",
+        "pg096_s002_n0003", "pg096_s002_n0004", "pg096_s002_n0006"
+      ];
+      const audio = document.createElement("audio");
+      audio.controls = true;
+      audio.preload = "metadata";
+      audio.className = "page96-audio-player";
+      audio.style.cssText = "display:block;width:min(100%,420px);margin:0 auto 8px";
+      let index = 0;
+      const control = document.createElement("button");
+      control.type = "button";
+      control.className = "page96-audio-control";
+      control.textContent = "Sikiliza ukurasa";
+      control.setAttribute("aria-label", "Sikiliza maudhui yote ya ukurasa 96 kwa sauti ya Rehema");
+      control.style.cssText = "display:block;margin:0 auto 8px;padding:6px 12px;border:2px solid #08a8ed;border-radius:16px;background:#fff;color:#087aa8;font-weight:700;cursor:pointer";
+      const playNext = function () {
+        if (index >= ids.length) { index = 0; control.textContent = "Sikiliza ukurasa"; return; }
+        const id = ids[index++];
+        audio.src = "./content/i18n/sw-TZ/audio/" + id + ".mp3?v=20260827-page96-playlist";
+        audio.play().catch(function () { control.textContent = "Bonyeza tena kusikiliza"; });
+        control.textContent = "Inasoma…";
+      };
+      audio.addEventListener("ended", playNext);
+      control.addEventListener("click", function () {
+        if (!audio.paused) { audio.pause(); control.textContent = "Endelea kusikiliza"; return; }
+        if (index >= ids.length) index = 0;
+        playNext();
+      });
+      sheet.insertBefore(audio, sheet.firstChild);
+      sheet.insertBefore(control, audio.nextSibling);
+    }
+  }
+
   function promptOf(card) {
     const node = card.querySelector(".source-line.question-prompt,.source-heading.question-prompt,.question-prompt");
     return node ? node.textContent.trim().replace(/\s+/g, " ") : "";
@@ -1739,9 +1888,9 @@
 
     const enforcePage54Content = function () {
       const title = page.querySelector('[data-id="pg054_s001_n0002"]');
-      if (title && title.textContent.trim() !== "Kuandika herufi ya irabu I") title.textContent = "Kuandika herufi ya irabu I";
+      if (title && title.textContent.trim() !== "Kuandika herufi ya irabu i") title.innerHTML = "Kuandika herufi ya irabu <strong class=\"vowel-focus\">i</strong>";
       const intro = page.querySelector('[data-id="pg054_s001_n0003"]');
-      if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya irabu I.") intro.textContent = "Katika somo hili utajifunza kuandika herufi ya irabu I.";
+      if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya irabu i.") intro.innerHTML = "Katika somo hili utajifunza kuandika herufi ya irabu <strong class=\"vowel-focus\">i</strong>.";
       page.querySelectorAll('[data-id$="_label"],.response-feedback').forEach(function (node) { if (!node.hidden) node.hidden = true; });
       const printedPage = page.querySelector(".printed-page-number");
       if (printedPage && !printedPage.hidden) printedPage.hidden = true;
@@ -2093,6 +2242,10 @@
       if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya konsonanti B.") intro.textContent = "Katika somo hili utajifunza kuandika herufi ya konsonanti B.";
       const introTail = page.querySelector('[data-id="pg057_s002_n0004"]');
       if (introTail && !introTail.hidden) introTail.hidden = true;
+      const traceDescription = page.querySelector('[data-response-id="pg057_sec002_response_03"] img');
+      if (traceDescription) traceDescription.alt = "Herufi kubwa B iko upande wa kushoto. Upande wa kulia kuna herufi B sita zilizochorwa kwa nukta kati ya mistari ya mwandiko; fuatisha kila B kutoka kushoto kwenda kulia.";
+      const namesDescription = page.querySelector('[data-response-id="pg057_sec002_response_02"] img');
+      if (namesDescription) namesDescription.alt = "Mstari unaonyesha majina Beda, Bukoba, Benedeta na Baraka. Soma kila jina kutoka kushoto kwenda kulia, kisha liandike kwenye daftari.";
       page.querySelectorAll('[data-id$="_label"],.response-feedback').forEach(function (node) { if (!node.hidden) node.hidden = true; });
       const printedPage = page.querySelector(".printed-page-number");
       if (printedPage && !printedPage.hidden) printedPage.hidden = true;
@@ -2171,7 +2324,7 @@
       traceCard58.querySelectorAll(":scope > .inclusive-instruction:not(.source-line)").forEach(function (node) { node.hidden = true; });
       const traceImage = document.createElement("img");
       traceImage.src = "images/pg058_im002_source_model.png?v=2";
-      traceImage.alt = "Herufi kubwa M za kufuatisha kwenye mistari mikubwa na midogo";
+      traceImage.alt = "Herufi kubwa M iko upande wa kushoto; upande wa kulia kuna herufi M za kufuatisha kwa nukta kwenye mistari mikubwa na midogo.";
       traceWrap58.className = "handwriting-canvas-wrap page52-trace-wrap";
       traceWrap58.removeAttribute("style");
       traceWrap58.replaceChildren(traceImage, traceCanvas58);
@@ -2219,6 +2372,8 @@
       if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya konsonanti M.") intro.textContent = "Katika somo hili utajifunza kuandika herufi ya konsonanti M.";
       const introTail = page.querySelector('[data-id="pg058_s001_n0005"]');
       if (introTail && !introTail.hidden) introTail.hidden = true;
+      const model58 = page.querySelector('[data-response-id="pg058_sec001_response_03"] img');
+      if (model58) model58.alt = "Mstari wa mwandiko unaonyesha mifano ya majina yanayoanza kwa herufi M. Soma kutoka kushoto kwenda kulia, kisha yaandike kwenye daftari.";
       page.querySelectorAll('[data-id$="_label"],.response-feedback').forEach(function (node) { if (!node.hidden) node.hidden = true; });
       const printedPage = page.querySelector(".printed-page-number");
       if (printedPage && !printedPage.hidden) printedPage.hidden = true;
@@ -2472,7 +2627,7 @@
       traceCard60.querySelectorAll(":scope > .inclusive-instruction:not(.source-line)").forEach(function (node) { node.hidden = true; });
       const traceImage = document.createElement("img");
       traceImage.src = "images/pg060_im001_source_model.png?v=2";
-      traceImage.alt = "Herufi kubwa K za kufuatisha kwenye mistari mikubwa na midogo";
+      traceImage.alt = "Herufi kubwa K iko upande wa kushoto; upande wa kulia kuna herufi K za kufuatisha kwa nukta kwenye mistari mikubwa na midogo.";
       traceWrap60.className = "handwriting-canvas-wrap page52-trace-wrap";
       traceWrap60.removeAttribute("style");
       traceWrap60.replaceChildren(traceImage, traceCanvas60);
@@ -2519,6 +2674,8 @@
       if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya konsonanti K.") intro.textContent = "Katika somo hili utajifunza kuandika herufi ya konsonanti K.";
       const introTail = page.querySelector('[data-id="pg060_s001_n0004"]');
       if (introTail && !introTail.hidden) introTail.hidden = true;
+      const names60 = page.querySelector('[data-response-id="pg060_sec001_response_02"] img');
+      if (names60) names60.alt = "Mstari wa mwandiko unaonyesha mifano ya majina yanayoanza kwa herufi K. Soma kutoka kushoto kwenda kulia, kisha yaandike kwenye daftari.";
       page.querySelectorAll('[data-id$="_label"],.response-feedback').forEach(function (node) { if (!node.hidden) node.hidden = true; });
       const printedPage = page.querySelector(".printed-page-number");
       if (printedPage && !printedPage.hidden) printedPage.hidden = true;
@@ -3054,7 +3211,9 @@
       const grid = document.createElement("img");
       grid.className = "page70-picture-grid";
       grid.src = "images/pg070_picture_grid_clean.png?v=1";
-      grid.alt = "Picha tano za watoto wakipika, kusukuma toroli, kuokota kuni na kuandika";
+      grid.alt = "Picha tano zilizopangwa kwenye kisanduku: picha ya kwanza mtoto anapika kwenye jiko; ya pili mtoto anasukuma toroli iliyojaa udongo; ya tatu mtoto anaokota kuni; ya nne mtoto anaandika mezani; ya tano wasichana wawili wanaandika pamoja.";
+      grid.setAttribute("data-adt-description", grid.alt);
+      grid.setAttribute("data-adt-audio-description-id", "pg070_picture_grid_audio_description");
       panel.appendChild(grid);
       page.querySelectorAll(":scope > figure.source-figure,:scope > [data-id=\"pg070_s001_n0003\"],:scope > [data-id=\"pg070_s001_n0004\"],:scope > [data-id=\"pg070_s001_n0005\"],:scope > [data-id=\"pg070_s001_n0006\"]").forEach(function (node) { node.hidden = true; });
 
@@ -4270,6 +4429,12 @@
         exampleLabel85.insertAdjacentElement("afterend", modelBlock85);
       }
     }
+    if (pageNumber === 94) {
+      const image94a = document.querySelector('img[data-id="pg094_im001"]');
+      const image94b = document.querySelector('img[data-id="pg094_im002"]');
+      if (image94a) image94a.alt = "Mwanamke aliyevaa kitambaa chekundu kichwani anashika jani la mmea wa mahindi. Mwanamume aliyevaa kofia anaangalia mimea kutoka upande mwingine wa shamba.";
+      if (image94b) image94b.alt = "Mwanamume na mwanamke wamesimama kwenye udongo mwekundu wakitumia majembe kulima. Nyuma yao kuna mimea ya ndizi, miti na nyumba yenye paa la rangi nyekundu.";
+    }
     if (pageNumber === 95) {
       function setupPage95PdfLayout() {
         var title = page.querySelector('[data-id="pg095_s001_n0001"]');
@@ -4281,6 +4446,9 @@
         var label2 = page.querySelector('[data-id="pg095_s001_n0005"]');
         var label3 = page.querySelector('[data-id="pg095_s001_n0006"]');
         if (!title || !card || !image1 || !image2 || !image3 || !label1 || !label2 || !label3) return;
+        image1.alt = "Picha ya kwanza: Wanafunzi wawili wenye mabegi wamesimama kando ya barabara wakisubiri basi linalokaribia.";
+        image2.alt = "Picha ya pili: Basi limefika kituoni. Dereva yuko mbele, abiria wanasubiri ndani na mtu anashuka; askari wa usalama anaangalia basi.";
+        image3.alt = "Picha ya tatu: Basi limesimama karibu na jengo lenye maandishi KITUO CHA POLISI. Askari na wanaume wawili wanatembea kuelekea kituoni.";
         page.classList.add("page95-pdf-layout");
         if (title.parentElement !== card) card.prepend(title);
         [[label1, image1], [label2, image2], [label3, image3]].forEach(function (pair) {
