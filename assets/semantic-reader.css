@@ -357,6 +357,64 @@ html.original-book-theme body {
   .lesson-label { border-width: 2px; }
 }
 
+/* Pages 10–12: use the writing area itself as the notebook guide.  The
+   decorative green card frame is removed; drawing and Futa remain active. */
+section[data-response-id^="pg010_sec001_"],
+section[data-response-id^="pg011_sec001_"],
+section[data-response-id^="pg011_sec002_"],
+section[data-response-id^="pg012_sec001_"],
+section[data-response-id^="pg012_sec002_"] {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+section[data-response-id^="pg010_sec001_"] .canvas-wrap,
+section[data-response-id^="pg011_sec001_"] .canvas-wrap,
+section[data-response-id^="pg011_sec002_"] .canvas-wrap,
+section[data-response-id^="pg012_sec001_"] .canvas-wrap,
+section[data-response-id^="pg012_sec002_"] .canvas-wrap {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  background-image: linear-gradient(to bottom,
+    #454545 0, #454545 4px,
+    transparent 4px, transparent 33%,
+    #b8b8b8 33%, #b8b8b8 calc(33% + 1px),
+    transparent calc(33% + 1px), transparent 66%,
+    #b8b8b8 66%, #b8b8b8 calc(66% + 1px),
+    transparent calc(66% + 1px), transparent calc(100% - 4px),
+    #454545 calc(100% - 4px), #454545 100%) !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+#content section[data-response-id^="pg010_sec001_"] .canvas-wrap,
+#content section[data-response-id^="pg011_sec001_"] .canvas-wrap,
+#content section[data-response-id^="pg011_sec002_"] .canvas-wrap,
+#content section[data-response-id^="pg012_sec001_"] .canvas-wrap,
+#content section[data-response-id^="pg012_sec002_"] .canvas-wrap {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  background-image: linear-gradient(to bottom,
+    #454545 0, #454545 4px,
+    transparent 4px, transparent 33%,
+    #b8b8b8 33%, #b8b8b8 calc(33% + 1px),
+    transparent calc(33% + 1px), transparent 66%,
+    #b8b8b8 66%, #b8b8b8 calc(66% + 1px),
+    transparent calc(66% + 1px), transparent calc(100% - 4px),
+    #454545 calc(100% - 4px), #454545 100%) !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+section[data-response-id^="pg010_sec001_"] .drawing-canvas,
+section[data-response-id^="pg011_sec001_"] .drawing-canvas,
+section[data-response-id^="pg011_sec002_"] .drawing-canvas,
+section[data-response-id^="pg012_sec001_"] .drawing-canvas,
+section[data-response-id^="pg012_sec002_"] .drawing-canvas {
+  background: transparent !important;
+}
+
 html.pages-41-60-standard .batch-v2-page-52.page52-complete .original-unit-header {
   display: block;
   width: 100%;
