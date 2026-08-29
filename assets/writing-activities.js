@@ -226,7 +226,7 @@
   setTimeout(applyModelDescriptions, 500);
   setTimeout(applyModelDescriptions, 1200);
 
-  if (false && pageNumber === 102) {
+  if (pageNumber === 102) {
     const describeScene = function () {
       const scene = document.querySelector(".page102-original-sheet img");
       if (!scene) return;
@@ -244,7 +244,7 @@
       audio.controls = true;
       audio.preload = "metadata";
       audio.className = "page102-audio-player";
-      audio.src = "./content/i18n/sw-TZ/audio/pg102_original_layout_audio_description.mp3?v=20260829-natural-dialogue-v5";
+      audio.src = "./content/i18n/sw-TZ/audio/pg102_original_layout_audio_description.mp3?v=20260829-supervisor-review-v7";
       audio.style.cssText = "display:block;width:min(100%,520px);margin:8px auto";
       const control = document.createElement("button");
       control.type = "button";
