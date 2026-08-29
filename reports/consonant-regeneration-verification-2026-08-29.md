@@ -48,11 +48,12 @@ Audio nne za ukurasa 5 zimetengenezwa upya ili `Global Partnership for Education
 
 ## Herufi mahsusi kwenye maelekezo ya kuandika
 
-Sentensi **48** za aina ya “Andika herufi hii kwenye daftari” sasa zinataja herufi inayotakiwa kwenye maandishi yanayoonekana na kwenye audio. Kwa mfano, ukurasa 10 unasema “Andika herufi ya irabu hii, a, kwenye daftari,” huku Rehema akisoma `a` kama **aaa**. Konsonanti zinasomwa kwa kanuni iliyokubaliwa, kwa mfano `M` kama **ma** na `CH` kama **cha**. Maelezo **4** ya michoro yenye sentensi hiyo hiyo yamesahihishwa pia.
+Sentensi **48** za aina ya “Andika herufi hii kwenye daftari” zimehifadhi maandishi ya kitabu asili bila kuongeza herufi kwenye muonekano. Audio pekee ndiyo inayotaja herufi inayotakiwa. Kwa mfano, ukurasa 10 unaonyesha “Andika herufi ya irabu hii kwenye daftari,” lakini Rehema anasoma “Andika herufi ya irabu hii, aaa, kwenye daftari.” Konsonanti zinasomwa kwa kanuni iliyokubaliwa, kwa mfano `M` kama **ma** na `CH` kama **cha**. Maelezo **4** ya michoro yenye sentensi hiyo hiyo yanaitaja herufi katika maelezo yanayosomwa.
 
 - Audio mpya: **52 / 52**
 - MP3 zisizo halali au zilizokosekana: **0**
 - Mappings zisizolingana: **0**
-- Sentensi za jumla zilizobaki bila kutaja herufi: **0**
+- Sentensi zinazoonyesha maandishi asili bila herufi iliyoongezwa: **48 / 48**
+- Audio zinazotaja herufi mahsusi: **48 / 48**
 - Jumla ya muda wa audio mpya: sekunde **293.02**
 - Browser spot-check: ukurasa 10 na ukurasa 58, bila browser error

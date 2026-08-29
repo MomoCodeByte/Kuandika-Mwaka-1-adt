@@ -122,7 +122,7 @@ async def main() -> None:
     for item_id, (kind, display) in PROMPTS.items():
         if item_id not in texts:
             raise RuntimeError(f"Missing text id: {item_id}")
-        visible = f"Andika herufi ya {kind} hii, {display}, kwenye daftari."
+        visible = f"Andika herufi ya {kind} hii kwenye daftari."
         spoken = f"Andika herufi ya {kind} hii, {SPOKEN[display.lower()]}, kwenye daftari."
         page = item_id[2:5]
         candidates = sorted(ROOT.glob(f"pg{page}_sec*.html"))
