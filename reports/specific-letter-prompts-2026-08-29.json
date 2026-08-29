@@ -1,0 +1,527 @@
+{
+  "generated_on": "2026-08-29",
+  "voice": "sw-TZ-RehemaNeural",
+  "count": 52,
+  "items": [
+    {
+      "id": "pg010_s001_n0001",
+      "kind": "irabu",
+      "display_letter": "a",
+      "visible_text": "Andika herufi ya irabu hii, a, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, aaa, kwenye daftari.",
+      "audio_file": "pg010_s001_n0001_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25776
+    },
+    {
+      "id": "pg010_s001_n0007",
+      "kind": "irabu",
+      "display_letter": "e",
+      "visible_text": "Andika herufi ya irabu hii, e, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, eee, kwenye daftari.",
+      "audio_file": "pg010_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25488
+    },
+    {
+      "id": "pg011_s001_n0006",
+      "kind": "irabu",
+      "display_letter": "i",
+      "visible_text": "Andika herufi ya irabu hii, i, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, iii, kwenye daftari.",
+      "audio_file": "pg011_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25200
+    },
+    {
+      "id": "pg012_s001_n0003",
+      "kind": "irabu",
+      "display_letter": "o",
+      "visible_text": "Andika herufi ya irabu hii, o, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, ooo, kwenye daftari.",
+      "audio_file": "pg012_s001_n0003_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26064
+    },
+    {
+      "id": "pg013_s001_n0001",
+      "kind": "irabu",
+      "display_letter": "u",
+      "visible_text": "Andika herufi ya irabu hii, u, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, uuu, kwenye daftari.",
+      "audio_file": "pg013_s001_n0001_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25488
+    },
+    {
+      "id": "pg014_s002_n0007",
+      "kind": "konsonanti",
+      "display_letter": "b",
+      "visible_text": "Andika herufi ya konsonanti hii, b, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ba, kwenye daftari.",
+      "audio_file": "pg014_s002_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg016_s001_n0008",
+      "kind": "konsonanti",
+      "display_letter": "m",
+      "visible_text": "Andika herufi ya konsonanti hii, m, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ma, kwenye daftari.",
+      "audio_file": "pg016_s001_n0008_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg018_s001_n0003",
+      "kind": "konsonanti",
+      "display_letter": "d",
+      "visible_text": "Andika herufi ya konsonanti hii, d, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, da, kwenye daftari.",
+      "audio_file": "pg018_s001_n0003_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg020_s001_n0003",
+      "kind": "konsonanti",
+      "display_letter": "k",
+      "visible_text": "Andika herufi ya konsonanti hii, k, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ka, kwenye daftari.",
+      "audio_file": "pg020_s001_n0003_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg022_s001_n0002",
+      "kind": "konsonanti",
+      "display_letter": "n",
+      "visible_text": "Andika herufi ya konsonanti hii, n, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, na, kwenye daftari.",
+      "audio_file": "pg022_s001_n0002_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26784
+    },
+    {
+      "id": "pg023_s002_n0007",
+      "kind": "konsonanti",
+      "display_letter": "l",
+      "visible_text": "Andika herufi ya konsonanti hii, l, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, la, kwenye daftari.",
+      "audio_file": "pg023_s002_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg025_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "t",
+      "visible_text": "Andika herufi ya konsonanti hii, t, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ta, kwenye daftari.",
+      "audio_file": "pg025_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg027_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "p",
+      "visible_text": "Andika herufi ya konsonanti hii, p, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, pa, kwenye daftari.",
+      "audio_file": "pg027_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg029_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "s",
+      "visible_text": "Andika herufi ya konsonanti hii, s, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, sa, kwenye daftari.",
+      "audio_file": "pg029_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg031_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "f",
+      "visible_text": "Andika herufi ya konsonanti hii, f, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, fa, kwenye daftari.",
+      "audio_file": "pg031_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27504
+    },
+    {
+      "id": "pg033_s001_n0004",
+      "kind": "konsonanti",
+      "display_letter": "j",
+      "visible_text": "Andika herufi ya konsonanti hii, j, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ja, kwenye daftari.",
+      "audio_file": "pg033_s001_n0004_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27648
+    },
+    {
+      "id": "pg035_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "g",
+      "visible_text": "Andika herufi ya konsonanti hii, g, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ga, kwenye daftari.",
+      "audio_file": "pg035_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg037_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "y",
+      "visible_text": "Andika herufi ya konsonanti hii, y, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ya, kwenye daftari.",
+      "audio_file": "pg037_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg039_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "z",
+      "visible_text": "Andika herufi ya konsonanti hii, z, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, za, kwenye daftari.",
+      "audio_file": "pg039_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27360
+    },
+    {
+      "id": "pg041_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "r",
+      "visible_text": "Andika herufi ya konsonanti hii, r, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ra, kwenye daftari.",
+      "audio_file": "pg041_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg043_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "h",
+      "visible_text": "Andika herufi ya konsonanti hii, h, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ha, kwenye daftari.",
+      "audio_file": "pg043_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26784
+    },
+    {
+      "id": "pg045_s001_n0003",
+      "kind": "konsonanti",
+      "display_letter": "w",
+      "visible_text": "Andika herufi ya konsonanti hii, w, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, wa, kwenye daftari.",
+      "audio_file": "pg045_s001_n0003_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26640
+    },
+    {
+      "id": "pg046_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "v",
+      "visible_text": "Andika herufi ya konsonanti hii, v, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, va, kwenye daftari.",
+      "audio_file": "pg046_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg048_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "ch",
+      "visible_text": "Andika herufi ya konsonanti hii, ch, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, cha, kwenye daftari.",
+      "audio_file": "pg048_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27504
+    },
+    {
+      "id": "pg052_s002_n0005",
+      "kind": "irabu",
+      "display_letter": "A",
+      "visible_text": "Andika herufi ya irabu hii, A, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, aaa, kwenye daftari.",
+      "audio_file": "pg052_s002_n0005_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25776
+    },
+    {
+      "id": "pg053_s001_n0006",
+      "kind": "irabu",
+      "display_letter": "E",
+      "visible_text": "Andika herufi ya irabu hii, E, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, eee, kwenye daftari.",
+      "audio_file": "pg053_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25488
+    },
+    {
+      "id": "pg054_s001_n0005",
+      "kind": "irabu",
+      "display_letter": "I",
+      "visible_text": "Andika herufi ya irabu hii, I, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, iii, kwenye daftari.",
+      "audio_file": "pg054_s001_n0005_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25200
+    },
+    {
+      "id": "pg055_s001_n0005",
+      "kind": "irabu",
+      "display_letter": "O",
+      "visible_text": "Andika herufi ya irabu hii, O, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, ooo, kwenye daftari.",
+      "audio_file": "pg055_s001_n0005_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26064
+    },
+    {
+      "id": "pg056_s001_n0005",
+      "kind": "irabu",
+      "display_letter": "U",
+      "visible_text": "Andika herufi ya irabu hii, U, kwenye daftari.",
+      "spoken_text": "Andika herufi ya irabu hii, uuu, kwenye daftari.",
+      "audio_file": "pg056_s001_n0005_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 25488
+    },
+    {
+      "id": "pg057_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "B",
+      "visible_text": "Andika herufi ya konsonanti hii, B, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ba, kwenye daftari.",
+      "audio_file": "pg057_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg058_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "M",
+      "visible_text": "Andika herufi ya konsonanti hii, M, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ma, kwenye daftari.",
+      "audio_file": "pg058_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg059_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "D",
+      "visible_text": "Andika herufi ya konsonanti hii, D, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, da, kwenye daftari.",
+      "audio_file": "pg059_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg060_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "K",
+      "visible_text": "Andika herufi ya konsonanti hii, K, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ka, kwenye daftari.",
+      "audio_file": "pg060_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg061_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "N",
+      "visible_text": "Andika herufi ya konsonanti hii, N, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, na, kwenye daftari.",
+      "audio_file": "pg061_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26784
+    },
+    {
+      "id": "pg064_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "L",
+      "visible_text": "Andika herufi ya konsonanti hii, L, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, la, kwenye daftari.",
+      "audio_file": "pg064_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg065_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "T",
+      "visible_text": "Andika herufi ya konsonanti hii, T, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ta, kwenye daftari.",
+      "audio_file": "pg065_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg066_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "P",
+      "visible_text": "Andika herufi ya konsonanti hii, P, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, pa, kwenye daftari.",
+      "audio_file": "pg066_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26928
+    },
+    {
+      "id": "pg067_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "S",
+      "visible_text": "Andika herufi ya konsonanti hii, S, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, sa, kwenye daftari.",
+      "audio_file": "pg067_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg068_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "F",
+      "visible_text": "Andika herufi ya konsonanti hii, F, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, fa, kwenye daftari.",
+      "audio_file": "pg068_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27504
+    },
+    {
+      "id": "pg069_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "J",
+      "visible_text": "Andika herufi ya konsonanti hii, J, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ja, kwenye daftari.",
+      "audio_file": "pg069_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27648
+    },
+    {
+      "id": "pg071_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "G",
+      "visible_text": "Andika herufi ya konsonanti hii, G, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ga, kwenye daftari.",
+      "audio_file": "pg071_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg072_s001_n0007",
+      "kind": "konsonanti",
+      "display_letter": "Y",
+      "visible_text": "Andika herufi ya konsonanti hii, Y, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ya, kwenye daftari.",
+      "audio_file": "pg072_s001_n0007_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg073_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "Z",
+      "visible_text": "Andika herufi ya konsonanti hii, Z, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, za, kwenye daftari.",
+      "audio_file": "pg073_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27360
+    },
+    {
+      "id": "pg074_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "R",
+      "visible_text": "Andika herufi ya konsonanti hii, R, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ra, kwenye daftari.",
+      "audio_file": "pg074_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27072
+    },
+    {
+      "id": "pg075_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "H",
+      "visible_text": "Andika herufi ya konsonanti hii, H, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, ha, kwenye daftari.",
+      "audio_file": "pg075_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26784
+    },
+    {
+      "id": "pg076_s001_n0006",
+      "kind": "konsonanti",
+      "display_letter": "W",
+      "visible_text": "Andika herufi ya konsonanti hii, W, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, wa, kwenye daftari.",
+      "audio_file": "pg076_s001_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 26640
+    },
+    {
+      "id": "pg077_s001_n0008",
+      "kind": "konsonanti",
+      "display_letter": "V",
+      "visible_text": "Andika herufi ya konsonanti hii, V, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, va, kwenye daftari.",
+      "audio_file": "pg077_s001_n0008_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27216
+    },
+    {
+      "id": "pg078_s002_n0006",
+      "kind": "konsonanti",
+      "display_letter": "CH",
+      "visible_text": "Andika herufi ya konsonanti hii, CH, kwenye daftari.",
+      "spoken_text": "Andika herufi ya konsonanti hii, cha, kwenye daftari.",
+      "audio_file": "pg078_s002_n0006_sw_specific_letter_v1.mp3",
+      "source": "direct_prompt",
+      "bytes": 27504
+    },
+    {
+      "id": "pg058_im004_audio_description",
+      "kind": "konsonanti",
+      "display_letter": "M",
+      "visible_text": "Somo la pili Kuandika herufi ya konsonanti Katika somo hili utajifunza kuandika herufi ya konsonanti M. Fuatisha herufi ya konsonanti M Andika herufi ya konsonanti hii, M, kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "spoken_text": "Somo la pili Kuandika herufi ya konsonanti Katika somo hili utajifunza kuandika herufi ya konsonanti ma. Fuatisha herufi ya konsonanti ma Andika herufi ya konsonanti hii, ma, kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "audio_file": "pg058_im004_audio_description_sw_specific_letter_v1.mp3",
+      "source": "image_description",
+      "bytes": 117216
+    },
+    {
+      "id": "pg072_im004_audio_description",
+      "kind": "konsonanti",
+      "display_letter": "Y",
+      "visible_text": "Somo la pili Kuandika herufi ya konsonanti Y Katika somo hili utajifunza kuandika herufi ya konsonanti Y. Fuatisha herufi ya konsonanti Y. Andika herufi ya konsonanti hii, Y, kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "spoken_text": "Somo la pili Kuandika herufi ya konsonanti ya Katika somo hili utajifunza kuandika herufi ya konsonanti ya. Fuatisha herufi ya konsonanti ya. Andika herufi ya konsonanti hii, ya, kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "audio_file": "pg072_im004_audio_description_sw_specific_letter_v1.mp3",
+      "source": "image_description",
+      "bytes": 129600
+    },
+    {
+      "id": "pg078_im002_audio_description",
+      "kind": "konsonanti",
+      "display_letter": "CH",
+      "visible_text": "Somo la nane Kuandika konsonanti CH Katika somo hili utajifunza kuandika konsonanti CH. Fuatisha konsonanti CH. Andika herufi ya konsonanti hii, CH, kwenye daftari. Andika majina haya kwenye daftari.",
+      "spoken_text": "Somo la nane Kuandika konsonanti cha Katika somo hili utajifunza kuandika konsonanti cha. Fuatisha konsonanti cha. Andika herufi ya konsonanti hii, cha, kwenye daftari. Andika majina haya kwenye daftari.",
+      "audio_file": "pg078_im002_audio_description_sw_specific_letter_v1.mp3",
+      "source": "image_description",
+      "bytes": 102384
+    },
+    {
+      "id": "pg078_im004_audio_description",
+      "kind": "konsonanti",
+      "display_letter": "CH",
+      "visible_text": "Andika sentensi hizi kwenye daftari. Somo la nane Kuandika konsonanti CH Katika somo hili utajifunza kuandika konsonanti CH. Fuatisha konsonanti CH. Andika herufi ya konsonanti hii, CH, kwenye daftari. Andika majina haya kwenye daftari.",
+      "spoken_text": "Andika sentensi hizi kwenye daftari. Somo la nane Kuandika konsonanti cha Katika somo hili utajifunza kuandika konsonanti cha. Fuatisha konsonanti cha. Andika herufi ya konsonanti hii, cha, kwenye daftari. Andika majina haya kwenye daftari.",
+      "audio_file": "pg078_im004_audio_description_sw_specific_letter_v1.mp3",
+      "source": "image_description",
+      "bytes": 122688
+    }
+  ]
+}

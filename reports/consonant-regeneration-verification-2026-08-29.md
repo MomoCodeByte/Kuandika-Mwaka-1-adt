@@ -45,3 +45,14 @@ Mstari wa `f f f f f f f f f f` ulikuwa unatengenezwa na JavaScript bila `data-i
 ## Matamshi maalumu — ukurasa 5
 
 Audio nne za ukurasa 5 zimetengenezwa upya ili `Global Partnership for Education (GPE)` isomwe **globali patinashipu foo edukesheni, gipiee**, `Literacy and Numeracy Education Support (LANES II)` isomwe **literasi endi numerasi edukesheni sapoti, lanesi ii**, na `KKK` isomwe **kei, kei, kei**. Tukio jingine pekee la `KKK` kwenye ukurasa 6 limerekebishwa kwa kanuni hiyo hiyo. Faili zote tano ni MP3 halali, zipo kwenye offline cache, na ukurasa 5 umejaribiwa kwenye default controller bila browser error.
+
+## Herufi mahsusi kwenye maelekezo ya kuandika
+
+Sentensi **48** za aina ya “Andika herufi hii kwenye daftari” sasa zinataja herufi inayotakiwa kwenye maandishi yanayoonekana na kwenye audio. Kwa mfano, ukurasa 10 unasema “Andika herufi ya irabu hii, a, kwenye daftari,” huku Rehema akisoma `a` kama **aaa**. Konsonanti zinasomwa kwa kanuni iliyokubaliwa, kwa mfano `M` kama **ma** na `CH` kama **cha**. Maelezo **4** ya michoro yenye sentensi hiyo hiyo yamesahihishwa pia.
+
+- Audio mpya: **52 / 52**
+- MP3 zisizo halali au zilizokosekana: **0**
+- Mappings zisizolingana: **0**
+- Sentensi za jumla zilizobaki bila kutaja herufi: **0**
+- Jumla ya muda wa audio mpya: sekunde **293.02**
+- Browser spot-check: ukurasa 10 na ukurasa 58, bila browser error
