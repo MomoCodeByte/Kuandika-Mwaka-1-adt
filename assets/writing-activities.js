@@ -226,7 +226,7 @@
   setTimeout(applyModelDescriptions, 500);
   setTimeout(applyModelDescriptions, 1200);
 
-  if (pageNumber === 102) {
+  if (false && pageNumber === 102) {
     const describeScene = function () {
       const scene = document.querySelector(".page102-original-sheet img");
       if (!scene) return;
