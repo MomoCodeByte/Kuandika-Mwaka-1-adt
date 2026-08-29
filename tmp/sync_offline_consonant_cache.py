@@ -56,7 +56,15 @@ config = json.loads((ROOT / "assets" / "config.json").read_text(encoding="utf-8"
 audios = json.loads(
     (ROOT / "content" / "i18n" / "sw-TZ" / "audios.json").read_text(encoding="utf-8")
 )
+texts = json.loads(
+    (ROOT / "content" / "i18n" / "sw-TZ" / "texts.json").read_text(encoding="utf-8")
+)
 updated = replace_object_value(SOURCE, "./assets/config.json", config)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/audios.json", audios)
+updated = replace_object_value(updated, "./content/i18n/sw-TZ/texts.json", texts)
+updated = updated.replace(
+    "./assets/writing-activities.js?v=adt-writing-on-model-v1.8.1-20260822",
+    "./assets/writing-activities.js?v=page88-pdf-v17-fa-audio",
+)
 PRELOADER_PATH.write_text(updated, encoding="utf-8")
 print("offline consonant cache synchronized")

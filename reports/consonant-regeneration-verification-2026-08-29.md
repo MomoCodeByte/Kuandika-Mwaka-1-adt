@@ -37,3 +37,7 @@ Sauti: `sw-TZ-RehemaNeural`
 | 88 | Zoezi la sehemu ya mwisho ya kitabu; default controller | Imecheza; hakuna browser error |
 
 Ukaguzi wa sauti ya ukurasa wa 14 ulifanywa kwanza kama sampuli na mtumiaji aliidhinisha matamshi kabla ya mabadiliko haya kutumika kwenye kitabu kizima.
+
+## Marekebisho ya nyongeza — ukurasa 88
+
+Mstari wa `f f f f f f f f f f` ulikuwa unatengenezwa na JavaScript bila `data-id`, hivyo ulikuwa unaonekana lakini controller aliuruka. Mstari umeunganishwa na `pg088_s002_n0005a`, na audio mpya inasoma `fa, fa, fa, fa, fa, fa, fa, fa, fa, fa` kwa mapumziko. Baada ya marekebisho, jumla ya audio mpya za konsonanti ni **211**. Browser spot-check imethibitisha kuwa mstari unaonekana mara moja, unaingia kwenye mpangilio wa controller, na hakuna browser error.

@@ -294,5 +294,6 @@ Ukaguzi huu umejumuisha maandishi ya kawaida na maelezo ya michoro. Vipengele vy
 | 85 | `pg085_im001_audio_description` | Mchoro una mistari minne ya mwandiko wa kuunga. Mstari wa kwanza una herufi ndogo a zinazorudiwa. Mstari wa pili una ch, wa tatu d, na wa nne m; herufi zinaungana kutoka kushoto kwenda kulia. | Mchoro una mistari minne ya mwandiko wa kuunga. Mstari wa kwanza una herufi ndogo aaa zinazorudiwa. Mstari wa pili una cha, wa tatu da, na wa nne ma; herufi zinaungana kutoka kushoto kwenda kulia. | `pg085_im001_audio_description.mp3` | Inasubiri idhini |
 | 85 | `pg085_s001_n0003` | kwenda kulia. e, h, i, k, r, u | kwenda kulia. eee, ha, iii, ka, ra, uuu | `pg085_s001_n0003.mp3?v=20260826-vowels-all` | Inasubiri idhini |
 | 88 | `pg088_s002_n0004` | haziungwi. Herufi ambazo haziungwi ni f, s na z | haziungwi. Herufi ambazo haziungwi ni fa, sa na za | `pg088_s002_n0004.mp3` | Inasubiri idhini |
+| 88 | `pg088_s002_n0005a` | f f f f f f f f f f | fa fa fa fa fa fa fa fa fa fa | `pg088_s002_n0005a_sw_consonant_v1.mp3` | Imeongezwa na kuthibitishwa baada ya ukaguzi |
 | 88 | `pg088_s002_n0006` | s s s s s s s s s s | sa sa sa sa sa sa sa sa sa sa | `pg088_s002_n0006.mp3` | Inasubiri idhini |
 | 88 | `pg088_s002_n0007` | z z z z z z z z z z | za za za za za za za za za za | `pg088_s002_n0007.mp3` | Inasubiri idhini |
