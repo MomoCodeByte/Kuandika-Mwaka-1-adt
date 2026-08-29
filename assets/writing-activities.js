@@ -244,7 +244,7 @@
       audio.controls = true;
       audio.preload = "metadata";
       audio.className = "page102-audio-player";
-      audio.src = "./content/i18n/sw-TZ/audio/pg102_original_layout_audio_description.mp3?v=20260829-user-dialogue-v4";
+      audio.src = "./content/i18n/sw-TZ/audio/pg102_original_layout_audio_description.mp3?v=20260829-natural-dialogue-v5";
       audio.style.cssText = "display:block;width:min(100%,520px);margin:8px auto";
       const control = document.createElement("button");
       control.type = "button";
