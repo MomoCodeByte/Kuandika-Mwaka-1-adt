@@ -41,3 +41,7 @@ Ukaguzi wa sauti ya ukurasa wa 14 ulifanywa kwanza kama sampuli na mtumiaji alii
 ## Marekebisho ya nyongeza — ukurasa 88
 
 Mstari wa `f f f f f f f f f f` ulikuwa unatengenezwa na JavaScript bila `data-id`, hivyo ulikuwa unaonekana lakini controller aliuruka. Mstari umeunganishwa na `pg088_s002_n0005a`, na audio mpya inasoma `fa, fa, fa, fa, fa, fa, fa, fa, fa, fa` kwa mapumziko. Baada ya marekebisho, jumla ya audio mpya za konsonanti ni **211**. Browser spot-check imethibitisha kuwa mstari unaonekana mara moja, unaingia kwenye mpangilio wa controller, na hakuna browser error.
+
+## Matamshi maalumu — ukurasa 5
+
+Audio nne za ukurasa 5 zimetengenezwa upya ili `Global Partnership for Education (GPE)` isomwe **globali patinashipu foo edukesheni, gipiee**, `Literacy and Numeracy Education Support (LANES II)` isomwe **literasi endi numerasi edukesheni sapoti, lanesi ii**, na `KKK` isomwe **kei, kei, kei**. Tukio jingine pekee la `KKK` kwenye ukurasa 6 limerekebishwa kwa kanuni hiyo hiyo. Faili zote tano ni MP3 halali, zipo kwenye offline cache, na ukurasa 5 umejaribiwa kwenye default controller bila browser error.
