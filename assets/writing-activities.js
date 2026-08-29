@@ -1219,7 +1219,7 @@
         label.classList.add("page50-exercise-label");
         panel.insertBefore(label, panel.firstChild);
       }
-      if (instruction) instruction.textContent = "Tazama picha hizi kisha jibu maswali yanayofuata kwa kila picha.";
+      if (instruction) instruction.textContent = "Tazama na chunguza picha hizi kisha jibu maswali yanayofuata kwa kila picha.";
       if (instructionTail) instructionTail.hidden = true;
       panel.querySelectorAll(":scope > .inclusive-instruction:not(.source-line),:scope > .handwriting-canvas-wrap,:scope > .canvas-wrap,:scope > .response-actions,:scope > .response-feedback").forEach(function (node) {
         node.hidden = true;
@@ -1256,8 +1256,8 @@
     const enforcePage50Content = function () {
       const liveInstruction = page.querySelector('[data-id="pg050_s001_n0002"]');
       const liveTail = page.querySelector('[data-id="pg050_s001_n0003"]');
-      if (liveInstruction && liveInstruction.textContent !== "Tazama picha hizi kisha jibu maswali yanayofuata kwa kila picha.") {
-        liveInstruction.textContent = "Tazama picha hizi kisha jibu maswali yanayofuata kwa kila picha.";
+      if (liveInstruction && liveInstruction.textContent !== "Tazama na chunguza picha hizi kisha jibu maswali yanayofuata kwa kila picha.") {
+        liveInstruction.textContent = "Tazama na chunguza picha hizi kisha jibu maswali yanayofuata kwa kila picha.";
       }
       if (liveTail && !liveTail.hidden) liveTail.hidden = true;
       const printedPage = page.querySelector(".printed-page-number");

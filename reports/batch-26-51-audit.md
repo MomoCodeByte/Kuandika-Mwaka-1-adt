@@ -19,3 +19,5 @@ Date: 2026-08-29
 - Regenerate the page-26 Rehema audio asset with the approved short wording “Bata.” The local environment does not currently provide the TTS package required to regenerate that MP3, so the source text was intentionally left unchanged to avoid a text/audio mismatch.
 - Verify page 35/41 dashes and page 44/45–46 prompts with the browser audio controller.
 - Run the full no-duplicate and mobile overflow test gate, then produce the Batch B preview and commit proof.
+
+- Runtime verification: page 50 now exposes the updated “Tazama na chunguza…” prompt and reports zero horizontal overflow.
