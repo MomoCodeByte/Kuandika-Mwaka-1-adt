@@ -1,0 +1,1776 @@
+{
+  "generated_on": "2026-08-29",
+  "approved_sample_count": 3,
+  "pending_count": 210,
+  "all_text_candidate_count": 276,
+  "paired_image_source_count": 63,
+  "unmapped_candidate_count": 0,
+  "affected_pages": [
+    3,
+    4,
+    8,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    34,
+    35,
+    37,
+    39,
+    43,
+    44,
+    45,
+    46,
+    48,
+    51,
+    57,
+    58,
+    59,
+    60,
+    61,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    88
+  ],
+  "excluded_ids": [
+    "pg002_s001_n0005",
+    "pg005_s001_n0014",
+    "pg005_s001_n0016",
+    "pg063_s001_n0004",
+    "pg104_s001_n0001"
+  ],
+  "rows": [
+    {
+      "page": 3,
+      "id": "pg003_s004_n0002",
+      "current_text": "Kuandika herufi ndogo za konsonanti b m d k n",
+      "proposed_spoken_text": "Kuandika herufi ndogo za konsonanti ba ma da ka na",
+      "audio_file": "pg003_s004_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 3,
+      "id": "pg003_s005_n0002",
+      "current_text": "Kuandika herufi ndogo za konsonanti l t p s f j",
+      "proposed_spoken_text": "Kuandika herufi ndogo za konsonanti la ta pa sa fa ja",
+      "audio_file": "pg003_s005_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 3,
+      "id": "pg003_s006_n0002",
+      "current_text": "Kuandika herufi ndogo za konsonanti g y z r h w v ch",
+      "proposed_spoken_text": "Kuandika herufi ndogo za konsonanti ga ya za ra ha wa va cha",
+      "audio_file": "pg003_s006_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 4,
+      "id": "pg004_s001_n0002",
+      "current_text": "Kuandika herufi kubwa za konsonanti B M D K N",
+      "proposed_spoken_text": "Kuandika herufi kubwa za konsonanti ba ma da ka na",
+      "audio_file": "pg004_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 4,
+      "id": "pg004_s002_n0002",
+      "current_text": "Kuandika herufi kubwa za konsonanti L T P S F J",
+      "proposed_spoken_text": "Kuandika herufi kubwa za konsonanti la ta pa sa fa ja",
+      "audio_file": "pg004_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 4,
+      "id": "pg004_s003_n0002",
+      "current_text": "Kuandika herufi kubwa za konsonanti G Y Z R H W V CH",
+      "proposed_spoken_text": "Kuandika herufi kubwa za konsonanti ga ya za ra ha wa va cha",
+      "audio_file": "pg004_s003_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 8,
+      "id": "pg008_im001_audio_description",
+      "current_text": "Mchoro una mistari sita ya mazoezi ya mwandiko, kutoka juu kwenda chini: mstari wa herufi ndogo m zinazorudiwa, mstari wa maumbo ya mizunguko yaliyoungana kama mikufu, mstari wa herufi ndogo u zinazorudiwa, mstari wa herufi kubwa W zinazorudiwa, mstari mwingine wa herufi ndogo u zinazorudiwa, na mstari wa herufi ndogo c zinazorudiwa. Mwanafunzi afuate kila mstari kwa mpangilio huo.",
+      "proposed_spoken_text": "Mchoro una mistari sita ya mazoezi ya mwandiko, kutoka juu kwenda chini: mstari wa herufi ndogo ma zinazorudiwa, mstari wa maumbo ya mizunguko yaliyoungana kama mikufu, mstari wa herufi ndogo uuu zinazorudiwa, mstari wa herufi kubwa wa zinazorudiwa, mstari mwingine wa herufi ndogo uuu zinazorudiwa, na mstari wa herufi ndogo c zinazorudiwa. Mwanafunzi afuate kila mstari kwa mpangilio huo.",
+      "audio_file": "pg008_im001_audio_description.mp3?v=20260826-pg8",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 14,
+      "id": "pg014_im002_audio_description",
+      "current_text": "Mchoro unaonyesha herufi ndogo b upande wa kushoto na mifano mitano ya herufi b iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta za kila b kutoka juu kwenda chini, kisha aandike b kwenye mstari wa chini.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi ndogo ba upande wa kushoto na mifano mitano ya herufi ba iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta za kila ba kutoka juu kwenda chini, kisha aandike ba kwenye mstari wa chini.",
+      "audio_file": "pg014_im002_audio_description.mp3?v=20260826-pg14-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 14,
+      "id": "pg014_s001_n0003",
+      "current_text": "b m d k n",
+      "proposed_spoken_text": "ba ma da ka na",
+      "audio_file": "pg014_s001_n0003_sw_v2.mp3",
+      "status": "Sampuli imekubaliwa"
+    },
+    {
+      "page": 14,
+      "id": "pg014_s001_n0005",
+      "current_text": "konsonanti b m d k n.",
+      "proposed_spoken_text": "konsonanti ba ma da ka na.",
+      "audio_file": "pg014_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 14,
+      "id": "pg014_s002_n0003",
+      "current_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti b.",
+      "proposed_spoken_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti ba.",
+      "audio_file": "pg014_s002_n0003.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 14,
+      "id": "pg014_s002_n0004",
+      "current_text": "b.",
+      "proposed_spoken_text": "ba.",
+      "audio_file": "pg014_s002_n0004_sw_v2.mp3",
+      "status": "Sampuli imekubaliwa"
+    },
+    {
+      "page": 14,
+      "id": "pg014_s002_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti b.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ba.",
+      "audio_file": "pg014_s002_n0006_sw_v2.mp3",
+      "status": "Sampuli imekubaliwa"
+    },
+    {
+      "page": 16,
+      "id": "pg016_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi ndogo m zikirudiwa kwenye mstari wa mwandiko kutoka kushoto kwenda kulia, kati ya mistari ya kuongoza. Mwanafunzi afuate mwendo wa kila herufi m.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi ndogo ma zikirudiwa kwenye mstari wa mwandiko kutoka kushoto kwenda kulia, kati ya mistari ya kuongoza. Mwanafunzi afuate mwendo wa kila herufi ma.",
+      "audio_file": "pg016_im001_audio_description.mp3?v=20260826-pg16-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 16,
+      "id": "pg016_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti m",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ma",
+      "audio_file": "pg016_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 16,
+      "id": "pg016_s001_n0004",
+      "current_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti m.",
+      "proposed_spoken_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti ma.",
+      "audio_file": "pg016_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 16,
+      "id": "pg016_s001_n0005",
+      "current_text": "m.",
+      "proposed_spoken_text": "ma.",
+      "audio_file": "pg016_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 16,
+      "id": "pg016_s001_n0007",
+      "current_text": "Fuatisha herufi ya konsonanti m.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ma.",
+      "audio_file": "pg016_s001_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 17,
+      "id": "pg017_s001_n0005",
+      "current_text": "1. m __ma",
+      "proposed_spoken_text": "1. ma __ma",
+      "audio_file": "pg017_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 17,
+      "id": "pg017_s001_n0007",
+      "current_text": "3. m__ba",
+      "proposed_spoken_text": "3. ma__ba",
+      "audio_file": "pg017_s001_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 17,
+      "id": "pg017_s002_n0002",
+      "current_text": "Kuandika herufi ya konsonanti d",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti da",
+      "audio_file": "pg017_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 17,
+      "id": "pg017_s002_n0004",
+      "current_text": "d .",
+      "proposed_spoken_text": "da .",
+      "audio_file": "pg017_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 18,
+      "id": "pg018_im002_audio_description",
+      "current_text": "Mchoro unaonyesha herufi ndogo d upande wa kushoto na mifano mitano ya herufi d iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta za kila d kutoka juu kwenda chini, kisha aandike d kwenye mstari wa chini.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi ndogo da upande wa kushoto na mifano mitano ya herufi da iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta za kila da kutoka juu kwenda chini, kisha aandike da kwenye mstari wa chini.",
+      "audio_file": "pg018_im002_audio_description.mp3?v=20260826-pg18-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 18,
+      "id": "pg018_s001_n0002",
+      "current_text": "Fuatisha herufi ya konsonanti d .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti da .",
+      "audio_file": "pg018_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 19,
+      "id": "pg019_s001_n0004",
+      "current_text": "Kuandika herufi ya konsonanti k",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ka",
+      "audio_file": "pg019_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 19,
+      "id": "pg019_s001_n0005",
+      "current_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti k.",
+      "proposed_spoken_text": "Katika somo hili utajifunza kuandika herufi ya konsonanti ka.",
+      "audio_file": "pg019_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 20,
+      "id": "pg020_im002_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti k.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ka.",
+      "audio_file": "pg020_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 20,
+      "id": "pg020_s001_n0002",
+      "current_text": "Fuatisha herufi ya konsonanti k.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ka.",
+      "audio_file": "pg020_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 21,
+      "id": "pg021_s002_n0002",
+      "current_text": "Kuandika herufi ya konsonanti n",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti na",
+      "audio_file": "pg021_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 21,
+      "id": "pg021_s002_n0004",
+      "current_text": "konsonanti n.",
+      "proposed_spoken_text": "konsonanti na.",
+      "audio_file": "pg021_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 22,
+      "id": "pg022_s001_n0001",
+      "current_text": "Fuatisha herufi ya konsonanti n.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti na.",
+      "audio_file": "pg022_s001_n0001.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_im001_audio_description",
+      "current_text": "Mfano wa mwandiko wa herufi ndogo l.",
+      "proposed_spoken_text": "Mfano wa mwandiko wa herufi ndogo la.",
+      "audio_file": "pg023_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_im002_audio_description",
+      "current_text": "Mfululizo wa herufi ndogo l zilizounganishwa.",
+      "proposed_spoken_text": "Mfululizo wa herufi ndogo la zilizounganishwa.",
+      "audio_file": "pg023_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_im003_audio_description",
+      "current_text": "Mfululizo mwingine wa herufi ndogo l zilizounganishwa.",
+      "proposed_spoken_text": "Mfululizo mwingine wa herufi ndogo la zilizounganishwa.",
+      "audio_file": "pg023_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_im004_audio_description",
+      "current_text": "Mfululizo mrefu wa herufi ndogo l zilizounganishwa.",
+      "proposed_spoken_text": "Mfululizo mrefu wa herufi ndogo la zilizounganishwa.",
+      "audio_file": "pg023_im004_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_im005_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti l.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti la.",
+      "audio_file": "pg023_im005_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_s001_n0004",
+      "current_text": "konsonanti l t p s f j.",
+      "proposed_spoken_text": "konsonanti la ta pa sa fa ja.",
+      "audio_file": "pg023_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_s002_n0002",
+      "current_text": "Kuandika herufi ya konsonanti l",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti la",
+      "audio_file": "pg023_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_s002_n0004",
+      "current_text": "konsonanti l.",
+      "proposed_spoken_text": "konsonanti la.",
+      "audio_file": "pg023_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 23,
+      "id": "pg023_s002_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti l.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti la.",
+      "audio_file": "pg023_s002_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_im001_audio_description",
+      "current_text": "Mfano wa mwandiko wa herufi ndogo t.",
+      "proposed_spoken_text": "Mfano wa mwandiko wa herufi ndogo ta.",
+      "audio_file": "pg025_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_im002_audio_description",
+      "current_text": "Mfululizo wa herufi ndogo t zilizounganishwa.",
+      "proposed_spoken_text": "Mfululizo wa herufi ndogo ta zilizounganishwa.",
+      "audio_file": "pg025_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_im003_audio_description",
+      "current_text": "Mfululizo wa herufi ndogo t zenye mstari wa juu.",
+      "proposed_spoken_text": "Mfululizo wa herufi ndogo ta zenye mstari wa juu.",
+      "audio_file": "pg025_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_im004_audio_description",
+      "current_text": "Mfululizo mwingine wa herufi ndogo t zenye mstari wa juu.",
+      "proposed_spoken_text": "Mfululizo mwingine wa herufi ndogo ta zenye mstari wa juu.",
+      "audio_file": "pg025_im004_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_im005_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti t.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ta.",
+      "audio_file": "pg025_im005_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti t",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ta",
+      "audio_file": "pg025_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_s001_n0004",
+      "current_text": "konsonanti t.",
+      "proposed_spoken_text": "konsonanti ta.",
+      "audio_file": "pg025_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 25,
+      "id": "pg025_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti t.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ta.",
+      "audio_file": "pg025_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 27,
+      "id": "pg027_im002_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti p.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti pa.",
+      "audio_file": "pg027_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 27,
+      "id": "pg027_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti p",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti pa",
+      "audio_file": "pg027_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 27,
+      "id": "pg027_s001_n0004",
+      "current_text": "konsonanti p.",
+      "proposed_spoken_text": "konsonanti pa.",
+      "audio_file": "pg027_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 27,
+      "id": "pg027_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti p.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti pa.",
+      "audio_file": "pg027_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 29,
+      "id": "pg029_im002_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti s.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti sa.",
+      "audio_file": "pg029_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 29,
+      "id": "pg029_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti S",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti sa",
+      "audio_file": "pg029_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 29,
+      "id": "pg029_s001_n0004",
+      "current_text": "konsonanti S.",
+      "proposed_spoken_text": "konsonanti sa.",
+      "audio_file": "pg029_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 29,
+      "id": "pg029_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti s.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti sa.",
+      "audio_file": "pg029_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 31,
+      "id": "pg031_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti f.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti fa.",
+      "audio_file": "pg031_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 31,
+      "id": "pg031_s001_n0002",
+      "current_text": "f",
+      "proposed_spoken_text": "fa",
+      "audio_file": "pg031_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 31,
+      "id": "pg031_s001_n0003",
+      "current_text": "Kuandika herufi ya konsonanti f",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti fa",
+      "audio_file": "pg031_s001_n0003.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 31,
+      "id": "pg031_s001_n0005",
+      "current_text": "konsonanti f.",
+      "proposed_spoken_text": "konsonanti fa.",
+      "audio_file": "pg031_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 31,
+      "id": "pg031_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti f.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti fa.",
+      "audio_file": "pg031_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 33,
+      "id": "pg033_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti j.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ja.",
+      "audio_file": "pg033_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 33,
+      "id": "pg033_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti j",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ja",
+      "audio_file": "pg033_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 33,
+      "id": "pg033_s001_n0003",
+      "current_text": "Fuatisha herufi ya konsonanti j.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ja.",
+      "audio_file": "pg033_s001_n0003.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0005",
+      "current_text": "b a t a t u t a b u",
+      "proposed_spoken_text": "ba aaa ta aaa ta uuu ta aaa ba uuu",
+      "audio_file": "pg034_s001_n0005.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0006",
+      "current_text": "k o b e b a b a d o",
+      "proposed_spoken_text": "ka ooo ba eee ba aaa ba aaa da ooo",
+      "audio_file": "pg034_s001_n0006.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0007",
+      "current_text": "n u n a n i n i p e",
+      "proposed_spoken_text": "na uuu na aaa na iii na iii pa eee",
+      "audio_file": "pg034_s001_n0007.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0008",
+      "current_text": "m i b a b u a i b u",
+      "proposed_spoken_text": "ma iii ba aaa ba uuu aaa iii ba uuu",
+      "audio_file": "pg034_s001_n0008.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0009",
+      "current_text": "d o b i b i i i p a",
+      "proposed_spoken_text": "da ooo ba iii ba iii iii iii pa aaa",
+      "audio_file": "pg034_s001_n0009.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0010",
+      "current_text": "k u m i t i m u d a",
+      "proposed_spoken_text": "ka uuu ma iii ta iii ma uuu da aaa",
+      "audio_file": "pg034_s001_n0010.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0011",
+      "current_text": "l a l a m i a k a a",
+      "proposed_spoken_text": "la aaa la aaa ma iii aaa ka aaa aaa",
+      "audio_file": "pg034_s001_n0011.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0012",
+      "current_text": "s u k a k a t a t u",
+      "proposed_spoken_text": "sa uuu ka aaa ka aaa ta aaa ta uuu",
+      "audio_file": "pg034_s001_n0012.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0013",
+      "current_text": "d a d a m u s a k a",
+      "proposed_spoken_text": "da aaa da aaa ma uuu sa aaa ka aaa",
+      "audio_file": "pg034_s001_n0013.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 34,
+      "id": "pg034_s001_n0014",
+      "current_text": "p i p i p a s i m u",
+      "proposed_spoken_text": "pa iii pa iii pa aaa sa iii ma uuu",
+      "audio_file": "pg034_s001_n0014.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti g.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ga.",
+      "audio_file": "pg035_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_s001_n0003",
+      "current_text": "Katika somo hili utajifunza kuandika herufi za konsonanti g y z r h w v ch.",
+      "proposed_spoken_text": "Katika somo hili utajifunza kuandika herufi za konsonanti ga ya za ra ha wa va cha.",
+      "audio_file": "pg035_s001_n0003.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_s002_n0002",
+      "current_text": "Kuandika herufi ya konsonanti g",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ga",
+      "audio_file": "pg035_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_s002_n0004",
+      "current_text": "konsonanti g.",
+      "proposed_spoken_text": "konsonanti ga.",
+      "audio_file": "pg035_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_s002_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti g.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ga.",
+      "audio_file": "pg035_s002_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 35,
+      "id": "pg035_s002_n0007",
+      "current_text": "g g g g g",
+      "proposed_spoken_text": "ga ga ga ga ga",
+      "audio_file": "pg035_s002_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 37,
+      "id": "pg037_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti y.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ya.",
+      "audio_file": "pg037_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 37,
+      "id": "pg037_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti y",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ya",
+      "audio_file": "pg037_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 37,
+      "id": "pg037_s001_n0004",
+      "current_text": "konsonanti y.",
+      "proposed_spoken_text": "konsonanti ya.",
+      "audio_file": "pg037_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 37,
+      "id": "pg037_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti y.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ya.",
+      "audio_file": "pg037_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 39,
+      "id": "pg039_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti z",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti za",
+      "audio_file": "pg039_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 39,
+      "id": "pg039_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti z",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti za",
+      "audio_file": "pg039_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 39,
+      "id": "pg039_s001_n0004",
+      "current_text": "konsonanti z.",
+      "proposed_spoken_text": "konsonanti za.",
+      "audio_file": "pg039_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 39,
+      "id": "pg039_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti z.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti za.",
+      "audio_file": "pg039_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 39,
+      "id": "pg039_s001_n0007",
+      "current_text": "z z z z z",
+      "proposed_spoken_text": "za za za za za",
+      "audio_file": "pg039_s001_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 43,
+      "id": "pg043_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti h .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ha .",
+      "audio_file": "pg043_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 43,
+      "id": "pg043_s001_n0002",
+      "current_text": "h",
+      "proposed_spoken_text": "ha",
+      "audio_file": "pg043_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 43,
+      "id": "pg043_s001_n0005",
+      "current_text": "konsonanti h .",
+      "proposed_spoken_text": "konsonanti ha .",
+      "audio_file": "pg043_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 43,
+      "id": "pg043_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti h .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ha .",
+      "audio_file": "pg043_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 44,
+      "id": "pg044_s001_n0004",
+      "current_text": "n",
+      "proposed_spoken_text": "na",
+      "audio_file": "pg044_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 44,
+      "id": "pg044_s001_n0006",
+      "current_text": "f",
+      "proposed_spoken_text": "fa",
+      "audio_file": "pg044_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 44,
+      "id": "pg044_s001_n0007",
+      "current_text": "m",
+      "proposed_spoken_text": "ma",
+      "audio_file": "pg044_s001_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 45,
+      "id": "pg045_im001_audio_description",
+      "current_text": "Mchoro wa mazoezi ya konsonanti W unaonyesha mstari wa mwandiko wenye herufi ndogo w zinazorudiwa. Chini yake kuna mfano wa kufuatisha herufi kubwa W, kuandika W kwenye daftari, silabi wa, we, wi, wo, wu, na maneno wewe, wao, weka, wino na wema. Mwanafunzi afuate na kuandika kutoka kushoto kwenda kulia.",
+      "proposed_spoken_text": "Mchoro wa mazoezi ya konsonanti wa unaonyesha mstari wa mwandiko wenye herufi ndogo wa zinazorudiwa. Chini yake kuna mfano wa kufuatisha herufi kubwa wa, kuandika wa kwenye daftari, silabi wa, we, wi, wo, wu, na maneno wewe, wao, weka, wino na wema. Mwanafunzi afuate na kuandika kutoka kushoto kwenda kulia.",
+      "audio_file": "pg045_im001_audio_description.mp3?v=20260826-pg45-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 45,
+      "id": "pg045_im002_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa W ya kufuatisha, kisha mstari wa kuandika W, silabi wa, we, wi, wo, wu, na maneno ya mfano.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa wa ya kufuatisha, kisha mstari wa kuandika wa, silabi wa, we, wi, wo, wu, na maneno ya mfano.",
+      "audio_file": "pg045_im002_audio_description.mp3?v=20260826-pg45-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 46,
+      "id": "pg046_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi ndogo v zikirudiwa kwenye mstari wa mwandiko kutoka kushoto kwenda kulia, kati ya mistari ya kuongoza. Mwanafunzi afuate mwendo wa kila herufi v.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi ndogo va zikirudiwa kwenye mstari wa mwandiko kutoka kushoto kwenda kulia, kati ya mistari ya kuongoza. Mwanafunzi afuate mwendo wa kila herufi va.",
+      "audio_file": "pg046_im001_audio_description.mp3?v=20260826-pg46-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 46,
+      "id": "pg046_im002_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa V upande wa kushoto na mifano mitano ya herufi V iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta kutoka juu hadi chini, kisha aandike V kwenye mstari wa chini.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa va upande wa kushoto na mifano mitano ya herufi va iliyochorwa kwa nukta upande wa kulia. Mwanafunzi afuate nukta kutoka juu hadi chini, kisha aandike va kwenye mstari wa chini.",
+      "audio_file": "pg046_im002_audio_description.mp3?v=20260826-pg46-descriptions",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 46,
+      "id": "pg046_s001_n0002",
+      "current_text": "Kuandika herufi ya konsonanti V",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti va",
+      "audio_file": "pg046_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 46,
+      "id": "pg046_s001_n0004",
+      "current_text": "konsonanti v.",
+      "proposed_spoken_text": "konsonanti va.",
+      "audio_file": "pg046_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 46,
+      "id": "pg046_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti v.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti va.",
+      "audio_file": "pg046_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 48,
+      "id": "pg048_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti ch .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti cha .",
+      "audio_file": "pg048_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 48,
+      "id": "pg048_s001_n0004",
+      "current_text": "konsonanti ch .",
+      "proposed_spoken_text": "konsonanti cha .",
+      "audio_file": "pg048_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 48,
+      "id": "pg048_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti ch .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti cha .",
+      "audio_file": "pg048_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 51,
+      "id": "pg051_s001_n0009",
+      "current_text": "3. Andika mistari miwili ya herufi m na k .",
+      "proposed_spoken_text": "3. Andika mistari miwili ya herufi ma na ka .",
+      "audio_file": "pg051_s001_n0009.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 57,
+      "id": "pg057_im001_audio_description",
+      "current_text": "Herufi kubwa B iko upande wa kushoto. Upande wa kulia kuna herufi B sita zilizochorwa kwa nukta kati ya mistari ya mwandiko; fuatisha kila B kutoka kushoto kwenda kulia.",
+      "proposed_spoken_text": "Herufi kubwa ba iko upande wa kushoto. Upande wa kulia kuna herufi ba sita zilizochorwa kwa nukta kati ya mistari ya mwandiko; fuatisha kila ba kutoka kushoto kwenda kulia.",
+      "audio_file": "pg057_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 57,
+      "id": "pg057_s001_n0004",
+      "current_text": "konsonanti B M D K N.",
+      "proposed_spoken_text": "konsonanti ba ma da ka na.",
+      "audio_file": "pg057_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 57,
+      "id": "pg057_s002_n0004",
+      "current_text": "konsonanti B .",
+      "proposed_spoken_text": "konsonanti ba .",
+      "audio_file": "pg057_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 57,
+      "id": "pg057_s002_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti B .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ba .",
+      "audio_file": "pg057_s002_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 58,
+      "id": "pg058_im002_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti M",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ma",
+      "audio_file": "pg058_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 58,
+      "id": "pg058_im004_audio_description",
+      "current_text": "Somo la pili Kuandika herufi ya konsonanti Katika somo hili utajifunza kuandika herufi ya konsonanti M. Fuatisha herufi ya konsonanti M Andika herufi ya konsonanti hii kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "proposed_spoken_text": "Somo la pili Kuandika herufi ya konsonanti Katika somo hili utajifunza kuandika herufi ya konsonanti ma. Fuatisha herufi ya konsonanti ma Andika herufi ya konsonanti hii kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "audio_file": "pg058_im004_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 58,
+      "id": "pg058_s001_n0005",
+      "current_text": "konsonanti M .",
+      "proposed_spoken_text": "konsonanti ma .",
+      "audio_file": "pg058_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 58,
+      "id": "pg058_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti M",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ma",
+      "audio_file": "pg058_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 59,
+      "id": "pg059_im001_audio_description",
+      "current_text": "Fuatisha herufi ya konsonanti D .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti da .",
+      "audio_file": "pg059_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 59,
+      "id": "pg059_s001_n0004",
+      "current_text": "konsonanti D .",
+      "proposed_spoken_text": "konsonanti da .",
+      "audio_file": "pg059_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 59,
+      "id": "pg059_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti D .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti da .",
+      "audio_file": "pg059_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 60,
+      "id": "pg060_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa K upande wa kushoto na mifano ya herufi K iliyochorwa kwa nukta kwenye mistari ya mwandiko upande wa kulia. Fuatisha kila mfano kutoka juu kwenda chini, kisha andika K kwenye mstari unaofuata.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa ka upande wa kushoto na mifano ya herufi ka iliyochorwa kwa nukta kwenye mistari ya mwandiko upande wa kulia. Fuatisha kila mfano kutoka juu kwenda chini, kisha andika ka kwenye mstari unaofuata.",
+      "audio_file": "pg060_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 60,
+      "id": "pg060_s001_n0004",
+      "current_text": "konsonanti K .",
+      "proposed_spoken_text": "konsonanti ka .",
+      "audio_file": "pg060_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 60,
+      "id": "pg060_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti K .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ka .",
+      "audio_file": "pg060_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 61,
+      "id": "pg061_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa N na mifano yake iliyochorwa kwa nukta kwenye mistari ya mwandiko. Fuatisha mifano kutoka kushoto kwenda kulia, kisha andika N mwenyewe.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa na na mifano yake iliyochorwa kwa nukta kwenye mistari ya mwandiko. Fuatisha mifano kutoka kushoto kwenda kulia, kisha andika na mwenyewe.",
+      "audio_file": "pg061_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 61,
+      "id": "pg061_s001_n0004",
+      "current_text": "konsonanti N .",
+      "proposed_spoken_text": "konsonanti na .",
+      "audio_file": "pg061_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 61,
+      "id": "pg061_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti N .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti na .",
+      "audio_file": "pg061_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 64,
+      "id": "pg064_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa L pamoja na mifano ya L yenye nukta kwenye mistari ya mwandiko. Fuatisha umbo la L, kisha liandike kwenye mstari unaofuata.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa la pamoja na mifano ya la yenye nukta kwenye mistari ya mwandiko. Fuatisha umbo la la, kisha liandike kwenye mstari unaofuata.",
+      "audio_file": "pg064_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 64,
+      "id": "pg064_s001_n0004",
+      "current_text": "konsonanti L T P S F J.",
+      "proposed_spoken_text": "konsonanti la ta pa sa fa ja.",
+      "audio_file": "pg064_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 64,
+      "id": "pg064_s002_n0004",
+      "current_text": "konsonanti L.",
+      "proposed_spoken_text": "konsonanti la.",
+      "audio_file": "pg064_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 64,
+      "id": "pg064_s002_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti L .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti la .",
+      "audio_file": "pg064_s002_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 65,
+      "id": "pg065_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa T na mifano ya T iliyochorwa kwa nukta. Fuatisha kila T kwenye mistari, kisha andika T mwenyewe.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa ta na mifano ya ta iliyochorwa kwa nukta. Fuatisha kila ta kwenye mistari, kisha andika ta mwenyewe.",
+      "audio_file": "pg065_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 65,
+      "id": "pg065_s001_n0004",
+      "current_text": "konsonanti T .",
+      "proposed_spoken_text": "konsonanti ta .",
+      "audio_file": "pg065_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 65,
+      "id": "pg065_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti T .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ta .",
+      "audio_file": "pg065_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 66,
+      "id": "pg066_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa P na mifano yake iliyochorwa kwa nukta kwenye mistari ya mwandiko. Fuatisha kila P kutoka kushoto kwenda kulia, kisha andika P mwenyewe.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa pa na mifano yake iliyochorwa kwa nukta kwenye mistari ya mwandiko. Fuatisha kila pa kutoka kushoto kwenda kulia, kisha andika pa mwenyewe.",
+      "audio_file": "pg066_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 66,
+      "id": "pg066_s001_n0004",
+      "current_text": "konsonanti P .",
+      "proposed_spoken_text": "konsonanti pa .",
+      "audio_file": "pg066_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 66,
+      "id": "pg066_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti P .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti pa .",
+      "audio_file": "pg066_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 67,
+      "id": "pg067_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa S pamoja na mifano ya S yenye nukta kwenye mistari ya mwandiko. Fuatisha umbo la S, kisha liandike mwenyewe.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa sa pamoja na mifano ya sa yenye nukta kwenye mistari ya mwandiko. Fuatisha umbo la sa, kisha liandike mwenyewe.",
+      "audio_file": "pg067_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 67,
+      "id": "pg067_s001_n0004",
+      "current_text": "konsonanti S .",
+      "proposed_spoken_text": "konsonanti sa .",
+      "audio_file": "pg067_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 67,
+      "id": "pg067_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti S .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti sa .",
+      "audio_file": "pg067_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 68,
+      "id": "pg068_im002_audio_description",
+      "current_text": "Mchoro unaonyesha sehemu tatu za mazoezi: herufi F ya kunakili, majina ya mfano, na sentensi za mfano. Vyote vimepangwa kwenye mistari ya mwandiko wa kuunga; soma kutoka juu kwenda chini kisha nakili.",
+      "proposed_spoken_text": "Mchoro unaonyesha sehemu tatu za mazoezi: herufi fa ya kunakili, majina ya mfano, na sentensi za mfano. Vyote vimepangwa kwenye mistari ya mwandiko wa kuunga; soma kutoka juu kwenda chini kisha nakili.",
+      "audio_file": "pg068_im002_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 68,
+      "id": "pg068_s001_n0004",
+      "current_text": "konsonanti F .",
+      "proposed_spoken_text": "konsonanti fa .",
+      "audio_file": "pg068_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 68,
+      "id": "pg068_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti F .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti fa .",
+      "audio_file": "pg068_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 69,
+      "id": "pg069_im001_audio_description",
+      "current_text": "Herufi kubwa J iko upande wa kushoto na mifano ya herufi J za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa ja iko upande wa kushoto na mifano ya herufi ja za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg069_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 69,
+      "id": "pg069_im002_audio_description",
+      "current_text": "Mifano ya majina yanayoanza kwa herufi J imeandikwa kwenye mstari wa mwandiko.",
+      "proposed_spoken_text": "Mifano ya majina yanayoanza kwa herufi ja imeandikwa kwenye mstari wa mwandiko.",
+      "audio_file": "pg069_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 69,
+      "id": "pg069_im003_audio_description",
+      "current_text": "Mifano ya sentensi zenye herufi J imeandikwa kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Mifano ya sentensi zenye herufi ja imeandikwa kwenye mistari ya mwandiko.",
+      "audio_file": "pg069_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 69,
+      "id": "pg069_s001_n0004",
+      "current_text": "konsonanti J .",
+      "proposed_spoken_text": "konsonanti ja .",
+      "audio_file": "pg069_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 69,
+      "id": "pg069_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti J .",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ja .",
+      "audio_file": "pg069_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 71,
+      "id": "pg071_im001_audio_description",
+      "current_text": "Herufi kubwa G iko upande wa kushoto na mifano ya herufi G za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa ga iko upande wa kushoto na mifano ya herufi ga za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg071_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 71,
+      "id": "pg071_im002_audio_description",
+      "current_text": "Mifano ya majina yanayoanza kwa herufi G imeandikwa kwenye mstari wa mwandiko.",
+      "proposed_spoken_text": "Mifano ya majina yanayoanza kwa herufi ga imeandikwa kwenye mstari wa mwandiko.",
+      "audio_file": "pg071_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 71,
+      "id": "pg071_s001_n0004",
+      "current_text": "konsonanti G Y Z R H W V CH.",
+      "proposed_spoken_text": "konsonanti ga ya za ra ha wa va cha.",
+      "audio_file": "pg071_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 71,
+      "id": "pg071_s002_n0004",
+      "current_text": "konsonanti G.",
+      "proposed_spoken_text": "konsonanti ga.",
+      "audio_file": "pg071_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 71,
+      "id": "pg071_s002_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti G.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ga.",
+      "audio_file": "pg071_s002_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_im001_audio_description",
+      "current_text": "Mifano ya sentensi zenye herufi Y imeandikwa kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Mifano ya sentensi zenye herufi ya imeandikwa kwenye mistari ya mwandiko.",
+      "audio_file": "pg072_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_im002_audio_description",
+      "current_text": "Herufi kubwa Y iko upande wa kushoto na mifano ya herufi Y za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa ya iko upande wa kushoto na mifano ya herufi ya za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg072_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_im003_audio_description",
+      "current_text": "Mifano ya majina yanayoanza kwa herufi Y imeandikwa kwenye mstari wa mwandiko.",
+      "proposed_spoken_text": "Mifano ya majina yanayoanza kwa herufi ya imeandikwa kwenye mstari wa mwandiko.",
+      "audio_file": "pg072_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_im004_audio_description",
+      "current_text": "Somo la pili Kuandika herufi ya konsonanti Y Katika somo hili utajifunza kuandika herufi ya konsonanti Y. Fuatisha herufi ya konsonanti Y. Andika herufi ya konsonanti hii kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "proposed_spoken_text": "Somo la pili Kuandika herufi ya konsonanti ya Katika somo hili utajifunza kuandika herufi ya konsonanti ya. Fuatisha herufi ya konsonanti ya. Andika herufi ya konsonanti hii kwenye daftari. Andika majina haya kwenye daftari. Andika sentensi hizi kwenye daftari.",
+      "audio_file": "pg072_im004_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_s001_n0003",
+      "current_text": "Kuandika herufi ya konsonanti Y",
+      "proposed_spoken_text": "Kuandika herufi ya konsonanti ya",
+      "audio_file": "pg072_s001_n0003.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_s001_n0005",
+      "current_text": "konsonanti Y.",
+      "proposed_spoken_text": "konsonanti ya.",
+      "audio_file": "pg072_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 72,
+      "id": "pg072_s001_n0006",
+      "current_text": "Fuatisha herufi ya konsonanti Y.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ya.",
+      "audio_file": "pg072_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 73,
+      "id": "pg073_im001_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa Z pamoja na mifano ya Z yenye nukta kwenye mistari ya mwandiko. Fuatisha kila Z kutoka kushoto kwenda kulia, kisha andika Z mwenyewe.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa za pamoja na mifano ya za yenye nukta kwenye mistari ya mwandiko. Fuatisha kila za kutoka kushoto kwenda kulia, kisha andika za mwenyewe.",
+      "audio_file": "pg073_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 73,
+      "id": "pg073_s001_n0004",
+      "current_text": "konsonanti Z.",
+      "proposed_spoken_text": "konsonanti za.",
+      "audio_file": "pg073_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 73,
+      "id": "pg073_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti Z.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti za.",
+      "audio_file": "pg073_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 74,
+      "id": "pg074_im001_audio_description",
+      "current_text": "Herufi kubwa R iko upande wa kushoto na mifano ya herufi R za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa ra iko upande wa kushoto na mifano ya herufi ra za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg074_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 74,
+      "id": "pg074_im002_audio_description",
+      "current_text": "Mifano ya majina yanayoanza kwa herufi R imeandikwa kwenye mstari wa mwandiko.",
+      "proposed_spoken_text": "Mifano ya majina yanayoanza kwa herufi ra imeandikwa kwenye mstari wa mwandiko.",
+      "audio_file": "pg074_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 74,
+      "id": "pg074_im003_audio_description",
+      "current_text": "Mifano ya sentensi zenye herufi R imeandikwa kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Mifano ya sentensi zenye herufi ra imeandikwa kwenye mistari ya mwandiko.",
+      "audio_file": "pg074_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 74,
+      "id": "pg074_s001_n0004",
+      "current_text": "konsonanti R.",
+      "proposed_spoken_text": "konsonanti ra.",
+      "audio_file": "pg074_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 74,
+      "id": "pg074_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti R.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ra.",
+      "audio_file": "pg074_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 75,
+      "id": "pg075_im001_audio_description",
+      "current_text": "Mfano wa herufi kubwa H pamoja na mistari ya kufuatisha.",
+      "proposed_spoken_text": "Mfano wa herufi kubwa ha pamoja na mistari ya kufuatisha.",
+      "audio_file": "pg075_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 75,
+      "id": "pg075_im002_audio_description",
+      "current_text": "Mchoro unaonyesha herufi kubwa H pamoja na mifano ya H yenye nukta kwenye mistari ya mwandiko. Fuatisha mistari ya kila H, kisha andika H.",
+      "proposed_spoken_text": "Mchoro unaonyesha herufi kubwa ha pamoja na mifano ya ha yenye nukta kwenye mistari ya mwandiko. Fuatisha mistari ya kila ha, kisha andika ha.",
+      "audio_file": "pg075_im002_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 75,
+      "id": "pg075_s001_n0004",
+      "current_text": "konsonanti H.",
+      "proposed_spoken_text": "konsonanti ha.",
+      "audio_file": "pg075_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 75,
+      "id": "pg075_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti H.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti ha.",
+      "audio_file": "pg075_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 76,
+      "id": "pg076_im001_audio_description",
+      "current_text": "Herufi kubwa W iko upande wa kushoto na mifano ya herufi W za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa wa iko upande wa kushoto na mifano ya herufi wa za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg076_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 76,
+      "id": "pg076_im002_audio_description",
+      "current_text": "Mifano ya majina yanayoanza kwa herufi W imeandikwa kwenye mstari wa mwandiko.",
+      "proposed_spoken_text": "Mifano ya majina yanayoanza kwa herufi wa imeandikwa kwenye mstari wa mwandiko.",
+      "audio_file": "pg076_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 76,
+      "id": "pg076_im003_audio_description",
+      "current_text": "Mifano ya sentensi zenye herufi W imeandikwa kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Mifano ya sentensi zenye herufi wa imeandikwa kwenye mistari ya mwandiko.",
+      "audio_file": "pg076_im003_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 76,
+      "id": "pg076_s001_n0004",
+      "current_text": "konsonanti W.",
+      "proposed_spoken_text": "konsonanti wa.",
+      "audio_file": "pg076_s001_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 76,
+      "id": "pg076_s001_n0005",
+      "current_text": "Fuatisha herufi ya konsonanti W.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti wa.",
+      "audio_file": "pg076_s001_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 77,
+      "id": "pg077_im001_audio_description",
+      "current_text": "Herufi kubwa V iko upande wa kushoto na mifano ya herufi V za kufuatisha kwenye mistari ya mwandiko.",
+      "proposed_spoken_text": "Herufi kubwa va iko upande wa kushoto na mifano ya herufi va za kufuatisha kwenye mistari ya mwandiko.",
+      "audio_file": "pg077_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 77,
+      "id": "pg077_s001_n0006",
+      "current_text": "konsonanti V.",
+      "proposed_spoken_text": "konsonanti va.",
+      "audio_file": "pg077_s001_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 77,
+      "id": "pg077_s001_n0007",
+      "current_text": "Fuatisha herufi ya konsonanti V.",
+      "proposed_spoken_text": "Fuatisha herufi ya konsonanti va.",
+      "audio_file": "pg077_s001_n0007.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_im001_audio_description",
+      "current_text": "Mchoro unaonyesha majina ya mfano yanayoanza kwa sauti CH kwenye mistari ya mwandiko. Soma jina moja baada ya jingine, kisha yanakili.",
+      "proposed_spoken_text": "Mchoro unaonyesha majina ya mfano yanayoanza kwa sauti cha kwenye mistari ya mwandiko. Soma jina moja baada ya jingine, kisha yanakili.",
+      "audio_file": "pg078_im001_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_im002_audio_description",
+      "current_text": "Somo la nane Kuandika konsonanti CH Katika somo hili utajifunza kuandika konsonanti CH. Fuatisha konsonanti CH. Andika konsonanti hii kwenye daftari. Andika majina haya kwenye daftari.",
+      "proposed_spoken_text": "Somo la nane Kuandika konsonanti cha Katika somo hili utajifunza kuandika konsonanti cha. Fuatisha konsonanti cha. Andika konsonanti hii kwenye daftari. Andika majina haya kwenye daftari.",
+      "audio_file": "pg078_im002_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_im003_audio_description",
+      "current_text": "Mchoro unaonyesha konsonanti CH na mifano yake yenye nukta kwenye mistari ya mwandiko. Fuatisha CH kutoka kushoto kwenda kulia, kisha iandike.",
+      "proposed_spoken_text": "Mchoro unaonyesha konsonanti cha na mifano yake yenye nukta kwenye mistari ya mwandiko. Fuatisha cha kutoka kushoto kwenda kulia, kisha iandike.",
+      "audio_file": "pg078_im003_audio_description.mp3?v=20260827-structure",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_im004_audio_description",
+      "current_text": "Andika sentensi hizi kwenye daftari. Somo la nane Kuandika konsonanti CH Katika somo hili utajifunza kuandika konsonanti CH. Fuatisha konsonanti CH. Andika konsonanti hii kwenye daftari. Andika majina haya kwenye daftari.",
+      "proposed_spoken_text": "Andika sentensi hizi kwenye daftari. Somo la nane Kuandika konsonanti cha Katika somo hili utajifunza kuandika konsonanti cha. Fuatisha konsonanti cha. Andika konsonanti hii kwenye daftari. Andika majina haya kwenye daftari.",
+      "audio_file": "pg078_im004_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_s002_n0002",
+      "current_text": "Kuandika konsonanti CH",
+      "proposed_spoken_text": "Kuandika konsonanti cha",
+      "audio_file": "pg078_s002_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_s002_n0004",
+      "current_text": "CH.",
+      "proposed_spoken_text": "cha.",
+      "audio_file": "pg078_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 78,
+      "id": "pg078_s002_n0005",
+      "current_text": "Fuatisha konsonanti CH.",
+      "proposed_spoken_text": "Fuatisha konsonanti cha.",
+      "audio_file": "pg078_s002_n0005.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s001_n0006",
+      "current_text": "Kuandika herufi ambatani sh, ny, ng, nd, th, mb,",
+      "proposed_spoken_text": "Kuandika herufi ambatani sha, nya, nga, nda, tha, mba,",
+      "audio_file": "pg080_s001_n0006.mp3?v=20260826-consonants",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s001_n0007",
+      "current_text": "kw, gw, sw, vy, ngw, ndw, njw",
+      "proposed_spoken_text": "kwa, gwa, swa, vya, ngwa, ndwa, njwa",
+      "audio_file": "pg080_s001_n0007.mp3?v=20260826-consonants",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s001_n0009",
+      "current_text": "sh, ny, ng, nd, th, mb, kw, gw, sw, vy, ngw, ndw,",
+      "proposed_spoken_text": "sha, nya, nga, nda, tha, mba, kwa, gwa, swa, vya, ngwa, ndwa,",
+      "audio_file": "pg080_s001_n0009.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s001_n0010",
+      "current_text": "njw.",
+      "proposed_spoken_text": "njwa.",
+      "audio_file": "pg080_s001_n0010.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0007",
+      "current_text": "Mfano konsonanti sh, ny, ng, nd, th, mb, kw, gw",
+      "proposed_spoken_text": "Mfano konsonanti sha, nya, nga, nda, tha, mba, kwa, gwa",
+      "audio_file": "pg080_s002_n0007.mp3?v=20260826-consonants",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0008",
+      "current_text": "sw, vy, ng’ na irabu ( e o i u a ).",
+      "proposed_spoken_text": "swa, vya, ng'a na irabu ( eee ooo iii uuu aaa ).",
+      "audio_file": "pg080_s002_n0008.mp3?v=20260826-vowels-all-consonants",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0010",
+      "current_text": "sh na a zinaunda silabi sha",
+      "proposed_spoken_text": "sha na aaa zinaunda silabi sha",
+      "audio_file": "pg080_s002_n0010.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0011",
+      "current_text": "gw na i zinaunda silabi gwi",
+      "proposed_spoken_text": "gwa na iii zinaunda silabi gwi",
+      "audio_file": "pg080_s002_n0011.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0012",
+      "current_text": "gw na e zinaunda silabi gwe",
+      "proposed_spoken_text": "gwa na eee zinaunda silabi gwe",
+      "audio_file": "pg080_s002_n0012.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 80,
+      "id": "pg080_s002_n0013",
+      "current_text": "ng’ na o zinaunda silabi ng’o",
+      "proposed_spoken_text": "ng'a na ooo zinaunda silabi nga’ooo",
+      "audio_file": "pg080_s002_n0013.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 81,
+      "id": "pg081_s001_n0002",
+      "current_text": "Unda silabi kwa kutumia konsonanti sw, vy, rw, py,",
+      "proposed_spoken_text": "Unda silabi kwa kutumia konsonanti swa, vya, rw, py,",
+      "audio_file": "pg081_s001_n0002.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 81,
+      "id": "pg081_s001_n0003",
+      "current_text": "nj, pw, fy, ng’ na irabu ( u, e, i, o, a ).",
+      "proposed_spoken_text": "nja, pwa, fya, ng'a na irabu ( uuu, eee, iii, ooo, aaa ).",
+      "audio_file": "pg081_s001_n0003.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 81,
+      "id": "pg081_s002_n0013",
+      "current_text": "Unda maneno yenye herufi ambatani ng, nd, kw",
+      "proposed_spoken_text": "Unda maneno yenye herufi ambatani nga, nda, kwa",
+      "audio_file": "pg081_s002_n0013.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 81,
+      "id": "pg081_s002_n0014",
+      "current_text": "na sw",
+      "proposed_spoken_text": "na swa",
+      "audio_file": "pg081_s002_n0014.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s001_n0001",
+      "current_text": "Mfano wa konsonanti ngw ndw mbw njw chw nyw",
+      "proposed_spoken_text": "Mfano wa konsonanti ngwa ndwa mbw njwa chw nyw",
+      "audio_file": "pg082_s001_n0001.mp3?v=20260826-consonants",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s001_n0004",
+      "current_text": "ngw na i zinaunda silabi ngwi",
+      "proposed_spoken_text": "ngwa na iii zinaunda silabi ngwi",
+      "audio_file": "pg082_s001_n0004.mp3?v=20260826-consonants-vowels",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s001_n0005",
+      "current_text": "ndw na e zinaunda silabi ndwe",
+      "proposed_spoken_text": "ndwa na eee zinaunda silabi ndwe",
+      "audio_file": "pg082_s001_n0005.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s001_n0008",
+      "current_text": "Unda silabi kwa kutumia konsonanti ngw ndw mbw",
+      "proposed_spoken_text": "Unda silabi kwa kutumia konsonanti ngwa ndwa mbw",
+      "audio_file": "pg082_s001_n0008.mp3?v=20260826-consonants-vowels",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s001_n0009",
+      "current_text": "njw chw nyw shw na irabu ( u, e, i, o, a ).",
+      "proposed_spoken_text": "njwa chw nyw shw na irabu ( uuu, eee, iii, ooo, aaa ).",
+      "audio_file": "pg082_s001_n0009.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s002_n0004",
+      "current_text": "ambatani ngw ndw mbw njw chw nyw shw na",
+      "proposed_spoken_text": "ambatani ngwa ndwa mbw njwa chw nyw shw na",
+      "audio_file": "pg082_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 82,
+      "id": "pg082_s002_n0012",
+      "current_text": "Unda maneno yenye konsonanti ambatani ngw na",
+      "proposed_spoken_text": "Unda maneno yenye konsonanti ambatani ngwa na",
+      "audio_file": "pg082_s002_n0012.mp3?v=20260826-consonants-vowels",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 83,
+      "id": "pg083_s002_n0005",
+      "current_text": "b, g, j, o, p na y .",
+      "proposed_spoken_text": "ba, ga, ja, ooo, pa na ya .",
+      "audio_file": "pg083_s002_n0005.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 84,
+      "id": "pg084_s002_n0006",
+      "current_text": "a, ch, d, e, h, i, k, l, m, n, t, r, u, v, w",
+      "proposed_spoken_text": "aaa, cha, da, eee, ha, iii, ka, la, ma, na, ta, ra, uuu, va, wa",
+      "audio_file": "pg084_s002_n0006.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 84,
+      "id": "pg084_s002_n0008",
+      "current_text": "a, ch, d, e, h, i, k, l, m, n, t, r, u, v, w",
+      "proposed_spoken_text": "aaa, cha, da, eee, ha, iii, ka, la, ma, na, ta, ra, uuu, va, wa",
+      "audio_file": "pg084_s002_n0008.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 85,
+      "id": "pg085_im001_audio_description",
+      "current_text": "Mchoro una mistari minne ya mwandiko wa kuunga. Mstari wa kwanza una herufi ndogo a zinazorudiwa. Mstari wa pili una ch, wa tatu d, na wa nne m; herufi zinaungana kutoka kushoto kwenda kulia.",
+      "proposed_spoken_text": "Mchoro una mistari minne ya mwandiko wa kuunga. Mstari wa kwanza una herufi ndogo aaa zinazorudiwa. Mstari wa pili una cha, wa tatu da, na wa nne ma; herufi zinaungana kutoka kushoto kwenda kulia.",
+      "audio_file": "pg085_im001_audio_description.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 85,
+      "id": "pg085_s001_n0003",
+      "current_text": "kwenda kulia. e, h, i, k, r, u",
+      "proposed_spoken_text": "kwenda kulia. eee, ha, iii, ka, ra, uuu",
+      "audio_file": "pg085_s001_n0003.mp3?v=20260826-vowels-all",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 88,
+      "id": "pg088_s002_n0004",
+      "current_text": "haziungwi. Herufi ambazo haziungwi ni f, s na z",
+      "proposed_spoken_text": "haziungwi. Herufi ambazo haziungwi ni fa, sa na za",
+      "audio_file": "pg088_s002_n0004.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 88,
+      "id": "pg088_s002_n0006",
+      "current_text": "s s s s s s s s s s",
+      "proposed_spoken_text": "sa sa sa sa sa sa sa sa sa sa",
+      "audio_file": "pg088_s002_n0006.mp3",
+      "status": "Inasubiri idhini"
+    },
+    {
+      "page": 88,
+      "id": "pg088_s002_n0007",
+      "current_text": "z z z z z z z z z z",
+      "proposed_spoken_text": "za za za za za za za za za za",
+      "audio_file": "pg088_s002_n0007.mp3",
+      "status": "Inasubiri idhini"
+    }
+  ]
+}
