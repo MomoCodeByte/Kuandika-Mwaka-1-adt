@@ -52,6 +52,32 @@ def replace_object_value(source: str, key: str, value: object) -> str:
     return source[:value_start] + encoded + source[value_end:]
 
 
+def replace_string_value(source: str, key: str, value: str) -> str:
+    """Replace one embedded JavaScript string value while honoring escapes."""
+    needle = json.dumps(key, ensure_ascii=False) + ":"
+    key_start = source.index(needle)
+    value_start = key_start + len(needle)
+    if source[value_start] != '"':
+        raise RuntimeError(f"Expected string value for {key}")
+
+    escaped = False
+    value_end = None
+    for index in range(value_start + 1, len(source)):
+        char = source[index]
+        if escaped:
+            escaped = False
+        elif char == "\\":
+            escaped = True
+        elif char == '"':
+            value_end = index + 1
+            break
+    if value_end is None:
+        raise RuntimeError(f"Could not find end of string value for {key}")
+
+    encoded = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+    return source[:value_start] + encoded + source[value_end:]
+
+
 config = json.loads((ROOT / "assets" / "config.json").read_text(encoding="utf-8"))
 audios = json.loads(
     (ROOT / "content" / "i18n" / "sw-TZ" / "audios.json").read_text(encoding="utf-8")
@@ -62,6 +88,11 @@ texts = json.loads(
 updated = replace_object_value(SOURCE, "./assets/config.json", config)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/audios.json", audios)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/texts.json", texts)
+updated = replace_string_value(
+    updated,
+    "./pg017_sec001.html",
+    (ROOT / "pg017_sec001.html").read_text(encoding="utf-8"),
+)
 updated = updated.replace(
     "./assets/writing-activities.js?v=adt-writing-on-model-v1.8.1-20260822",
     "./assets/writing-activities.js?v=page88-pdf-v17-fa-audio",
