@@ -148,6 +148,8 @@ async def main() -> None:
     texts["pg102_original_layout_audio_description"] = SCENE_VISIBLE
     for item_id in REMOVE_AUDIO:
         audios.pop(item_id, None)
+        if item_id.startswith("pg102_im"):
+            texts[item_id] = ""
 
     audio_work: dict[str, str] = {}
     for item_id, spoken in EXTRA_AUDIO.items():
