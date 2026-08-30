@@ -4657,6 +4657,89 @@
     }
   }
 
+  const visibleModelDescriptionMap = {
+    "pg013_sec001_response_01": "Mchoro wa mfano wa kuandika herufi u. Herufi u hutamkwa u. Andika herufi u kwenye mistari iliyo wazi.",
+    "pg014_sec002_response_02": "Mchoro wa mfano wa kuandika herufi b. Herufi b hutamkwa ba. Andika herufi b kwenye mistari iliyo wazi.",
+    "pg014_sec002_response_03": "Mchoro wa mfano wa silabi. Silabi ni: ba, be, bi, bo na bu. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg015_sec001_response_01": "Mchoro wa mfano wa maneno. Maneno ni: baba, babu, bua, bibo na beba. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg016_sec001_response_02": "Mchoro wa mfano wa kuandika herufi m. Herufi m hutamkwa ma. Andika herufi m kwenye mistari iliyo wazi.",
+    "pg018_sec001_response_02": "Mchoro wa mfano wa kuandika herufi d. Herufi d hutamkwa da. Andika herufi d kwenye mistari iliyo wazi.",
+    "pg018_sec001_response_03": "Mchoro wa mfano wa silabi. Silabi ni: da, de, di, do na du. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg018_sec001_response_04": "Mchoro wa mfano wa maneno. Maneno ni: dada, dudu, dua, duma na doa. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg020_sec001_response_02": "Mchoro wa mfano wa kuandika herufi k. Herufi k hutamkwa ka. Andika herufi k kwenye mistari iliyo wazi.",
+    "pg020_sec001_response_03": "Mchoro wa mfano wa silabi. Silabi ni: ka, ke, ki, ko na ku. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg020_sec001_response_04": "Mchoro wa mfano wa maneno. Maneno ni: kaba, koma, kua, keki na komeo. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg022_sec001_response_01": "Mchoro wa mfano wa kuandika herufi n. Herufi n hutamkwa na. Andika herufi n kwenye mistari iliyo wazi.",
+    "pg022_sec001_response_02": "Mchoro wa mfano wa silabi. Silabi ni: na, ne, ni, no na nu. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg022_sec001_response_03": "Mchoro wa mfano wa maneno. Maneno ni: nuna, nene, neno, nini na nane. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg023_sec002_response_02": "Mchoro wa mfano wa kuandika herufi l. Herufi l hutamkwa la. Andika herufi l kwenye mistari iliyo wazi.",
+    "pg025_sec001_response_02": "Mchoro wa mfano wa kuandika herufi t. Herufi t hutamkwa ta. Andika herufi t kwenye mistari iliyo wazi.",
+    "pg027_sec001_response_02": "Mchoro wa mfano wa kuandika herufi p. Herufi p hutamkwa pa. Andika herufi p kwenye mistari iliyo wazi.",
+    "pg027_sec001_response_03": "Mchoro wa mfano wa silabi. Silabi ni: pa, pe, pi, po na pu. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg027_sec001_response_04": "Mchoro wa mfano wa maneno. Maneno ni: pona, popo, pipi, punda na polepole. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg029_sec001_response_02": "Mchoro wa mfano wa kuandika herufi s. Herufi s hutamkwa sa. Andika herufi s kwenye mistari iliyo wazi.",
+    "pg031_sec001_response_01": "Mchoro wa mfano wa kuandika herufi f. Herufi f hutamkwa fa. Andika herufi f kwenye mistari iliyo wazi.",
+    "pg033_sec001_response_01": "Mchoro wa mfano wa kuandika herufi j. Herufi j hutamkwa ja. Andika herufi j kwenye mistari iliyo wazi.",
+    "pg033_sec001_response_02": "Mchoro wa mfano wa silabi. Silabi ni: ja, je, ji, jo na ju. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg035_sec002_response_01": "Mchoro wa mfano wa kuandika herufi g. Herufi g hutamkwa ga. Andika herufi g kwenye mistari iliyo wazi.",
+    "pg035_sec002_response_02": "Mchoro wa mfano wa silabi. Silabi ni: ga, ge, gi, go na gu. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg037_sec001_response_01": "Mchoro wa mfano wa kuandika herufi y. Herufi y hutamkwa ya. Andika herufi y kwenye mistari iliyo wazi.",
+    "pg037_sec001_response_03": "Mchoro wa mfano wa maneno. Maneno ni: yenu, yupi, yaya, yule na yote. Andika maneno haya kwenye mistari iliyo wazi.",
+    "pg039_sec001_response_01": "Mchoro wa mfano wa kuandika herufi z. Herufi z hutamkwa za. Andika herufi z kwenye mistari iliyo wazi.",
+    "pg041_sec002_response_01": "Mchoro wa mfano wa kuandika herufi r. Herufi r hutamkwa ra. Andika herufi r kwenye mistari iliyo wazi.",
+    "pg045_sec001_response_02": "Mchoro wa mfano wa kuandika herufi w. Herufi w hutamkwa wa. Andika herufi w kwenye mistari iliyo wazi.",
+    "pg046_sec001_response_02": "Mchoro wa mfano wa kuandika herufi v. Herufi v hutamkwa va. Andika herufi v kwenye mistari iliyo wazi.",
+    "pg048_sec001_response_01": "Mchoro wa mfano wa kuandika herufi ch. Herufi ch hutamkwa cha. Andika herufi ch kwenye mistari iliyo wazi.",
+    "pg048_sec001_response_02": "Mchoro wa mfano wa silabi. Silabi ni: cha, che, chi, cho na chu. Andika silabi hizi kwenye mistari iliyo wazi.",
+    "pg057_sec002_response_01": "Mchoro wa mfano wa kuandika herufi kubwa B. Herufi B hutamkwa ba. Andika herufi kubwa B kwenye mistari iliyo wazi.",
+    "pg058_sec001_response_02": "Mchoro wa mfano wa kuandika herufi kubwa M. Herufi M hutamkwa ma. Andika herufi kubwa M kwenye mistari iliyo wazi.",
+    "pg058_sec001_response_04": "Mchoro wa mfano wa sentensi. Sentensi ni: Monika amekula mapapai. Andika sentensi hii kwenye mistari iliyo wazi.",
+    "pg059_added_response_00": "Mchoro wa mfano wa sentensi. Sentensi ni: Musa amechuma maua. Andika sentensi hii kwenye mistari iliyo wazi.",
+    "pg059_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa D. Herufi D hutamkwa da. Andika herufi kubwa D kwenye mistari iliyo wazi.",
+    "pg060_added_response_00": "Mchoro wa mfano wa sentensi. Sentensi ni: Diana anapikua dagaa. Andika sentensi hii kwenye mistari iliyo wazi.",
+    "pg060_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa K. Herufi K hutamkwa ka. Andika herufi kubwa K kwenye mistari iliyo wazi.",
+    "pg061_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa N. Herufi N hutamkwa na. Andika herufi kubwa N kwenye mistari iliyo wazi.",
+    "pg064_sec002_response_01": "Mchoro wa mfano wa kuandika herufi kubwa L. Herufi L hutamkwa la. Andika herufi kubwa L kwenye mistari iliyo wazi.",
+    "pg065_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa T. Herufi T hutamkwa ta. Andika herufi kubwa T kwenye mistari iliyo wazi.",
+    "pg066_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa P. Herufi P hutamkwa pa. Andika herufi kubwa P kwenye mistari iliyo wazi.",
+    "pg067_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa S. Herufi S hutamkwa sa. Andika herufi kubwa S kwenye mistari iliyo wazi.",
+    "pg068_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa F. Herufi F hutamkwa fa. Andika herufi kubwa F kwenye mistari iliyo wazi.",
+    "pg069_sec001_response_01": "Mchoro wa mfano wa kuandika herufi kubwa J. Herufi J hutamkwa ja. Andika herufi kubwa J kwenye mistari iliyo wazi."
+  };
+
+  function exposeVisibleModelDescriptions() {
+    Object.entries(visibleModelDescriptionMap).forEach(function (entry) {
+      const responseId = entry[0];
+      const descriptionText = entry[1];
+      const card = document.querySelector('[data-response-id="' + responseId + '"]');
+      if (!card) return;
+      const descriptionId = responseId + "_model_audio_description";
+      let description = card.querySelector('[data-id="' + descriptionId + '"]');
+      const image = Array.from(card.querySelectorAll("img")).find(function (candidate) {
+        const src = candidate.getAttribute("src") || "";
+        return candidate.getClientRects().length > 0 && !/[_-]guide\b/i.test(src);
+      });
+      if (!image) return;
+      if (!description) {
+        description = document.createElement("p");
+        description.className = "sr-only visible-model-audio-description";
+        description.dataset.id = descriptionId;
+        description.id = descriptionId;
+        description.textContent = descriptionText;
+        image.before(description);
+      }
+      image.dataset.id = responseId + "_model";
+      image.dataset.adtDescription = descriptionText;
+      image.dataset.adtAudioDescriptionId = descriptionId;
+      image.setAttribute("aria-describedby", descriptionId);
+    });
+  }
+
+  exposeVisibleModelDescriptions();
+  requestAnimationFrame(exposeVisibleModelDescriptions);
+  setTimeout(exposeVisibleModelDescriptions, 350);
+  setTimeout(exposeVisibleModelDescriptions, 1000);
+
   setupPages83100Standard();
   requestAnimationFrame(setupPages83100Standard);
   setTimeout(setupPages83100Standard, 350);

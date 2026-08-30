@@ -13,7 +13,7 @@ TEXTS_PATH = ROOT / "content" / "i18n" / "sw-TZ" / "texts.json"
 AUDIOS_PATH = ROOT / "content" / "i18n" / "sw-TZ" / "audios.json"
 VOICE = "sw-TZ-RehemaNeural"
 VERSION = "accessible_writing_v1"
-WRITING_SCRIPT_VERSION = "./assets/writing-activities.js?v=accessible-model-guidance-v2-20260830"
+WRITING_SCRIPT_VERSION = "./assets/writing-activities.js?v=accessible-model-guidance-v3-20260830"
 
 FIGURE_RE = re.compile(
     r'(<figure[^>]*class="[^"]*practice-model[^"]*"[^>]*>)(.*?)(</figure>)',
