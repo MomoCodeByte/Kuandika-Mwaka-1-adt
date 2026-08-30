@@ -161,47 +161,47 @@
     pg061_im001: "Fuatisha herufi kubwa N.",
     pg061_im002: "Majina Naomi, Neema, Naima na Nora.",
     pg061_im003: "Sentensi: Naima amevaa gauni jeupe. Nuru anachota maji.",
-    pg064_im001: "Herufi kubwa L iko pamoja na mifano ya L yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg064_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg064_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg065_im001: "Herufi kubwa T iko pamoja na mifano ya T yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg065_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg065_im003: "Mistari ya daftari iliyo wazi imetengwa kwa mwanafunzi kuandika majibu ya zoezi.",
-    pg066_im001: "Herufi kubwa P iko pamoja na mifano ya P yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg066_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg066_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg067_im001: "Herufi kubwa S iko pamoja na mifano ya S yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg067_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg067_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg068_im002: "Herufi F, majina na sentensi za mfano zimepangwa kwenye mistari ya mwandiko wa kuunga.",
-    pg068_im003: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg068_im004: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
+    pg064_im001: "Fuatisha herufi kubwa L.",
+    pg064_im002: "Majina Lina, Lulu, Lazaro na Luka.",
+    pg064_im003: "Sentensi: Lazaro amelala. Lulu anasoma loteza.",
+    pg065_im001: "Fuatisha herufi kubwa T.",
+    pg065_im002: "Majina Tina, Tausi, Tunu, Tamari na Tatu.",
+    pg065_im003: "Sentensi: Tito anaota moto. Tunu amenunua maini.",
+    pg066_im001: "Fuatisha herufi kubwa P.",
+    pg066_im002: "Majina Paulina, Paulo, Piti na Penina.",
+    pg066_im003: "Sentensi: Piti amechukua kikapu na bakuli. Paulina amepika pilau tamu.",
+    pg067_im001: "Fuatisha herufi kubwa S.",
+    pg067_im002: "Majina Subira, Saumu, Sudi na Sakina.",
+    pg067_im003: "Sentensi: Saidi amenunua samaki na sukari. Salima ana kabati na kochi.",
+    pg068_im002: "Fuatisha herufi kubwa F. Majina Fatuma, Filipo, Fidelisi na Fina. Sentensi: Fatuma anafua taulo. Fidea amepaka mafuta usoni.",
+    pg068_im003: "Majina Fatuma, Filipo, Fidelisi na Fina.",
+    pg068_im004: "Sentensi: Fatuma anafua taulo. Fidea amepaka mafuta usoni.",
     pg052_im001: "Herufi kubwa A iko pamoja na mifano ya A yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
     pg053_im001: "Herufi kubwa E iko pamoja na mifano ya E yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
     pg055_im001: "Herufi kubwa O iko pamoja na mifano ya O yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
     pg056_im001: "Herufi kubwa U iko pamoja na mifano ya U yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg073_im001: "Herufi kubwa Z iko pamoja na mifano ya Z yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg073_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg075_im002: "Herufi kubwa H iko pamoja na mifano ya H yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg075_im003: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg075_im004: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
-    pg078_im001: "Majina ya mfano yanayoanza kwa CH yameandikwa kwenye mistari ya mwandiko.",
-    pg078_im003: "Konsonanti CH iko pamoja na mifano yake yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
-    pg069_im001: "Herufi kubwa J iko upande wa kushoto na mifano ya herufi J za kufuatisha kwenye mistari ya mwandiko.",
-    pg069_im002: "Mifano ya majina yanayoanza kwa herufi J imeandikwa kwenye mstari wa mwandiko.",
-    pg069_im003: "Mifano ya sentensi zenye herufi J imeandikwa kwenye mistari ya mwandiko.",
-    pg071_im001: "Herufi kubwa G iko upande wa kushoto na mifano ya herufi G za kufuatisha kwenye mistari ya mwandiko.",
-    pg071_im002: "Mifano ya majina yanayoanza kwa herufi G imeandikwa kwenye mstari wa mwandiko.",
-    pg072_im001: "Mifano ya sentensi zenye herufi Y imeandikwa kwenye mistari ya mwandiko.",
-    pg072_im002: "Herufi kubwa Y iko upande wa kushoto na mifano ya herufi Y za kufuatisha kwenye mistari ya mwandiko.",
-    pg072_im003: "Mifano ya majina yanayoanza kwa herufi Y imeandikwa kwenye mstari wa mwandiko.",
-    pg074_im001: "Herufi kubwa R iko upande wa kushoto na mifano ya herufi R za kufuatisha kwenye mistari ya mwandiko.",
-    pg074_im002: "Mifano ya majina yanayoanza kwa herufi R imeandikwa kwenye mstari wa mwandiko.",
-    pg074_im003: "Mifano ya sentensi zenye herufi R imeandikwa kwenye mistari ya mwandiko.",
-    pg076_im001: "Herufi kubwa W iko upande wa kushoto na mifano ya herufi W za kufuatisha kwenye mistari ya mwandiko.",
-    pg076_im002: "Mifano ya majina yanayoanza kwa herufi W imeandikwa kwenye mstari wa mwandiko.",
-    pg076_im003: "Mifano ya sentensi zenye herufi W imeandikwa kwenye mistari ya mwandiko.",
-    pg077_im001: "Herufi kubwa V iko upande wa kushoto na mifano ya herufi V za kufuatisha kwenye mistari ya mwandiko.",
+    pg073_im001: "Fuatisha herufi kubwa Z.",
+    pg073_im002: "Majina Zena, Zainabu, Zakayo na Zaituni.",
+    pg075_im002: "Fuatisha herufi kubwa H.",
+    pg075_im003: "Majina Hamisi, Hasani, Habibu na Hadija.",
+    pg075_im004: "Sentensi: Hamisi anakata hoho. Halima hufua leso kila siku.",
+    pg078_im001: "Majina Vumilia, Vanesa, Viviani na Vida.",
+    pg078_im003: "Fuatisha konsonanti kubwa CH.",
+    pg069_im001: "Fuatisha herufi kubwa J.",
+    pg069_im002: "Majina Jakaya, Jamila, Juma na Jemima.",
+    pg069_im003: "Sentensi: Juma amelima bamia na mipapai. Jema anakula tikitimaji.",
+    pg071_im001: "Fuatisha herufi kubwa G.",
+    pg071_im002: "Majina Gidioni, Gatinoma, Gama na Gati.",
+    pg072_im001: "Sentensi: Gati anapiga gitaa. Gidioni anafagia uani.",
+    pg072_im002: "Fuatisha herufi kubwa Y.",
+    pg072_im003: "Majina Yahaya, Yona, Yuda na Yunusi.",
+    pg074_im001: "Fuatisha herufi kubwa R.",
+    pg074_im002: "Majina Rehema, Remi, Razia na Rita.",
+    pg074_im003: "Sentensi: Rita na Razia ni marafiki. Rajabu anarina asali.",
+    pg076_im001: "Fuatisha herufi kubwa W.",
+    pg076_im002: "Majina Wema, Wahida, Waridi na Wami.",
+    pg076_im003: "Sentensi: Waridi ameona wawili watatu. Wema amefurahi kuwahi darasani.",
+    pg077_im001: "Fuatisha herufi kubwa V.",
     pg085_im001: "Mchoro una mistari minne ya mwandiko wa kuunga: a, ch, d na m zikirudiwa na kuungana kutoka kushoto kwenda kulia.",
     pg086_im001: "Mchoro una mistari mitatu ya mwandiko wa kuunga yenye silabi me, ne na na zinazorudiwa.",
     pg086_im002: "Mchoro una maneno tembo, bege, ondoa, kondoo, papai na kitanda kwenye mistari ya mwandiko wa kuunga."
@@ -3039,12 +3039,12 @@
 
   if (pageNumber >= 64 && pageNumber <= 69) {
     const letterLessonConfig = {
-      64: { letter: "L", name: "Lina", section: "s002", response: "pg064_sec002", trace: "pg064_sec002_response_04" },
-      65: { letter: "T", name: "Tina", section: "s001", response: "pg065_sec001", trace: "pg065_sec001_response_04" },
-      66: { letter: "P", name: "Paulina", section: "s001", response: "pg066_sec001", trace: "pg066_sec001_response_04" },
-      67: { letter: "S", name: "Subira", section: "s001", response: "pg067_sec001", trace: "pg067_sec001_response_04" },
-      68: { letter: "F", name: "Fatuma", section: "s001", response: "pg068_sec001", trace: "pg068_sec001_response_05" },
-      69: { letter: "J", name: "Jakaya", section: "s001", response: "pg069_sec001", trace: "pg069_sec001_response_05" }
+      64: { letter: "L", name: "Lina", namesAlt: "Majina Lina, Lulu, Lazaro na Luka.", sentenceAlt: "Sentensi: Lazaro amelala. Lulu anasoma loteza.", section: "s002", response: "pg064_sec002", trace: "pg064_sec002_response_04" },
+      65: { letter: "T", name: "Tina", namesAlt: "Majina Tina, Tausi, Tunu, Tamari na Tatu.", sentenceAlt: "Sentensi: Tito anaota moto. Tunu amenunua maini.", section: "s001", response: "pg065_sec001", trace: "pg065_sec001_response_04" },
+      66: { letter: "P", name: "Paulina", namesAlt: "Majina Paulina, Paulo, Piti na Penina.", sentenceAlt: "Sentensi: Piti amechukua kikapu na bakuli. Paulina amepika pilau tamu.", section: "s001", response: "pg066_sec001", trace: "pg066_sec001_response_04" },
+      67: { letter: "S", name: "Subira", namesAlt: "Majina Subira, Saumu, Sudi na Sakina.", sentenceAlt: "Sentensi: Saidi amenunua samaki na sukari. Salima ana kabati na kochi.", section: "s001", response: "pg067_sec001", trace: "pg067_sec001_response_04" },
+      68: { letter: "F", name: "Fatuma", namesAlt: "Majina Fatuma, Filipo, Fidelisi na Fina.", sentenceAlt: "Sentensi: Fatuma anafua taulo. Fidea amepaka mafuta usoni.", section: "s001", response: "pg068_sec001", trace: "pg068_sec001_response_05" },
+      69: { letter: "J", name: "Jakaya", namesAlt: "Majina Jakaya, Jamila, Juma na Jemima.", sentenceAlt: "Sentensi: Juma amelima bamia na mipapai. Jema anakula tikitimaji.", section: "s001", response: "pg069_sec001", trace: "pg069_sec001_response_05" }
     }[pageNumber];
     const pageStem = "pg" + String(pageNumber).padStart(3, "0");
     page.classList.add("page" + pageNumber + "-complete", "page52-complete", "batch-v2-page-52");
@@ -3076,7 +3076,7 @@
       });
     }
 
-    function buildLetterLessonPractice(responseId, modelSource, guideText) {
+    function buildLetterLessonPractice(responseId, modelSource, guideText, modelAlt) {
       const card = page.querySelector('[data-response-id="' + responseId + '"]');
       if (!card || card.dataset.letterLessonReady === "true") return;
       const wrap = card.querySelector(".handwriting-canvas-wrap,.canvas-wrap");
@@ -3089,7 +3089,7 @@
       model.className = "page52-model";
       const image = document.createElement("img");
       image.src = modelSource;
-      image.alt = "Mfano halisi wa uandishi kutoka kwenye kitabu";
+      image.alt = modelAlt;
       model.appendChild(image);
       const answer = document.createElement("div");
       answer.className = "page52-notebook-answer";
@@ -3120,9 +3120,9 @@
       traceWrap.replaceChildren(traceImage, traceCanvas);
     }
 
-    buildLetterLessonPractice(letterLessonConfig.response + "_response_01", "images/" + pageStem + "_letter_model_clean.png?v=1", letterLessonConfig.letter);
-    buildLetterLessonPractice(letterLessonConfig.response + "_response_02", "images/" + pageStem + "_names_model_clean.png?v=1", letterLessonConfig.name);
-    buildLetterLessonPractice(letterLessonConfig.response + "_response_03", "images/" + pageStem + "_sentence_model_clean.png?v=1", "");
+    buildLetterLessonPractice(letterLessonConfig.response + "_response_01", "images/" + pageStem + "_letter_model_clean.png?v=1", letterLessonConfig.letter, "Andika herufi kubwa " + letterLessonConfig.letter + ".");
+    buildLetterLessonPractice(letterLessonConfig.response + "_response_02", "images/" + pageStem + "_names_model_clean.png?v=1", letterLessonConfig.name, letterLessonConfig.namesAlt);
+    buildLetterLessonPractice(letterLessonConfig.response + "_response_03", "images/" + pageStem + "_sentence_model_clean.png?v=1", "", letterLessonConfig.sentenceAlt);
 
     const sentenceCard = page.querySelector('[data-response-id="' + letterLessonConfig.response + '_response_03"]');
     const sentenceWrap = sentenceCard && sentenceCard.querySelector(".page52-practice-wrap");
@@ -3290,6 +3290,30 @@
   if (pageNumber >= 71 && pageNumber <= 80) {
     page.classList.add("page7180-complete", "page" + pageNumber + "-complete");
 
+    const page7180ModelAlt = function (source) {
+      const descriptions = {
+        pg072_g_sentence1: "Sentensi: Gati anapiga gitaa.",
+        pg072_g_sentence2: "Sentensi: Gidioni anafagia uani.",
+        pg072_y_sentence: "Sentensi: Yusufu na Yohana wanacheza mpira.",
+        pg073_y_sentence: "Sentensi: Yusufu na Yohana wanacheza mpira.",
+        pg073_z_sentence1: "Sentensi ya kwanza yenye herufi Z.",
+        pg073_z_sentence2: "Sentensi ya pili yenye herufi Z.",
+        pg074_r_sentence1: "Sentensi: Rita na Razia ni marafiki.",
+        pg074_r_sentence2: "Sentensi: Rajabu anarina asali.",
+        pg075_h_sentence1: "Sentensi: Hamisi anakata hoho.",
+        pg075_h_sentence2: "Sentensi: Halima hufua leso kila siku.",
+        pg076_w_sentence1: "Sentensi: Waridi ameona wawili watatu.",
+        pg076_w_sentence2: "Sentensi: Wema amefurahi kuwahi darasani.",
+        pg078_v_sentence1: "Sentensi: Vitalisi amevaa viatu vizuri.",
+        pg078_v_sentence2: "Sentensi: Vaileti amesoma vitabu vitatu.",
+        pg079_ch_names: "Majina yanayoanza kwa CH.",
+        pg079_ch_sentence1: "Sentensi: Chausiku anacheza na Chacha.",
+        pg079_ch_sentence2: "Sentensi: Chale anachota maji."
+      };
+      const key = Object.keys(descriptions).find(function (name) { return String(source || "").includes(name); });
+      return key ? descriptions[key] : "Mfano halisi kutoka kwenye kitabu";
+    };
+
     function setupPage7180Canvas(canvas, storageKey) {
       const context = canvas.getContext("2d");
       let drawing = false;
@@ -3382,7 +3406,7 @@
         if (!imageSource) return model;
         const image = document.createElement("img");
         image.src = imageSource;
-        image.alt = "Mfano halisi wa sentensi kutoka kwenye kitabu";
+        image.alt = page7180ModelAlt(imageSource);
         model.appendChild(image);
         return model;
       };
@@ -3431,7 +3455,7 @@
         model.className = "page7180-sentence-model";
         const image = document.createElement("img");
         image.src = modelSource;
-        image.alt = "Mfano halisi kutoka kwenye kitabu";
+        image.alt = page7180ModelAlt(modelSource);
         model.appendChild(image);
         card.appendChild(model);
       }
