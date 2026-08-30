@@ -32,8 +32,54 @@
     });
   }
 
+  // Several handwriting models are moved into interactive cards and their
+  // original figure is then hidden or removed. Remember each description and
+  // its following element before those moves happen. The read-aloud engine
+  // ignores hidden nodes, so a screen-reader-only proxy can later be placed at
+  // the model's original position. Keep the same data-id so Rehema uses the
+  // existing catalogue entry and preserve the visible book layout.
+  function collectPracticeModelAudioSources() {
+    return Array.from(document.querySelectorAll("figure.practice-model")).map(function (figure) {
+      const caption = figure.querySelector('figcaption[data-id$="_audio_description"]');
+      if (!caption || !caption.textContent.trim()) return null;
+      return {
+        id: caption.dataset.id,
+        text: caption.textContent.trim(),
+        figure: figure,
+        followingElement: figure.nextElementSibling,
+        parent: figure.parentNode
+      };
+    }).filter(Boolean);
+  }
+
+  function exposeHiddenModelDescriptionsToAudioQueue() {
+    practiceModelAudioSources.forEach(function (source) {
+      const nodes = Array.from(document.querySelectorAll('[data-id="' + CSS.escape(source.id) + '"]'));
+      const readableCopy = nodes.find(function (node) {
+        return node.getClientRects().length > 0;
+      });
+      if (readableCopy) return;
+      const proxy = document.createElement("p");
+      proxy.className = "sr-only practice-model-audio-proxy";
+      proxy.dataset.id = source.id;
+      proxy.textContent = source.text;
+      if (source.figure.isConnected) {
+        source.figure.before(proxy);
+      } else if (source.followingElement && source.followingElement.isConnected) {
+        source.followingElement.before(proxy);
+      } else if (source.parent && source.parent.isConnected) {
+        source.parent.appendChild(proxy);
+      }
+    });
+  }
+
   ensureImageAudioDescriptionIds();
   exposeInstructionalFiguresToScreenReaders();
+  const practiceModelAudioSources = collectPracticeModelAudioSources();
+  queueMicrotask(exposeHiddenModelDescriptionsToAudioQueue);
+  requestAnimationFrame(function () {
+    requestAnimationFrame(exposeHiddenModelDescriptionsToAudioQueue);
+  });
   const KEY = "kuandika-mwaka-1-responses:" + location.pathname;
   let state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (_) {}
