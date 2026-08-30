@@ -1351,7 +1351,7 @@
     if (animalQ1 && baseCanvas) {
       const q1Card = document.createElement("section");
       q1Card.className = "page51-question-card page51-manual-question";
-      animalQ1.textContent = "1. Taja majina ya wanyama unaowaona katika picha hiyo.";
+      animalQ1.textContent = "1. Taja majina ya wanyama uliowaona na uliowabaini katika picha hiyo.";
       animalQ1.classList.add("question-prompt");
       if (animalQ1Tail) animalQ1Tail.hidden = true;
       const q1Wrap = document.createElement("div");
@@ -1385,7 +1385,7 @@
     householdGroup.className = "page51-household-figure";
     const householdImage = document.createElement("img");
     householdImage.src = "images/pg051_household_group.png?v=1";
-    householdImage.alt = "Vifaa vya nyumbani: meza, viti, bakuli, sahani na kijiko";
+    householdImage.alt = "Vifaa vya nyumbani: kiti, kochi, meza, bakuli, sahani na kijiko";
     householdGroup.appendChild(householdImage);
     mainPanel.appendChild(householdGroup);
     [householdQ1, householdQ2, householdQ3].forEach(function (node) { if (node) mainPanel.appendChild(node); });
@@ -1422,7 +1422,7 @@
       const exQ1Tail = page.querySelector('[data-id="pg051_s001_n0012"]');
       const exQ2 = page.querySelector('[data-id="pg051_s001_n0013"]');
       const exQ2Tail = page.querySelector('[data-id="pg051_s001_n0014"]');
-      if (q1 && q1.textContent !== "1. Taja majina ya wanyama unaowaona katika picha hiyo.") q1.textContent = "1. Taja majina ya wanyama unaowaona katika picha hiyo.";
+      if (q1 && q1.textContent !== "1. Taja majina ya wanyama uliowaona na uliowabaini katika picha hiyo.") q1.textContent = "1. Taja majina ya wanyama uliowaona na uliowabaini katika picha hiyo.";
       if (q1Tail && !q1Tail.hidden) q1Tail.hidden = true;
       if (q3 && q3.textContent !== "3. Andika herufi ya mwanzo ya kila mnyama unayemwona.") q3.textContent = "3. Andika herufi ya mwanzo ya kila mnyama unayemwona.";
       if (q3Tail && !q3Tail.hidden) q3Tail.hidden = true;
