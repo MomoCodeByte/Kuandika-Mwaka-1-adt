@@ -3323,6 +3323,20 @@ html.pages-41-60-standard .batch83100-notebook-sheet {
   -webkit-text-stroke: 1px rgb(85 85 85 / 72%);
 }
 
+/* Keep tracing examples compact, like one ruled handwriting row. */
+#content .trace-canvas-wrap > .sassoon-letter-figure {
+  height: clamp(7.5rem, 15vw, 9rem) !important;
+  min-height: clamp(7.5rem, 15vw, 9rem) !important;
+}
+
+#content .trace-canvas-wrap > .sassoon-letter-figure .sassoon-letter-sample {
+  font-size: clamp(4rem, 10vw, 6rem);
+}
+
+#content .trace-canvas-wrap > .sassoon-letter-figure .sassoon-letter-trace-run {
+  font-size: clamp(1.8rem, 4.2vw, 3rem);
+}
+
 #content section[data-response-id^="pg010_sec001_"] .canvas-wrap,
 #content section[data-response-id^="pg011_sec001_"] .canvas-wrap,
 #content section[data-response-id^="pg011_sec002_"] .canvas-wrap,
@@ -3347,6 +3361,11 @@ html.pages-41-60-standard .batch83100-notebook-sheet {
 @media (max-width: 640px) {
   #content .sassoon-letter-figure {
     min-height: 7rem !important;
+  }
+
+  #content .trace-canvas-wrap > .sassoon-letter-figure {
+    height: 7.5rem !important;
+    min-height: 7.5rem !important;
   }
 
   #content .sassoon-letter-trace-model {
