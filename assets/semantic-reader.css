@@ -3989,6 +3989,17 @@ html.validator-simple-sample #content section.response-card[data-response-id="pg
   max-height: 10.5rem !important;
 }
 
+/* Page 10: the model row does not need an additional closing rule. */
+html.validator-simple-sample #content section.response-card[data-response-id="pg010_sec001_response_02"] .sassoon-letter-model {
+  background-image:
+    linear-gradient(rgb(69 69 69 / 88%), rgb(69 69 69 / 88%)),
+    linear-gradient(rgb(145 145 145 / 65%), rgb(145 145 145 / 65%)),
+    linear-gradient(rgb(145 145 145 / 65%), rgb(145 145 145 / 65%)) !important;
+  background-position: 0 0, 0 41.5%, 0 64.5% !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
 #content .page52-notebook-answer.page52-multi-answer {
   background-image: linear-gradient(to bottom,
     rgb(69 69 69 / 88%) 0 1px,
