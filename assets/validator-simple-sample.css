@@ -3148,6 +3148,14 @@ html.validator-simple-sample .batch-picture-card .book-image-label-overlay canva
   background: transparent !important;
 }
 
+html.validator-simple-sample #content .handwriting-model,
+html.validator-simple-sample #content .sample-letter-model span,
+html.validator-simple-sample #content .trace-letter-model span,
+html.validator-simple-sample #content [class*="guide-text"] {
+  font-family: "Sassoon Primary", sans-serif !important;
+  font-synthesis: none !important;
+}
+
 html.validator-simple-sample .batch-lesson-intro {
   width: 100%;
   max-width: 56rem !important;

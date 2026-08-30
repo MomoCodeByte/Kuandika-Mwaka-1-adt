@@ -5,5 +5,5 @@
 @font-face{font-family:"Atkinson Hyperlegible";src:url("./fonts/AtkinsonHyperlegible-700-latin.woff2") format("woff2");font-weight:700;font-display:swap}
 body,button,input,textarea,select{font-family:"Atkinson Hyperlegible",Arial,sans-serif}
 #content,#content *{font-family:"Sassoon Primary",sans-serif}
-#content .handwriting-model{font-family:"Maandishi","Sassoon Primary",sans-serif;font-synthesis:none}
+#content .handwriting-model{font-family:"Sassoon Primary",sans-serif;font-synthesis:none}
 #nav-container,#nav-container *,#interface-container,#interface-container *{font-family:"Atkinson Hyperlegible",Arial,sans-serif}
