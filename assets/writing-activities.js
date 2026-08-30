@@ -155,12 +155,12 @@
   page.classList.add("batch-v2-page", "batch-v2-page-" + pageNumber);
 
   const modelDescriptionMap = {
-    pg060_im001: "Herufi kubwa K iko upande wa kushoto na mifano ya K yenye nukta iko upande wa kulia kwenye mistari ya mwandiko.",
-    pg060_im002: "Majina ya mfano yameandikwa kwa mwandiko wa kuunga kwenye mistari ya daftari.",
-    pg060_im003: "Sentensi za mfano zimeandikwa kwa mwandiko wa kuunga kwenye mistari ya daftari.",
-    pg061_im001: "Herufi kubwa N inaonekana pamoja na mifano ya N yenye nukta kwenye mistari ya mwandiko.",
-    pg061_im002: "Majina ya mfano yamepangwa kwenye mistari ya mwandiko wa kuunga ili yanakiliwe.",
-    pg061_im003: "Sentensi za mfano zimepangwa kwenye mistari ya daftari ili ziandikwe tena.",
+    pg060_im001: "Fuatisha herufi kubwa K.",
+    pg060_im002: "Majina Kibibi, Kimani, Kamau na Kasimu.",
+    pg060_im003: "Sentensi: Kibibi ameokota kalamu. Kamau ana duka zuri.",
+    pg061_im001: "Fuatisha herufi kubwa N.",
+    pg061_im002: "Majina Naomi, Neema, Naima na Nora.",
+    pg061_im003: "Sentensi: Naima amevaa gauni jeupe. Nuru anachota maji.",
     pg064_im001: "Herufi kubwa L iko pamoja na mifano ya L yenye nukta ya kufuatisha kwenye mistari ya mwandiko.",
     pg064_im002: "Majina ya mfano yameandikwa kwenye mistari ya mwandiko wa kuunga.",
     pg064_im003: "Sentensi za mfano zimeandikwa kwenye mistari ya mwandiko wa kuunga.",
@@ -1905,9 +1905,9 @@
 
     const enforcePage54Content = function () {
       const title = page.querySelector('[data-id="pg054_s001_n0002"]');
-      if (title && title.textContent.trim() !== "Kuandika herufi ya irabu i") title.innerHTML = "Kuandika herufi ya irabu <strong class=\"vowel-focus\">i</strong>";
+      if (title && title.textContent.trim() !== "Kuandika herufi ya irabu I") title.innerHTML = "Kuandika herufi ya irabu <strong class=\"vowel-focus\">I</strong>";
       const intro = page.querySelector('[data-id="pg054_s001_n0003"]');
-      if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya irabu i.") intro.innerHTML = "Katika somo hili utajifunza kuandika herufi ya irabu <strong class=\"vowel-focus\">i</strong>.";
+      if (intro && intro.textContent.trim() !== "Katika somo hili utajifunza kuandika herufi ya irabu I.") intro.innerHTML = "Katika somo hili utajifunza kuandika herufi ya irabu <strong class=\"vowel-focus\">I</strong>.";
       page.querySelectorAll('[data-id$="_label"],.response-feedback').forEach(function (node) { if (!node.hidden) node.hidden = true; });
       const printedPage = page.querySelector(".printed-page-number");
       if (printedPage && !printedPage.hidden) printedPage.hidden = true;
