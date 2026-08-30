@@ -32,54 +32,8 @@
     });
   }
 
-  function enhanceSassoonLetterModels() {
-    document.querySelectorAll("figure.practice-model").forEach(function (figure) {
-      if (figure.classList.contains("sassoon-letter-figure")) return;
-      const caption = figure.querySelector('figcaption[data-id$="_audio_description"]');
-      const image = figure.querySelector("img");
-      const description = (caption?.textContent || image?.dataset.adtDescription || "").trim();
-      const match = description.match(/^(Mchoro wa herufi|Fuatisha herufi)\s+([A-Za-z]{1,2})\b/i);
-      if (!match || !image) return;
-
-      const letter = match[2];
-      const isTrace = /^Fuatisha/i.test(match[1]);
-      const surface = document.createElement("div");
-      surface.className = "sassoon-letter-model " + (isTrace ? "sassoon-letter-trace-model" : "sassoon-letter-copy-model");
-      surface.setAttribute("aria-hidden", "true");
-
-      if (isTrace) {
-        const sample = document.createElement("span");
-        sample.className = "sassoon-letter-sample";
-        sample.textContent = letter;
-        const run = document.createElement("span");
-        run.className = "sassoon-letter-trace-run";
-        for (let index = 0; index < 5; index += 1) {
-          const item = document.createElement("span");
-          item.textContent = letter;
-          run.appendChild(item);
-        }
-        surface.append(sample, run);
-      } else {
-        const run = document.createElement("span");
-        run.className = "sassoon-letter-copy-run";
-        const repeats = letter.length > 1 ? 10 : 18;
-        for (let index = 0; index < repeats; index += 1) {
-          const item = document.createElement("span");
-          item.textContent = letter;
-          run.appendChild(item);
-        }
-        surface.appendChild(run);
-      }
-
-      figure.classList.add("sassoon-letter-figure");
-      image.classList.add("sassoon-source-model");
-      figure.insertBefore(surface, caption || null);
-    });
-  }
-
   ensureImageAudioDescriptionIds();
   exposeInstructionalFiguresToScreenReaders();
-  enhanceSassoonLetterModels();
   const KEY = "kuandika-mwaka-1-responses:" + location.pathname;
   let state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (_) {}
