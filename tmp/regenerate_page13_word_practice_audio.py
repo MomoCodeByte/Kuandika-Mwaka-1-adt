@@ -11,17 +11,20 @@ TARGET = (
     / "i18n"
     / "sw-TZ"
     / "audio"
-    / "pg013_im002_audio_description_supervisor_v2.mp3"
+    / "pg013_im002_audio_description_supervisor_v3.mp3"
 )
 VOICE = "sw-TZ-RehemaNeural"
 TEXT = (
-    "Zoezi lina sehemu tatu. "
-    "Sehemu ya kwanza: mstari wa juu una mfano wa neno ua uliorudiwa. "
-    "Fuata mfano huo, kisha andika neno ua kwenye mstari wa chini. "
-    "Sehemu ya pili: mstari wa juu una mfano wa neno oa uliorudiwa. "
-    "Fuata mfano huo, kisha andika neno oa kwenye mstari wa chini. "
-    "Sehemu ya tatu: mstari wa juu una mfano wa neno au uliorudiwa. "
-    "Fuata mfano huo, kisha andika neno au kwenye mstari wa chini."
+    "Andika maneno haya kwenye daftari. Zoezi lina sehemu tatu. "
+    "Sehemu ya kwanza ni neno ua. Kwenye mstari wa juu, neno ua limeandikwa mara tano kama mfano. "
+    "Kwenye mstari unaofuata, fuatilia neno ua lenye rangi hafifu. "
+    "Baada ya hapo, andika neno ua mwenyewe kwenye mistari iliyo wazi chini. "
+    "Sehemu ya pili ni neno oa. Kwenye mstari wa juu, neno oa limeandikwa mara tano kama mfano. "
+    "Kwenye mstari unaofuata, fuatilia neno oa lenye rangi hafifu. "
+    "Baada ya hapo, andika neno oa mwenyewe kwenye mistari iliyo wazi chini. "
+    "Sehemu ya tatu ni neno au. Kwenye mstari wa juu, neno au limeandikwa mara tano kama mfano. "
+    "Kwenye mstari unaofuata, fuatilia neno au lenye rangi hafifu. "
+    "Baada ya hapo, andika neno au mwenyewe kwenye mistari iliyo wazi chini."
 )
 
 
