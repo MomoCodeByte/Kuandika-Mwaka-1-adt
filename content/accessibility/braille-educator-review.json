@@ -1,6 +1,6 @@
 {
   "book": "Kuandika: Kitabu cha Mwanafunzi, Mwaka wa Kwanza",
-  "status": "pending qualified local braille educator review",
+  "status": "supervisor letter mappings incorporated; pending qualified local braille educator review for tactile input",
   "sixKeyBrailleEnabled": false,
   "items": [
     {
@@ -3630,5 +3630,7 @@
       "reviewedBy": null,
       "approved": false
     }
-  ]
+  ],
+  "letterMap": "braille-letter-map.json",
+  "orientationNote": "Reading orientation and mirrored slate-and-stylus writing orientation are both documented."
 }
