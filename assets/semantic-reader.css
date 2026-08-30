@@ -3981,6 +3981,14 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
   background-repeat: repeat-y !important;
 }
 
+/* Page 10: remove one unnecessary ruled row below the e copy model. */
+html.validator-simple-sample #content section.response-card[data-response-id="pg010_sec001_response_02"] .canvas-wrap.handwriting-canvas-wrap,
+html.validator-simple-sample #content section.response-card[data-response-id="pg010_sec001_response_02"] canvas.drawing-canvas {
+  height: 10.5rem !important;
+  min-height: 10.5rem !important;
+  max-height: 10.5rem !important;
+}
+
 #content .page52-notebook-answer.page52-multi-answer {
   background-image: linear-gradient(to bottom,
     rgb(69 69 69 / 88%) 0 1px,
