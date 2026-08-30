@@ -230,16 +230,17 @@
     const describeScene = function () {
       const scene = document.querySelector(".page102-original-sheet img");
       if (!scene) return;
-      scene.alt = "Mchoro unaonyesha wanaume wawili na mwanamke wakizungumza. Mwanamume aliye kushoto anauliza kwa nini hawakuonana kwenye sherehe; mwanamume aliye kulia amebeba fimbo begani na anaeleza kuwa alizuiwa na majukumu. Chini, wanaendelea kuzungumza kuhusu mambo yaliyotokea. Soma mazungumzo na tambua alama za uandishi kwenye sentensi.";
-      scene.setAttribute("data-adt-description", scene.alt);
-      scene.setAttribute("data-adt-audio-description-id", "pg102_original_layout_audio_description");
+      scene.alt = "";
+      scene.setAttribute("aria-hidden", "true");
+      scene.removeAttribute("data-adt-description");
+      scene.removeAttribute("data-adt-audio-description-id");
     };
     describeScene();
     requestAnimationFrame(describeScene);
     setTimeout(describeScene, 500);
     setTimeout(describeScene, 1200);
     const sheet = document.querySelector(".page102-original-sheet");
-    if (sheet && !sheet.querySelector(".page102-audio-control")) {
+    if (false && sheet && !sheet.querySelector(".page102-audio-control")) {
       const audio = document.createElement("audio");
       audio.controls = true;
       audio.preload = "metadata";
@@ -267,7 +268,7 @@
   // Rehema playlist for the complete sheet instead of adding many controls.
   if (pageNumber === 96) {
     const sheet = document.querySelector(".page96-pdf-sheet");
-    if (sheet && !sheet.querySelector(".page96-audio-control")) {
+    if (false && sheet && !sheet.querySelector(".page96-audio-control")) {
       const ids = [
         "pg096_s001_n0001", "pg096_s001_n0002", "pg096_s001_n0003",
         "pg096_s001_n0004", "pg096_s002_n0001", "pg096_s002_n0002",
