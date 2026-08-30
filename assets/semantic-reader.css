@@ -357,6 +357,14 @@ html.original-book-theme body {
   .lesson-label { border-width: 2px; }
 }
 
+#content #page-title-pg005-sec001,
+#content #page-title-pg006-sec001 {
+  font-size: clamp(2rem, 4vw, 2.75rem) !important;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
 /* Pages 10–12: use the writing area itself as the notebook guide.  The
    decorative green card frame is removed; drawing and Futa remain active. */
 section[data-response-id^="pg010_sec001_"],

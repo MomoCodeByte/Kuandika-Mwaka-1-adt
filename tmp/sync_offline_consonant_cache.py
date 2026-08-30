@@ -88,14 +88,17 @@ texts = json.loads(
 updated = replace_object_value(SOURCE, "./assets/config.json", config)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/audios.json", audios)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/texts.json", texts)
-updated = replace_string_value(
-    updated,
-    "./pg017_sec001.html",
-    (ROOT / "pg017_sec001.html").read_text(encoding="utf-8"),
-)
+html_pages = [ROOT / "index.html", *sorted(ROOT.glob("pg*_sec*.html"))]
+synced_pages = 0
+for page in html_pages:
+    key = f"./{page.name}"
+    if json.dumps(key, ensure_ascii=False) + ":" not in updated:
+        continue
+    updated = replace_string_value(updated, key, page.read_text(encoding="utf-8"))
+    synced_pages += 1
 updated = updated.replace(
     "./assets/writing-activities.js?v=adt-writing-on-model-v1.8.1-20260822",
     "./assets/writing-activities.js?v=page88-pdf-v17-fa-audio",
 )
 PRELOADER_PATH.write_text(updated, encoding="utf-8")
-print("offline consonant cache synchronized")
+print(f"offline cache synchronized; html_pages={synced_pages}")
