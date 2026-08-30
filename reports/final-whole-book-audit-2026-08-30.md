@@ -9,7 +9,7 @@ Status: **PASS**
 - HTML files parsed: **128**
 - Images inspected: **250**
 - Handwriting canvases inspected: **287**
-- Audio mappings inspected: **1798**
+- Audio mappings inspected: **1799**
 - Missing or undersized audio files: **0**
 - Non-empty image descriptions without audio: **0**
 - Missing local image, script or stylesheet assets: **0**
