@@ -202,9 +202,9 @@
     pg076_im002: "Majina Wema, Wahida, Waridi na Wami.",
     pg076_im003: "Sentensi: Waridi ameona wawili watatu. Wema amefurahi kuwahi darasani.",
     pg077_im001: "Fuatisha herufi kubwa V.",
-    pg085_im001: "Mchoro una mistari minne ya mwandiko wa kuunga: a, ch, d na m zikirudiwa na kuungana kutoka kushoto kwenda kulia.",
-    pg086_im001: "Mchoro una mistari mitatu ya mwandiko wa kuunga yenye silabi me, ne na na zinazorudiwa.",
-    pg086_im002: "Mchoro una maneno tembo, bege, ondoa, kondoo, papai na kitanda kwenye mistari ya mwandiko wa kuunga."
+    pg085_im001: "Mistari minne ya michoro: herufi a, ch, d na m zimerudiwa kwa mwandiko wa kuunga.",
+    pg086_im001: "Mistari mitatu ya silabi me, ne na na zilizorudiwa kwa mwandiko wa kuunga.",
+    pg086_im002: "Maneno tembo, bege, ondoa, kondoo, papai na kitanda kwa mwandiko wa kuunga."
   };
   Object.keys(modelDescriptionMap).forEach(function (id) {
     document.querySelectorAll('[data-id="' + id + '"]').forEach(function (node) {
@@ -4473,8 +4473,8 @@
     if (pageNumber === 94) {
       const image94a = document.querySelector('img[data-id="pg094_im001"]');
       const image94b = document.querySelector('img[data-id="pg094_im002"]');
-      if (image94a) image94a.alt = "Mwanamke aliyevaa kitambaa chekundu kichwani anashika jani la mmea wa mahindi. Mwanamume aliyevaa kofia anaangalia mimea kutoka upande mwingine wa shamba.";
-      if (image94b) image94b.alt = "Mwanamume na mwanamke wamesimama kwenye udongo mwekundu wakitumia majembe kulima. Nyuma yao kuna mimea ya ndizi, miti na nyumba yenye paa la rangi nyekundu.";
+      if (image94a) image94a.alt = "Picha ya pili: Mwanamke na mwanamume wakiwa shambani kuvuna mahindi mabichi.";
+      if (image94b) image94b.alt = "Picha ya tatu: Mwanamke na mwanamume wakiwa shambani wanalima.";
     }
     if (pageNumber === 95) {
       function setupPage95PdfLayout() {
