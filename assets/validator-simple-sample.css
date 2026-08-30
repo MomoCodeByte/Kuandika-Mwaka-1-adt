@@ -2257,12 +2257,12 @@ html.validator-simple-sample .page23-answer {
 
 html.validator-simple-sample .page23-copy-answer {
   aspect-ratio: 666 / 82;
-  background-position: 0 0, 0 32.9%, 0 67.1%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 42%, 0 58%, 0 calc(100% - 1px);
 }
 
 html.validator-simple-sample .page23-letter-answer {
   aspect-ratio: 666 / 93;
-  background-position: 0 0, 0 38.7%, 0 65.6%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 42%, 0 58%, 0 calc(100% - 1px);
 }
 
 html.validator-simple-sample .page23-answer::before {
