@@ -533,7 +533,7 @@
         const model = document.createElement("img");
         model.className = "page15-model-image";
         model.src = "images/pg015_words_model.png";
-        model.alt = "Mfano wa kuandika baba, bubu, bua, bibo na beba.";
+        model.alt = "Mfano wa kuandika baba, babu, bua, bibo na beba.";
         const answer = document.createElement("div");
         answer.className = "page14-answer page15-answer";
         answer.dataset.word = "baba";
