@@ -1,0 +1,238 @@
+/* Shared page arrangement for the complete Kuandika Mwaka wa Kwanza book. */
+:root {
+  --book-page-max: 80rem;
+  --book-reading-max: 72rem;
+  --book-space-1: .4rem;
+  --book-space-2: .75rem;
+  --book-space-3: 1rem;
+  --book-space-4: 1.5rem;
+  --book-space-5: 2rem;
+  --book-controller-clearance: 8rem;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background: #f4f7f8;
+}
+
+#content {
+  box-sizing: border-box;
+  width: min(100%, var(--book-page-max)) !important;
+  min-height: 100vh;
+  margin-inline: auto !important;
+  padding: clamp(1rem, 4vw, 3.5rem) !important;
+  padding-bottom: calc(var(--book-controller-clearance) + env(safe-area-inset-bottom, 0px)) !important;
+  background: #fff;
+}
+
+#content > .kuandika-section,
+#content > .semantic-page,
+#content > .original-book-section {
+  box-sizing: border-box;
+  width: min(100%, var(--book-reading-max)) !important;
+  max-width: var(--book-reading-max) !important;
+  margin-inline: auto !important;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content p,
+#content li {
+  overflow-wrap: anywhere;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4 {
+  line-height: 1.25;
+}
+
+#content .unit-header,
+#content .lesson-card,
+#content .content-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+#content .lesson-card,
+#content .activity-label,
+#content .lesson-label {
+  margin-top: var(--book-space-4);
+  margin-bottom: var(--book-space-2);
+}
+
+#content .source-line,
+#content .source-heading,
+#content .question-prompt,
+#content .inclusive-instruction,
+#content .activity-prompt {
+  max-width: 100%;
+  margin-top: var(--book-space-1);
+  margin-bottom: var(--book-space-2);
+  line-height: 1.48;
+}
+
+#content .response-card {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: var(--book-space-2) 0 var(--book-space-4) !important;
+  padding: clamp(.55rem, 1.4vw, 1rem) !important;
+}
+
+#content .response-card > :first-child {
+  margin-top: 0;
+}
+
+#content .response-card > :last-child {
+  margin-bottom: 0;
+}
+
+#content .source-figure,
+#content figure.practice-model,
+#content figure.model-figure {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: var(--book-space-2) auto !important;
+}
+
+#content .source-figure img,
+#content figure.practice-model img,
+#content figure.model-figure img,
+#content img.source-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+#content .canvas-wrap,
+#content .trace-canvas-wrap,
+#content .handwriting-canvas-wrap,
+#content [class*="answer-lines"],
+#content [class*="ruled-lines"] {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+#content canvas.drawing-canvas,
+#content canvas.handwriting-canvas,
+#content canvas.trace-canvas {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#content .response-actions,
+#content .page-response-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--book-space-2);
+  width: 100%;
+  margin-top: var(--book-space-2);
+}
+
+#content .clear-response,
+#content .drawing-clear,
+#content .submit-response,
+#content .page-submit-button,
+#content .sample-clear-page {
+  box-sizing: border-box;
+  min-height: 2.75rem;
+  margin-top: var(--book-space-2) !important;
+}
+
+#content .clear-response,
+#content .drawing-clear {
+  display: block;
+  margin-left: auto !important;
+}
+
+#content table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+#content .table-wrap,
+#content .responsive-table,
+#content [role="region"][aria-label*="jedwali" i] {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+#content .printed-page-number,
+#content .page-footer {
+  clear: both;
+  margin: var(--book-space-5) auto 0;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --book-controller-clearance: 7.5rem;
+  }
+
+  #content {
+    padding: 1rem !important;
+    padding-bottom: calc(var(--book-controller-clearance) + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  #content .response-card {
+    margin-bottom: 1.25rem !important;
+    padding: .65rem !important;
+  }
+
+  #content .source-figure,
+  #content figure.practice-model,
+  #content figure.model-figure {
+    margin-block: .55rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  #content {
+    padding-inline: .75rem !important;
+  }
+
+  #content .response-card {
+    padding: .5rem !important;
+  }
+
+  #content .response-actions,
+  #content .page-response-actions {
+    justify-content: stretch;
+  }
+
+  #content .response-actions > button,
+  #content .page-response-actions > button {
+    flex: 1 1 9rem;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  #content {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}

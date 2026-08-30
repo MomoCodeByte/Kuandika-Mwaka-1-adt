@@ -78,6 +78,18 @@ def replace_string_value(source: str, key: str, value: str) -> str:
     return source[:value_start] + encoded + source[value_end:]
 
 
+def upsert_string_value(source: str, key: str, value: str) -> str:
+    """Replace an embedded string, or append it to the INLINE object."""
+    needle = json.dumps(key, ensure_ascii=False) + ":"
+    if needle in source:
+        return replace_string_value(source, key, value)
+
+    inline_end = "};\n  var BASE_DIR="
+    end_index = source.index(inline_end)
+    entry = f",{needle}{json.dumps(value, ensure_ascii=False, separators=(',', ':'))}"
+    return source[:end_index] + entry + source[end_index:]
+
+
 config = json.loads((ROOT / "assets" / "config.json").read_text(encoding="utf-8"))
 audios = json.loads(
     (ROOT / "content" / "i18n" / "sw-TZ" / "audios.json").read_text(encoding="utf-8")
@@ -91,13 +103,15 @@ updated = replace_object_value(updated, "./content/i18n/sw-TZ/texts.json", texts
 for asset_key in (
     "./content/tailwind_output.css",
     "./assets/semantic-reader.css",
+    "./assets/layout-consistency.css",
     "./assets/validator-simple-sample.css",
     "./assets/validator-simple-sample.js",
     "./assets/writing-activities.js",
 ):
     asset_path = ROOT / asset_key.removeprefix("./")
-    if json.dumps(asset_key, ensure_ascii=False) + ":" in updated:
-        updated = replace_string_value(updated, asset_key, asset_path.read_text(encoding="utf-8"))
+    updated = upsert_string_value(
+        updated, asset_key, asset_path.read_text(encoding="utf-8")
+    )
 html_pages = [ROOT / "index.html", *sorted(ROOT.glob("pg*_sec*.html"))]
 synced_pages = 0
 for page in html_pages:
