@@ -310,18 +310,7 @@
       }
     }
 
-    const intro = page.querySelector('[data-id="pg013_s001_n0004"]');
-    if (intro && !intro.querySelector(".page13-vowel-words")) {
-      const words = document.createElement("strong");
-      words.className = "page13-vowel-words";
-      words.textContent = "ua   oa   au";
-      intro.replaceChildren(
-        document.createTextNode("Katika somo hili utajifunza kuandika maneno kwa kutumia herufi za irabu. Maneno hayo ni "),
-        words,
-        document.createTextNode(".")
-      );
-    }
-    ["pg013_s001_n0005", "pg013_s001_n0006", "pg013_s001_n0011"].forEach(function (id) {
+    ["pg013_s001_n0011"].forEach(function (id) {
       const fragment = page.querySelector('[data-id="' + id + '"]');
       if (fragment) fragment.classList.add("book-merged-source-line");
     });
