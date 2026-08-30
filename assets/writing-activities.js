@@ -16,7 +16,24 @@
     });
   }
 
+  function exposeInstructionalFiguresToScreenReaders() {
+    document.querySelectorAll("figure.practice-model").forEach(function (figure, index) {
+      const caption = figure.querySelector('figcaption[data-id$="_audio_description"]');
+      const image = figure.querySelector("img");
+      if (!caption || !caption.textContent.trim()) return;
+      if (!caption.id) caption.id = caption.dataset.id || "practice-model-description-" + index;
+      caption.removeAttribute("aria-hidden");
+      figure.setAttribute("role", "img");
+      figure.setAttribute("aria-labelledby", caption.id);
+      if (image) {
+        image.alt = "";
+        image.setAttribute("aria-hidden", "true");
+      }
+    });
+  }
+
   ensureImageAudioDescriptionIds();
+  exposeInstructionalFiguresToScreenReaders();
   const KEY = "kuandika-mwaka-1-responses:" + location.pathname;
   let state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (_) {}

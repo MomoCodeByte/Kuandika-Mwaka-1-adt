@@ -1402,7 +1402,7 @@ html.pages-41-60-standard .batch-v2-page .batch-v2-answer-only,
 html.pages-41-60-standard .batch-v2-page .batch-v2-ruled-lines {
   min-height: 0 !important;
   aspect-ratio: 666 / 95;
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100% !important;
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 100% !important;
 }
 
 html.pages-41-60-standard .batch-v2-page .batch-v2-answer-only > canvas {
@@ -2628,7 +2628,7 @@ html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-only,
 html.pages-41-60-standard .batch-v2-page-41 .batch-v2-ruled-lines {
   min-height: 0 !important;
   aspect-ratio: 666 / 95;
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100% !important;
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 100% !important;
 }
 
 html.pages-41-60-standard .batch-v2-page-41 .batch-v2-answer-only > canvas {

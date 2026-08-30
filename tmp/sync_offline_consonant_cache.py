@@ -88,6 +88,16 @@ texts = json.loads(
 updated = replace_object_value(SOURCE, "./assets/config.json", config)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/audios.json", audios)
 updated = replace_object_value(updated, "./content/i18n/sw-TZ/texts.json", texts)
+for asset_key in (
+    "./content/tailwind_output.css",
+    "./assets/semantic-reader.css",
+    "./assets/validator-simple-sample.css",
+    "./assets/validator-simple-sample.js",
+    "./assets/writing-activities.js",
+):
+    asset_path = ROOT / asset_key.removeprefix("./")
+    if json.dumps(asset_key, ensure_ascii=False) + ":" in updated:
+        updated = replace_string_value(updated, asset_key, asset_path.read_text(encoding="utf-8"))
 html_pages = [ROOT / "index.html", *sorted(ROOT.glob("pg*_sec*.html"))]
 synced_pages = 0
 for page in html_pages:

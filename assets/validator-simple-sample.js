@@ -1387,6 +1387,23 @@
 
   customizePage24Scene();
 
+  /* Make every instructional drawing/model discoverable by native screen
+     readers. The visible image stays decorative so its description is read
+     once, from the matching hidden caption that is also used by Rehema. */
+  document.querySelectorAll("figure.practice-model").forEach(function (figure, index) {
+    const caption = figure.querySelector('figcaption[data-id$="_audio_description"]');
+    const image = figure.querySelector("img");
+    if (!caption || !caption.textContent.trim()) return;
+    if (!caption.id) caption.id = caption.dataset.id || "practice-model-description-" + index;
+    caption.removeAttribute("aria-hidden");
+    figure.setAttribute("role", "img");
+    figure.setAttribute("aria-labelledby", caption.id);
+    if (image) {
+      image.alt = "";
+      image.setAttribute("aria-hidden", "true");
+    }
+  });
+
   const wordSearch = document.querySelector('[data-response-id="pg034_sec001_response_02"]');
   if (wordSearch) {
     wordSearch.classList.add("batch-word-search-card");

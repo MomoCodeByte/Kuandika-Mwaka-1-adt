@@ -225,8 +225,8 @@ html.validator-simple-sample .book-answer-short {
     linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
   background-position:
     0 var(--guide-1, 0%),
-    0 var(--guide-2, 33.333%),
-    0 var(--guide-3, 66.666%),
+    0 var(--guide-2, 41.5%),
+    0 var(--guide-3, 64.5%),
     0 var(--guide-4, 100%) !important;
   background-size: 100% 1px !important;
   background-repeat: no-repeat !important;
@@ -331,8 +331,8 @@ html.validator-simple-sample .book-sentence-answer-lines {
     linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%));
   background-position:
     0 var(--guide-1, 0%),
-    0 var(--guide-2, 33.333%),
-    0 var(--guide-3, 66.666%),
+    0 var(--guide-2, 41.5%),
+    0 var(--guide-3, 64.5%),
     0 var(--guide-4, 100%);
   background-size: 100% 1px;
   background-repeat: no-repeat;
@@ -391,8 +391,8 @@ html.validator-simple-sample [data-section-id="pg010_sec001"] .book-copy-field {
     linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
     linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
     linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
-  background-position: 0 0%, 0 33.333%, 0 66.666%, 0 100% !important;
-  background-size: 100% 1px !important;
+  background-position: 0 0%, 0 41.5%, 0 64.5%, 0 100% !important;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px !important;
   background-repeat: no-repeat !important;
 }
 
@@ -404,8 +404,8 @@ html.validator-simple-sample [data-section-id="pg012_sec001"] .book-copy-field {
     linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
     linear-gradient(rgb(39 36 37 / 48%), rgb(39 36 37 / 48%)),
     linear-gradient(rgb(39 36 37 / 78%), rgb(39 36 37 / 78%)) !important;
-  background-position: 0 0%, 0 33.333%, 0 66.666%, 0 100% !important;
-  background-size: 100% 1px !important;
+  background-position: 0 0%, 0 41.5%, 0 64.5%, 0 100% !important;
+  background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px !important;
   background-repeat: no-repeat !important;
 }
 
@@ -560,7 +560,7 @@ html.validator-simple-sample .page13-word-answer {
     linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
     linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
     linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 calc(100% - 1px);
   background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
   background-repeat: no-repeat;
 }
@@ -778,7 +778,7 @@ html.validator-simple-sample .page14-answer {
     linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
     linear-gradient(rgb(39 36 37 / 42%), rgb(39 36 37 / 42%)),
     linear-gradient(rgb(39 36 37 / 82%), rgb(39 36 37 / 82%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 calc(100% - 1px);
   background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
   background-repeat: no-repeat;
 }
@@ -2040,7 +2040,7 @@ html.validator-simple-sample .page22-answer {
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100%;
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 100%;
   background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
   background-repeat: no-repeat;
 }
@@ -2383,7 +2383,7 @@ html.validator-simple-sample .page24-answer {
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 calc(100% - 1px);
   background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
   background-repeat: no-repeat;
 }
@@ -2617,7 +2617,7 @@ html.validator-simple-sample .page25-answer {
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 28%), rgb(39 36 37 / 28%)),
     linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 calc(100% - 1px);
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 calc(100% - 1px);
   background-size: 100% 2px, 100% 1px, 100% 1px, 100% 2px;
   background-repeat: no-repeat;
 }
@@ -2779,7 +2779,7 @@ html.validator-simple-sample .batch-answer-lines {
     linear-gradient(rgb(39 36 37 / 43%), rgb(39 36 37 / 43%)),
     linear-gradient(rgb(39 36 37 / 43%), rgb(39 36 37 / 43%)),
     linear-gradient(rgb(39 36 37 / 80%), rgb(39 36 37 / 80%));
-  background-position: 0 0, 0 33.333%, 0 66.666%, 0 100%;
+  background-position: 0 0, 0 41.5%, 0 64.5%, 0 100%;
   background-size: 100% 1px;
   background-repeat: no-repeat;
 }
