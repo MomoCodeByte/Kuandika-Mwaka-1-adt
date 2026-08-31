@@ -1254,6 +1254,7 @@
     }
 
     if (card && label && !card.contains(label)) {
+      label.textContent = "Zoezi la tisa";
       label.classList.add("page47-exercise-label");
       card.insertBefore(label, card.firstChild);
     }

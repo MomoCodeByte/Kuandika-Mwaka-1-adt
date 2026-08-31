@@ -1976,7 +1976,17 @@ html.pages-41-60-standard .batch-v2-page-47 .response-actions {
 }
 
 html.pages-41-60-standard .page49-complete .page49-exercise-panel {
+  padding-top: 3.85rem !important;
   background: #fffdec !important;
+}
+
+html.pages-41-60-standard .page49-complete .page49-exercise-label {
+  word-spacing: .22em;
+  letter-spacing: .01em;
+}
+
+html.pages-41-60-standard .page49-complete .page49-exercise-panel > .question-prompt {
+  margin-top: .35rem !important;
 }
 
 html.pages-41-60-standard .page49-complete .page49-picture-panel {
