@@ -700,9 +700,20 @@
     const wrap = card && card.querySelector(".handwriting-canvas-wrap,.canvas-wrap");
     const originalCanvas = wrap && wrap.querySelector("canvas");
     const figures = card ? Array.from(card.querySelectorAll(":scope > figure.source-figure")) : [];
+    const page44ImageSources = [
+      "images/pg044_im001.png?v=2",
+      "images/pg044_im002.png?v=2",
+      "images/pg044_im003.png?v=2"
+    ];
     figures.slice(0, 3).forEach(function (figure, index) {
       const image = figure.querySelector("img");
-      if (image) image.src = "images/pg047_im" + String(index + 1).padStart(3, "0") + "_clean.png?v=1";
+      if (image) {
+        image.src = page44ImageSources[index];
+        image.setAttribute("aria-hidden", "true");
+        image.removeAttribute("data-adt-description");
+        image.removeAttribute("data-adt-audio-description-id");
+      }
+      figure.querySelectorAll("figcaption").forEach(function (caption) { caption.remove(); });
     });
 
     function setupPage44Canvas(canvas) {
@@ -756,15 +767,26 @@
       const currencyImages = document.createElement("div");
       currencyImages.className = "page44-currency-images";
       currencyImages.append(figures[0], figures[1]);
+      const currencyDescription = document.createElement("p");
+      currencyDescription.className = "page44-picture-audio-description";
+      currencyDescription.dataset.id = "pg044_currency_group_audio_description";
+      currencyDescription.id = "pg044_currency_group_audio_description";
+      currencyDescription.textContent = "Picha ya kwanza inaonyesha fedha: noti ya shilingi elfu moja na sarafu. Andika neno fedha kwenye kisanduku cha kwanza.";
       const currencyBox = document.createElement("div");
       currencyBox.className = "page44-handwriting-box";
+      originalCanvas.setAttribute("aria-label", "Andika neno fedha kwa mkono");
       currencyBox.appendChild(originalCanvas);
-      currencyArea.append(currencyImages, currencyBox);
+      currencyArea.append(currencyDescription, currencyImages, currencyBox);
 
       const divider = document.createElement("div");
       divider.className = "page44-picture-divider";
       const tentArea = document.createElement("div");
       tentArea.className = "page44-tent-area";
+      const tentDescription = document.createElement("p");
+      tentDescription.className = "page44-picture-audio-description";
+      tentDescription.dataset.id = "pg044_tent_audio_description";
+      tentDescription.id = "pg044_tent_audio_description";
+      tentDescription.textContent = "Picha ya pili inaonyesha hema. Andika neno hema kwenye kisanduku cha pili.";
       const tentBox = document.createElement("div");
       tentBox.className = "page44-handwriting-box";
       const tentCanvas = originalCanvas.cloneNode(false);
@@ -772,7 +794,7 @@
       tentCanvas.setAttribute("aria-label", "Andika jina la picha ya hema kwa mkono");
       setupPage44Canvas(tentCanvas);
       tentBox.appendChild(tentCanvas);
-      tentArea.append(figures[2], tentBox);
+      tentArea.append(tentDescription, figures[2], tentBox);
       panel.append(currencyArea, divider, tentArea);
 
       wrap.className = "handwriting-canvas-wrap page44-picture-inputs";
@@ -788,6 +810,13 @@
       const lessonHeading = page.querySelector('[data-id="pg044_s002_n0002"]');
       const lessonIntro = page.querySelector('[data-id="pg044_s002_n0003"]');
       const lessonIntroTail = page.querySelector('[data-id="pg044_s002_n0004"]');
+      card && card.querySelectorAll(".practice-model-audio-proxy").forEach(function (proxy) { proxy.remove(); });
+      figures.forEach(function (figure) {
+        if (figure.hasAttribute("role")) figure.removeAttribute("role");
+        if (figure.hasAttribute("aria-labelledby")) figure.removeAttribute("aria-labelledby");
+        const image = figure.querySelector("img");
+        if (image && image.hasAttribute("data-id")) image.removeAttribute("data-id");
+      });
       if (lessonHeading && lessonHeading.textContent !== "Kuandika herufi ya konsonanti w") {
         lessonHeading.textContent = "Kuandika herufi ya konsonanti w";
       }

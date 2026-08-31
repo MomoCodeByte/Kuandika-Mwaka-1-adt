@@ -1469,10 +1469,10 @@ html.pages-41-60-standard .batch-v2-page-43 .batch-v2-trace-wrap figure img {
 
 /* Page 44 mirrors the PDF picture-naming panel. The two rounded fields stay
    handwriting canvases; no keyboard answer or extra notebook block is used. */
-html.pages-41-60-standard .batch-v2-page-44 [data-response-id="pg044_sec001_response_01"] {
+html.pages-41-60-standard #content .batch-v2-page-44 [data-response-id="pg044_sec001_response_01"] {
   position: relative;
   margin: 1.8rem 0 1.25rem !important;
-  padding: 1.8rem .75rem .75rem !important;
+  padding: 3.15rem .75rem .75rem !important;
   border: 3px solid #00aeef !important;
   border-radius: 1.35rem !important;
   background: #fff !important;
@@ -1486,6 +1486,10 @@ html.pages-41-60-standard .batch-v2-page-44 .page44-exercise-label {
   width: 15rem;
   min-height: 2.35rem;
   margin: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  column-gap: .28em;
+  row-gap: 0;
   justify-content: center;
   border: 2px solid #00aeef !important;
   border-radius: 999px !important;
@@ -1494,6 +1498,20 @@ html.pages-41-60-standard .batch-v2-page-44 .page44-exercise-label {
   font-size: clamp(1.15rem, 3vw, 1.6rem) !important;
   font-style: italic;
   font-weight: 800;
+}
+
+/* Spoken picture guidance remains available to Rehema without adding visual
+   text that is not present in the source book. */
+html.pages-41-60-standard .batch-v2-page-44 .page44-picture-audio-description {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 html.pages-41-60-standard .batch-v2-page-44
