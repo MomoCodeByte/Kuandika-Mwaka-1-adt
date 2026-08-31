@@ -2331,10 +2331,10 @@ html.pages-41-60-standard .batch-v2-page-42 .page42-word-guide {
   pointer-events: none;
 }
 
-html.pages-41-60-standard .batch-v2-page-42 .page42-picture-exercise-panel {
+html.pages-41-60-standard #content .batch-v2-page-42 .page42-picture-exercise-panel {
   position: relative;
   margin: 1.75rem 0 .85rem !important;
-  padding: 2.5rem .8rem .7rem !important;
+  padding: 2.75rem .8rem .7rem !important;
   border: 2px solid #05afe8 !important;
   border-radius: 1.15rem !important;
   background: #fff !important;

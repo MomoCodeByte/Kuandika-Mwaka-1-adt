@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NEW = "./assets/offline-preloader.js?v=adt-page-accurate-pilot20-v47-page41-syllable-description-20260831"
+NEW = "./assets/offline-preloader.js?v=adt-page-accurate-pilot20-v48-page42-heading-clearance-20260831"
 PATTERN = re.compile(r"\./assets/offline-preloader\.js\?v=[^\"']+")
 
 changed = []
