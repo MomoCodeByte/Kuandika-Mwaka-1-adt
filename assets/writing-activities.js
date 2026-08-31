@@ -3910,9 +3910,19 @@
       }
       const extraChoice = exerciseCard.querySelector('[data-id="pg041_s001_n0004"]');
       if (extraChoice) extraChoice.hidden = true;
-      ["pg041_s001_n0005", "pg041_s001_n0006", "pg041_s001_n0007", "pg041_s001_n0008", "pg041_s001_n0009"].forEach(function (id) {
+      const missingWordDescriptions = {
+        pg041_s001_n0005: "Namba moja. dashi, ia.",
+        pg041_s001_n0006: "Namba mbili. ze, dashi.",
+        pg041_s001_n0007: "Namba tatu. na, dashi.",
+        pg041_s001_n0008: "Namba nne. u, dashi, zi.",
+        pg041_s001_n0009: "Namba tano. dashi, ma."
+      };
+      Object.keys(missingWordDescriptions).forEach(function (id) {
         const line = exerciseCard.querySelector('[data-id="' + id + '"]');
-        if (line) line.hidden = true;
+        if (!line) return;
+        line.hidden = false;
+        line.classList.add("sr-only", "page41-missing-audio-line");
+        line.setAttribute("aria-label", missingWordDescriptions[id]);
       });
       const wrap = exerciseCard.querySelector(".handwriting-canvas-wrap,.canvas-wrap");
       const canvas = wrap && wrap.querySelector("canvas");
