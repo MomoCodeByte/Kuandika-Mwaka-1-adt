@@ -4025,7 +4025,7 @@
       standardizeCard(card);
     });
 
-    function buildPage22StylePractice(responseId, source, guideClass, alt) {
+    function buildPage22StylePractice(responseId, source, guideClass, alt, imageId, descriptionText) {
       const card = continuation.querySelector('[data-response-id="' + responseId + '"]');
       const wrap = card && card.querySelector(".handwriting-canvas-wrap,.batch-v2-model-wrap,.canvas-wrap");
       const canvas = wrap && wrap.querySelector("canvas");
@@ -4043,9 +4043,25 @@
       model.className = "page41-page22-model-image";
       model.src = source;
       model.alt = alt;
+      let description = null;
+      if (imageId && descriptionText) {
+        const descriptionId = imageId + "_audio_description";
+        const originalDescription = card.querySelector('[data-id="' + descriptionId + '"]');
+        const originalFigure = originalDescription && originalDescription.closest("figure");
+        description = document.createElement("p");
+        description.className = "page41-model-audio-description";
+        description.dataset.id = descriptionId;
+        description.textContent = descriptionText;
+        model.dataset.id = imageId;
+        model.dataset.adtDescription = descriptionText;
+        model.dataset.adtAudioDescriptionId = descriptionId;
+        model.setAttribute("aria-describedby", descriptionId);
+        if (originalFigure) originalFigure.remove();
+      }
       const answer = document.createElement("div");
       answer.className = "page41-page22-answer " + guideClass;
       answer.setAttribute("aria-hidden", "true");
+      if (description) sequence.append(description);
       sequence.append(model, answer);
       wrap.replaceChildren(sequence, canvas);
     }
@@ -4060,7 +4076,9 @@
       "pg041_sec002_response_02",
       "images/pg041_batch_syllables_model_compact.png?v=1",
       "page41-guide-syllables",
-      "Mfano wa kuandika ra, re, ri, ro na ru."
+      "Mfano wa kuandika ra, re, ri, ro na ru.",
+      "pg041_im002",
+      "Mchoro wa mfano wa silabi. Silabi ni: ra, re, ri, ro na ru. Fuatisha silabi hizo kwenye mstari wa juu, kisha ziandike kwenye mistari iliyo wazi."
     );
     const page41Trace = continuation.querySelector('[data-response-id="pg041_sec002_response_03"]');
     if (page41Trace) page41Trace.classList.add("page41-page22-practice-card", "page41-page22-trace-card");

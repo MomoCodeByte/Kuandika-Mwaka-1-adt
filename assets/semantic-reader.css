@@ -2657,7 +2657,8 @@ html.pages-41-60-standard .batch-v2-page-41 .page41-exercise-panel {
 }
 
 /* Keep the five spoken dash prompts available without duplicating the visible grid. */
-html.pages-41-60-standard .batch-v2-page-41 .page41-missing-audio-line {
+html.pages-41-60-standard .batch-v2-page-41 .page41-missing-audio-line,
+html.pages-41-60-standard .batch-v2-page-41 .page41-model-audio-description {
   position: absolute !important;
   width: 1px !important;
   height: 1px !important;

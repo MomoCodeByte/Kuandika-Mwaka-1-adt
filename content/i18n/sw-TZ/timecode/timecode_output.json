@@ -29355,39 +29355,6 @@
       }
     ]
   },
-  "pg041_im002_audio_description": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Andika",
-            "start": 0.2024,
-            "end": 0.4794
-          },
-          {
-            "word": "silabi",
-            "start": 0.604,
-            "end": 1.1165
-          },
-          {
-            "word": "hizi",
-            "start": 1.1442,
-            "end": 1.4489
-          },
-          {
-            "word": "kwenye",
-            "start": 1.4905,
-            "end": 1.7397
-          },
-          {
-            "word": "daftari",
-            "start": 1.7675,
-            "end": 2.4738
-          }
-        ]
-      }
-    ]
-  },
   "pg043_im002_audio_description": {
     "timecodes": [
       {
