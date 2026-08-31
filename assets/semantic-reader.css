@@ -2641,6 +2641,12 @@ html.pages-41-60-standard .batch-v2-page-41 .page41-continuation {
   border-top: 0;
 }
 
+/* Preserve visible word spaces when Rehema wraps this heading in highlight spans. */
+html.pages-41-60-standard .batch-v2-page-41 .page41-continuation .lesson-label {
+  column-gap: .28em;
+  flex-wrap: wrap;
+}
+
 html.pages-41-60-standard .batch-v2-page-41 .page41-exercise-panel {
   position: relative;
   margin: 1.2rem 0 .9rem !important;
