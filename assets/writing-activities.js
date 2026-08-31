@@ -701,9 +701,9 @@
     const originalCanvas = wrap && wrap.querySelector("canvas");
     const figures = card ? Array.from(card.querySelectorAll(":scope > figure.source-figure")) : [];
     const page44ImageSources = [
-      "images/pg044_im001.png?v=2",
-      "images/pg044_im002.png?v=2",
-      "images/pg044_im003.png?v=2"
+      "images/pg044_book_original_note.png?v=1",
+      "images/pg044_book_original_coin.png?v=1",
+      "images/pg044_book_original_tent.png?v=1"
     ];
     figures.slice(0, 3).forEach(function (figure, index) {
       const image = figure.querySelector("img");
@@ -815,6 +815,10 @@
         if (figure.hasAttribute("role")) figure.removeAttribute("role");
         if (figure.hasAttribute("aria-labelledby")) figure.removeAttribute("aria-labelledby");
         const image = figure.querySelector("img");
+        const imageIndex = figures.indexOf(figure);
+        if (image && page44ImageSources[imageIndex] && image.getAttribute("src") !== page44ImageSources[imageIndex]) {
+          image.src = page44ImageSources[imageIndex];
+        }
         if (image && image.hasAttribute("data-id")) image.removeAttribute("data-id");
       });
       if (lessonHeading && lessonHeading.textContent !== "Kuandika herufi ya konsonanti w") {
