@@ -3,8 +3,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NEW = "./assets/offline-preloader.js?v=adt-page-accurate-pilot20-v53-exercise-heading-spacing-20260831"
-PATTERN = re.compile(r"\./assets/offline-preloader\.js\?v=[^\"']+")
+NEW = "./assets/layout-consistency.css?v=book-layout-v3-exercise-heading-spacing-20260831"
+PATTERN = re.compile(r"\./assets/layout-consistency\.css\?v=[^\"']+")
 
 changed = []
 for path in sorted(ROOT.glob("*.html")):

@@ -226,6 +226,47 @@ body {
   }
 }
 
+/* Exercise tabs sit partly above their cards. Keep enough protected space
+   below every floating tab so the first instruction cannot collide with it.
+   These selectors intentionally outrank the general response-card padding,
+   including its tablet and phone variants. */
+#content .response-card.page41-exercise-panel {
+  padding: 3rem .8rem .7rem !important;
+}
+
+#content .response-card.page45-exercise-panel {
+  padding: 3rem .8rem .8rem !important;
+}
+
+#content .response-card.page47-exercise-panel {
+  padding: 3.2rem .8rem .8rem !important;
+}
+
+#content .response-card.page50-exercise-panel {
+  padding: 3.3rem 1rem 1.1rem !important;
+}
+
+#content .response-card.page56-exercise-panel {
+  padding: 3rem .8rem .8rem !important;
+}
+
+#content .response-card.page62-exercise-panel {
+  padding: 4.6rem .8rem .8rem !important;
+}
+
+#content .response-card.page69-exercise-panel {
+  padding: 3rem .8rem .8rem !important;
+}
+
+#content .response-card.page77-name-exercise-card,
+#content .response-card.page79-table-panel {
+  padding: 3rem 1rem 1rem !important;
+}
+
+#content .page95-pdf-layout .response-card > .activity-label {
+  margin-bottom: .75rem !important;
+}
+
 @media print {
   body {
     background: #fff;
