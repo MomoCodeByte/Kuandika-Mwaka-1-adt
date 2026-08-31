@@ -35918,41 +35918,33 @@
         "word_timestamps": [
           {
             "word": "za",
-            "start": 0.1885,
-            "end": 0.3132
+            "start": 0.18,
+            "end": 0.6567
           },
           {
             "word": "ze",
-            "start": 0.424,
-            "end": 0.6456
+            "start": 0.6567,
+            "end": 1.1333
           },
           {
             "word": "zi",
-            "start": 0.6733,
-            "end": 0.8533
+            "start": 1.1333,
+            "end": 1.61
           },
           {
             "word": "zu",
-            "start": 0.8949,
-            "end": 1.1026
+            "start": 1.61,
+            "end": 2.0867
+          },
+          {
+            "word": "na",
+            "start": 2.0867,
+            "end": 2.5633
           },
           {
             "word": "fi",
-            "start": 1.1442,
-            "end": 1.4489
-          }
-        ]
-      }
-    ]
-  },
-  "pg041_s001_n0004": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "na",
-            "start": 0.1885,
-            "end": 0.4655
+            "start": 2.5633,
+            "end": 3.04
           }
         ]
       }
