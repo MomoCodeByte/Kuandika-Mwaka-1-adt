@@ -23118,49 +23118,6 @@
       }
     ]
   },
-  "pg046_s001_n0003": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "Katika",
-            "start": 0.1885,
-            "end": 0.4517
-          },
-          {
-            "word": "somo",
-            "start": 0.5625,
-            "end": 0.8949
-          },
-          {
-            "word": "hili",
-            "start": 0.9226,
-            "end": 1.2135
-          },
-          {
-            "word": "utajifunza",
-            "start": 1.255,
-            "end": 2.0029
-          },
-          {
-            "word": "kuandika",
-            "start": 2.0306,
-            "end": 2.5293
-          },
-          {
-            "word": "herufi",
-            "start": 2.5569,
-            "end": 3.0694
-          },
-          {
-            "word": "ya",
-            "start": 3.0971,
-            "end": 3.2217
-          }
-        ]
-      }
-    ]
-  },
   "pg048_s001_n0003": {
     "timecodes": [
       {
@@ -36375,24 +36332,6 @@
             "word": "V",
             "start": 2.1553,
             "end": 2.3769
-          }
-        ]
-      }
-    ]
-  },
-  "pg046_s001_n0004": {
-    "timecodes": [
-      {
-        "word_timestamps": [
-          {
-            "word": "konsonanti",
-            "start": 0.1747,
-            "end": 0.9087
-          },
-          {
-            "word": "v.",
-            "start": 1.0195,
-            "end": 1.2688
           }
         ]
       }
